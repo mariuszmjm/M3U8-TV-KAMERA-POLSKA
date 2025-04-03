@@ -1252,10 +1252,10 @@ https://outbound-production.explore.org/stream-production-800/.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="EXPLORE.ORG - Afryka i nie tylko", E96
 https://outbound-production.explore.org/stream-production-802/.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="Miasta" logo="https://www.meteobox.pl/api-svg/polska/b/buskozdroj-pl.svg", Busko Zdrój
-https://vm2.umig.busko.pl/webcam/cam13.m3u8
-#EXTINF:-1 type="stream" channelId="-1" group="Miasta", Rybnik
+https://vm2.umig.busko.pl/webcam/cam13.m3u8?resolution=720p&bitrate=2000
+#EXTINF:0 type="stream" channelId="-1" group="Miasta", Rybnik
 https://streaming.leon.pl/hls/rybnik1/index.m3u8
-#EXTINF:-1 type="stream" channelId="-1" group="Miasta", Stalowa Wola
+#EXTINF:0 type="stream" channelId="-1" group="Miasta", Stalowa Wola
 https://stream.tvkstella.pl/stella/kamera4.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="Jeziora i inne miejsca", Stary Sącz
 https://online2.kamery24.org/cam/janpawel.m3u8
