@@ -1,0 +1,1095 @@
+﻿#EXTM3U
+#EXTINF:-1 group-title="GAWEX",SZCZECINEK Widok na Plac Wolności
+https://play.gawex.pl/szczecinek/plac.stream/playlist.m3u8
+#EXTINF:-1 group-title="GAWEX",SZCZECINEK Wyciąg do nart wodnych
+https://play.gawex.pl/szczecinek/wyciag.stream/playlist.m3u8
+#EXTINF:-1 group-title="GAWEX",SZCZECINEK Widok z zamku na jezioro
+https://play.gawex.pl/szczecinek/zamek.stream/playlist.m3u8
+#EXTINF:-1 group-title="GAWEX",SZCZECINEK Mysia Wyspa
+https://play.gawex.pl/szczecinek/mysiawyspa.stream/playlist.m3u8
+#EXTINF:-1 group-title="GAWEX",SZCZECINEK Widok na rondo przy ul. Koszalińskiej
+https://play.gawex.pl/szczecinek/szczecinekkoszalinska.stream/playlist.m3u8
+#EXTINF:-1 group-title="GAWEX",SZCZECINEK Widok na Ratusz
+https://play.gawex.pl/szczecinek/szczecinekdeptak.stream/playlist.m3u8
+#EXTINF:-1 group-title="GAWEX",SZCZECINEK Widok na Strefę Wypoczynku
+https://play.gawex.pl/szczecinek/szczecinekkopernika.stream/playlist.m3u8
+#EXTINF:-1 group-title="GAWEX",SZCZECINEK Widok I z wiatraka Energaw
+https://play.gawex.pl/szczecinek/szczecinekwiatrak1.stream/playlist.m3u8
+#EXTINF:-1 group-title="GAWEX",SZCZECINEK Widok II z wiatraka Energaw
+https://play.gawex.pl/szczecinek/szczecinekwiatrak2.stream/playlist.m3u8
+#EXTINF:-1 group-title="GAWEX",KOSZALIN Rondo przy ulicy Morskiej
+https://play.gawex.pl/koszalin/koszalinrondo.stream/playlist.m3u8
+#EXTINF:-1 group-title="GAWEX",KOŁOBRZEG Widok na plażę przy hotelu Ikar Plaza
+https://play.gawex.pl/kolobrzeg/kolobrzegplaza.stream/playlist.m3u8
+#EXTINF:-1 group-title="GAWEX",KOŁOBRZEG Port oraz latarnia morska
+https://play.gawex.pl/kolobrzeg/kolobrzeglatarnia.stream/playlist.m3u8
+#EXTINF:-1 group-title="GAWEX",KOŁOBRZEG Widok z latarni morskiej
+https://ls.tkchopin.pl:9043/live/kolobrzeg_port_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="GAWEX",DRAWSKO POMORSKIE Plac Konstytucji
+https://play.gawex.pl/drawsko/drawskoplac.stream/playlist.m3u8
+#EXTINF:-1 group-title="GAWEX",DRAWSKO POMORSKIE Plac Leopolda Kuczerawego
+https://play.gawex.pl/drawsko/drawskopocztowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="GAWEX",USTRONIE MORSKIE Widok na plażę z klifu
+https://play.gawex.pl/ustroniemorskie/ustronienaklifie.stream/playlist.m3u8
+#EXTINF:-1 group-title="GAWEX",USTRONIE MORSKIE Widok na plażę
+https://play.gawex.pl/ustroniemorskie/ustronieplaza.stream/playlist.m3u8
+#EXTINF:-1 group-title="GAWEX",DZIWOGóRA Bociane Gniazdo
+https://play.gawex.pl/polczynzdroj/polczynzdrojbociany.stream/playlist.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Białków Kościół
+https://streaming.airmax.pl/bialkow/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Opole Instytut śląski Panorama
+https://streaming.airmax.pl/01instytuts/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Opole Instytut śląski Panorama 2
+https://streaming.airmax.pl/02instytuts/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Doruchow Kosciol
+https://streaming.airmax.pl/doruchow/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Lubsza Kościół Panorama
+https://streaming.airmax.pl/lubsza1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Jerzmanowa Kościół
+https://streaming.airmax.pl/jerzmanowa/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Ratusz Głogówek Urząd Miasta Panorama
+https://streaming.airmax.pl/ratuszglogowek1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Ratusz Głogówek Urząd Miasta Panorama 2
+https://streaming.airmax.pl/ratuszglogowek2/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Ratusz Głogówek Urząd Miasta Panorama 3
+https://streaming.airmax.pl/ratuszglogowek3/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Ĺ»erniki Wrocławskie Kościół
+https://streaming.airmax.pl/zernikiwroclawskie/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kościół Jaczów
+https://streaming.airmax.pl/jaczow/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Zdzieszowice Kościół
+https://streaming.airmax.pl/zdzieszowice1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kamienna Góra Kościół
+https://streaming.airmax.pl/parafiakamiennagora/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Panorama Kamieńsk
+https://streaming.airmax.pl/kamiensk_panorama3/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Panorama Kamieńsk 2
+https://streaming.airmax.pl/kamiensk_panorama2/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kamieńsk Kościół pw. św. Apostołów Piotra i Pawła
+https://streaming.airmax.pl/kamiensk_transmisja/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Wrocław kościół pw. NMP Matki Kościoła
+https://streaming.airmax.pl/matki_kosciola/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Klisino Kościół św. Jadwigi
+https://streaming.airmax.pl/klisino/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kowary kościół NMP
+https://streaming.airmax.pl/kowary/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Złotoryja kościół pw. Narodzenia NMP
+https://streaming.airmax.pl/zlotoryja_kosciol_nmp/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Wieruszów kościół p.w. Zesłania Ducha świętego
+https://streaming.airmax.pl/wieruszow/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Opole kościół św. Jadwigi ślaskiej
+https://streaming.airmax.pl/opole_jadwigi/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Ostrzeszów Panorama
+https://streaming.airmax.pl/ostrzeszow_1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Ostrzeszów Panorama 2
+https://streaming.airmax.pl/ostrzeszow_2/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Ostrzeszów Panorama 3
+https://streaming.airmax.pl/ostrzeszow_3/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Ostrzeszów Panorama 4
+https://streaming.airmax.pl/ostrzeszow_4/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Lubawka Kościół
+https://streaming.airmax.pl/lubawka/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Oborniki śląskie Kościół
+https://streaming.airmax.pl/oborniki_slaskie/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Smardy Górne Kościół
+https://streaming.airmax.pl/smardy/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Złotoryja
+https://streaming.airmax.pl/zlotoryja_panorama/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Wołów Kościół św. Wawrzyńca
+https://streaming.airmax.pl/wolow_wawrzynca/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Wołów Panorama
+https://streaming.airmax.pl/wolow_wawrzynca_ne/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Panorama Wołów
+https://streaming.airmax.pl/wolow_wawrzynca_nw/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Wołów Panorama 2
+https://streaming.airmax.pl/wolow_wawrzynca_se/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Panorama Wołów 2
+https://streaming.airmax.pl/wolow_wawrzynca_sw/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kościół Zbawiciela świata i Matki Boskiej Szkaplerznej
+https://streaming.airmax.pl/strzegom/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Bystrzyca Kłodzka kościół św. Mikołaja
+https://streaming.airmax.pl/bystrzyca_klodzka/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Bystrzyca Kłodzka Panorama
+https://streaming.airmax.pl/bystrzyca_panorama/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kłodzko Panorama Dom Krawca
+https://streaming.airmax.pl/klodzko_panorama_dom_krawca/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Bralin Pólko Sanktuarium Maryjne
+https://streaming.airmax.pl/bralin_polko/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Głogów Kościół Miłosierdzia
+https://streaming.airmax.pl/glogow_milosierdzia/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Bolków Kościół
+https://streaming.airmax.pl/bolkow_kosciol/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Szczawno Zdrój Kościół
+https://streaming.airmax.pl/szczawno/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Nysa Rynek Panorama
+https://streaming.airmax.pl/nysa_panorama/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Wrocław Kościół Ołtaszyn Wniebowzięcia NMP
+https://streaming.airmax.pl/wroclaw_oltaszyn/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kalisz Kościół Winiary
+https://streaming.airmax.pl/kalisz_winiary/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Głogów Kościół św. Mikołaja
+https://streaming.airmax.pl/glogow_mikolaja/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kietrz Kościół
+https://streaming.airmax.pl/kietrz/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Bliszczyce Kościół
+https://streaming.airmax.pl/bliszczyce/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Srebrna Góra Twierdza
+https://streaming.airmax.pl/srebrnatwierdza3/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Gręboszów Kościół
+https://streaming.airmax.pl/greboszow/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kościół Strzelce Namysłowskie
+https://streaming.airmax.pl/strzelcenamyslowskie/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Wrocław Panorama
+https://streaming.airmax.pl/wieza_panorama/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kamieńsk Kościół
+https://streaming.airmax.pl/kamiensk/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Panorama Kamieńsk
+https://streaming.airmax.pl/kamiensk_panorama/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Wrocław Kościół Greckokatolicki św. Wincentego
+https://streaming.airmax.pl/wrockatedrahd/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Wrocław Fabryczna Panorama
+https://streaming.airmax.pl/wroclaw_fabryczna_panorama/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Wrocław Kościół Alberta Wielkiego
+https://streaming.airmax.pl/wroclawalberta/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Wrocław Kościół św. Elżbiety Węgierskiej
+https://streaming.airmax.pl/wroclawelzbiety1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Wrocław Kościół św. Kolbego
+https://streaming.airmax.pl/wroclawkolbe1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Wrocław Ołbin Kościół Opieki św. Józefa
+https://streaming.airmax.pl/wroclawolbin/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Wrocław Panorama 2
+https://streaming.airmax.pl/wroclawpanorama/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Wrocław Kościół św. Marii Magdaleny
+https://streaming.airmax.pl/wrocmariim/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Opole Wrzoski Kościół św. Józefa Robotnika
+https://streaming.airmax.pl/wrzoski_jozefa1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Rynek Wschowa
+https://streaming.airmax.pl/wschowa3/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Ząbkowice śląskie Panorama
+https://streaming.airmax.pl/zabkowice_panoramab/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Żagań Kościół Wniebowzięcia NMP
+https://streaming.airmax.pl/zagan_oltarz1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Żagań Kościół Wniebowzięcia NMP 2
+https://streaming.airmax.pl/zagan_oltarz2/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Zawadzkie Kościół
+https://streaming.airmax.pl/zawadzkie_nspj/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Opole Kościół Przemienienia Pańskiego
+https://streaming.airmax.pl/zwm/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Góry Stołowe Szczeliniec
+https://streaming.airmax.pl/szczeliniec/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Szczytna Panorama
+https://streaming.airmax.pl/szczytna_zamek/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Szklarska Poręba
+https://streaming.airmax.pl/szklarskalider/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Szprotawa
+https://streaming.airmax.pl/szprotawa1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Szprotawa 2
+https://streaming.airmax.pl/szprotawa2/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Szprotawa 3
+https://streaming.airmax.pl/szprotawa3/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Tułowice Szkoła
+https://streaming.airmax.pl/tulowice/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Turów Kościół Narodzenia NMP
+https://streaming.airmax.pl/turow/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Twardogóra Panorama
+https://streaming.airmax.pl/twrodogorapanorama/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Wałbrzych Kościół MBNP
+https://streaming.airmax.pl/walbrzych_asnyka/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Wałbrzych Plac Na Rozdrożu
+https://streaming.airmax.pl/walbrzychpa/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Wałbrzych Kościół świętej Rodziny
+https://streaming.airmax.pl/walbrzychrodziny/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Wilkszyn Kościół św. Wawrzyńca
+https://streaming.airmax.pl/wilkszyn/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Winów Kościół Ducha świętego
+https://streaming.airmax.pl/winow/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Rynek Wińsko
+https://streaming.airmax.pl/winsko/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Wołczyn Kościół NMP
+https://streaming.airmax.pl/wolczynkapucyni/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Sieraków śląski Kościół Piotra i Pawła
+https://streaming.airmax.pl/sierakow/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Opole Sławice Kościół św. Jana Nepomucena
+https://streaming.airmax.pl/slawice_parafia/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kowary Panorama Karkonoszy Góra śnieżka
+https://streaming.airmax.pl/sniezka/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Sosnówka Panorama
+https://streaming.airmax.pl/sosnowkapanorama/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera środa śląska Kościół św. Andrzeja Apostoła
+https://streaming.airmax.pl/sroda_kosciol/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera środa śląska Panorama
+https://streaming.airmax.pl/sroda_panorama/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Strzelce Opolskie Kościół św. Wawrzyńca
+https://streaming.airmax.pl/strzelce_pwawrzynca/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Sulechów Ratusz
+https://streaming.airmax.pl/sulechow1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Sulechów Ratusz 2
+https://streaming.airmax.pl/sulechow2/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Sulechów Ratusz 3
+https://streaming.airmax.pl/sulechow3/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kotlina Kłodzka Suszyna
+https://streaming.airmax.pl/suszyna1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kotlina Kłodzka Suszyna 2
+https://streaming.airmax.pl/suszyna2/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kotlina Kłodzka Suszyna 3
+https://streaming.airmax.pl/suszyna3/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kotlina Kłodzka Suszyna 4
+https://streaming.airmax.pl/suszyna4/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera świerkle Kościół
+https://streaming.airmax.pl/swierkle_niepokalanegoserca/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Syców Panorama
+https://streaming.airmax.pl/syc1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Syców Panorama 2
+https://streaming.airmax.pl/syc2/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Twardogóra Bazylika MBWW
+https://streaming.airmax.pl/parafia_twardogora_bazylika/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Parzymiechy Kościół św. Apostołów Piotra i Pawła
+https://streaming.airmax.pl/parzymiechy/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Sokoły wędrowne na kominie PEC Wałbrzych
+https://streaming.airmax.pl/pecsa1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Sokoły wędrowne na kominie PEC Wałbrzych 2
+https://streaming.airmax.pl/pecsa2/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Piechowice Kościół św. Antoniego Padewskiego
+https://streaming.airmax.pl/piechowice_antoniego/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Pieszyce Kościół
+https://streaming.airmax.pl/pieszyce/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Dolsk Plaża
+https://streaming.airmax.pl/plazadolsk/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Pokój Kościół Podwyższenia Krzyża świętego
+https://streaming.airmax.pl/pokoj_parafia/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Polanica Park Zdrojowy
+https://streaming.airmax.pl/polanica/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Port Keja Węgorzewo
+https://streaming.airmax.pl/projektkejapl/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Racibórz Studzienna Panorama
+https://streaming.airmax.pl/raciborzstudzienna_krzyza/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Racławiczki Kościół św. Marii Magdaleny
+https://streaming.airmax.pl/raclawiczki_magdaleny/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Radomsko Panorama
+https://streaming.airmax.pl/radomsko_panorama/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Radomsko Kościół św. Lamberta
+https://streaming.airmax.pl/radomsko_plamberta/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Opole Ratusz Panorama Wieża Piastowska
+https://streaming.airmax.pl/ratuszopole1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Opole Ratusz Panorama Kościół MBB i św. Wojciecha
+https://streaming.airmax.pl/ratuszopole2/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Opole Ratusz Panorama Katedra
+https://streaming.airmax.pl/ratuszopole3/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Rychtal Kościół Męczeństwa św. Jana Chrzciciela
+https://streaming.airmax.pl/rychtal/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Olesno Rzymskokatolicka Parafia pw. Bożego Ciała
+https://streaming.airmax.pl/olesno_parafia/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Opole Kościół św. Józefa
+https://streaming.airmax.pl/opole_szczepanowice/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Opole Panorama Bazen Błękitna Fala
+https://streaming.airmax.pl/opolepanorama/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Otmuchów Panorama
+https://streaming.airmax.pl/otmuchow1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Otmuchów Panorama 2
+https://streaming.airmax.pl/otmuchow2/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Otmuchów Panorama 3
+https://streaming.airmax.pl/otmuchow3/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Otmuchów Kościół św. Mikołaja
+https://streaming.airmax.pl/otmuchow_mikolaja/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Paczków Rynek Ratusz
+https://streaming.airmax.pl/paczkow/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Paczków Rynek Ratusz 2
+https://streaming.airmax.pl/paczkow2/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Paczków Kościół św. Jana Ewangelisty
+https://streaming.airmax.pl/paczkow_jana/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Paczków Panorama
+https://streaming.airmax.pl/paczkowpanorama/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Korfantów
+https://streaming.airmax.pl/parafia3korfantow/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera świebodzice Kościół pw. św. Apostołów Piotra i Pawła
+https://streaming.airmax.pl/parafia_swiebodzicepp/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Komprachcice Kościół
+https://streaming.airmax.pl/parafiakomprachcice/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Opole Kościół bł. Czesława Odrowąża
+https://streaming.airmax.pl/parafiazaodrze/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Luboszyce k. Opola Panorama
+https://streaming.airmax.pl/luboszyce1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kościół Lubsza
+https://streaming.airmax.pl/lubsza/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Milin Kościół św. Michała Archanioła
+https://streaming.airmax.pl/maniow/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kotlina Kłodzka Panorama
+https://streaming.airmax.pl/marianowka_panorama/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Międzylesie plac Wolności i Pałac
+https://streaming.airmax.pl/miedzylesie/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Jutrosin
+https://streaming.airmax.pl/mikulska/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Jutrosin 2
+https://streaming.airmax.pl/mikulski/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Jutrosin 3
+https://streaming.airmax.pl/mikulski1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Jutrosin 4
+https://streaming.airmax.pl/mikulski2/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Mirsk Kamera Panorama
+https://streaming.airmax.pl/mirsk_6103/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Mirsk Kamera Panorama 2
+https://streaming.airmax.pl/mirsk_cdeb/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Mirsk Kamera Panorama 3
+https://streaming.airmax.pl/mirsk_d24b/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Zamek Moszna
+https://streaming.airmax.pl/moszna/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Zamek Niemodlin
+https://streaming.airmax.pl/niemodlin1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Zamek Niemodlin 2
+https://streaming.airmax.pl/niemodlin2/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Nysa Kościół Jana Chrzciciela
+https://streaming.airmax.pl/nysachrzciciela/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Oława Kościół
+https://streaming.airmax.pl/olawamilosierdziasub/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Oleśnica Kościół św. Jana Apostoła
+https://streaming.airmax.pl/olesnica/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kędzierzyn Kożle Plac wolności
+https://streaming.airmax.pl/kedzierzynkozleplwolnosci/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kępno Kościół św. Marcina
+https://streaming.airmax.pl/kepno/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kłobuck Panorama
+https://streaming.airmax.pl/klobuck/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kędzierzyn Koźle Kłodnica Kościół Matki Bożej Bolesnej
+https://streaming.airmax.pl/klodnica_pmbbkk/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kluczbork Rynek Panorama
+https://streaming.airmax.pl/kluczbork_panorama/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kluczbork Panorama
+https://streaming.airmax.pl/kluczbork_panorama_2/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kolonowskie Kościół
+https://streaming.airmax.pl/kolonowskie/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kościeliska Kościół
+https://streaming.airmax.pl/koscieliska_parafia/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Krotoszyn Kościół św. Apostołów Piotra i Pawła
+https://streaming.airmax.pl/krotoszyn_apip/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Krzepice Kościół św. Jakuba Apostoła
+https://streaming.airmax.pl/krzepice_jakuba/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Krzepice Panorama
+https://streaming.airmax.pl/krzepicepanorama/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Łącznik Kościół
+https://streaming.airmax.pl/laczniknnmp/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Lasowice Kościół MB Królowej Polski
+https://streaming.airmax.pl/lasowice/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Panorama Legnica
+https://streaming.airmax.pl/legnica_ewang2/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Panorama Legnica 2
+https://streaming.airmax.pl/legnica_panorama/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Legnica Kościół Piotra i Pawła Kaplica
+https://streaming.airmax.pl/legnicakaplica/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Henryków Kościół Wniebowzięcia Najświętszej Maryi Panny
+https://streaming.airmax.pl/henrykow/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Henryków Cystersi Panorama
+https://streaming.airmax.pl/henrykow_panorama/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Bagno k. Zwierzyńca Gniazdo Bocianie
+https://streaming.airmax.pl/imefgr/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Gniazdo Bociany
+https://streaming.airmax.pl/integro/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Częstochowa Panorama na jasną Górę
+https://streaming.airmax.pl/jasnagora/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Jawor Kościół
+https://streaming.airmax.pl/jawor/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Jawor Kościół Matki Boskiej Różańcowej
+https://streaming.airmax.pl/jawor_parafiambr/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kościół Nysa Jędrzychów
+https://streaming.airmax.pl/jedrzychow/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Jelenia Góra Cieplice Karkonosze
+https://streaming.airmax.pl/jelciepl1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Jelenia Góra Cieplice Karkonosze 2
+https://streaming.airmax.pl/jelciepl2/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Jelenia Góra Cieplice Kościół pw. Matki Bożej Miłosierdzia
+https://streaming.airmax.pl/jeleniagora_ceplice/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Jelenia Góra Cieplice Karkonosze 3
+https://streaming.airmax.pl/jeleniagora_cieplice_panorama/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Jeziora Wielkie
+https://streaming.airmax.pl/jeziorawielkie/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Jordanów Kościół św. Stanisława Biskupa i Męczennika
+https://streaming.airmax.pl/jordanow/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Katedra Kalisz
+https://streaming.airmax.pl/kaliszkatedra/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Sulechów Kościół pw. Podwyższenia Krzyża
+https://streaming.airmax.pl/kamera2sul/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Wrocław Kościół pw św. Augustyna
+https://streaming.airmax.pl/kapucyni/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kazimierz Kościół WNMP
+https://streaming.airmax.pl/kazimierz_wniebowiziecia/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Brzeg rynek
+https://streaming.airmax.pl/brzegk1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Chrząszczyce Kościół Matki Boskiej Szkaplerznej i św. Stanisława Biskupa
+https://streaming.airmax.pl/chrzaszczyce_parafia/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Długołęka Kościół św. Michała Archanioła
+https://streaming.airmax.pl/dlugoleka1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Długołęka Panorama
+https://streaming.airmax.pl/dlugoleka2/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Dobroszyce Kościół św. Jadwigi
+https://streaming.airmax.pl/dobroszyce/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Domecko Panorama
+https://streaming.airmax.pl/domecko1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Domecko Panorama 2
+https://streaming.airmax.pl/domecko2/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Szczawno Zdrój Park Zdrojowy
+https://streaming.airmax.pl/domzdrojowy/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Głogów Kościół Kolegiata
+https://streaming.airmax.pl/glogowwnmpk/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Głubczyce Panorama
+https://streaming.airmax.pl/glubczyce1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Głubczyce Panorama 2
+https://streaming.airmax.pl/glubczyce2/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Głubczyce Panorama 3
+https://streaming.airmax.pl/glubczyce3/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera świerklaniec - Bocian
+https://streaming.airmax.pl/gmswierklaniec1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Góra
+https://streaming.airmax.pl/gora1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Parafia Wniebowzięcia NMP Opole Gosławice
+https://streaming.airmax.pl/goslawice1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kościół Grobniki
+https://streaming.airmax.pl/grobniki/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Zamek Grodziec
+https://streaming.airmax.pl/grodziec/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Schronisko Szyndzielnia
+https://streaming.airmax.pl/grzeg12124/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Jawor Ratusz
+https://streaming.airmax.pl/02jawor/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera świdnica Panorama
+https://streaming.airmax.pl/02parafiaswidnicapanorama/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Polanica Zdrój Deptak
+https://streaming.airmax.pl/02polanica/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Prusice
+https://streaming.airmax.pl/02prusice/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera świdnica Panorama 2
+https://streaming.airmax.pl/02swidnica/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Jawor Ratusz
+https://streaming.airmax.pl/03jawor/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kamienna Góra
+https://streaming.airmax.pl/03kamienna/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Prusice
+https://streaming.airmax.pl/03prusice/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Września Rynek
+https://streaming.airmax.pl/03umigwrzesnia/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Jezioro Rybnickie
+https://streaming.airmax.pl/atvjet/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Biadacz k. Opola Panorama
+https://streaming.airmax.pl/biadacz/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Bolesławiec Kościół Najświętszego Ciała i Krwi Chrystusa
+https://streaming.airmax.pl/boleslawiec_ckc/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Bolków Rynek
+https://streaming.airmax.pl/bolkow_panorama/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Bolków Zamek
+https://streaming.airmax.pl/bolkow_zamek/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Brzezia Łąka Kościół
+https://streaming.airmax.pl/01brzezia/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Jawor Ratusz
+https://streaming.airmax.pl/01jawor/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kamienna Góra
+https://streaming.airmax.pl/01kamienna/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kiełczów Kościół NMP Różańcowej
+https://streaming.airmax.pl/01kielczow/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",świdnica Kościół Najświętszej Marii Panny Królowej Polski
+https://streaming.airmax.pl/01parafiaswidnica/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Polanica Zdrój Kamera Kościół Wniebowzięcia NMP
+https://streaming.airmax.pl/01polanica/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Prusice
+https://streaming.airmax.pl/01prusice/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera świdnica Kościół św. Andrzeja Boboli
+https://streaming.airmax.pl/01swidnica/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Kamienna Góra
+https://streaming.airmax.pl/02kamienna/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Bielawa Panorama
+https://streaming.airmax.pl/bielawa1/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Bielawa Panorama 2
+https://streaming.airmax.pl/bielawa2/index.m3u8
+#EXTINF:-1 group-title="AIRMAX",Kamera Bielawa Panorama 3
+https://streaming.airmax.pl/bielawa3/index.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Białogóra Plaża
+https://ls.tkchopin.pl:9043/live/bialogora_plaza_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Bolszewo ART Park
+https://ls.tkchopin.pl:9043/live/bolszewo_artpark_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Bolszewo Skrzyżowanie
+https://ls.tkchopin.pl:9043/live/bolszewo_skrzyzowanie_k6_zamostna_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Brzyno Przystań
+https://ls.tkchopin.pl:9043/live/brzyno_przystan_j_zarnowieckie_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Chałupy Przystań
+https://ls.tkchopin.pl:9043/live/chalupy_molo_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Dębki Morska
+https://ls.tkchopin.pl:9043/live/debki_ulica_morska_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Dębki Plaża
+https://ls.tkchopin.pl:9043/live/debki_plaza_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Dębki Plaża kamera obrotowa
+https://ls.tkchopin.pl:9043/live/debki_plaza_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Dębki widok z wieży
+https://ls.tkchopin.pl:9043/live/debki_wieza_rybaczowka_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Chłapowo, Bałtyk z kempingu Lazurowe
+https://ls.tkchopin.pl:9043/live/wladyslawowo_kemping_lazurowe_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Gdańsk Stare Miasto Motława
+https://ls.tkchopin.pl:9043/live/gdansk_olowianka_widok_motlawa_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Gdańsk Miasto, Teatr Szekspirowski
+https://ls.tkchopin.pl:9043/live/gdansk_centrum_teatr_szekspirowski_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Gdynia Orłowo
+https://ls.tkchopin.pl:9043/live/gdynia_orlowo_plaza_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Gdynia Przystań jachtowa
+https://ls.tkchopin.pl:9043/live/gdynia_marina_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Gniew Panorama miasta
+https://ls.tkchopin.pl:9043/live/gniew_widok_rynek_wieza_kosciola_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Gniew Zakole Wisły
+https://ls.tkchopin.pl:9043/live/gniew_widok_zakole_wisly_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Gniew Zamek
+https://ls.tkchopin.pl:9043/live/gniew_widok_na_zamek_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Gniewino, Kaszubskie Oko
+https://ls.tkchopin.pl:9043/live/gniewino_kaszubskie_oko_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Gnieżdżewo Rondo
+https://ls.tkchopin.pl:9043/live/gniezdzewo_rondo_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Grudziądz Widok na Wisłę
+https://ls.tkchopin.pl:9043/live/grudziadz_wisla_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Hel Bulwar Nadmorski
+https://ls.tkchopin.pl:9043/live/hel_bulwar_nadmorski_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Hel Dworcowa
+https://ls.tkchopin.pl:9043/live/hel_skrzyzowanie_dworcowa_przybyszewskiego_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Jastarnia Molo
+https://ls.tkchopin.pl:9043/live/jastarnia_molo_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Jastarnia Plaża, Dom Zdrojowy
+https://ls.tkchopin.pl:9043/live/jastarnia_plaza_dom_zdrojowy_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Jastarnia Rondo
+https://ls.tkchopin.pl:9043/live/jastarnia_rondo_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Jastrzębia Góra Plaża
+https://ls.tkchopin.pl:9043/live/jastrzebiagora_plaza_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Jurata Molo
+https://ls.tkchopin.pl:9043/live/jurata_molo_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Karwia Plaża
+https://ls.tkchopin.pl:9043/live/karwia_plaza_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Kołobrzeg Port
+https://ls.tkchopin.pl:9043/live/kolobrzeg_port_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Krokowa Rondo
+https://ls.tkchopin.pl:9043/live/krokowa_rondo_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Lubkowo Wieś Przystań
+https://ls.tkchopin.pl:9043/live/lubkowo_przystan_wies_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Lubkowo DPS Przystań
+https://ls.tkchopin.pl:9043/live/lubkowo_przystan_dps_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Nadole Przystań
+https://ls.tkchopin.pl:9043/live/nadole_przystan_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Puck Molo
+https://ls.tkchopin.pl:9043/live/puck_molo_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Puck Plaża, Przystań, Molo
+https://ls.tkchopin.pl:9043/live/puck_molo_port_jachtowy_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Puck Stary Rynek
+https://ls.tkchopin.pl:9043/live/puck_stary_rynek_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Puck Zatoka Pucka
+https://ls.tkchopin.pl:9043/live/puck_wieza_kosciola_zatokapucka_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Reda Gniazdo pustułek
+https://ls.tkchopin.pl:9043/live/reda_gniazdo_pustulek_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Reda Jara panorama miasta
+https://ls.tkchopin.pl:9043/live/reda_jara_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Reda MPCK Koksik, Gniazdo Sokoła w środku
+https://ls.tkchopin.pl:9043/live/reda_koksik_gniazdo_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Reda MPCK Koksik, Gniazdo sokoła platforma
+https://ls.tkchopin.pl:9043/live/reda_koksik_gniazdo_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Reda Skrzyżowanie
+https://ls.tkchopin.pl:9043/live/reda_skrzyzowanie_pucka_k6_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Rewa Surfstacja
+https://ls.tkchopin.pl:9043/live/rewa_surf_stacja_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Rumia Wzgórze Markowca
+https://ls.tkchopin.pl:9043/live/rumia_wzgorze_markowca_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Sopot Molo
+https://ls.tkchopin.pl:9043/live/sopot_molo_skwer_kuracyjny_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Sopot Plaża Małe Molo
+https://ls.tkchopin.pl:9043/live/sopot_plaza_male_molo_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Sopot Widok z mola
+https://ls.tkchopin.pl:9043/live/sopot_molo_meridian_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",świnoujście Centrum
+https://ls.tkchopin.pl:9043/live/swinoujscie_centrum_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Tczew GPEC, Gniazdo sokoła w środku
+https://ls.tkchopin.pl:9043/live/tczew_gpec_gniazdo_wnetrze_720P.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Tczew GPEC, Gniazdo sokoła
+https://ls.tkchopin.pl:9043/live/tczew_gpec_gniazdo_podest_720P.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Wejherowo Filharmonia
+https://ls.tkchopin.pl:9043/live/wejherowo_filharmonia_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Wejherowo Plac Jakuba Wejhera
+https://ls.tkchopin.pl:9043/live/wejherowo_plac_jakuba_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Wejherowo Plac Wejhera, Fontanna
+https://ls.tkchopin.pl:9043/live/wejherowo_rynek_fontanna_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Wejherowo ul. Orzeszkowej
+https://ls.tkchopin.pl:9043/live/wejherowo_skrzyzowanie_orzeszkowej_k6_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Wejherowo ul. Rybacka
+https://ls.tkchopin.pl:9043/live/wejherowo_skrzyzowanie_rybacka_k6_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Wejherowo OPEC, Gniazdo Sokoła w środku
+https://ls.tkchopin.pl:9043/live/wejherowo_opec_gniazdo_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Wejherowo Panorama miasta
+https://ls.tkchopin.pl:9043/live/wejherowo_wzgorze_wolnosci_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Władysławowo Aleja Gwiazd Sportu
+https://ls.tkchopin.pl:9043/live/wladyslawowo_aleja_gwiazd.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Władysławowo Małe Morze
+https://ls.tkchopin.pl:9043/live/wladyslawowo_kemping_male_morze_molo_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Władysławowo Plaża
+https://ls.tkchopin.pl:9043/live/wladyslawowo_plaza_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Władysławowo Półwysep Helski
+https://ls.tkchopin.pl:9043/live/wladyslawowo_widok_na_polwysep_helski_z_wiezy_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Władysławowo Port
+https://ls.tkchopin.pl:9043/live/wladyslawowo_port_nabrzeze_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Władysławowo Rondo
+https://ls.tkchopin.pl:9043/live/wladyslawowo_rondo_gdanska_starowiejska_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="NADMORSKI24",Władysławowo Widok na Bałtyk
+https://ls.tkchopin.pl:9043/live/wladyslawowo_widok_na_baltyk_z_wiezy_domu_rybaka_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="KRAKóW.PL",HEJNAŁ
+https://hls12.webcamera.pl/mariacki_cam_281057/mariacki_cam_281057.stream/playlist.m3u8
+#EXTINF:-1 group-title="KRAKóW.PL",Zakrzówek (widok na kąpielisko)
+https://hoktastream2.webcamera.pl/krakow_cam_680fe3/krakow_cam_680fe3.stream/playlist.m3u8
+#EXTINF:-1 group-title="KRAKóW.PL",Plac Centralny im. Ronalda Reagana
+https://hoktastream4.webcamera.pl/krakow_cam_c4feaa/krakow_cam_c4feaa.stream/playlist.m3u8
+#EXTINF:-1 group-title="KRAKóW.PL",Rynek Główny (z pałacu Krzysztofory)
+https://hoktastream2.webcamera.pl/krakow_cam_702b61/krakow_cam_702b61.stream/playlist.m3u8
+#EXTINF:-1 group-title="KRAKóW.PL",Rynek Główny â€“ widok z siedziby Lokalnej Organizacji Turystycznej, ul. Bracka 1 (kamera obrotowa)
+https://hoktastream1.webcamera.pl/krakow_cam_da9ab3/krakow_cam_da9ab3.stream/playlist.m3u8
+#EXTINF:-1 group-title="KRAKóW.PL",pl. Wszystkich świętych i ul. Grodzka (z Pawilonu Wyspiańskiego)
+https://hoktastream3.webcamera.pl/krakow_cam_6f3258/krakow_cam_6f3258.stream/playlist.m3u8
+#EXTINF:-1 group-title="KRAKóW.PL",Rynek Podgórski
+https://hoktastream1.webcamera.pl/krakow_cam_c44608/krakow_cam_c44608.stream/playlist.m3u8
+#EXTINF:-1 group-title="KRAKóW.PL",Wawel i zakole Wisły
+https://hoktastream2.webcamera.pl/krakow_cam_4c3e37/krakow_cam_4c3e37.stream/playlist.m3u8
+#EXTINF:-1 group-title="TOYA GO",Port Lotniczy Łódź im. Władysława Reymonta 1
+https://cdn-13-go.toya.net.pl/kamery/lodz_lublinek1.m3u8?p=474f43414d005f5e0ff.61b3cb1030bff99e237c00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",Port Lotniczy Łódź im. Władysława Reymonta 2
+https://cdn-13-go.toya.net.pl/kamery/lodz_lublinek2.m3u8?p=474f43414d005f5e0ff.24a65bba456e3bf7dda600637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",ŁóDź Manufaktura Rynek 1
+https://cdn-13-go.toya.net.pl/kamery/lodz_manufaktura1.m3u8?p=474f43414d005f5e0ff.9091f6dccb7883d1663400637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",ŁóDź Manufaktura Rynek 2
+https://cdn-13-go.toya.net.pl/kamery/lodz_manufaktura2.m3u8?p=474f43414d005f5e0ff.9d3e183f5d2a396370aa00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",PABIANICE Ksawerów Łódzka
+https://cdn-13-go.toya.net.pl/kamery/pabi_ksaw_pabianickajp2.m3u8?p=474f43414d005f5e0ff.1fe4b3baab1341b871b000637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",PABIANICE Zamkowa
+https://cdn-14-go.toya.net.pl/kamery/pabi_zamkowatraugutta.m3u8?p=474f43414d005f5e0ff.67f8540cee392dad20b700637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",PABIANICE Warszawska
+https://cdn-14-go.toya.net.pl/kamery/pabi_warszawskamajdany.m3u8?p=474f43414d005f5e0ff.daf175c6a734675ebf7100637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",ZGIERZ Galeria Zgierska
+https://cdn-14-go.toya.net.pl/kamery/zgrz_galeriazgierskaarmiikrajowej.m3u8?p=474f43414d005f5e0ff.3ad31925dee65f896a9500637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",ZGIERZ Kurak
+https://cdn-13-go.toya.net.pl/kamery/zgrz_kuraklodzkapoludnie.m3u8?p=474f43414d005f5e0ff.53196913f95009950b3e00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",ZGIERZ Osiedle 650
+https://cdn-14-go.toya.net.pl/kamery/zgrz_osiedle650staffa.m3u8?p=474f43414d005f5e0ff.6cef6505f0457c60bbea00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",ZGIERZ ZSM Parzęczewska
+https://cdn-13-go.toya.net.pl/kamery/zgrz_zsmparzeczewskagalczynskiego.m3u8?p=474f43414d005f5e0ff.eef8b9f3efb4ed11e22300637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",PIOTRKóW TRYBUNALSKI Rynek Trybunalski
+https://cdn-13-go.toya.net.pl/kamery/piot_rynektrybunalski.m3u8?p=474f43414d005f5e0ff.aefa004f0c38c331278b00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",PIOTRKóW TRYBUINALSKI Rondo Solidarności
+https://cdn-14-go.toya.net.pl/kamery/piot_rondosolidarnosci.m3u8?p=474f43414d005f5e0ff.0203306eac6a4dafbfa400637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",PIOTRKóW TRYBUNALSKI Słowackiego
+https://cdn-13-go.toya.net.pl/kamery/piot_slowackiegokostromska.m3u8?p=474f43414d005f5e0ff.4e583fd2f630fd670e7e00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",PIOTRKóW TRYBUNALSKI Sikorskiego
+https://cdn-14-go.toya.net.pl/kamery/piot_sikorskiegoarmiikrajowej.m3u8?p=474f43414d005f5e0ff.06c9512ad1cbfdda74ac00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",KUTNO Jana Pawła II
+https://cdn-14-go.toya.net.pl/kamery/kutn_jp2podrzeczna.m3u8?p=474f43414d005f5e0ff.ea612e80be012d08113600637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",KUTNO Oporowska
+https://cdn-14-go.toya.net.pl/kamery/kutn_oporowskajp2.m3u8?p=474f43414d005f5e0ff.5fc50e7ff6c69fcfa22100637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",MYSŁOWICE Mikołowska
+https://cdn-14-go.toya.net.pl/kamery/mysl_mikolowskaak.m3u8?p=474f43414d005f5e0ff.d3a75a49feb513ea76ba00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",MYSŁOWICE Katowicka
+https://cdn-14-go.toya.net.pl/kamery/mysl_katokrakowska.m3u8?p=474f43414d005f5e0ff.603157131d5705232a5500637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",MYSŁOWICE Grunwaldzka
+https://cdn-14-go.toya.net.pl/kamery/mysl_grunwaldzka.m3u8?p=474f43414d005f5e0ff.99882a35ccfb92cfcb5800637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",MYSŁOWICE Krakowska Most niepodległości
+https://cdn-13-go.toya.net.pl/kamery/mysl_katomost.m3u8?p=474f43414d005f5e0ff.51bc376e86bb898fa90700637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",PRZEMYśL Plac Konstytucji
+https://cdn-14-go.toya.net.pl/kamery/prze_plackonstytucji.m3u8?p=474f43414d005f5e0ff.50f66582eb89401bcc9a00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",PRZEMYśL Rynek
+https://cdn-14-go.toya.net.pl/kamery/prze_rynekurzadmiasta.m3u8?p=474f43414d005f5e0ff.63f4081d23d6db13f4fa00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",PRZEMYśL Plac Niepodległości
+https://cdn-14-go.toya.net.pl/kamery/prze_placniepodleglosci.m3u8?p=474f43414d005f5e0ff.791aa4dfd330a1a8c6d100637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",PRZEMYśL Jagiellońska
+https://cdn-14-go.toya.net.pl/kamery/prze_jagiellonska.m3u8?p=474f43414d005f5e0ff.fa0c82dd7e702bae613700637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",KRAKóW Al. Róż w Nowej Hucie
+https://cdn-14-go.toya.net.pl/kamery/krak_alroznowahuta.m3u8?p=474f43414d005f5e0ff.dcd65619645926636eeb00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",KRAKóW Lema
+https://cdn-13-go.toya.net.pl/kamery/krak_lematauronarena.m3u8?p=474f43414d005f5e0ff.693177febc4867991dbe00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",KRAKóW Plac Jana Nowaka
+https://cdn-14-go.toya.net.pl/kamery/krak_galkrakowskadworzec.m3u8?p=474f43414d005f5e0ff.324aa38a2e890b1fd21500637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",KRAKóW Zbigniewa Herberta
+https://cdn-14-go.toya.net.pl/kamery/krak_herbertalagiewnicka.m3u8?p=474f43414d005f5e0ff.e719ad607694672d375f00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",PISZ Rondo im. Lecha Kaczyńskiego
+https://cdn-14-go.toya.net.pl/kamery/pisz_rondokaczynskiego.m3u8?p=474f43414d005f5e0ff.9a35a68dc24c197977bd00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",KOŁOBRZEG Plaża
+https://cdn-14-go.toya.net.pl/kamery/kolo_sulkowskiego.m3u8?p=474f43414d005f5e0ff.7e19829a57f3c4f1940500637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="TOYA GO",KOŁOBRZEG Wejście do portu
+https://cdn-14-go.toya.net.pl/kamery/kolo_port.m3u8?p=474f43414d005f5e0ff.141f91797a273c80e77c00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1 group-title="GDANSK.PL",Widok na Długi Targ
+https://hoktastream4.webcamera.pl/umgdansk_cam_2e4f1b/umgdansk_cam_2e4f1b.stream/playlist.m3u8
+#EXTINF:-1 group-title="GDANSK.PL",Widok na kładkę przez Motławę z kamery usytuowanej na budynku Morskiego Robotniczego Klubu Sportowego Gdańsk
+https://hoktastream2.webcamera.pl/umgdansk_cam_11161c/umgdansk_cam_11161c.stream/playlist.m3u8
+#EXTINF:-1 group-title="GDANSK.PL",Widok na plażę w Brzeźnie
+https://hoktastream4.webcamera.pl/gdansk_cam_77aeaf/gdansk_cam_77aeaf.stream/playlist.m3u8
+#EXTINF:-1 group-title="GDANSK.PL",Widok na plażę w Stogach
+https://hoktastream2.webcamera.pl/umgdansk_cam_e25623/umgdansk_cam_e25623.stream/playlist.m3u8
+#EXTINF:-1 group-title="GDANSK.PL",Sopot (Molo)
+https://kamera.task.gda.pl/rtplive/molo.sdp/playlist.m3u8
+#EXTINF:-1 group-title="GDANSK.PL",Gdynia (Skwer Kościuszki i al. Jana Pawła II)
+https://kamera.task.gda.pl/rtplive/k015.sdp/playlist.m3u8
+#EXTINF:-1 group-title="GDANSK.PL",Gdynia (Marina)
+https://kamera.task.gda.pl/rtplive/k016.sdp/playlist.m3u8
+#EXTINF:-1 group-title="GDANSK.PL",Hel (Fokarium)
+https://kamera.task.gda.pl/rtplive/hel1.sdp/playlist.m3u8
+#EXTINF:-1 group-title="GDANSK.PL",Mikoszewo ujście Wisły
+https://kamera.task.gda.pl/rtplive/mikoszewo.sdp/playlist.m3u8
+#EXTINF:-1 group-title="GDANSK.PL",Wejście do Portu
+https://1377.szczecin.pl:443/PortGdansk/streams/kamera2.m3u8
+#EXTINF:-1 group-title="GDANSK.PL",Kanał portowy
+https://1377.szczecin.pl:443/PortGdansk/streams/kamera33.m3u8
+#EXTINF:-1 group-title="GDANSK.PL",Terminal kontenerowy
+https://1377.szczecin.pl/PortGdansk/streams/kamera1.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",LUDEKCZARTER Rybina
+https://stream.malborskieswiatlowody.pl:18850/LUDEKCZARTER/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Jantar plaża live. Pogoda w Jantarze. Kamery nad Morzem Bałtyckim
+https://stream.malborskieswiatlowody.pl:18850/Jantar_plaza_glowna/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Jantar plaża wschód.
+https://stream.malborskieswiatlowody.pl:18850/Jantar_plaza_wscho/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Bar KARMAZYN i Smażalnia Ryb zaprasza przez cały rok
+https://stream.malborskieswiatlowody.pl:18850/Jantar_Karmazyn/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Przekop Mierzei Wiślanej na żywo widok z Kątów Rybackich (5 km) plaża.
+https://stream.malborskieswiatlowody.pl:18850/Katy_Rybackie_Przekopik/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Stegna: Widok z Urzędu Gminy, ul. Gdańska 34
+https://stream.malborskieswiatlowody.pl:18850/Stegna_Live_urzad/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Stegna aktualna pogoda, widok na Centrum Usług Przyplażowych. Klif pokoje przy plaży
+https://stream.malborskieswiatlowody.pl:18850/Stegna_Klif/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Krynica Morska plaża biała
+https://stream.malborskieswiatlowody.pl:18850/Krynica_morska_plazing/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Hotel Krynica Morska. Wyspa Estyjska
+https://stream.malborskieswiatlowody.pl:18850/krynicahotel_live/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Sklep â€žKONIKâ€ť Krynica Morska â€“ Piaski ul. Słoneczna. Zalew Wiślany na żywo. Granica Unii Europejskiej z Rosją w Piaskach DW 501
+https://stream.malborskieswiatlowody.pl:18850/PIASKI_Glowne/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Sztutowo plaża
+https://stream.malborskieswiatlowody.pl:18850/Sztutowo_wydma/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Stegna plaża: Bulwar Radiowej Jedynki.
+https://stream.malborskieswiatlowody.pl:18850/Stegna_Plaza_Bulwar/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Stegna Morze Bałtyckie Bar bosmański
+https://stream.malborskieswiatlowody.pl:18850/Stegna_Plaza_N/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Jantar Plaża wejście nr 79A
+https://stream.malborskieswiatlowody.pl:18850/Jantar_plaza_glowna/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Jantar, ul. Morska. Wyjście nr 79A
+https://stream.malborskieswiatlowody.pl:18850/Jantar_wyjscie_2/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Kąty Rybackie pogoda na żywo. Wejście na plażę nr 51
+https://stream.malborskieswiatlowody.pl:18850/KatyRybackie_plaza/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Plaża Kąty Rybackie. Wejście nr 51. Kierunek zachód
+https://stream.malborskieswiatlowody.pl:18850/KatyRybackie_plaza_zachod/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Sztutowo przystań żeglarska Wisła Królewiecka na żywo
+https://stream.malborskieswiatlowody.pl:18850/Sztutowo_przytan/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Urząd Gminy Sztutowo, ul. Gdańska 55
+https://stream.malborskieswiatlowody.pl:18850/Sztutowo_urzad_/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Nowy Dwór Gdański. Widok na żywo kamery z Urzędu Miejskiego przy ul. Ernesta Wejhera 3 w Nowym Dworze Gdańskim
+https://stream.malborskieswiatlowody.pl:18850/NDG_urzad/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Plac za Żuławskim Ośrodkiem Kultury. Nowy Dwór Gdański
+https://stream.malborskieswiatlowody.pl:18850/ZOK_2/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Morska , Michała Drzymały. PKS Nowy Dwór Gdański
+https://stream.malborskieswiatlowody.pl:18850/NDG_PKS/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Rondo im. Starosty Zbigniewa Piórkowskiego. Nowy Dwór Gdański na żywo
+https://stream.malborskieswiatlowody.pl:18850/NDG_Piorkowskiego/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Rondo im. Marszałka Macieja Płażyńskiego. Nowy Dwór Gdański
+https://stream.malborskieswiatlowody.pl:18850/NDG_Plazynskiego/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Nowy dwór gdański.Rondo imienia Księdza Prałata Romana Kłonieckiego
+https://stream.malborskieswiatlowody.pl:18850/NDG_Swiatubezpieczen/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Plac przed Ĺ»uławskim Ośrodkiem Kultury. Nowy Dwór Gdański aktualna pogoda i ruch drogowy
+https://stream.malborskieswiatlowody.pl:18850/ZOK_1/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Nowa Pasłęka przystań żeglarska
+https://stream.malborskieswiatlowody.pl:18850/Nowa_Pasleka_/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Kamera Mikoszewo ujście wisły
+https://kamera.task.gda.pl/rtplive/mikoszewo.sdp/playlist.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Urząd Gminy Ostaszewo ul. Kościuszki
+https://stream.malborskieswiatlowody.pl:18850/Ostaszewo/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Molo i plaża w Sopocie.
+https://stream.malborskieswiatlowody.pl:18850/sopot_molo_wieza/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Frombork Rynek
+https://stream.malborskieswiatlowody.pl:18850/From_bork/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Frombork wyjście z portu.
+https://stream.malborskieswiatlowody.pl:18850/frombork_port1/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Malbork. Rondo Jasna Henryka Sienkiewicza
+https://stream.malborskieswiatlowody.pl:18850/Rondo_Sienkiewicza_Wiezowiec/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Malbork. Panorama na żywo z wieżowca.
+https://stream.malborskieswiatlowody.pl:18850/Wiezowiec_Jasna/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Malbork Plac słowiański
+https://stream.malborskieswiatlowody.pl:18850/Mainsoft_Plac_Slowianski/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Zamek w Malborku na żywo. Malborska Madonna.
+https://stream.malborskieswiatlowody.pl:18850/Zamek_Parkowa_WEB1/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Lodowisko Rolkowisko Malbork kamera na żywo. Ośrodek Sportu i Rekreacji zaprasza
+https://stream.malborskieswiatlowody.pl:18850/LODO-WISKO/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Malbork Rondo Lotników Polskich Aleja Rodłą
+https://stream.malborskieswiatlowody.pl:18850/Lotnikow/index.m3u8
+#EXTINF:-1 group-title="ZULAWYIMIERZEJA24",Dworzec PKP Malbork LIVE
+https://stream.malborskieswiatlowody.pl:18850/Dworzec_Taxi/index.m3u8
+#EXTINF:-1 group-title="STIMOTION",Rynek w Krośnie
+https://stream4.stimotion.pl/live/krosno1.m3u8
+#EXTINF:-1 group-title="STIMOTION",Chorzów – Serce Górnego Śląska
+https://stream4.stimotion.pl/live/chorzow1.m3u8
+#EXTINF:-1 group-title="STIMOTION",Niedzica – widok na Jezioro Czorsztyńskie
+https://stream4.stimotion.pl/live/niedzica1.m3u8
+#EXTINF:-1 group-title="STIMOTION",Parafia pw. Chrystusa Króla w Jaśle
+https://stream4.stimotion.pl/live/jaslo3.m3u8
+#EXTINF:-1 group-title="STIMOTION",Chorzów-Park rozrywki Legendia
+https://stream.profi-net.sk/tmr/KATOWICE1.stream/playlist.m3u8
+#EXTINF:-1 group-title="KAMERY-RZESZÓW",Żwirownia Rzeszów
+https://k-rz.pl/HLS/zwirownia.m3u8
+#EXTINF:-1 group-title="KAMERY-RZESZÓW",Politechnika Reszowska
+https://k-rz.pl/HLS/politechnika7.m3u8
+#EXTINF:-1 group-title="KAMERY-RZESZÓW",Pomnik
+https://k-rz.pl/HLS/pomnik1.m3u8
+#EXTINF:-1 group-title="KAMERY-RZESZÓW",Rynek
+https://k-rz.pl/HLS/rynek12.m3u8
+#EXTINF:-1 group-title="KAMERY-RZESZÓW",Zapora
+https://k-rz.pl/HLS/zapora1.m3u8
+#EXTINF:-1 group-title="KAMERY-RZESZÓW",Kładka
+https://k-rz.pl/HLS/kladka2.m3u8
+#EXTINF:-1 group-title="KAMERY-RZESZÓW",Dworzec PKP
+https://k-rz.pl/HLS/dworzec7.m3u8
+#EXTINF:-1 group-title="KAMERY-RZESZÓW",Skatepark
+https://k-rz.pl/HLS/skatepark1.m3u8
+#EXTINF:-1 group-title="KAMERY-RZESZÓW",Wiadukt śląski
+https://k-rz.pl/HLS/slaski.m3u8
+#EXTINF:-1 group-title="KAMERY-RZESZÓW",Most zamkowy
+https://k-rz.pl/HLS/capitalzam3.m3u8
+#EXTINF:-1 group-title="KAMERY-RZESZÓW",Aleja Kopisto
+https://k-rz.pl/HLS/capitalKop2.m3u8
+#EXTINF:-1 group-title="KAMERY-RZESZÓW",Millenium Hall
+https://k-rz.pl/HLS/millenium2.m3u8
+#EXTINF:-1 group-title="KAMERY-RZESZÓW",Rondo Jana Pawła II
+https://k-rz.pl/HLS/jp2.m3u8
+#EXTINF:-1 group-title="KAMERY-RZESZÓW",Śródmieście
+https://k-rz.pl/HLS/centrum.m3u8
+#EXTINF:-1 group-title="KAMERY-RZESZÓW",Most Mazowieckiego
+https://k-rz.pl/HLS/srmost.m3u8
+#EXTINF:-1 group-title="Miasto i Gmina Szczawnica",Kolejka linowa na Palenicę
+https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam01.m3u8
+#EXTINF:-1 group-title="Miasto i Gmina Szczawnica",Parking pod dolną stacją kolejki na Palenicę
+https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam02.m3u8
+#EXTINF:-1 group-title="Miasto i Gmina Szczawnica",Potok Grajcarek i ścieżka pieszo-rowerowa
+https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam03.m3u8
+#EXTINF:-1 group-title="Miasto i Gmina Szczawnica",Początek promenady w Szczawnicy
+https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam04.m3u8
+#EXTINF:-1 group-title="Miasto i Gmina Szczawnica",Promenada Szczawnicka
+https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam05.m3u8
+#EXTINF:-1 group-title="Miasto i Gmina Szczawnica",Ścieżka pieszo rowerowa
+https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam06.m3u8
+#EXTINF:-1 group-title="Miasto i Gmina Szczawnica",Groń – zalesiony wierzchołek w Małych Pieninach
+https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam07.m3u8
+#EXTINF:-1 group-title="Miasto i Gmina Szczawnica",Ścieżka pieszo-rowerowa
+https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam08.m3u8
+#EXTINF:-1 group-title="Miasto i Gmina Szczawnica",Promenada i potok Grajcarek
+https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam09.m3u8
+#EXTINF:-1 group-title="Miasto i Gmina Szczawnica",Boisko sportowe przy ścieżce pieszo-rowerowej
+https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam10.m3u8
+#EXTINF:-1 group-title="Miasto i Gmina Szczawnica",Ścieżka pieszo rowerowa i promenada połączone mostkiem
+https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam11.m3u8
+#EXTINF:-1 group-title="Miasto i Gmina Szczawnica",Mostek na potoku Grajcarek
+https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam12.m3u8
+#EXTINF:-1 group-title="Miasto i Gmina Szczawnica",Promenada wzdłuż Grajcarka
+https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam14.m3u8
+#EXTINF:-1 group-title="Miasto i Gmina Szczawnica",Widok na Pieniny
+https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam15.m3u8
+#EXTINF:-1 group-title="Miasto i Gmina Szczawnica",Ujście Grajcarka do Dunajca
+https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam16.m3u8
+#EXTINF:-1 group-title="Miasto i Gmina Szczawnica",Ścieżka pieszo-rowerowa i mostek na rzece Grajcarek
+https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam18.m3u8
+#EXTINF:-1 group-title="Miasto i Gmina Szczawnica",Zakończenie promenady nad Grajcarkiem
+https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam17.m3u8
+#EXTINF:-1 group-title="Miasto i Gmina Szczawnica",Kotońka
+https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam19.m3u8
+#EXTINF:-1 group-title="Miasto i Gmina Szczawnica",Przystań flisacka
+https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam20.m3u8
+#EXTINF:-1 group-title="LANTECH",Kamera na żywo z Bocianiego gniazda w Mierzynie.
+https://ls-proxy-local.lantech.com.pl/hls/bocianymierzyn/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Kamera na żywo – Dźwigozaury
+https://ls-proxy-local.lantech.com.pl/hls/dzwigozaury/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Widok na rzekę Odrę - Wejście do portu
+https://ls-proxy-local.lantech.com.pl/hls/wiezabismarka/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Widok na rzekę Odrę - Wały Chrobrego
+https://ls-proxy-local.lantech.com.pl/hls/zuw/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Widok na rzekę Odrę - Wały Chrobrego - Widok z Łasztowni
+https://ls-proxy-local.lantech.com.pl/hls/walyzmariny/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Widok na rzekę Odrę - Bulwary Szczecińskie
+https://ls-proxy-local.lantech.com.pl/hls/lastadiabulwary/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Widok na rzekę Odrę - Łasztownia
+https://ls-proxy-local.lantech.com.pl/hls/lasztownia/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Plac Szarych Szeregów, Szczecin
+https://ls-proxy-local.lantech.com.pl/hls/beliani/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Szczecin - Most Długi
+https://ls-proxy-local.lantech.com.pl/hls/katedra2/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Pasieka Immuno
+https://ls-proxy-local.lantech.com.pl/hls/pasiekaimmuno2/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Pasieka Immuno 2
+https://ls-proxy-local.lantech.com.pl/hls/pasiekaimmuno3/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Pasieka Immuno 3
+https://ls-proxy-local.lantech.com.pl/hls/pasiekaimmuno1/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Binowo Park - 18 dołek
+https://ls-proxy-local.lantech.com.pl/hls/binowopark1/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Bazylika Archikatedralna Szczecin
+https://ls-proxy-local.lantech.com.pl/hls/katedra1/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Szczecin Panorama
+https://ls-proxy-local.lantech.com.pl/hls/szczecinpanorama/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Szczecin Osiedle Reda
+https://ls-proxy-local.lantech.com.pl/hls/osreda/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Szczecin kamery na żywo - Cyryla i Metodego
+https://ls-proxy-local.lantech.com.pl/hls/cyryla/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Szczecin kamery na żywo Przyjaciół Żołnierza
+https://ls-proxy-local.lantech.com.pl/hls/przyjaciolzolnierza/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Szczecin kamery na żywo CH Słoneczne
+https://ls-proxy-local.lantech.com.pl/hls/sch/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Szczecin Plac Rodła
+https://ls-proxy-local.lantech.com.pl/hls/pazim1/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Szczecin kamery na żywo Pazim ul. Wyzwolenia
+https://ls-proxy-local.lantech.com.pl/hls/pazim2/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Kamera na żywo Morzyczyn Muszla
+https://ls-proxy-local.lantech.com.pl/hls/morzyczyn1/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Morzyczyn Port
+https://ls-proxy-local.lantech.com.pl/hls/morzyczyn2/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Kamera na żywo Świnoujście Port Plaża
+https://ls-proxy-local.lantech.com.pl/hls/swinoujscie2/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Świnoujście wejście do portu
+https://ls-proxy-local.lantech.com.pl/hls/swinoujscie1/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Międzyzdroje Panorama
+https://ls-proxy-local.lantech.com.pl/hls/miedzyzdroje_panorama/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Międzyzdroje Molo
+https://ls-proxy-local.lantech.com.pl/hls/miedzyzdroje_molo/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Międzyzdroje Aquamarina
+https://ls-proxy-local.lantech.com.pl/hls/miedzyzdroje_aquamarina/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Dziwnów Plaża
+https://ls-proxy-local.lantech.com.pl/hls/dziwnow/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Kościół Reptowo
+https://ls-proxy-local.lantech.com.pl/hls/reptowokosciol/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Kościół Wielgowo
+https://ls-proxy-local.lantech.com.pl/hls/kosciolwielgowo/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Kościół Myślibórz
+https://ls-proxy-local.lantech.com.pl/hls/kosciolmysliborz/index.m3u8
+#EXTINF:-1 group-title="LANTECH",Kościoł Goleniów
+https://ls-proxy-local.lantech.com.pl/hls/kosciolgoleniow/index.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Jelenia Góra – Wolności
+https://webcam.box3.pl:443/live/BigSystem/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Jelenia Góra – Złotnicza
+https://webcam.box3.pl:443/live/zlotnicza/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Pole golfowe w Jeleniej Górze
+https://webcam.box3.pl:443/live/liveStream_7E04CACPAG26002_0_0/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Zamek Chojnik
+https://webcam.box3.pl:443/live/chojnik1/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Plac Piastowski – Cieplice
+https://webcam.box3.pl:443/live/cieplicepolitechnika.stream/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Góra Szybowcowa – aktualny obraz z kamery live w Jeżowie Sudeckim
+https://webcam.box3.pl/live/szybowcowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Cieplice Plac Piastowski Lalka
+https://webcam.box3.pl:443/live/cieplicelalka.stream/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Widok z wieży Ratusza
+https://webcam.box3.pl/live/liveStream_7E04CACPAG8289E_0_0/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Plac Ratuszowy – Jelenia Góra
+https://webcam.box3.pl:443/live/ratusz.stream/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Szklarska Poręba – Szrenica Ski Arena
+https://webcam.box3.pl:443/live/SkiArena/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Schronisko „Pod Łabskim Szczytem”
+https://webcam.box3.pl/live/labski/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",DCS Polana Jakuszycka
+https://webcam.box3.pl/live/dcs.stream/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Norweska Dolina
+https://webcam.box3.pl/live/norweskadolina.stream/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",4 peron – Szklarska Poręba
+https://webcam.box3.pl/live/szklarskapkp.stream/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Jedności Narodowej – Szklarska Poręba
+https://webcam.box3.pl:443/live/szklarskajednosci.stream/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Szklarska Poręba – centrum
+https://webcam.box3.pl:443/live/szklarskajednosci/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Szrenica
+https://webcam.box3.pl/live/szrenica.stream/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Szklarska Poręba – Panorama Karkonoszy
+https://webcam.box3.pl/live/liveStream_6F020DCPAG74E55_0_0/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Piechowice – stadion
+https://webcam.box3.pl:443/live/piechowicestadion.stream/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Pakoszów – Rondo
+https://webcam.box3.pl:443/live/pakoszow.stream/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Świeradów-Zdrój
+https://webcam.box3.pl/live/swieradowzdroj.stream/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Świeradów-Zdrój – gondola
+https://webcam.box3.pl/live/swieradowgondola.stream/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Szklarska Poręba – Szrenica Ski Arena
+https://webcam.box3.pl/live/SkiArena/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Schronisko „Pod Łabskim Szczytem”
+https://webcam.box3.pl/live/labski/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",Samotnia
+https://webcam.box3.pl/live/samotnia/playlist.m3u8
+#EXTINF:-1 group-title="Zachodnia TV",DCS Polana Jakuszycka
+https://webcam.box3.pl/live/dcs.stream/playlist.m3u8
+#EXTINF:-1 group-title="PANOLIVE",Kamera internetowa w Krapkowicach - Panorama Otmętu
+https://panolive.pl:8083/cam/krapkowice2_sd/playlist.m3u8
+#EXTINF:-1 group-title="PANOLIVE",Kamera internetowa w Dobrzeniu Wielkim
+https://panolive.pl:8083/cam/dobrzen-wielki2_sd/playlist.m3u8
+#EXTINF:-1 group-title="PANOLIVE",Kamera internetowa w Krapkowicach - Panorama rynku
+https://panolive.pl:8083/cam/krapkowice1_sd/playlist.m3u8
+#EXTINF:-1 group-title="PANOLIVE",Kamera internetowa w Supraślu - Pałac Buchholtza
+https://panolive.pl:8083/cam/suprasl1_sd/playlist.m3u8
+#EXTINF:-1 group-title="PANOLIVE",Kamera internetowa w Supraślu - ul. 3 Maja
+https://panolive.pl:8083/cam/suprasl2_sd/playlist.m3u8
+#EXTINF:-1 group-title="PANOLIVE",Kamera internetowa w Toruniu z wieży Dworu Artusa na fragment Rynku Staromiejskiego
+https://panolive.pl:8083/cam/torun1_sd/playlist.m3u8
+#EXTINF:-1 group-title="PANOLIVE",Kamera internetowa w Toruniu - wiślana panorama
+https://panolive.pl:8083/cam/torun2_sd/playlist.m3u8
+#EXTINF:-1 group-title="PANOLIVE",Kamera internetowa w Strzegowej (gmina Wolbromi) - Kościół
+https://panolive.pl:8083/cam/wolbrom1_sd/playlist.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Kryty most Anshun znajduje się obok Pawilonu Hejiang u zbiegu rzek Fuhe i Nanhe w mieście Chengdu w prowincji Syczuan
+https://gctxyhwc.liveplay.myqcloud.com/gc/zsslsjjfsd_1_md.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Lancang River to nazwa górnego biegu rzeki Mekong w Chinach. Jest to jedna z największych rzek południowo-zachodnich Chin  trzecia pod względem długości rzeka w Azji i najdłuższa rzeka w Azji Południowo-Wschodniej. Nabrzeże Wayao w miasteczku Wayao 
+https://gctxyhwc.liveplay.myqcloud.com/gc/hsxhdxg_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Góra Jingmai znajduje się w miasteczku Huimin  w autonomicznym powiecie Lancang Lahu  w mieście Pu'er  w prowincji Junnan. Sąsiaduje z powiatem Menghai  Xishuangbanna na wschodzie i Myanmarem na zachodzie.
+https://gctxyhwc.liveplay.myqcloud.com/gc/tms05_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Shengsi to wyspiarski powiat położony w najdalej na wschód wysuniętej części prowincji Zhejiang i na północ wysuniętej części wysp Zhoushan.
+https://gctxyhwc.liveplay.myqcloud.com/gc/emsyh_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Pagoda Menghuan Shwedagon znajduje się na szczycie góry Leiyarang na brzegu Jeziora Pawiego  w południowo-wschodniej części Mangshi  stolicy prefektury Dehong w prowincji Junnan. Złota Pagoda Menghuan jest wspaniała i majestatyczna wśród zielonych gór i czystych wód.
+https://gctxyhwc.liveplay.myqcloud.com/gc/dhyyqsm_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Wieś Xiyi  miasto Manwan  powiat Yun znajduje się na północny zachód od miasta Manwan  40 kilometrów od siedziby władz miejskich
+https://gctxyhwc.liveplay.myqcloud.com/gc/hlwxt_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Starożytne miasto Banqiao znajduje się w dystrykcie Longyang  mieście Baoshan  w prowincji Junnan. Prom ten znany jest jako „Beijin Smoky Willows and Plum Blossom Ancient Ferry” i ma ponad 2000-letnią historię.
+https://gctxyhwc.liveplay.myqcloud.com/gc/ylxs12_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Powiat Xundian należy do miasta Kunming w prowincji Junnan. Znajduje się w północnej części centralnego Junnanu.
+https://gctxyhwc.liveplay.myqcloud.com/gc/mdjxxmhjyxj_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",W przeszłości Mandiu była wioską w pałacu królewskim Dai  której zadaniem było wyłącznie przewożenie rzeczy. Wioska Mandiu jest otoczona górami i rzekami  a jej krajobrazy są przepiękne.
+https://gctxyhwc.liveplay.myqcloud.com/gc/fcw03_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Most Shuanglong znajduje się 5 kilometrów na zachód od starożytnego miasta Jianshui. Rozciąga się nad zbiegiem rzek Lujiang i Tachong. Słynie z tego  że obie rzeki wiją się jak dwa smoki.
+https://gctxyhwc.liveplay.myqcloud.com/gc/pshdxg01_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Dolina Kwitnącej Wiśni Wuliangshan to malownicze miejsce o najwyższej ocenie AAA  które powstało na bazie herbaty. Znajduje się w wiosce De'an w mieście Wuliangshan w hrabstwie autonomicznym Nanjian Yi w prefekturze autonomicznej Dali Bai w prowincji Yunnan.
+https://gctxyhwc.liveplay.myqcloud.com/gc/taishan01_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Starożytny szlak herbaciano-koński w starożytnym mieście Yunnanyi znajduje się w powiecie Xiangyun  w prowincji Dali. Jako ważne miasto na Południowym Jedwabnym Szlaku i „Starożytnym Szlaku Herbacianym”
+https://gctxyhwc.liveplay.myqcloud.com/gc/tyhjtys_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Zbiornik zaporowy położony jest w południowej  pagórkowatej części Kotliny Baoshan
+https://gctxyhwc.liveplay.myqcloud.com/gc/sgns02_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Wodospad Yangshan znajduje się po prawej stronie góry Bijia  głównego szczytu góry Wuliang  na skraju rezerwatu przyrody. Ma 120 metrów wysokości i 50 metrów szerokości.
+https://gctxyhwc.liveplay.myqcloud.com/gc/blg05_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Obszar widokowy Mauzoleum Qianling położony jest na północy powiatu Qian  miasta Xianyang  prowincji Shaanxi  76 kilometrów od starożytnej stolicy Xi'an.
+https://gctxyhwc.liveplay.myqcloud.com/gc/taishan02_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Wielka Pagoda Dzikiej Gęsi znajduje się w Xi'an  w prowincji Shaanxi. Znana jest również jako „Pagoda Świątyni Ci’en”. Jest to najwcześniejsza i największa zachowana kwadratowa pagoda z cegły z czasów dynastii Tang.
+https://gctxyhwc.liveplay.myqcloud.com/gc/hkylxs01_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Dzwonnica Xi'an znajduje się w centrum Xi'an  na skrzyżowaniu czterech głównych ulic w obrębie murów miejskich Ming. Jest to największa i najlepiej zachowana dzwonnica w Chinach.
+https://gctxyhwc.liveplay.myqcloud.com/gc/blg03_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Zbiornik Sanhe znajduje się w dystrykcie Chang'an w mieście Xi'an w prowincji Shaanxi. Sąsiaduje z górami Qinling na południu.
+https://gctxyhwc.liveplay.myqcloud.com/gc/ahhs01_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Pensjonat B&B Minshan Cogao położony jest w starożytnej wiosce Cogao w malowniczym obszarze Basongcuo w hrabstwie Gongbu Gyamda.
+https://gctxyhwc.liveplay.myqcloud.com/gc/zjjybf_1_md.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Góra Namjagbarwa  położona na skrzyżowaniu Himalajów  gór Nyainqentanglha i gór Hengduan  jest najwyższą górą w mieście Linzhi w Tybetańskim Regionie Autonomicznym w Chinach  o wysokości 7782 metrów. Należy do Himalajów i znajduje się na ich wschodnim krańcu.
+https://gctxyhwc.liveplay.myqcloud.com/gc/wgw05_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Mount Everest  o wysokości 8844 43 metrów nad poziomem morza i wysokości 8848 86 metrów nad poziomem morza  jest głównym szczytem Himalajów. Leży na granicy Chińskiej Republiki Ludowej i Nepalu.
+https://gctxyhwc.liveplay.myqcloud.com/gc/qdls02_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Jezioro Jingniang położone jest na północ od wioski Kou Shang  miasta Wu'an  Handan.
+https://gctxyhwc.liveplay.myqcloud.com/gc/zjjsrsm_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Stara Ulica Nanchuan  atrakcja turystyczna o randze AAA  znajduje się w centralnej części dzielnicy Yunhe w mieście Cangzhou w prowincji Hebei.
+https://gctxyhwc.liveplay.myqcloud.com/gc/lpsgmjng01_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Wielki Mur Jinshanling znajduje się na terenach Wielkiego i Małego Jinshanling w Bakshiying  w powiecie Luanping  w prowincji Hebei
+https://gctxyhwc.liveplay.myqcloud.com/gc/hkts03_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Obszar widokowy Qinhuangdao City Laolongtou  sub-widokowy obszar krajowej atrakcji turystycznej poziomu 5A „Obszar widokowy Qinhuangdao City Shanhaiguan”  położony jest na wybrzeżu Morza Bohai  4 kilometry na południe od dzielnicy Shanhaiguan  w mieście Qinhuangdao  w prowincji Hebei.
+https://gctxyhwc.liveplay.myqcloud.com/gc/zjwzbblh_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Narodowy Rezerwat Przyrody Hebei Saihanba to rezerwat przyrody o charakterze ekosystemu leśnego  utworzony w 2002 r. za zgodą Rządu Ludowego Prowincji Hebei.
+https://gctxyhwc.liveplay.myqcloud.com/gc/hssxf_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Wodne Miasto Gubei znajduje się w mieście Gubeikou  w dzielnicy Miyun w Pekinie  u podnóża Wielkiego Muru Simatai.
+https://gctxyhwc.liveplay.myqcloud.com/gc/dlst03_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Park Leśny Xianmi jest największym obszarem leśnym w prowincji Qinghai. Park obejmuje trzy miasta: Dongchuan  Xianmi i Zhugu w powiecie Menyuan.
+https://gctxyhwc.liveplay.myqcloud.com/gc/mdjxxdsb_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Rezerwat przyrody Guangdong Nei Lingding Futian znajduje się w mieście Shenzhen i zajmuje łączną powierzchnię 921 64 hektarów.
+https://gctxyhwc.liveplay.myqcloud.com/gc/djyqyl1_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Langshan to typowy dla szczytu Danxia las  malownicze miejsce słynące z pięknych wód  malowniczych gór i wyjątkowych jaskiń.
+https://gctxyhwc.liveplay.myqcloud.com/gc/hkts02_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Obserwatorium Qingdao Aishan znajduje się w mieście Yanghe  Jiaozhou  Qingdao.
+https://gctxyhwc.liveplay.myqcloud.com/gc/jhs01_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Wąwóz Hongshi  pierwszy unikalny wąwóz w Chinach  jest najbardziej charakterystyczną atrakcją Yuntaishan.
+https://gctxyhwc.liveplay.myqcloud.com/gc/pts01_1/index.m3u8
+#EXTINF:-1 group-title="LIVE CHINA CCTV",Powiat Jun jest jedynym miastem o znaczeniu historycznym i kulturalnym na szczeblu powiatu w prowincji Henan.
+https://gctxyhwc.liveplay.myqcloud.com/gc/hlzycc_1/index.m3u8
+#EXTINF:-1 group-title="",
+
+#EXTINF:-1 group-title="",
+
+#EXTINF:-1 group-title="",
+
