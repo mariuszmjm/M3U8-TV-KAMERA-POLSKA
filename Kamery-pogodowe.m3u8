@@ -505,27 +505,27 @@ https://stream.devices.pl:5443/LiveApp/streams/498779877563728532759860.m3u8
 https://hoktastream1.webcamera.pl/polanczyk_cam_d1e2d8/polanczyk_cam_d1e2d8.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Zegrzyskie
 https://streaming.airmax.pl/umserock2/index.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia p.w. Miłosierdzia Bożego Zakopane - Chramcówki
+#EXTINF:-1  group-title="Kościoły",Parafia p.w. Miłosierdzia Bożego Zakopane - Chramcówki
 https://hoktastream2.webcamera.pl/chramcowki_cam_616201/chramcowki_cam_616201.stream/playlist.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia pw. w. Mateusza w Gniewczynie acuckiej Archidiecezja Przemyska
+#EXTINF:-1  group-title="Kościoły",Parafia pw. w. Mateusza w Gniewczynie acuckiej Archidiecezja Przemyska
 https://hoktastream2.webcamera.pl/okocam_cam_79ccd6/okocam_cam_79ccd6.stream/playlist.m3u8
-#EXTINF:-1  group-title="Kocioy",Archidiecezja Przemysko-Warszawska Kocioa Grekokatolickiego w Polsce
+#EXTINF:-1  group-title="Kościoły",Archidiecezja Przemysko-Warszawska Kocioa Grekokatolickiego w Polsce
 https://hoktastream4.webcamera.pl/okocam_cam_9f90fb/okocam_cam_9f90fb.stream/playlist.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia pw. w. Mateusza w Gniewczynie acuckiej Archidiecezja Przemyska
+#EXTINF:-1  group-title="Kościoły",Parafia pw. w. Mateusza w Gniewczynie acuckiej Archidiecezja Przemyska
 https://hoktastream1.webcamera.pl/okocam_cam_53c87e/okocam_cam_53c87e.stream/playlist.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia witego Urbana w Roczynach
+#EXTINF:-1  group-title="Kościoły",Parafia witego Urbana w Roczynach
 https://hoktastream1.webcamera.pl/roczyny_cam_39e2ab/roczyny_cam_39e2ab.stream/playlist.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia pw. w. Brata Alberta Jarosaw - Szwsko
+#EXTINF:-1  group-title="Kościoły",Parafia pw. w. Brata Alberta Jarosaw - Szwsko
 https://hoktastream2.webcamera.pl/okocam_cam_79ccd6/okocam_cam_79ccd6.stream/playlist.m3u8
-#EXTINF:-1  group-title="Kocioy",Klasztor oo. Dominikanw w Jarosawiu Parafia Matki Boej Bolesnej
+#EXTINF:-1  group-title="Kościoły",Klasztor oo. Dominikanw w Jarosawiu Parafia Matki Boej Bolesnej
 https://hoktastream4.webcamera.pl/okocam_cam_811fa8/okocam_cam_811fa8.stream/playlist.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia Wniebowzicia Najwitszej Maryi Panny w Radlinie - Biertutowach
+#EXTINF:-1  group-title="Kościoły",Parafia Wniebowzicia Najwitszej Maryi Panny w Radlinie - Biertutowach
 https://hoktastream1.webcamera.pl/radlin_cam_3a81bf/radlin_cam_3a81bf.stream/playlist.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia w. Mikoaja w Witanowicach
+#EXTINF:-1  group-title="Kościoły",Parafia w. Mikoaja w Witanowicach
 https://hoktastream2.webcamera.pl/witanowice_cam_09d640/witanowice_cam_09d640.stream/playlist.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia witego Stanisawa - Biskupa i Mczennika w Andrychowie
+#EXTINF:-1  group-title="Kościoły",Parafia witego Stanisawa - Biskupa i Mczennika w Andrychowie
 https://hoktastream2.webcamera.pl/parafiaandrychow_cam_18fe7d/parafiaandrychow_cam_18fe7d.stream/playlist.m3u8
-#EXTINF:-1  group-title="Kocioy",Archidiecezja Przemysko-Warszawska Kocioa Grekokatolickiego w Polsce
+#EXTINF:-1  group-title="Kościoły",Archidiecezja Przemysko-Warszawska Kocioa Grekokatolickiego w Polsce
 https://hoktastream4.webcamera.pl/okocam_cam_9f90fb/okocam_cam_9f90fb.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",Kotlinka Szymbark
 https://hoktastream3.webcamera.pl/kotlinkaszymbark_cam_5d869c/kotlinkaszymbark_cam_5d869c.stream/playlist.m3u8
@@ -719,145 +719,145 @@ https://hoktastream3.webcamera.pl/pkl_cam_0b7bb7/pkl_cam_0b7bb7.stream/playlist.
 https://hoktastream1.webcamera.pl/kiczeraski_cam_2b0ef4/kiczeraski_cam_2b0ef4.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",Sotwiny Arena - widok z grnej stacji
 https://hoktastream1.webcamera.pl/moit_cam_0b9f47/moit_cam_0b9f47.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",WINOUJCIE - widok na plae i morze
+#EXTINF:-1  group-title="Plaże",WINOUJCIE - widok na Plaże i morze
 https://hoktastream4.webcamera.pl/swinoujscie_cam_3be0ba/swinoujscie_cam_3be0ba.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",WINOUJCIE - widok na pla
+#EXTINF:-1  group-title="Plaże",WINOUJCIE - widok na pla
 https://hoktastream4.webcamera.pl/swinoujscie_cam_7eca1e/swinoujscie_cam_7eca1e.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",MIDZYZDROJE - widok na morze NOWO
+#EXTINF:-1  group-title="Plaże",MIDZYZDROJE - widok na morze NOWO
 https://hoktastream1.webcamera.pl/miedzyzdroje_cam_613997/miedzyzdroje_cam_613997.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",Midzyzdroje - widok na wschodni stron pla
+#EXTINF:-1  group-title="Plaże",Midzyzdroje - widok na wschodni stron pla
 https://hoktastream1.webcamera.pl/miedzyzdroje_cam_52898b/miedzyzdroje_cam_52898b.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",Midzyzdroje - widok na pla
+#EXTINF:-1  group-title="Plaże",Midzyzdroje - widok na pla
 https://hoktastream1.webcamera.pl/miedzyzdroje_cam_bcc4fd/miedzyzdroje_cam_bcc4fd.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",Midzywodzie - widok na pla
+#EXTINF:-1  group-title="Plaże",Midzywodzie - widok na pla
 https://hoktastream3.webcamera.pl/miedzywodzie_cam_6b6996/miedzywodzie_cam_6b6996.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",Dziwnw - widok na Marin
+#EXTINF:-1  group-title="Plaże",Dziwnw - widok na Marin
 https://hoktastream1.webcamera.pl/dziwnowum_cam_05f247/dziwnowum_cam_05f247.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",DZIWNW - widok na pla
+#EXTINF:-1  group-title="Plaże",DZIWNW - widok na pla
 https://hoktastream1.webcamera.pl/dziwnowum_cam_a4181f/dziwnowum_cam_a4181f.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",DZIWNWEK - widok na deptak
+#EXTINF:-1  group-title="Plaże",DZIWNWEK - widok na deptak
 https://hoktastream1.webcamera.pl/dziwnow_cam_175c61/dziwnow_cam_175c61.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",Pustkowo - widok na Krzy Nadziei
+#EXTINF:-1  group-title="Plaże",Pustkowo - widok na Krzy Nadziei
 https://hoktastream1.webcamera.pl/gminarewal_cam_95ef9b/gminarewal_cam_95ef9b.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",TRZSACZ - widok na pla
+#EXTINF:-1  group-title="Plaże",TRZSACZ - widok na pla
 https://hoktastream2.webcamera.pl/gminarewal_cam_635a3d/gminarewal_cam_635a3d.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",REWAL - widok na pla
+#EXTINF:-1  group-title="Plaże",REWAL - widok na pla
 https://hoktastream2.webcamera.pl/gminarewal_cam_a882c3/gminarewal_cam_a882c3.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",REWAL - widok na deptak
+#EXTINF:-1  group-title="Plaże",REWAL - widok na deptak
 https://hoktastream1.webcamera.pl/gminarewal_cam_a95d00/gminarewal_cam_a95d00.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",NIECHORZE - widok na pla i morze
+#EXTINF:-1  group-title="Plaże",NIECHORZE - widok na pla i morze
 https://hoktastream2.webcamera.pl/niechorzeplaza_cam_956637/niechorzeplaza_cam_956637.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",NIECHORZE - widok panoramiczny
+#EXTINF:-1  group-title="Plaże",NIECHORZE - widok panoramiczny
 https://hoktastream1.webcamera.pl/rewal_cam_003f77/rewal_cam_003f77.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",MRZEYNO - widok na pla
+#EXTINF:-1  group-title="Plaże",MRZEYNO - widok na pla
 https://hoktastream4.webcamera.pl/mrzezyno_cam_9c9575/mrzezyno_cam_9c9575.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",ROGOWO - widok na pla
+#EXTINF:-1  group-title="Plaże",ROGOWO - widok na pla
 https://hoktastream4.webcamera.pl/rogowo_cam_c81371/rogowo_cam_c81371.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",DWIRZYNO - widok na pla
+#EXTINF:-1  group-title="Plaże",DWIRZYNO - widok na pla
 https://hoktastream2.webcamera.pl/dzwirzyno_cam_59c728/dzwirzyno_cam_59c728.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",Grzybowo - widok na pla
+#EXTINF:-1  group-title="Plaże",Grzybowo - widok na pla
 https://hoktastream2.webcamera.pl/grzybowo_cam_31ad63/grzybowo_cam_31ad63.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",KOOBRZEG - widok na pla zachodni
+#EXTINF:-1  group-title="Plaże",KOOBRZEG - widok na pla zachodni
 https://hoktastream4.webcamera.pl/kolobrzeg_cam_6df535/kolobrzeg_cam_6df535.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",KOOBRZEG - widok na molo i pla
+#EXTINF:-1  group-title="Plaże",KOOBRZEG - widok na molo i pla
 https://hoktastream4.webcamera.pl/nocowanie_cam_a32dd1/nocowanie_cam_a32dd1.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",KOOBRZEG - widok na marin
+#EXTINF:-1  group-title="Plaże",KOOBRZEG - widok na marin
 https://hoktastream1.webcamera.pl/kolobrzegmarina_cam_967ce0/kolobrzegmarina_cam_967ce0.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",KOOBRZEG - widok na pla
+#EXTINF:-1  group-title="Plaże",KOOBRZEG - widok na pla
 https://hoktastream3.webcamera.pl/kolobrzeg_cam_c26ccc/kolobrzeg_cam_c26ccc.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",USTRONIE MORSKIE - widok na pla
+#EXTINF:-1  group-title="Plaże",USTRONIE MORSKIE - widok na pla
 https://hoktastream1.webcamera.pl/umustronie_cam_8305a4/umustronie_cam_8305a4.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",SARBINOWO - widok na pla NOWO
+#EXTINF:-1  group-title="Plaże",SARBINOWO - widok na pla NOWO
 https://hoktastream3.webcamera.pl/sarbinowo_cam_390a25/sarbinowo_cam_390a25.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",SARBINOWO - widok na pla
+#EXTINF:-1  group-title="Plaże",SARBINOWO - widok na pla
 https://hoktastream1.webcamera.pl/sarbinowo_cam_bd6ec8/sarbinowo_cam_bd6ec8.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",CHOPY - widok na kutry rybackie i morze
+#EXTINF:-1  group-title="Plaże",CHOPY - widok na kutry rybackie i morze
 https://hoktastream2.webcamera.pl/chlopy_cam_73ac3a/chlopy_cam_73ac3a.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",MIELNO - widok na pla NOWE UJCIA
+#EXTINF:-1  group-title="Plaże",MIELNO - widok na pla NOWE UJCIA
 https://hoktastream4.webcamera.pl/mielno_cam_0e2e7c/mielno_cam_0e2e7c.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",AZY - widok na pla
+#EXTINF:-1  group-title="Plaże",AZY - widok na pla
 https://hoktastream4.webcamera.pl/lazy_cam_a0366d/lazy_cam_a0366d.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",Jezioro Bukowo oraz pla.
+#EXTINF:-1  group-title="Plaże",Jezioro Bukowo oraz pla.
 https://hoktastream4.webcamera.pl/gmina_darlowo_cam_2d6aad/gmina_darlowo_cam_2d6aad.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",BOBOLIN - widok na pla
+#EXTINF:-1  group-title="Plaże",BOBOLIN - widok na pla
 https://hoktastream4.webcamera.pl/gmina_darlowo_cam_2807ee/gmina_darlowo_cam_2807ee.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",DAROWO - widok na pla wschodni
+#EXTINF:-1  group-title="Plaże",DAROWO - widok na pla wschodni
 https://hoktastream1.webcamera.pl/darlowo_cam_dc4e72/darlowo_cam_dc4e72.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",WICIE - widok na deptak
+#EXTINF:-1  group-title="Plaże",WICIE - widok na deptak
 https://hoktastream4.webcamera.pl/gmina_darlowo_cam_705510/gmina_darlowo_cam_705510.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",Dubaj... w Jarosawcu
+#EXTINF:-1  group-title="Plaże",Dubaj... w Jarosawcu
 https://hoktastream1.webcamera.pl/jaroslawiec_cam_bc9f03/jaroslawiec_cam_bc9f03.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",JAROSAWIEC - widok na deptak
+#EXTINF:-1  group-title="Plaże",JAROSAWIEC - widok na deptak
 https://hoktastream3.webcamera.pl/jaroslawiec_cam_1cced2/jaroslawiec_cam_1cced2.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",JAROSAWIEC - widok na pla
+#EXTINF:-1  group-title="Plaże",JAROSAWIEC - widok na pla
 https://hoktastream1.webcamera.pl/jaroslawiec_cam_40eca5/jaroslawiec_cam_40eca5.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",JAROSAWIEC - widok panoramiczny na morze NOWO
+#EXTINF:-1  group-title="Plaże",JAROSAWIEC - widok panoramiczny na morze NOWO
 https://hoktastream2.webcamera.pl/jarosprez_cam_fc31f4/jarosprez_cam_fc31f4.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",USTKA - widok z pylonu na cz portow i pla
+#EXTINF:-1  group-title="Plaże",USTKA - widok z pylonu na cz portow i pla
 https://hoktastream1.webcamera.pl/ustka_cam_4b0fca/ustka_cam_4b0fca.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",USTKA - widok na plae NOWO
+#EXTINF:-1  group-title="Plaże",USTKA - widok na Plaże NOWO
 https://hoktastream3.webcamera.pl/ustka_cam_104ebc/ustka_cam_104ebc.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",USTKA - widok na pla
+#EXTINF:-1  group-title="Plaże",USTKA - widok na pla
 https://hoktastream1.webcamera.pl/ustka_cam_4feffd/ustka_cam_4feffd.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",ROWY - widok na pla i morze
+#EXTINF:-1  group-title="Plaże",ROWY - widok na pla i morze
 https://hoktastream3.webcamera.pl/gminaustka_cam_294fb0/gminaustka_cam_294fb0.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",EBA - Kamera z widokiem na pla i morze
+#EXTINF:-1  group-title="Plaże",EBA - Kamera z widokiem na pla i morze
 https://hoktastream4.webcamera.pl/leba_cam_0d3c03/leba_cam_0d3c03.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",eba - widok na pla z Hotelu Neptun
+#EXTINF:-1  group-title="Plaże",eba - widok na pla z Hotelu Neptun
 https://hoktastream1.webcamera.pl/leba_cam_863fcf/leba_cam_863fcf.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",LUBIATOWO PLAA - NOWO
+#EXTINF:-1  group-title="Plaże",LUBIATOWO PLAA - NOWO
 https://hoktastream3.webcamera.pl/lubiatowo_cam_543fb2/lubiatowo_cam_543fb2.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",DBKI - widok na pla
+#EXTINF:-1  group-title="Plaże",DBKI - widok na pla
 https://hoktastream2.webcamera.pl/debki_cam_284a24/debki_cam_284a24.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",JASTRZBIA GRA - widok na pla
+#EXTINF:-1  group-title="Plaże",JASTRZBIA GRA - widok na pla
 https://hoktastream1.webcamera.pl/wladyslawowo_cam_250100/wladyslawowo_cam_250100.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",CHAPOWO widok panoramiczny na morze
+#EXTINF:-1  group-title="Plaże",CHAPOWO widok panoramiczny na morze
 https://hoktastream3.webcamera.pl/wladyslawowo_cam_2979bb/wladyslawowo_cam_2979bb.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",WADYSAWOWO - widok na pla
+#EXTINF:-1  group-title="Plaże",WADYSAWOWO - widok na pla
 https://hoktastream2.webcamera.pl/wladyslawowo_cam_459a14/wladyslawowo_cam_459a14.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",Surf People  wicej ni szkoa kitesurfingu i surfingu
+#EXTINF:-1  group-title="Plaże",Surf People  wicej ni szkoa kitesurfingu i surfingu
 https://hoktastream4.webcamera.pl/surfpeople_cam_2b2cbf/surfpeople_cam_2b2cbf.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",Karwia - widok na pla NOWO
+#EXTINF:-1  group-title="Plaże",Karwia - widok na pla NOWO
 https://hoktastream2.webcamera.pl/wladyslawowo_cam_3c51c2/wladyslawowo_cam_3c51c2.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",Kunica - Zatoka Pucka
+#EXTINF:-1  group-title="Plaże",Kunica - Zatoka Pucka
 https://hoktastream2.webcamera.pl/kuznica_cam_e87bf3/kuznica_cam_e87bf3.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",KUNICA - widok na pla NOWO
+#EXTINF:-1  group-title="Plaże",KUNICA - widok na pla NOWO
 https://hoktastream3.webcamera.pl/kuznica_cam_b7acd2/kuznica_cam_b7acd2.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",JASTARNIA - widok na Zatok Puck
+#EXTINF:-1  group-title="Plaże",JASTARNIA - widok na Zatok Puck
 https://hoktastream2.webcamera.pl/jastarnia_cam_a14385/jastarnia_cam_a14385.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",JURATA - widok na Molo
+#EXTINF:-1  group-title="Plaże",JURATA - widok na Molo
 https://hoktastream1.webcamera.pl/jurata_cam_c060aa/jurata_cam_c060aa.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",Jurata - widok na pla NOWO
+#EXTINF:-1  group-title="Plaże",Jurata - widok na pla NOWO
 https://hoktastream4.webcamera.pl/jurata_cam_24f25d/jurata_cam_24f25d.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",HEL - widok na marin
+#EXTINF:-1  group-title="Plaże",HEL - widok na marin
 https://hoktastream1.webcamera.pl/hel_cam_79fe71/hel_cam_79fe71.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",HEL - widok na bulwar i pla
+#EXTINF:-1  group-title="Plaże",HEL - widok na bulwar i pla
 https://hoktastream1.webcamera.pl/hel_cam_cf55ee/hel_cam_cf55ee.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",REWA - widok na Zatok Puck
+#EXTINF:-1  group-title="Plaże",REWA - widok na Zatok Puck
 https://hoktastream3.webcamera.pl/rewa_cam_c2a755/rewa_cam_c2a755.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",GDYNIA - widok na wejcie do Portu Morskiego i terminal
+#EXTINF:-1  group-title="Plaże",GDYNIA - widok na wejcie do Portu Morskiego i terminal
 https://hoktastream1.webcamera.pl/gdynia_cam_e257dc/gdynia_cam_e257dc.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",GDYNIA - widok na Przysta Jachtow
+#EXTINF:-1  group-title="Plaże",GDYNIA - widok na Przysta Jachtow
 https://hoktastream1.webcamera.pl/gdynia_cam_b3ccea/gdynia_cam_b3ccea.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",GDYNIA - widok na pla i marin
+#EXTINF:-1  group-title="Plaże",GDYNIA - widok na pla i marin
 https://hoktastream1.webcamera.pl/gdynia_cam_b80d1e/gdynia_cam_b80d1e.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",SOPOT - widok z molo
+#EXTINF:-1  group-title="Plaże",SOPOT - widok z molo
 https://hoktastream1.webcamera.pl/sopot_cam_e1c28f/sopot_cam_e1c28f.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",SOPOT - widok na Monciak
+#EXTINF:-1  group-title="Plaże",SOPOT - widok na Monciak
 https://hoktastream2.webcamera.pl/sopot_cam_7b9f92/sopot_cam_7b9f92.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",Gdask Brzeno - widok na Molo
+#EXTINF:-1  group-title="Plaże",Gdask Brzeno - widok na Molo
 https://hoktastream4.webcamera.pl/gdansk_cam_77aeaf/gdansk_cam_77aeaf.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",Plaa Stogi w Gdasku
+#EXTINF:-1  group-title="Plaże",Plaa Stogi w Gdasku
 https://hoktastream2.webcamera.pl/umgdansk_cam_e25623/umgdansk_cam_e25623.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",SOPOT - widok na pla NOWO
+#EXTINF:-1  group-title="Plaże",SOPOT - widok na pla NOWO
 https://hoktastream1.webcamera.pl/sopot_cam_5d1d8c/sopot_cam_5d1d8c.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",STEGNA - widok na pla
+#EXTINF:-1  group-title="Plaże",STEGNA - widok na pla
 https://hoktastream4.webcamera.pl/stegna_cam_c00d9b/stegna_cam_c00d9b.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",JANTAR - widok na plae
+#EXTINF:-1  group-title="Plaże",JANTAR - widok na Plaże
 https://hoktastream3.webcamera.pl/jantar_cam_8948dd/jantar_cam_8948dd.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",KTY RYBACKIE - widok na pla
+#EXTINF:-1  group-title="Plaże",KTY RYBACKIE - widok na pla
 https://hoktastream1.webcamera.pl/katyrybackie_cam_2d3c0c/katyrybackie_cam_2d3c0c.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plae",KRYNICA MORSKA - widok na pla
+#EXTINF:-1  group-title="Plaże",KRYNICA MORSKA - widok na pla
 https://hoktastream1.webcamera.pl/krynicamorska_cam_b92412/krynicamorska_cam_b92412.stream/playlist.m3u8
 #EXTINF:-1  group-title="TV",Aktualne warunki online z Orodkw Narciarskich w Polsce
 https://hoktastream4.webcamera.pl/nartypl_cam_fec03d/nartypl_cam_fec03d.stream/playlist.m3u8
@@ -865,7 +865,7 @@ https://hoktastream4.webcamera.pl/nartypl_cam_fec03d/nartypl_cam_fec03d.stream/p
 https://hoktastream2.webcamera.pl/tv_cam_656df8/tv_cam_656df8.stream/playlist.m3u8
 #EXTINF:-1  group-title="TV",Jesie w grach - 25 uj z kamer z widokiem na gry
 https://hoktastream1.webcamera.pl/tv_cam_9bb83d/tv_cam_9bb83d.stream/playlist.m3u8
-#EXTINF:-1  group-title="TV",Najpikniejsze Polskie Plae
+#EXTINF:-1  group-title="TV",Najpikniejsze Polskie Plaże
 https://hoktastream1.webcamera.pl/tv_cam_781381/tv_cam_781381.stream/playlist.m3u8
 #EXTINF:-1  group-title="TV",Holiday Park - Zator NOWO
 https://hoktastream4.webcamera.pl/holidaypark_cam_c90b83/holidaypark_cam_c90b83.stream/playlist.m3u8
@@ -873,7 +873,7 @@ https://hoktastream4.webcamera.pl/holidaypark_cam_c90b83/holidaypark_cam_c90b83.
 https://hoktastream3.webcamera.pl/molo_cam_042f05/molo_cam_042f05.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Szczecinek
 https://play.gawex.pl/szczecinek/zamek.stream/playlist.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia - Krosno Fara
+#EXTINF:-1  group-title="Kościoły",Parafia - Krosno Fara
 https://stream4.stimotion.pl/live/krosno12.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Srebrna Gra
 https://streaming.airmax.pl/srebrnatwierdza3/tracks-v1/mono.m3u8
@@ -941,127 +941,127 @@ https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/
 https://91-193-208-10.eimperium.pl/TVIMPERIUM/index.m3u8
 #EXTINF:-1  group-title="TV Polskie",ECHO TV
 https://echo24new.pl/LiveAppStreamECHO24/streams/GL0VksiIgQUS1672825288490.m3u8?token=undefined&subscriberId=undefined&subscriberCode=undefined?token=undefined&subscriberId=undefined&subscriberCode=undefined
-#EXTINF:-1  group-title="Kocioy",Parafia Najwitszego Serca Pana Jezusa w Koszcinie
+#EXTINF:-1  group-title="Kościoły",Parafia Najwitszego Serca Pana Jezusa w Koszcinie
 https://konto.tech5.pl:8108/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",SANKTUARIUM Matki Boej Bolesnej i Pocieszenia w Radomylu nad Sanem
+#EXTINF:-1  group-title="Kościoły",SANKTUARIUM Matki Boej Bolesnej i Pocieszenia w Radomylu nad Sanem
 https://kl6.tech5.pl:8039/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia pw. b. Marii Teresy Ledchowskiej w Muszynie
+#EXTINF:-1  group-title="Kościoły",Parafia pw. b. Marii Teresy Ledchowskiej w Muszynie
 https://kl6.tech5.pl:8071/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia Rzymskokatolicka pw. w. Stanisawa Biskupa i Mczennika w Nozdrzcu
+#EXTINF:-1  group-title="Kościoły",Parafia Rzymskokatolicka pw. w. Stanisawa Biskupa i Mczennika w Nozdrzcu
 https://kl6.tech5.pl:8105/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia p.w. w. Mikoaja w Rwnem
+#EXTINF:-1  group-title="Kościoły",Parafia p.w. w. Mikoaja w Rwnem
 https://kl6.tech5.pl:8102/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Transmisja z Parafii Matki Kocioa w Dbie
+#EXTINF:-1  group-title="Kościoły",Transmisja z Parafii Matki Kocioa w Dbie
 https://kl6.tech5.pl:8002/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia w. Mateusza Apostoa i Ewangelisty  Pasjonici Warszawa
+#EXTINF:-1  group-title="Kościoły",Parafia w. Mateusza Apostoa i Ewangelisty  Pasjonici Warszawa
 https://kl6.tech5.pl:8100/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Sanktuarium Matki Boej Racowej (Jezuici) Pozna
+#EXTINF:-1  group-title="Kościoły",Sanktuarium Matki Boej Racowej (Jezuici) Pozna
 https://kl6.tech5.pl:8095/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Dom zakonny Misjonarzy Oblatw Maryi Niepokalanej w Lublicu Koci grny
+#EXTINF:-1  group-title="Kościoły",Dom zakonny Misjonarzy Oblatw Maryi Niepokalanej w Lublicu Koci grny
 https://kl6a.tech5.pl:8098/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Dom zakonny Misjonarzy Oblatw Maryi Niepokalanej w Lublicu Koci dolny
+#EXTINF:-1  group-title="Kościoły",Dom zakonny Misjonarzy Oblatw Maryi Niepokalanej w Lublicu Koci dolny
 https://kl6.tech5.pl:8099/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Nowe Checho
+#EXTINF:-1  group-title="Kościoły",Nowe Checho
 https://kl6.tech5.pl:8097/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia. pw. w. Wojciecha w Gawuszowicach
+#EXTINF:-1  group-title="Kościoły",Parafia. pw. w. Wojciecha w Gawuszowicach
 https://kl6.tech5.pl:8096/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",PARAFIA RZYMSKOKATOLICKA pw. w. MICHAA ARCHANIOA w DOBRZANACH
+#EXTINF:-1  group-title="Kościoły",PARAFIA RZYMSKOKATOLICKA pw. w. MICHAA ARCHANIOA w DOBRZANACH
 https://kl6.tech5.pl:8081/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Koci parafialny  Wilczyska
+#EXTINF:-1  group-title="Kościoły",Koci parafialny  Wilczyska
 https://kl6.tech5.pl:8082/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia pw. Narodzenia NMP w Rozniszewie
+#EXTINF:-1  group-title="Kościoły",Parafia pw. Narodzenia NMP w Rozniszewie
 https://kl6.tech5.pl:8076/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Koci pw. NMP Niepokalanie Pocztej w Sierakowie
+#EXTINF:-1  group-title="Kościoły",Koci pw. NMP Niepokalanie Pocztej w Sierakowie
 https://kl6.tech5.pl:8074/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia Plancenoit  Belgia
+#EXTINF:-1  group-title="Kościoły",Parafia Plancenoit  Belgia
 https://kl6.tech5.pl:8062/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Chocianowice
+#EXTINF:-1  group-title="Kościoły",Chocianowice
 https://kl6.tech5.pl:8072/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia Podwyszenia Krzya w. w Lublicu
+#EXTINF:-1  group-title="Kościoły",Parafia Podwyszenia Krzya w. w Lublicu
 https://kl6.tech5.pl:8073/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia p. w. Matki Boskiej Nieustajcej Pomocy w Pyskowicach
+#EXTINF:-1  group-title="Kościoły",Parafia p. w. Matki Boskiej Nieustajcej Pomocy w Pyskowicach
 https://kl6.tech5.pl:8069/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia Rzymskokatolicka pw. w. Michaa Archanioa w Czempiniu
+#EXTINF:-1  group-title="Kościoły",Parafia Rzymskokatolicka pw. w. Michaa Archanioa w Czempiniu
 https://kl6.tech5.pl:8070/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Koci Rzymskokatolicki Pw. Matki Boej Racowej w Bykowie
+#EXTINF:-1  group-title="Kościoły",Koci Rzymskokatolicki Pw. Matki Boej Racowej w Bykowie
 https://kl6.tech5.pl:8075/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia p. w. Najwitszego Serca Pana Jezusa Wrocaw-Pawowice
+#EXTINF:-1  group-title="Kościoły",Parafia p. w. Najwitszego Serca Pana Jezusa Wrocaw-Pawowice
 https://kl6.tech5.pl:8059/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Wilno
+#EXTINF:-1  group-title="Kościoły",Wilno
 https://kl6.tech5.pl:8063/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia pw. Maksymiliana Marii Kolbego w Strzebielinie
+#EXTINF:-1  group-title="Kościoły",Parafia pw. Maksymiliana Marii Kolbego w Strzebielinie
 https://kl6.tech5.pl:8067/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia w. Stanisawa Biskupa i Mczennika. Bytom
+#EXTINF:-1  group-title="Kościoły",Parafia w. Stanisawa Biskupa i Mczennika. Bytom
 https://kl6.tech5.pl:8061/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia pw. w. Maksymiliana Marii Kolbego w Skroniowie
+#EXTINF:-1  group-title="Kościoły",Parafia pw. w. Maksymiliana Marii Kolbego w Skroniowie
 https://kl6.tech5.pl:8035/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia Niepokalanego Poczcia NMP w Wierbce
+#EXTINF:-1  group-title="Kościoły",Parafia Niepokalanego Poczcia NMP w Wierbce
 https://kl6.tech5.pl:8053/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia witego Brata Alberta w Radomiu
+#EXTINF:-1  group-title="Kościoły",Parafia witego Brata Alberta w Radomiu
 https://kl6.tech5.pl:8057/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia Matki Boej Krlowej wiata  Kisielice
+#EXTINF:-1  group-title="Kościoły",Parafia Matki Boej Krlowej wiata  Kisielice
 https://kl6.tech5.pl:8048/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia pw. w. Marcina i Najwitszej Maryi Panny Krlowej w Ochodzach
+#EXTINF:-1  group-title="Kościoły",Parafia pw. w. Marcina i Najwitszej Maryi Panny Krlowej w Ochodzach
 https://kl6.tech5.pl:8045/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia Najwitszego Serca Jezusowego w Radomiu
+#EXTINF:-1  group-title="Kościoły",Parafia Najwitszego Serca Jezusowego w Radomiu
 https://kl6.tech5.pl:8047/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia p.w. witego Jakuba Apostoa Skaryszew
+#EXTINF:-1  group-title="Kościoły",Parafia p.w. witego Jakuba Apostoa Skaryszew
 https://kl6.tech5.pl:8049/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Konkatedra Niepokalanego Serca NMP w Sokoowie Podlaskim
+#EXTINF:-1  group-title="Kościoły",Konkatedra Niepokalanego Serca NMP w Sokoowie Podlaskim
 https://kl6.tech5.pl:8056/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia Podwyszenia Krzya witego w Zawadzie
+#EXTINF:-1  group-title="Kościoły",Parafia Podwyszenia Krzya witego w Zawadzie
 https://kl6.tech5.pl:8054/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia w. Jzefa w Markuszowie
+#EXTINF:-1  group-title="Kościoły",Parafia w. Jzefa w Markuszowie
 https://kl6.tech5.pl:8025/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia Pasjonistw Rawa Mazowiecka
+#EXTINF:-1  group-title="Kościoły",Parafia Pasjonistw Rawa Mazowiecka
 https://kl6.tech5.pl:8033/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia Niepokalanego Serca Maryi. Otwock
+#EXTINF:-1  group-title="Kościoły",Parafia Niepokalanego Serca Maryi. Otwock
 https://kl6.tech5.pl:8037/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia NMP Krlowej Polski  Pionki
+#EXTINF:-1  group-title="Kościoły",Parafia NMP Krlowej Polski  Pionki
 https://kl6.tech5.pl:8040/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia Najwitszego Zbawiciela we Wocawku
+#EXTINF:-1  group-title="Kościoły",Parafia Najwitszego Zbawiciela we Wocawku
 https://kl6.tech5.pl:8030/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia w. Wawrzyca w Stolcu
+#EXTINF:-1  group-title="Kościoły",Parafia w. Wawrzyca w Stolcu
 https://kl6.tech5.pl:8028/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia pw. w. Stanisawa Biskupa w Lubatowej
+#EXTINF:-1  group-title="Kościoły",Parafia pw. w. Stanisawa Biskupa w Lubatowej
 https://kl6.tech5.pl:8024/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",ZAGRZ Parafia pw. WNMP. Sanktuarium Matki Nowego ycia
+#EXTINF:-1  group-title="Kościoły",ZAGRZ Parafia pw. WNMP. Sanktuarium Matki Nowego ycia
 https://kl6.tech5.pl:8060/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia Matki Boej Nieustajcej Pomocy w Jurkowie
+#EXTINF:-1  group-title="Kościoły",Parafia Matki Boej Nieustajcej Pomocy w Jurkowie
 https://kl6.tech5.pl:8044/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia pw. Matki BOEJ RACOWEJ W RUDCE
+#EXTINF:-1  group-title="Kościoły",Parafia pw. Matki BOEJ RACOWEJ W RUDCE
 https://cloudlive.pl:8058/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Koci w. Klemensa w Essen
+#EXTINF:-1  group-title="Kościoły",Koci w. Klemensa w Essen
 https://kl6.tech5.pl:8026/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia w. Jana Chrzciciela w Ornecie
+#EXTINF:-1  group-title="Kościoły",Parafia w. Jana Chrzciciela w Ornecie
 https://kl6.tech5.pl:8034/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia. pw. Matki Boej Czstochowskiej w Radomiu
+#EXTINF:-1  group-title="Kościoły",Parafia. pw. Matki Boej Czstochowskiej w Radomiu
 https://kl6.tech5.pl:8036/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia w. Rozalii i w. Marcina w Zagnasku
+#EXTINF:-1  group-title="Kościoły",Parafia w. Rozalii i w. Marcina w Zagnasku
 https://kl6.tech5.pl:8019/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia w. Rafaa w Radomiu
+#EXTINF:-1  group-title="Kościoły",Parafia w. Rafaa w Radomiu
 https://kl6.tech5.pl:8006/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia w. Jzefa w Sadowie
+#EXTINF:-1  group-title="Kościoły",Parafia w. Jzefa w Sadowie
 https://kl6.tech5.pl:8032/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia pw. w. Jadwigi Krlowej w Radomiu
+#EXTINF:-1  group-title="Kościoły",Parafia pw. w. Jadwigi Krlowej w Radomiu
 https://kl6.tech5.pl:8018/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia pw. b. Annuarity  w Radomiu
+#EXTINF:-1  group-title="Kościoły",Parafia pw. b. Annuarity  w Radomiu
 https://kl6.tech5.pl:8021/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia Chrystusa Krla w Radomiu
+#EXTINF:-1  group-title="Kościoły",Parafia Chrystusa Krla w Radomiu
 https://kl6.tech5.pl:8020/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia Boego Miosierdzia w Jale
+#EXTINF:-1  group-title="Kościoły",Parafia Boego Miosierdzia w Jale
 https://kamerylive.tech5.pl:8025/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia w. Michaa Archanioa Ropczyce-Witkowice
+#EXTINF:-1  group-title="Kościoły",Parafia w. Michaa Archanioa Ropczyce-Witkowice
 https://kamerylive.tech5.pl:8024/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Sanktuarium Najwitszej Maryi Panny Krlowej Raca w. w Wysokim Kole
+#EXTINF:-1  group-title="Kościoły",Sanktuarium Najwitszej Maryi Panny Krlowej Raca w. w Wysokim Kole
 https://kl6.tech5.pl:8013/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Parafia NSPJ Sanok  Posada
+#EXTINF:-1  group-title="Kościoły",Parafia NSPJ Sanok  Posada
 https://kl6.tech5.pl:8010/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Sanktuarium Matki Boej Rzeszowskiej
+#EXTINF:-1  group-title="Kościoły",Sanktuarium Matki Boej Rzeszowskiej
 https://kl6.tech5.pl:8004/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",Sanktuarium Matki Boej Rzeszowskiej. Kaplica Matki Boej
+#EXTINF:-1  group-title="Kościoły",Sanktuarium Matki Boej Rzeszowskiej. Kaplica Matki Boej
 https://kl6.tech5.pl:8005/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kocioy",KOCI p.w. PODWYSZENIA KRZYA WITEGO w CZASZYNIE
+#EXTINF:-1  group-title="Kościoły",KOCI p.w. PODWYSZENIA KRZYA WITEGO w CZASZYNIE
 https://kl6.tech5.pl:8052/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Termy Uniejw
 https://kamery.kol-net.pl:5443/HIKVISION/streams/va1O3NovRl1W1669376597373.m3u8?token=undefined&subscriberId=undefined&subscriberCode=undefined
