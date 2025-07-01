@@ -73,7 +73,7 @@ https://stream.malborskieswiatlowody.pl:18850/Jantar_Karmazyn/index.m3u8
 https://stream.malborskieswiatlowody.pl:18850/Stegna_Klif/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zalewo-pl.svg" group-title="Miasta",Zalewo
 https://s1.worldcam.live:8082/zalewo-fontanna/index.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/e/elblag-pl.svg" group-title="Miasta",Elbląg NOWO - widok na panoramę miasta
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/e/elblag-pl.svg" group-title="Miasta",Elbląg - widok na panoramę miasta
 https://hoktastream3.webcamera.pl/elblag_cam_e6c58e/elblag_cam_e6c58e.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/e/elblag-pl.svg" group-title="Miasta",Elbląg - widok na rzekę i Bulwar Zygmunta Augusta
 https://hoktastream3.webcamera.pl/elblag_cam_024df4/elblag_cam_024df4.stream/playlist.m3u8
@@ -107,7 +107,7 @@ https://stream.profnet.com.pl:1936/liverec/rondo.stream/playlist.m3u8
 https://ls.tkchopin.pl:9043/live/grudziadz_wisla_static.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/grudziadz-pl.svg" group-title="Miasta",Grudziądz z wieży Klimek
 https://cam.tvsm.pl/live/Klimek.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chelmno-pl.svg" group-title="Miasta",Chełmno - widok na starwk
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chelmno-pl.svg" group-title="Miasta",Chełmno - widok na starówkę
 https://hoktastream1.webcamera.pl/chelmno_cam_5e8601/chelmno_cam_5e8601.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/torun-pl.svg" group-title="Miasta",Toruń - widok na Rynek Staromiejski
 https://panolive.pl:8083/cam/torun1_sd/playlist.m3u8
