@@ -23,7 +23,7 @@ https://play.gawex.pl/drawsko/drawskopocztowa.stream/playlist.m3u8
 https://play.gawex.pl/kolobrzeg/kolobrzeglatarnia.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/bialogard-pl.svg" group-title="Miasta",Białogard
 https://1377.szczecin.pl/camss/streams/Bialogard.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/koszalin-pl.svg" group-title="Miasta",KOSZALIN - widok na Rynek Staromiejski NOWOŚĆ
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/koszalin-pl.svg" group-title="Miasta",KOSZALIN - widok na Rynek Staromiejski
 https://hoktastream3.webcamera.pl/koszalin_cam_24513e/koszalin_cam_24513e.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/darlowo-pl.svg" group-title="Miasta",Darłowo - widok na miasto
 https://hoktastream4.webcamera.pl/darlowo_cam_a25f1f/darlowo_cam_a25f1f.stream/playlist.m3u8
@@ -77,7 +77,7 @@ https://s1.worldcam.live:8082/zalewo-fontanna/index.m3u8
 https://kamery.tvbraniewo24.pl:5443/LiveApp/streams/818218270130948565038191.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/e/elblag-pl.svg" group-title="Miasta",Elbląg NOWOŚĆ - widok na panoramę miasta
 https://hoktastream3.webcamera.pl/elblag_cam_e6c58e/elblag_cam_e6c58e.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/e/elblag-pl.svg" group-title="Miasta",Elbląg - widok na rzekę i Bulwar Zygmunta Augusta NOWOŚĆ
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/e/elblag-pl.svg" group-title="Miasta",Elbląg - widok na rzekę i Bulwar Zygmunta Augusta
 https://hoktastream3.webcamera.pl/elblag_cam_024df4/elblag_cam_024df4.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kwidzyn-pl.svg" group-title="Miasta",Kwidzyń
 http://nebula.danar.net.pl:8080/Danar_Kwidzyn_Katedra/index.m3u8
@@ -113,7 +113,7 @@ https://cam.tvsm.pl/live/Klimek.stream/playlist.m3u8
 https://hoktastream1.webcamera.pl/chelmno_cam_5e8601/chelmno_cam_5e8601.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/torun-pl.svg" group-title="Miasta",Toruń - widok na Rynek Staromiejski
 https://panolive.pl:8083/cam/torun1_sd/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/torun-pl.svg" group-title="Miasta",Toruń - panorama miasta NOWOŚĆ
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/torun-pl.svg" group-title="Miasta",Toruń - panorama miasta
 https://hoktastream1.webcamera.pl/torun_cam_e412c4/torun_cam_e412c4.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/torun-pl.svg" group-title="Miasta",Toruń - Czerwona Droga
 https://mediaserwer.tvk.torun.pl/live4/mp4:kamera2.stream/playlist.m3u8
@@ -155,7 +155,7 @@ https://tvbrzesko.pl/kaja24/index.fmp4.m3u8
 https://hoktastream4.webcamera.pl/gorzow_cam_0e7519/gorzow_cam_0e7519.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gorzow-wielkopolski-pl.svg" group-title="Miasta",GORZÓW WIELKOPOLSKI - widok na Katedrę
 https://hoktastream2.webcamera.pl/gorzow_cam_0039e8/gorzow_cam_0039e8.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wrzesnia-pl.svg" group-title="Miasta",Września: Rzeczpospolita
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wrzesnia-pl.svg" group-title="Miasta",Września
 https://streaming.airmax.pl/03umigwrzesnia/tracks-v1/mono.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zielona-gora-pl.svg" group-title="Miasta",ZIELONA GÓRA - widok na panoramę miasta
 https://hoktastream4.webcamera.pl/zielonagora_cam_ed9042/zielonagora_cam_ed9042.stream/playlist.m3u8
@@ -163,13 +163,13 @@ https://hoktastream4.webcamera.pl/zielonagora_cam_ed9042/zielonagora_cam_ed9042.
 https://p.video.wroclaw.pl/intera/luban-park.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jelenia-gora-pl.svg" group-title="Miasta",Zamek Chojnik
 https://webcam.box3.pl/live/chojnik1/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zlotoryja-pl.svg" group-title="Miasta",Złotoryja - widok na Rynek NOWOŚĆ
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zlotoryja-pl.svg" group-title="Miasta",Złotoryja - widok na Rynek
 https://hoktastream3.webcamera.pl/zlotoryja_cam_0c5e15/zlotoryja_cam_0c5e15.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swieradow-zdroj-pl.svg" group-title="Miasta",Świeradów-Zdrój
 https://webcam.box3.pl/live/swieradowzdroj.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swieradow-zdroj-pl.svg" group-title="Miasta",Świeradów-Zdrój 2
 https://webcam.box3.pl:443/live/swieradowgondola.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jelenia-gora-pl.svg" group-title="Miasta",JELENIA GÓRA - widok na miasto NOWOŚĆ
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jelenia-gora-pl.svg" group-title="Miasta",JELENIA GÓRA - widok na miasto
 https://hoktastream1.webcamera.pl/jeleniagora_cam_377b56/jeleniagora_cam_377b56.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jelenia-gora-pl.svg" group-title="Miasta",JELENIA GÓRA - widok na Plac Piastowski
 https://hoktastream4.webcamera.pl/jeleniagora_cam_73a10c/jeleniagora_cam_73a10c.stream/playlist.m3u8
