@@ -90,7 +90,7 @@ http://online.um.suwalki.pl:1936/online/p.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/pisz-pl.svg" group-title="Miasta",Pisz: Rondo im. Lecha Kaczyńskiego
 https://cdn-13-go.toya.net.pl/kamery/pisz_rondokaczynskiego.m3u8?p=474f43414d005f5e0ff.88fe4f87437370683c1c00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/grajewo-pl.svg" group-title="Miasta",Panorama Grajewa
-https://s1.worldcam.live:8082/grajewo/index.m3u8
+https://s1.worldcam.live:8082/grajewo2/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/knyszyn-pl.svg" group-title="Miasta",Kamera Knyszyn Rynek
 https://knyszynkamery.firmaos.eu/kamera2/ramdisk/video.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/suprasl-pl.svg" group-title="Miasta",Supraśl
@@ -208,7 +208,7 @@ https://streaming.airmax.pl/ratuszopole1/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/walbrzych-pl.svg" group-title="Miasta",Wałbrzych Plac Na Rozdrożu
 https://streaming.airmax.pl/walbrzychpa/tracks-v1/mono.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/raciborz-pl.svg" group-title="Miasta",Racibórz
-https://video.raciborz24.pl/hls/rynek.m3u8
+https://video.raciborz24.pl/hls/dworzecpkp.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Pieszyce Wielka Sowa
 https://kamery.emnetgluszyca.pl:5443/LiveApp/streams/ZJOxqQjE5rMaCYOO1737705272155.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/paczkow-1-pl.svg" group-title="Miasta",Paczków Panorama
