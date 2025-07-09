@@ -133,8 +133,10 @@ https://hoktastream3.webcamera.pl/bydgoszcz_cam_406fa8/bydgoszcz_cam_406fa8.stre
 https://s1.worldcam.live:8082/bydgoszcz-panorama/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/pila-pl.svg" group-title="Miasta",Piła
 https://5cce8c6f0e84c.streamlock.net/live/smil:PlayStream1.smil/playlist.m3u8
-#EXT-X-MEDIA-SEQUENCE:1087 
+#EXT-X-VERSION:3
+#EXT-X-MEDIA-SEQUENCE:1087
 #EXT-X-TARGETDURATION:2
+#EXTINF:2.000
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chojnice-pl.svg" group-title="Miasta",Chojnice
 https://www.chojnice.com/hls/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wagrowiec-pl.svg" group-title="Miasta",Wągrowiec
