@@ -326,7 +326,7 @@ https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam12.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/tarnow-pl.svg" group-title="Miasta",Rynek miejski w Tarnowie
 https://hoktastream3.webcamera.pl/tarnow_cam_d0e19c/tarnow_cam_d0e19c.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/K/krosno-pl.svg" group-title="Miasta",Krosno
-https://stream4.stimotion.pl/live/krosno1.m3u8
+https://stream4.stimotion.pl/live/krosno8.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/I/Iwonicz-zdroj-pl.svg" group-title="Miasta",Iwonicz Zdrój
 https://stream4.stimotion.pl/live/iwonicz2.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/I/Iwonicz-zdroj-pl.svg" group-title="Miasta",Iwonicz Zdrój - Plac Dietla
@@ -421,6 +421,8 @@ https://kamery.itvmedia.pl/kamsr/kamera1/playlist.m3u8
 https://streaming.airmax.pl/umserock1/tracks-v1/mono.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/grodzisk-mazowiecki-pl.svg" group-title="Miasta",Grodzisk Mazowiecki
 https://kamery.grodzisk.pl/memfs/9b5b850c-27b1-4ba9-9e2c-8c1d8f5b58af.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jeruzal-pl.svg" group-title="Miasta",Jeruzal - Ranczo Wilkowyje/Mińsk Mazowiecki
+https://stream4.stimotion.pl/live/jeruzal2.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/warszawa-pl.svg" group-title="Miasta",WARSZAWA - widok na Pałac Kultury i Nauki
 https://hoktastream2.webcamera.pl/warszawa_cam_d0fc4d/warszawa_cam_d0fc4d.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/warszawa-pl.svg" group-title="Miasta",WIDOK NA PLAC ZAMKOWY W WARSZAWIE
