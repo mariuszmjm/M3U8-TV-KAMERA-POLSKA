@@ -115,10 +115,10 @@ https://panolive.pl:8083/cam/torun1_sd/playlist.m3u8
 https://panolive.pl:8083/cam/torun2_sd/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/torun-pl.svg" group-title="Miasta",Toruń - Czerwona Droga
 https://mediaserwer.tvk.torun.pl/live4/mp4:kamera2.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/ciechocinek-pl.svg" group-title="Miasta",Ciechocinek - Fontanna Grzybek
-https://stream2.ittam.pl:5443/WebRTCApp/streams/290708883039491885912420.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/ciechocinek-pl.svg" group-title="Miasta",Ciechocinek - kamera Tężnia 1
-https://stream2.ittam.pl:5443/WebRTCApp/streams/221303230134259141207236.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/ciechocinek-pl.svg" group-title="Miasta",Ciechocinek - Partery Hellwiga
+https://stream2.ittam.pl:5443/WebRTCApp/streams/177125681983647608556760.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/ciechocinek-pl.svg" group-title="Miasta",Ciechocinek - Wodny plac zabaw
+https://stream2.ittam.pl:5443/WebRTCApp/streams/918996469770748831631839.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kowal-pl.svg" group-title="Miasta",Kowal
 https://kamery.vcn.pl/play/hls/Kowal3/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/plock-pl.svg" group-title="Miasta",Płock
