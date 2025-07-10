@@ -160,13 +160,13 @@ https://hoktastream4.webcamera.pl/zielonagora_cam_ed9042/zielonagora_cam_ed9042.
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/luban-pl.svg" group-title="Miasta",Lubań
 https://p.video.wroclaw.pl/intera/luban-park.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jelenia-gora-pl.svg" group-title="Miasta",Zamek Chojnik
-https://webcam.box3.pl/live/chojnik1/playlist.m3u8
+https://webcam10.zachodnia.tv/live/jelenia_chojnik.stream/playlist.m3u8?wowzatokenendtime=1752150096&wowzatokenstarttime=1752148896&wowzatokenCustomParam1=CustomValue&wowzatokenhash=q2IzBiPCqk8kMsUK2VexrC3v862G5bZ0RjaTgsjySJA=
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zlotoryja-pl.svg" group-title="Miasta",Złotoryja
 https://streaming.airmax.pl/zlotoryja_panorama/tracks-v1/mono.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swieradow-zdroj-pl.svg" group-title="Miasta",świeradów-Zdrój
-https://webcam.box3.pl/live/swieradowzdroj.stream/playlist.m3u8
+https://webcam10.zachodnia.tv/live/swieradow_zdroj.stream/playlist.m3u8?wowzatokenendtime=1752150169&wowzatokenstarttime=1752148969&wowzatokenCustomParam1=CustomValue&wowzatokenhash=ObGpSMDoJRALmPeSS3-42HuiccScUUjNxGREBQzT4xE=
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swieradow-zdroj-pl.svg" group-title="Miasta",Świeradów-Zdrój 2
-https://webcam.box3.pl:443/live/swieradowgondola.stream/playlist.m3u8
+https://webcam10.zachodnia.tv/live/swieradow_gondola.stream/playlist.m3u8?wowzatokenendtime=1752150215&wowzatokenstarttime=1752149015&wowzatokenCustomParam1=CustomValue&wowzatokenhash=E9Ir07qI31FIiKYAG2ffsglmbgyYjGWBG6sd0otJTK4=
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jelenia-gora-pl.svg" group-title="Miasta",JELENIA GÓRA - widok na miasto
 https://hoktastream1.webcamera.pl/jeleniagora_cam_377b56/jeleniagora_cam_377b56.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jelenia-gora-pl.svg" group-title="Miasta",JELENIA GÓRA - widok na Plac Piastowski
@@ -336,7 +336,7 @@ https://cdn2.bieszczady.live/hls-live/sanok1mick/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/cisna-pl.svg" group-title="Miasta",Cisna
 https://cdn2.bieszczady.live/hls-live/muczne1/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/U/Ustrzyki-dolne-pl.svg" group-title="Miasta",Ustrzyki Dolne: Market square
-http://streaming.ustrzyki-dolne.pl:60554/live/mp4:Kamera_Rynek.stream/playlist.m3u8
+https://cdn2.bieszczady.live/hls-live/UMustrzykiRynek/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/a/arlamow-pl.svg" group-title="Miasta",Ustrzyki Dolne Hotel Arlamów
 https://cdn2.bieszczady.live/hls-live/arlamow8/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kroscienko-pl.svg" group-title="Miasta",Krościenko
