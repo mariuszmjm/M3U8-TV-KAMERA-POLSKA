@@ -1264,7 +1264,7 @@ https://outbound-production.explore.org/stream-production-802/.m3u8
 #EXTINF:-1  group-title="Miasta",Busko Zdrj
 https://vm2.umig.busko.pl/webcam/cam13.m3u8
 #EXTINF:-1  group-title="Miasta",Stalowa Wola
-https://stream.tvkstella.pl/stella/kamera4.m3u8
+http://stream.tvkstella.pl/stella/kamera1.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Stary Scz
 https://online2.kamery24.org/cam/janpawel.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",witynia Wang
