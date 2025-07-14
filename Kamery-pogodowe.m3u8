@@ -436,7 +436,7 @@ https://hoktastream3.webcamera.pl/warszawa_cam_42ced4/warszawa_cam_42ced4.stream
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/warszawa-pl.svg" group-title="Miasta",Warszawa - widok na Stadion Narodowy
 https://hoktastream1.webcamera.pl/warszawa_cam_f2b95c/warszawa_cam_f2b95c.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/warszawa-pl.svg" group-title="Miasta",Warszawa - Panorama
-https://livecdn-de-earthtv-com.global.ssl.fastly.net/edge0/cdnedge/IAfNWvoAB4c/playlist.m3u8?token=EAIY6wE45JvqcECgOEgF.CgdlYXJ0aHR2EAEyC0lBZk5XdUVBQjRZOgtJQWZOV3ZvQUI0Yw.vtd_TW1l-kl8kY6vXwOraUvTUgO--BAG_dSIISsTER-pjwiuqw_eZoTkveZaFUYuRwK3xECsea5SwO-OrHU_Cw&domain=www.earthtv.com
+https://live.wizjer.pl/WarsawLive/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Marina TRZEBIEŻ
 https://hoktastream3.webcamera.pl/MarinaTrzebiez_cam_3942c2/MarinaTrzebiez_cam_3942c2.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Wdzydze - Bory Tucholskie
@@ -1361,3 +1361,5 @@ https://hls-spb03.timetechnology.ru:8080/1431/hls/33qjdyx5l645e6gx/live.m3u8
 https://streaming.airmax.pl/umserock2/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Sabat Krajno
 https://s148.ipcamlive.com/streams/94zpclflwtrqfhgio/stream.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Trójstyk Wisztyniec
+http://217.182.74.242/stream1.m3u8
