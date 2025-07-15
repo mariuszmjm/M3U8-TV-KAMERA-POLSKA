@@ -89,8 +89,8 @@ https://hoktastream4.webcamera.pl/gizycko_cam_82df5c/gizycko_cam_82df5c.stream/p
 http://online.um.suwalki.pl:1936/online/p.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/pisz-pl.svg" group-title="Miasta",Pisz: Rondo im. Lecha Kaczyńskiego
 https://cdn-13-go.toya.net.pl/kamery/pisz_rondokaczynskiego.m3u8?p=474f43414d005f5e0ff.88fe4f87437370683c1c00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/grajewo-pl.svg" group-title="Miasta",Panorama Grajewa
-https://s1.worldcam.live:8082/grajewo2/index.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/e/elk-pl.svg" group-title="Miasta",Ełk
+https://live.miasto.elk.pl/LiveApp/streams/74sEc6HLzzcoob7d46723085361333.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/knyszyn-pl.svg" group-title="Miasta",Kamera Knyszyn Rynek
 https://knyszynkamery.firmaos.eu/kamera2/ramdisk/video.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/suprasl-pl.svg" group-title="Miasta",Supraśl
