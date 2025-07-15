@@ -65,8 +65,8 @@ https://ls.tkchopin.pl:9043/live/gniew_widok_rynek_wieza_kosciola_static.stream/
 https://stream.malborskieswiatlowody.pl:18850/Zamek_Parkowa_WEB1/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/m/malbork-pl.svg" group-title="Miasta",Malbork
 https://stream.malborskieswiatlowody.pl:18850/Mainsoft_Plac_Slowianski/index.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/sztum-pl.svg" group-title="Miasta",Widok z Urzędu Miasta i Gminy w Sztumie
-https://stream.malborskieswiatlowody.pl:18850/Sztum_rondo_urzad/index.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/tczew-pl.svg" group-title="Miasta",Panorama Tczewa - Rondo JP2
+https://panoramatczewa.pl/memfs/588aa0cf-d99a-4f7d-88e6-d9dd41401417.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jantar-pl.svg" group-title="Miasta",Jantar - Bar Karmazyn
 https://stream.malborskieswiatlowody.pl:18850/Jantar_Karmazyn/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/stegna-pl.svg" group-title="Miasta",Stegna
@@ -221,8 +221,6 @@ https://hoktastream3.webcamera.pl/gliwice_cam_c28bda/gliwice_cam_c28bda.stream/p
 https://cdn-13-go.toya.net.pl/kamery/mysl_grunwaldzka.m3u8?p=474f43414d005f5e0ff.ec376048a51ca4a82e9a00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/dabrowa-gornicza-pl.svg" group-title="Miasta",Dąbrowa Górnicza
 https://kam1.dabrowa-gornicza.pl:4443/video-pkz-hires/vi.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/katowice-pl.svg" group-title="Miasta",Katowice - widok na Spodek i Rondo Ziętka
-https://hoktastream2.webcamera.pl/katowice_cam_2bcad5/katowice_cam_2bcad5.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/o/oswiecim-pl.svg" group-title="Miasta",Oświęcim - widok na Rynek
 https://hoktastream4.webcamera.pl/oswiecim_cam_f19b05/oswiecim_cam_f19b05.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chorzow-pl.svg" group-title="Miasta",Chorzów  Serce Górnego Śląska
