@@ -107,7 +107,7 @@ https://stream.profnet.com.pl:1936/liverec/rondo.stream/playlist.m3u8
 https://ls.tkchopin.pl:9043/live/grudziadz_wisla_static.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/grudziadz-pl.svg" group-title="Miasta",Grudziądz z wieży Klimek
 https://cam.tvsm.pl/live/Klimek.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chelmno-pl.svg" group-title="Miasta",Chełmno - widok na starówkę
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chelmno-pl.svg" group-title="Miasta",Chełmno - widok na Starówkę
 https://hoktastream1.webcamera.pl/chelmno_cam_5e8601/chelmno_cam_5e8601.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/torun-pl.svg" group-title="Miasta",Toruń - widok na Rynek Staromiejski
 https://panolive.pl:8083/cam/torun1_sd/playlist.m3u8
@@ -149,9 +149,9 @@ https://s1.worldcam.live:8082/gniezno3/index.m3u8
 https://s1.worldcam.live:8082/glogow2/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/leszno-pl.svg" group-title="Miasta",Leszno Rynek
 https://tvbrzesko.pl/kaja24/index.fmp4.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gorzow-wielkopolski-pl.svg" group-title="Miasta",GORZóW WIELKOPOLSKI - panorama na miasto
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gorzow-wielkopolski-pl.svg" group-title="Miasta",GORZÓW WIELKOPOLSKI - panorama na miasto
 https://hoktastream4.webcamera.pl/gorzow_cam_0e7519/gorzow_cam_0e7519.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gorzow-wielkopolski-pl.svg" group-title="Miasta",GORZóW WIELKOPOLSKI - widok na Katedrę
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gorzow-wielkopolski-pl.svg" group-title="Miasta",GORZÓW WIELKOPOLSKI - widok na Katedrę
 https://hoktastream2.webcamera.pl/gorzow_cam_0039e8/gorzow_cam_0039e8.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wrzesnia-pl.svg" group-title="Miasta",Września
 https://streaming.airmax.pl/03umigwrzesnia/tracks-v1/mono.m3u8
@@ -403,7 +403,7 @@ https://1470969865.rsc.cdn77.org/live/lAK611.stream/playlist.m3u8
 https://hoktastream1.webcamera.pl/nocowanie_cam_0c89d6/nocowanie_cam_0c89d6.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kielce-pl.svg" group-title="Miasta",Kielce
 https://nazywo.emkielce.pl/live/em2-radio/index.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kielce-pl.svg" group-title="Miasta",KIELCE - widok na Rynek zwany Kielecką Starówką
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kielce-pl.svg" group-title="Miasta",KIELCE - widok na Kielecką Starówką
 https://hoktastream4.webcamera.pl/kielcerynek_cam_6913aa/kielcerynek_cam_6913aa.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wloszczowa-pl.svg" group-title="Miasta",Włoszczowa
 https://www.cnet24.pl/stream/kam07.m3u8
@@ -467,7 +467,7 @@ https://hoktastream1.webcamera.pl/burnit_cam_fb8ba3/burnit_cam_fb8ba3.stream/pla
 https://hoktastream2.webcamera.pl/mragowo_cam_9b8f18/mragowo_cam_9b8f18.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",RYN - Widok na Marinę
 https://hoktastream4.webcamera.pl/ryn_cam_540c92/ryn_cam_540c92.stream/playlist.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",MIKOAŁJKI - widok na port
+#EXTINF:-1  group-title="Jeziora i inne miejsca",MIKOŁAJKI - widok na port
 https://hoktastream1.webcamera.pl/skywind_cam_267ae1/skywind_cam_267ae1.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",GIŻYCKO - Widok na Jezioro Niegocin
 https://hoktastream4.webcamera.pl/gizycko_cam_a96a04/gizycko_cam_a96a04.stream/playlist.m3u8
@@ -491,7 +491,7 @@ https://hoktastream4.webcamera.pl/krasocin_cam_42cdc1/krasocin_cam_42cdc1.stream
 https://hoktastream1.webcamera.pl/pszow2_cam_4b93fa/pszow2_cam_4b93fa.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Międzyrzecze - widok na karmnik
 https://hoktastream1.webcamera.pl/SPM_cam_936d84/SPM_cam_936d84.stream/playlist.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Mucharskie - Zapora w Świnnej Porbie
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Mucharskie - Zapora w Świnnej Porębie
 https://hstream2.webcamera.pl/poreba_cam_e71a81/poreba_cam_e71a81.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Przystań Flisacka w Sromowcach Wyżnych
 https://hoktastream2.webcamera.pl/flisacy_cam_35a158/flisacy_cam_35a158.stream/playlist.m3u8
@@ -503,7 +503,7 @@ https://hoktastream2.webcamera.pl/dinolandia_cam_e38111/dinolandia_cam_e38111.st
 https://hoktastream1.webcamera.pl/molo_cam_b12e5a/molo_cam_b12e5a.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Lanckorona - widok na rynek
 https://hstream2.webcamera.pl/lanckorona_cam_fdeac0/lanckorona_cam_fdeac0.stream/playlist.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Ronowskie - NOWO
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Rożnowskie
 https://hoktastream3.webcamera.pl/roznowskie_cam_c06f62/roznowskie_cam_c06f62.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Polańczyk - widok na Jezioro Solińskie
 https://hoktastream1.webcamera.pl/polanczyk_cam_aa8511/polanczyk_cam_aa8511.stream/playlist.m3u8
@@ -521,31 +521,31 @@ https://hoktastream1.webcamera.pl/bukovina_cam_7aa04f/bukovina_cam_7aa04f.stream
 https://hoktastream1.webcamera.pl/bukovina_cam_04f738/bukovina_cam_04f738.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Panorama z Twierdzy Kłodzko
 https://stream.devices.pl:5443/LiveApp/streams/498779877563728532759860.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Polaczyk - widok na Jezioro Solińskie
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Polańczyk - widok na Jezioro Solińskie
 https://hoktastream1.webcamera.pl/polanczyk_cam_d1e2d8/polanczyk_cam_d1e2d8.stream/playlist.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Zegrzyskie
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Zegrzyńskie
 https://streaming.airmax.pl/umserock2/index.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia p.w. Miłosierdzia Bożego Zakopane - Chramcówki
 https://hoktastream2.webcamera.pl/chramcowki_cam_616201/chramcowki_cam_616201.stream/playlist.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia pw. w. Mateusza w Gniewczynie acuckiej Archidiecezja Przemyska
+#EXTINF:-1  group-title="Kościoły",Parafia pw. Św. Mateusza w Gniewczynie Łańcuckiej Archidiecezja Przemyska
 https://hoktastream2.webcamera.pl/okocam_cam_79ccd6/okocam_cam_79ccd6.stream/playlist.m3u8
-#EXTINF:-1  group-title="Kościoły",Archidiecezja Przemysko-Warszawska Kocioa Grekokatolickiego w Polsce
+#EXTINF:-1  group-title="Kościoły",Archidiecezja Przemysko-Warszawska Kocioła Grekokatolickiego w Polsce
 https://hoktastream4.webcamera.pl/okocam_cam_9f90fb/okocam_cam_9f90fb.stream/playlist.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia pw. w. Mateusza w Gniewczynie acuckiej Archidiecezja Przemyska
+#EXTINF:-1  group-title="Kościoły",Parafia pw. Św. Mateusza w Gniewczynie Łańcuckiej Archidiecezja Przemyska
 https://hoktastream1.webcamera.pl/okocam_cam_53c87e/okocam_cam_53c87e.stream/playlist.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia świętego Urbana w Roczynach
 https://hoktastream1.webcamera.pl/roczyny_cam_39e2ab/roczyny_cam_39e2ab.stream/playlist.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia pw. w. Brata Alberta Jarosaw - Szwsko
+#EXTINF:-1  group-title="Kościoły",Parafia pw. Św. Brata Alberta Jarosław
 https://hoktastream2.webcamera.pl/okocam_cam_79ccd6/okocam_cam_79ccd6.stream/playlist.m3u8
-#EXTINF:-1  group-title="Kościoły",Klasztor oo. Dominikanw w Jarosawiu Parafia Matki Bożej Bolesnej
+#EXTINF:-1  group-title="Kościoły",Klasztor oo. Dominikanów w Jarosławiu Parafia Matki Bożej Bolesnej
 https://hoktastream4.webcamera.pl/okocam_cam_811fa8/okocam_cam_811fa8.stream/playlist.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia Wniebowzicia Najwitszej Maryi Panny w Radlinie - Biertutowach
+#EXTINF:-1  group-title="Kościoły",Parafia Wniebowzięcia Najświętszej Maryi Panny w Radlinie - Biertutowach
 https://hoktastream1.webcamera.pl/radlin_cam_3a81bf/radlin_cam_3a81bf.stream/playlist.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia w. Mikoaja w Witanowicach
+#EXTINF:-1  group-title="Kościoły",Parafia św. Mikołaja w Witanowicach
 https://hoktastream2.webcamera.pl/witanowice_cam_09d640/witanowice_cam_09d640.stream/playlist.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia świętego Stanisława - Biskupa i Mczennika w Andrychowie
+#EXTINF:-1  group-title="Kościoły",Parafia świętego Stanisława - Biskupa i Męczennika w Andrychowie
 https://hoktastream2.webcamera.pl/parafiaandrychow_cam_18fe7d/parafiaandrychow_cam_18fe7d.stream/playlist.m3u8
-#EXTINF:-1  group-title="Kościoły",Archidiecezja Przemysko-Warszawska Kocioa Grekokatolickiego w Polsce
+#EXTINF:-1  group-title="Kościoły",Archidiecezja Przemysko-Warszawska Kocioła Grekokatolickiego w Polsce
 https://hoktastream4.webcamera.pl/okocam_cam_9f90fb/okocam_cam_9f90fb.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",Kotlinka Szymbark
 https://hoktastream3.webcamera.pl/kotlinkaszymbark_cam_5d869c/kotlinkaszymbark_cam_5d869c.stream/playlist.m3u8
@@ -553,15 +553,15 @@ https://hoktastream3.webcamera.pl/kotlinkaszymbark_cam_5d869c/kotlinkaszymbark_c
 https://hoktastream1.webcamera.pl/wiezyca_cam_b79e09/wiezyca_cam_b79e09.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",WIEŻYCA - Koszałkowo
 https://hoktastream2.webcamera.pl/wiezyca_cam_64129e/wiezyca_cam_64129e.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Kurzętnik - Wieża Widokowa NOWO
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Kurzętnik - Wieża Widokowa
 https://hoktastream2.webcamera.pl/kurzagora_cam_b1bcb1/kurzagora_cam_b1bcb1.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",Kurza Góra - widok z dolnej stacji
 https://hoktastream4.webcamera.pl/kurzagora_cam_32863f/kurzagora_cam_32863f.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Kurza Góra na Mazurach - widok na lodowisko NOWO
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Kurza Góra na Mazurach - widok na lodowisko
 https://hoktastream2.webcamera.pl/kurzagora_cam_60e702/kurzagora_cam_60e702.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",RYBNO SKI - widok na stok
 https://hoktastream4.webcamera.pl/rybno_cam_1bbabb/rybno_cam_1bbabb.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",wieradw Ski&Sun - dolna stacja
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Świeradw Ski&Sun - dolna stacja
 https://hoktastream3.webcamera.pl/skywind_cam_0aa7a8/skywind_cam_0aa7a8.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",Ski & Sun - Świeradów
 https://hoktastream1.webcamera.pl/skywind_cam_698693/skywind_cam_698693.stream/playlist.m3u8
@@ -575,7 +575,7 @@ https://hoktastream1.webcamera.pl/sudetylift_cam_49a571/sudetylift_cam_49a571.st
 https://hoktastream1.webcamera.pl/zieleniec_cam_fd1045/zieleniec_cam_fd1045.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",Centrum Rekreacji i Sportu - KOLOROWA w Karpaczu
 https://hoktastream2.webcamera.pl/kolorowa_cam_9da325/kolorowa_cam_9da325.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Przecz Sokola - Narty Rzeczka Gry Sowie
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Przełęcz Sokola - Narty Rzeczka Góry Sowie
 https://hoktastream4.webcamera.pl/sokola_cam_accadc/sokola_cam_accadc.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",Zieleniec Sport Arena - Mieszko
 https://hoktastream3.webcamera.pl/mieszko_cam_e91841/mieszko_cam_e91841.stream/playlist.m3u8
@@ -599,45 +599,45 @@ https://hoktastream4.webcamera.pl/czarnygron_cam_c216b8/czarnygron_cam_c216b8.st
 https://hoktastream3.webcamera.pl/enet24_cam_a07089/enet24_cam_a07089.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",COS SZCZYRK - widok na skocznie narciarską
 https://hoktastream3.webcamera.pl/cos_cam_e40c85/cos_cam_e40c85.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Szczyrk - Beskid Sport Arena - widok na doln stacj
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Szczyrk - Beskid Sport Arena - widok na dolną stację
 https://hoktastream2.webcamera.pl/beskidsport_cam_df0e9e/beskidsport_cam_df0e9e.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",SKRZYCZNE - SZCZYRK
 https://hoktastream1.webcamera.pl/cos_cam_877af9/cos_cam_877af9.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",YWIEC - widok na Kotlinę żywiecką
+#EXTINF:-1  group-title="Gry, stoki narciarskie",ŻYWIEC - widok na Kotlinę żywiecką
 https://hoktastream1.webcamera.pl/zywiec_cam_1ce519/zywiec_cam_1ce519.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",ZBÓJNICKA KOPA - SZCZYRK MOUNTAIN RESORT
 https://hoktastream4.webcamera.pl/tmr_cam_bbce85/tmr_cam_bbce85.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",HALA POŚREDNIA - SZCZYRK MOUNTAIN RESORT
 https://hoktastream4.webcamera.pl/tmr_cam_fa206f/tmr_cam_fa206f.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Wisa Skolnity Ski&Bike Park  widok na 4 osobową kolej krzesełkową
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Wisła Skolnity Ski&Bike Park  widok na 4 osobową kolej krzesełkową
 https://hoktastream1.webcamera.pl/skolnity_cam_160b81/skolnity_cam_160b81.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",WISA HOTEL STOK Stacja narciarska w Wile
+#EXTINF:-1  group-title="Gry, stoki narciarskie",WISŁA HOTEL STOK Stacja narciarska w Wiśle
 https://hoktastream1.webcamera.pl/hotelstok_cam_34cb8d/hotelstok_cam_34cb8d.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Hotel Stok w Wile - widok na tor saneczkowy
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Hotel Stok w Wiśle - widok na tor saneczkowy
 https://hoktastream3.webcamera.pl/hotelstok_cam_96120f/hotelstok_cam_96120f.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",Tatry - widok na panoramę gór
 https://hoktastream1.webcamera.pl/skywind_cam_1f9295/skywind_cam_1f9295.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Widok na szkółkę narciarski w Zotym Groniu
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Widok na szkółkę narciarską w Złotym Groniu
 https://hoktastream4.webcamera.pl/zlotygron_cam_e71b07/zlotygron_cam_e71b07.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",Zwardoń Ski
 https://hoktastream1.webcamera.pl/zwardon_cam_f2eb17/zwardon_cam_f2eb17.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",CZANTORIA -ski Ustroń
 https://hoktastream1.webcamera.pl/czantoria_cam_2321a8/czantoria_cam_2321a8.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Hotel Stok w Wile - widok na tor saneczkowy
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Hotel Stok w Wiśle - widok na tor saneczkowy
 https://hoktastream3.webcamera.pl/hotelstok_cam_96120f/hotelstok_cam_96120f.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",WISA HOTEL STOK - Stacja Narciarska
+#EXTINF:-1  group-title="Gry, stoki narciarskie",WISŁA HOTEL STOK - Stacja Narciarska
 https://hoktastream4.webcamera.pl/hotelstok_cam_77f104/hotelstok_cam_77f104.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",WISA SOSZW - widok na bramki
+#EXTINF:-1  group-title="Gry, stoki narciarskie",WISŁA SOSZÓW - widok na bramki
 https://hoktastream2.webcamera.pl/wisla-soszow_cam_9d29ac/wisla-soszow_cam_9d29ac.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Wisa SOSZW - NOWO
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Wisła SOSZÓW
 https://hoktastream4.webcamera.pl/wisla-soszow_cam_ef1521/wisla-soszow_cam_ef1521.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",Laskowa-ski - widok z dolnej stacji
 https://hoktastream1.webcamera.pl/laskowa_cam_fad086/laskowa_cam_fad086.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Limanowa SKI widok z grnej stacji
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Limanowa SKI widok z górnej stacji
 https://hoktastream1.webcamera.pl/limanowaski_cam_e4b0cc/limanowaski_cam_e4b0cc.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",KASINA - ski
 https://hoktastream4.webcamera.pl/snieznica_cam_d24f3f/snieznica_cam_d24f3f.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",KASINA - SKI - widok z grnej stacji
+#EXTINF:-1  group-title="Gry, stoki narciarskie",KASINA - SKI - widok z górnej stacji
 https://hoktastream4.webcamera.pl/snieznica_cam_9975a0/snieznica_cam_9975a0.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",Harbutowice - Szklana Góra
 https://hoktastream1.webcamera.pl/szklanagora_cam_3eccfd/szklanagora_cam_3eccfd.stream/playlist.m3u8
@@ -655,7 +655,7 @@ https://hoktastream1.webcamera.pl/spytkowice_cam_b0f435/spytkowice_cam_b0f435.st
 https://hoktastream1.webcamera.pl/pkl_cam_fa9db5/pkl_cam_fa9db5.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",Rzepiska - Tatry
 https://hoktastream1.webcamera.pl/airnet_cam_d60f3c/airnet_cam_d60f3c.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",KUNICE kolej na Kasprowy Wierch - stacja dolna
+#EXTINF:-1  group-title="Gry, stoki narciarskie",KUŹNICE kolej na Kasprowy Wierch - stacja dolna
 https://hoktastream2.webcamera.pl/pkl_cam_473633/pkl_cam_473633.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",Wielka Krokiew w Zakopanem
 https://hoktastream4.webcamera.pl/wielka-krokiew_cam_4adb77/wielka-krokiew_cam_4adb77.stream/playlist.m3u8
@@ -663,55 +663,55 @@ https://hoktastream4.webcamera.pl/wielka-krokiew_cam_4adb77/wielka-krokiew_cam_4
 https://hoktastream1.webcamera.pl/skywind_cam_85105a/skywind_cam_85105a.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",GUBAŁÓWKA - widok na Tatry
 https://hoktastream1.webcamera.pl/pkl_cam_cc787e/pkl_cam_cc787e.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Panorama Tatr z Willi Pikne Widoki
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Panorama Tatr z Willi
 https://hoktastream1.webcamera.pl/willa_cam_922439/willa_cam_922439.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Orodek narciarski - Potoczki w Zbie
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Ośrodek narciarski - Potoczki w Zbie
 https://hoktastream4.webcamera.pl/zab-potoczki_cam_1145be/zab-potoczki_cam_1145be.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Hotel Redyk - Zb
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Hotel Redyk
 https://hoktastream3.webcamera.pl/redyk_cam_1eccec/redyk_cam_1eccec.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Kasprowy Wierch - HALA GSIENICOWA
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Kasprowy Wierch - HALA GĄSIENICOWA
 https://hoktastream1.webcamera.pl/pkl_cam_c9ee88/pkl_cam_c9ee88.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",PKL Kasprowy Wierch - widok panoramiczny
 https://hoktastream2.webcamera.pl/pkl_cam_823d20/pkl_cam_823d20.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Ski SUCHE - widok na doln stacj narciarsk
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Ski SUCHE - widok na dolną stację narciarską
 https://hoktastream3.webcamera.pl/skisuche_cam_b48335/skisuche_cam_b48335.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Ski Suche - szkka
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Ski Suche - szkółka
 https://hoktastream4.webcamera.pl/skisuche_cam_4e6fbd/skisuche_cam_4e6fbd.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Mae Ciche - widok na kolej i panoram Tatr.
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Małe Ciche - widok na kolej i panoramę Tatr.
 https://hoktastream1.webcamera.pl/maleciche_cam_779cbc/maleciche_cam_779cbc.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",Rusi-ski - baby lift
 https://hoktastream1.webcamera.pl/rusinski_cam_b8f853/rusinski_cam_b8f853.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",KOZINIEC - ski - widok na kolej linow i orczyk
+#EXTINF:-1  group-title="Gry, stoki narciarskie",KOZINIEC - ski - widok na kolej linową i orczyk
 https://hoktastream4.webcamera.pl/koziniecski_cam_3b5810/koziniecski_cam_3b5810.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Grapa Litwinka Czarna Gra
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Grapa Litwinka Czarna Góra
 https://hoktastream1.webcamera.pl/litwinka_cam_ed1e59/litwinka_cam_ed1e59.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",KOTELNICA - Pasieka Express NOWO
+#EXTINF:-1  group-title="Gry, stoki narciarskie",KOTELNICA - Pasieka Express
 https://hoktastream2.webcamera.pl/kotelnica_cam_ea8e3d/kotelnica_cam_ea8e3d.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Ski SUCHE - widok z grnej stacji
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Ski SUCHE - widok z górnej stacji
 https://hoktastream3.webcamera.pl/skisuche_cam_4ac32a/skisuche_cam_4ac32a.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Zadzia - Stok narciarski koo Nowego-Targu NOWO!
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Zadzia - Stok narciarski koło Nowego-Targu
 https://hoktastream4.webcamera.pl/zadzial_cam_12a514/zadzial_cam_12a514.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",KOTELNICA Biaczaska - widok na stok narciarski
+#EXTINF:-1  group-title="Gry, stoki narciarskie",KOTELNICA Białczaska - widok na stok narciarski
 https://hoktastream2.webcamera.pl/skywind_cam_772102/skywind_cam_772102.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",Koninki Tobow Gorce
 https://hoktastream2.webcamera.pl/koninki_cam_99d5ae/koninki_cam_99d5ae.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Widok na szczyt Palenicy z Szafranwki
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Widok na szczyt Palenicy z Szafranówki
 https://hoktastream3.webcamera.pl/pkl_cam_c8f0e2/pkl_cam_c8f0e2.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",Czorsztyn-Ski Kluszkowce
 https://hoktastream2.webcamera.pl/czorsztynski_cam_27b967/czorsztynski_cam_27b967.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",Czorsztyn-Ski Kluszkowce
 https://hoktastream2.webcamera.pl/czorsztynski_cam_27b967/czorsztynski_cam_27b967.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Widok ze Schroniska PTTK Trzy Korony w Sromowcach Ninych
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Widok ze Schroniska PTTK Trzy Korony w Sromowcach Niżnych
 https://hoktastream3.webcamera.pl/schroniskapieninskie_cam_fb73aa/schroniskapieninskie_cam_fb73aa.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",MASTER SKI Tylicz
 https://hoktastream2.webcamera.pl/masterski_cam_557832/masterski_cam_557832.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",MASTER SKI - widok na now kolej krzesekow SPORT
+#EXTINF:-1  group-title="Gry, stoki narciarskie",MASTER SKI - widok na nową kolej krzesełkową
 https://hoktastream4.webcamera.pl/masterski_cam_68446d/masterski_cam_68446d.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",MASTER SKI Tylicz
 https://hoktastream4.webcamera.pl/masterski_cam_ce7d7b/masterski_cam_ce7d7b.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",MASTER SKI Tylicz
 https://hoktastream4.webcamera.pl/masterski_cam_17fe2a/masterski_cam_17fe2a.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",RYTER-ski Raj - orodek narciarski w Rytrze
+#EXTINF:-1  group-title="Gry, stoki narciarskie",RYTER-ski Raj - ośrodek narciarski w Rytrze
 https://hoktastream1.webcamera.pl/ryterski_cam_4b4c1b/ryterski_cam_4b4c1b.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",Stacja narciarska Wierchomla - Stonoga
 https://hoktastream2.webcamera.pl/skywind_cam_5a150b/skywind_cam_5a150b.stream/playlist.m3u8
@@ -725,41 +725,41 @@ https://hoktastream4.webcamera.pl/skywind_cam_77d44a/skywind_cam_77d44a.stream/p
 https://hoktastream4.webcamera.pl/skywind_cam_94b11d/skywind_cam_94b11d.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",Jaworzyna Krynicka - kolej gondolowa
 https://hoktastream4.webcamera.pl/skywind_cam_0d9bf2/skywind_cam_0d9bf2.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Sotwiny Arena - widok z grnej stacji
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Słotwiny Arena - widok z górnej stacji
 https://hoktastream1.webcamera.pl/moit_cam_0b9f47/moit_cam_0b9f47.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Stacja narciarska KamiannaSki - NOWO
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Stacja narciarska Kamianna Ski
 https://hoktastream4.webcamera.pl/kamiannaski_cam_290b91/kamiannaski_cam_290b91.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",HENRYK - Ski Krynica-Zdrj
+#EXTINF:-1  group-title="Gry, stoki narciarskie",HENRYK - Ski Krynica-Zdrój
 https://hoktastream1.webcamera.pl/henrykski_cam_4f1cdf/henrykski_cam_4f1cdf.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",SOTWINY - ski widok na stok narciarski
+#EXTINF:-1  group-title="Gry, stoki narciarskie",SŁOTWINY - ski widok na stok narciarski
 https://hoktastream1.webcamera.pl/slotwiny_cam_9eda48/slotwiny_cam_9eda48.stream/playlist.m3u8
 #EXTINF:-1  group-title="Gry, stoki narciarskie",Szczawnica Palenica
 https://hoktastream3.webcamera.pl/pkl_cam_0b7bb7/pkl_cam_0b7bb7.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Kiczera SKI - Puawy koo Rymanowa
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Kiczera SKI - Puławy koło Rymanowa
 https://hoktastream1.webcamera.pl/kiczeraski_cam_2b0ef4/kiczeraski_cam_2b0ef4.stream/playlist.m3u8
-#EXTINF:-1  group-title="Gry, stoki narciarskie",Sotwiny Arena - widok z grnej stacji
+#EXTINF:-1  group-title="Gry, stoki narciarskie",Słotwiny Arena - widok z górnej stacji
 https://hoktastream1.webcamera.pl/moit_cam_0b9f47/moit_cam_0b9f47.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",WINOUJCIE - widok na Plaże i morze
+#EXTINF:-1  group-title="Plaże",ŚWINOUJCIE - widok na Plaże i morze
 https://hoktastream4.webcamera.pl/swinoujscie_cam_3be0ba/swinoujscie_cam_3be0ba.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",WINOUJCIE - widok na plażę
+#EXTINF:-1  group-title="Plaże",ŚWINOUJCIE - widok na plażę
 https://hoktastream4.webcamera.pl/swinoujscie_cam_7eca1e/swinoujscie_cam_7eca1e.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",MIDZYZDROJE - widok na morze
+#EXTINF:-1  group-title="Plaże",MIĘDZYZDROJE - widok na morze
 https://hoktastream1.webcamera.pl/miedzyzdroje_cam_613997/miedzyzdroje_cam_613997.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",Midzyzdroje - widok na wschodni stron plażę
+#EXTINF:-1  group-title="Plaże",Międzyzdroje - widok na wschodnią stronę plaży
 https://hoktastream1.webcamera.pl/miedzyzdroje_cam_52898b/miedzyzdroje_cam_52898b.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",Midzyzdroje - widok na plażę
+#EXTINF:-1  group-title="Plaże",Międzyzdroje - widok na plażę
 https://hoktastream1.webcamera.pl/miedzyzdroje_cam_bcc4fd/miedzyzdroje_cam_bcc4fd.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",Midzywodzie - widok na plażę
+#EXTINF:-1  group-title="Plaże",Międzywodzie - widok na plażę
 https://hoktastream3.webcamera.pl/miedzywodzie_cam_6b6996/miedzywodzie_cam_6b6996.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",Dziwnw - widok na Marin
+#EXTINF:-1  group-title="Plaże",Dziwnów - widok na Marinę
 https://hoktastream1.webcamera.pl/dziwnowum_cam_05f247/dziwnowum_cam_05f247.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",DZIWNW - widok na plażę
+#EXTINF:-1  group-title="Plaże",DZIWNÓW - widok na plażę
 https://hoktastream1.webcamera.pl/dziwnowum_cam_a4181f/dziwnowum_cam_a4181f.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",DZIWNWEK - widok na deptak
+#EXTINF:-1  group-title="Plaże",DZIWNÓWEK - widok na deptak
 https://hoktastream1.webcamera.pl/dziwnow_cam_175c61/dziwnow_cam_175c61.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",Pustkowo - widok na Krzy Nadziei
+#EXTINF:-1  group-title="Plaże",Pustkowo - widok na Krzyż Nadziei
 https://hoktastream1.webcamera.pl/gminarewal_cam_95ef9b/gminarewal_cam_95ef9b.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",TRZSACZ - widok na plażę
+#EXTINF:-1  group-title="Plaże",TRZĘSACZ - widok na plażę
 https://hoktastream2.webcamera.pl/gminarewal_cam_635a3d/gminarewal_cam_635a3d.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",REWAL - widok na plażę
 https://hoktastream2.webcamera.pl/gminarewal_cam_a882c3/gminarewal_cam_a882c3.stream/playlist.m3u8
@@ -769,97 +769,97 @@ https://hoktastream1.webcamera.pl/gminarewal_cam_a95d00/gminarewal_cam_a95d00.st
 https://hoktastream2.webcamera.pl/niechorzeplaza_cam_956637/niechorzeplaza_cam_956637.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",NIECHORZE - widok panoramiczny
 https://hoktastream1.webcamera.pl/rewal_cam_003f77/rewal_cam_003f77.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",MRZEYNO - widok na plażę
+#EXTINF:-1  group-title="Plaże",MRZEŻYNO - widok na plażę
 https://hoktastream4.webcamera.pl/mrzezyno_cam_9c9575/mrzezyno_cam_9c9575.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",ROGOWO - widok na plażę
 https://hoktastream4.webcamera.pl/rogowo_cam_c81371/rogowo_cam_c81371.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",DWIRZYNO - widok na plażę
+#EXTINF:-1  group-title="Plaże",DŹWIRZYNO - widok na plażę
 https://hoktastream2.webcamera.pl/dzwirzyno_cam_59c728/dzwirzyno_cam_59c728.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",Grzybowo - widok na plażę
 https://hoktastream2.webcamera.pl/grzybowo_cam_31ad63/grzybowo_cam_31ad63.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",KOOBRZEG - widok na plażę zachodnią
+#EXTINF:-1  group-title="Plaże",KOŁOBRZEG - widok na plażę zachodnią
 https://hoktastream4.webcamera.pl/kolobrzeg_cam_6df535/kolobrzeg_cam_6df535.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",KOOBRZEG - widok na molo i plażę
+#EXTINF:-1  group-title="Plaże",KOŁOBRZEG - widok na molo i plażę
 https://hoktastream4.webcamera.pl/nocowanie_cam_a32dd1/nocowanie_cam_a32dd1.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",KOOBRZEG - widok na marinę
+#EXTINF:-1  group-title="Plaże",KOŁOBRZEG - widok na marinę
 https://hoktastream1.webcamera.pl/kolobrzegmarina_cam_967ce0/kolobrzegmarina_cam_967ce0.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",KOOBRZEG - widok na plażę
+#EXTINF:-1  group-title="Plaże",KOŁOBRZEG - widok na plażę
 https://hoktastream3.webcamera.pl/kolobrzeg_cam_c26ccc/kolobrzeg_cam_c26ccc.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",USTRONIE MORSKIE - widok na plażę
 https://hoktastream1.webcamera.pl/umustronie_cam_8305a4/umustronie_cam_8305a4.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",SARBINOWO - widok na plażę NOWO
+#EXTINF:-1  group-title="Plaże",SARBINOWO - widok na plażę
 https://hoktastream3.webcamera.pl/sarbinowo_cam_390a25/sarbinowo_cam_390a25.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",SARBINOWO - widok na plażę
 https://hoktastream1.webcamera.pl/sarbinowo_cam_bd6ec8/sarbinowo_cam_bd6ec8.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",CHOPY - widok na kutry rybackie i morze
+#EXTINF:-1  group-title="Plaże",CHŁOPY - widok na kutry rybackie i morze
 https://hoktastream2.webcamera.pl/chlopy_cam_73ac3a/chlopy_cam_73ac3a.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",MIELNO - widok na plażę NOWE UJĘCIA
+#EXTINF:-1  group-title="Plaże",MIELNO - widok na plażę
 https://hoktastream4.webcamera.pl/mielno_cam_0e2e7c/mielno_cam_0e2e7c.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",AZY - widok na plażę
+#EXTINF:-1  group-title="Plaże",ŁAZY - widok na plażę
 https://hoktastream4.webcamera.pl/lazy_cam_a0366d/lazy_cam_a0366d.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",Jezioro Bukowo oraz plażę
+#EXTINF:-1  group-title="Plaże",Jezioro Bukowo oraz plaża
 https://hoktastream4.webcamera.pl/gmina_darlowo_cam_2d6aad/gmina_darlowo_cam_2d6aad.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",BOBOLIN - widok na pla
+#EXTINF:-1  group-title="Plaże",BOBOLIN - widok na plażę
 https://hoktastream4.webcamera.pl/gmina_darlowo_cam_2807ee/gmina_darlowo_cam_2807ee.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",DAROWO - widok na plażę wschodni
+#EXTINF:-1  group-title="Plaże",DARŁOWO - widok na plażę wschodnią
 https://hoktastream1.webcamera.pl/darlowo_cam_dc4e72/darlowo_cam_dc4e72.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",WICIE - widok na deptak
 https://hoktastream4.webcamera.pl/gmina_darlowo_cam_705510/gmina_darlowo_cam_705510.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",Dubaj... w Jarosawcu
+#EXTINF:-1  group-title="Plaże",Dubaj... w Jarosławcu
 https://hoktastream1.webcamera.pl/jaroslawiec_cam_bc9f03/jaroslawiec_cam_bc9f03.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",Jarosławiec - widok na deptak
 https://hoktastream3.webcamera.pl/jaroslawiec_cam_1cced2/jaroslawiec_cam_1cced2.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",Jarosławiec - widok na pla
+#EXTINF:-1  group-title="Plaże",Jarosławiec - widok na plażę
 https://hoktastream1.webcamera.pl/jaroslawiec_cam_40eca5/jaroslawiec_cam_40eca5.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",Jarosławiec - widok panoramiczny na morze NOWO
+#EXTINF:-1  group-title="Plaże",Jarosławiec - widok panoramiczny na morze
 https://hoktastream2.webcamera.pl/jarosprez_cam_fc31f4/jarosprez_cam_fc31f4.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",USTKA - widok z pylonu na cz portow i pla
+#EXTINF:-1  group-title="Plaże",USTKA - widok z pylonu na część portową i plażę
 https://hoktastream1.webcamera.pl/ustka_cam_4b0fca/ustka_cam_4b0fca.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",USTKA - widok na Plaże NOWO
+#EXTINF:-1  group-title="Plaże",USTKA - widok na Plaże
 https://hoktastream3.webcamera.pl/ustka_cam_104ebc/ustka_cam_104ebc.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",USTKA - widok na pla
+#EXTINF:-1  group-title="Plaże",USTKA - widok na plażę
 https://hoktastream1.webcamera.pl/ustka_cam_4feffd/ustka_cam_4feffd.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",ROWY - widok na plażę i morze
 https://hoktastream3.webcamera.pl/gminaustka_cam_294fb0/gminaustka_cam_294fb0.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",EBA - Kamera z widokiem na plażę i morze
 https://hoktastream4.webcamera.pl/leba_cam_0d3c03/leba_cam_0d3c03.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",eba - widok na plażę z Hotelu Neptun
+#EXTINF:-1  group-title="Plaże",Łeba - widok na plażę z Hotelu Neptun
 https://hoktastream1.webcamera.pl/leba_cam_863fcf/leba_cam_863fcf.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",LUBIATOWO PLAŻA - NOWO
+#EXTINF:-1  group-title="Plaże",LUBIATOWO PLAŻA
 https://hoktastream3.webcamera.pl/lubiatowo_cam_543fb2/lubiatowo_cam_543fb2.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",DBKI - widok na pla
+#EXTINF:-1  group-title="Plaże",DĘBKI - widok na plażę
 https://hoktastream2.webcamera.pl/debki_cam_284a24/debki_cam_284a24.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",JASTRZBIA GRA - widok na plażę
+#EXTINF:-1  group-title="Plaże",JASTRZĘBIA GÓRA - widok na plażę
 https://hoktastream1.webcamera.pl/wladyslawowo_cam_250100/wladyslawowo_cam_250100.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",CHAPOWO widok panoramiczny na morze
+#EXTINF:-1  group-title="Plaże",CHŁAPOWO widok panoramiczny na morze
 https://hoktastream3.webcamera.pl/wladyslawowo_cam_2979bb/wladyslawowo_cam_2979bb.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",WADYSAWOWO - widok na plażę
+#EXTINF:-1  group-title="Plaże",WŁADYSŁAWOWO - widok na plażę
 https://hoktastream2.webcamera.pl/wladyslawowo_cam_459a14/wladyslawowo_cam_459a14.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",Surf People  wicej ni szkoa kitesurfingu i surfingu
+#EXTINF:-1  group-title="Plaże",Surf People  więcej niż szkoła kitesurfingu i surfingu
 https://hoktastream4.webcamera.pl/surfpeople_cam_2b2cbf/surfpeople_cam_2b2cbf.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",Karwia - widok na plażę NOWO
+#EXTINF:-1  group-title="Plaże",Karwia - widok na plażę
 https://hoktastream2.webcamera.pl/wladyslawowo_cam_3c51c2/wladyslawowo_cam_3c51c2.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",Kuźnica - Zatoka Pucka
 https://hoktastream2.webcamera.pl/kuznica_cam_e87bf3/kuznica_cam_e87bf3.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",KUŹNICA - widok na plażę NOWO
+#EXTINF:-1  group-title="Plaże",KUŹNICA - widok na plażę
 https://hoktastream3.webcamera.pl/kuznica_cam_b7acd2/kuznica_cam_b7acd2.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",JASTARNIA - widok na Zatok Puck
+#EXTINF:-1  group-title="Plaże",JASTARNIA - widok na Zatokę Pucką
 https://hoktastream2.webcamera.pl/jastarnia_cam_a14385/jastarnia_cam_a14385.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",JURATA - widok na Molo
 https://hoktastream1.webcamera.pl/jurata_cam_c060aa/jurata_cam_c060aa.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",Jurata - widok na plażę NOWO
+#EXTINF:-1  group-title="Plaże",Jurata - widok na plażę
 https://hoktastream4.webcamera.pl/jurata_cam_24f25d/jurata_cam_24f25d.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",HEL - widok na marinę
 https://hoktastream1.webcamera.pl/hel_cam_79fe71/hel_cam_79fe71.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",HEL - widok na bulwar i plażę
 https://hoktastream1.webcamera.pl/hel_cam_cf55ee/hel_cam_cf55ee.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",REWA - widok na Zatok Puck
+#EXTINF:-1  group-title="Plaże",REWA - widok na Zatokę Puck
 https://hoktastream3.webcamera.pl/rewa_cam_c2a755/rewa_cam_c2a755.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",GDYNIA - widok na wejcie do Portu Morskiego i terminal
+#EXTINF:-1  group-title="Plaże",GDYNIA - widok na wejście do Portu Morskiego i terminal
 https://hoktastream1.webcamera.pl/gdynia_cam_e257dc/gdynia_cam_e257dc.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",GDYNIA - widok na Przysta Jachtow
+#EXTINF:-1  group-title="Plaże",GDYNIA - widok na Przystań Jachtową
 https://hoktastream1.webcamera.pl/gdynia_cam_b3ccea/gdynia_cam_b3ccea.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",GDYNIA - widok na plażę i marin
+#EXTINF:-1  group-title="Plaże",GDYNIA - widok na plażę i marinę
 https://hoktastream1.webcamera.pl/gdynia_cam_b80d1e/gdynia_cam_b80d1e.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",SOPOT - widok z molo
 https://hoktastream1.webcamera.pl/sopot_cam_e1c28f/sopot_cam_e1c28f.stream/playlist.m3u8
@@ -867,19 +867,19 @@ https://hoktastream1.webcamera.pl/sopot_cam_e1c28f/sopot_cam_e1c28f.stream/playl
 https://hoktastream2.webcamera.pl/sopot_cam_7b9f92/sopot_cam_7b9f92.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",Gdańsk Brzeźno - widok na Molo
 https://hoktastream4.webcamera.pl/gdansk_cam_77aeaf/gdansk_cam_77aeaf.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",Plaa Stogi w Gdańsku
+#EXTINF:-1  group-title="Plaże",Plaża Stogi w Gdańsku
 https://hoktastream2.webcamera.pl/umgdansk_cam_e25623/umgdansk_cam_e25623.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",SOPOT - widok na plażę NOWO
+#EXTINF:-1  group-title="Plaże",SOPOT - widok na plażę
 https://hoktastream1.webcamera.pl/sopot_cam_5d1d8c/sopot_cam_5d1d8c.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",STEGNA - widok na pla
+#EXTINF:-1  group-title="Plaże",STEGNA - widok na plażę
 https://hoktastream4.webcamera.pl/stegna_cam_c00d9b/stegna_cam_c00d9b.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",JANTAR - widok na Plaże
 https://hoktastream3.webcamera.pl/jantar_cam_8948dd/jantar_cam_8948dd.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",KTY RYBACKIE - widok na pla
+#EXTINF:-1  group-title="Plaże",KTY RYBACKIE - widok na plaże
 https://hoktastream1.webcamera.pl/katyrybackie_cam_2d3c0c/katyrybackie_cam_2d3c0c.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",KRYNICA MORSKA - widok na pla
+#EXTINF:-1  group-title="Plaże",KRYNICA MORSKA - widok na plaże
 https://hoktastream1.webcamera.pl/krynicamorska_cam_b92412/krynicamorska_cam_b92412.stream/playlist.m3u8
-#EXTINF:-1  group-title="TV",Aktualne warunki online z Orodkw Narciarskich w Polsce
+#EXTINF:-1  group-title="TV",Aktualne warunki online z Ośrodków Narciarskich w Polsce
 https://hoktastream4.webcamera.pl/nartypl_cam_fec03d/nartypl_cam_fec03d.stream/playlist.m3u8
 #EXTINF:-1  group-title="TV",Kamery pogodowe z turystycznych miejsc w Polsce
 https://hoktastream2.webcamera.pl/tv_cam_656df8/tv_cam_656df8.stream/playlist.m3u8
@@ -895,9 +895,9 @@ https://hoktastream3.webcamera.pl/molo_cam_042f05/molo_cam_042f05.stream/playlis
 https://play.gawex.pl/szczecinek/zamek.stream/playlist.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia - Krosno Fara
 https://stream4.stimotion.pl/live/krosno12.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Srebrna Gra
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Srebrna Góra
 https://streaming.airmax.pl/srebrnatwierdza3/tracks-v1/mono.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Nidzkie - plaa Jakowo
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Nidzkie - plaża Jakowo
 https://stream.mazury24.eu/m_jaskowo/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Ruciane Nida
 https://stream.mazury24.eu/m_guzianka/index.m3u8
@@ -905,9 +905,9 @@ https://stream.mazury24.eu/m_guzianka/index.m3u8
 https://stream.mazury24.eu/m_keja/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",jez. Niegocin
 https://stream.mazury24.eu/m_papugarnia/index.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Koci Wang
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Kościół Wang
 https://stream.infoo.net/memfs/07f53a7f-ae65-4db2-a51b-b0612c29d76c.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Biae Okuninka - Wodawa
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Białe Okuninka - Włodawa
 https://hoktastream1.webcamera.pl/nocowanie_cam_be431a/nocowanie_cam_be431a.stream/playlist.m3u8
 #EXTINF:-1  group-title="TV Polskie",DLACIEBIE.TV
 https://6034e09794f07.streamlock.net/tv/dlaCiebieTv/playlist.m3u8
@@ -915,7 +915,7 @@ https://6034e09794f07.streamlock.net/tv/dlaCiebieTv/playlist.m3u8
 https://cdn3.wowza.com/1/ZHdrMWt1NjlDSzFu/bzdDVG10/hls/live/playlist.m3u8
 #EXTINF:-1  group-title="TV Polskie",Hope Channel Polska
 https://stream.hopechannel.pl/livetv/colombo/hope.m3u8
-#EXTINF:-1  group-title="TV Polskie",Radio Czwrka
+#EXTINF:-1  group-title="TV Polskie",Radio Czwórka
 https://stream14.polskieradio.pl/pr4_video/video_pr4.stream/playlist.m3u8
 #EXTINF:-1  group-title="TV Polskie",Telewizja Biznesowa
 https://s-pl-01.mediatool.tv/playout/tbpl-abr/index.m3u8
@@ -927,7 +927,7 @@ http://185.194.224.189:8080/memfs/61df4d6f-8627-42e1-b3b8-9dbe9b28cf43.m3u8
 https://p.video.wroclaw.pl/c859f49a-9dad-4f44-a685-bb42de25b174.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Żubry 2
 https://zŻubry.promontech.pl:8181/memfs/0d903f05-4f1d-4cff-a663-6d2a5b9c5c46.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Iawa Jezioro
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Iława Jezioro
 https://streaming.airmax.pl/ilawaum/index.m3u8
 #EXTINF:-1  group-title="TV Polskie",4 FUNTV
 https://stream.4fun.tv:8888/hls/4f_med/index.m3u8
@@ -947,11 +947,11 @@ https://stream.sferatv.pl/sferatvlive/live.m3u8
 https://tvreg.klemit.net/regionalna/stream/index.m3u8
 #EXTINF:-1  group-title="TV Polskie",TVT
 https://live.streamtvt.pl/LiveAppStreamTVT/streams/853271271313930867905724.m3u8
-#EXTINF:-1  group-title="TV Polskie",TV JASO
+#EXTINF:-1  group-title="TV Polskie",TV JASŁO
 https://cdn01.sesja.pl/live_tvjaslo/live_tvjaslo.stream/playlist.m3u8?conn_id=06183116913632492185
 #EXTINF:-1  group-title="TV Polskie",TRUSO TV
 https://stream.truso.tv/elblag/myStream_aac/playlist.m3u8
-#EXTINF:-1  group-title="TV Polskie",TV TORU
+#EXTINF:-1  group-title="TV Polskie",TV TORUŃ
 https://mediaserwer.tvk.torun.pl/live/ngrp:tvk.stream_mobile/manifest_w107837920.m3u8
 #EXTINF:-1  group-title="TV Polskie",TV WIELKOPOLSKA
 https://stream6.nadaje.com:35308/live/stream-1/playlist.m3u8
@@ -961,75 +961,75 @@ https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/
 https://91-193-208-10.eimperium.pl/TVIMPERIUM/index.m3u8
 #EXTINF:-1  group-title="TV Polskie",ECHO TV
 https://echo24new.pl/LiveAppStreamECHO24/streams/GL0VksiIgQUS1672825288490.m3u8?token=undefined&subscriberId=undefined&subscriberCode=undefined?token=undefined&subscriberId=undefined&subscriberCode=undefined
-#EXTINF:-1  group-title="Kościoły",Parafia Najwitszego Serca Pana Jezusa w Koszcinie
+#EXTINF:-1  group-title="Kościoły",Parafia Najświętszego Serca Pana Jezusa w Koszęcinie
 https://konto.tech5.pl:8108/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",SANKTUARIUM Matki Bożej Bolesnej i Pocieszenia w Radomylu nad Sanem
+#EXTINF:-1  group-title="Kościoły",SANKTUARIUM Matki Bożej Bolesnej i Pocieszenia w Radomyślu nad Sanem
 https://kl6.tech5.pl:8039/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia pw. b. Marii Teresy Ledchowskiej w Muszynie
+#EXTINF:-1  group-title="Kościoły",Parafia pw. b. Marii Teresy Ledóchowskiej w Muszynie
 https://kl6.tech5.pl:8071/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia Rzymskokatolicka pw. w. Stanisława Biskupa i Mczennika w Nozdrzcu
+#EXTINF:-1  group-title="Kościoły",Parafia Rzymskokatolicka pw. Św. Stanisława Biskupa i Męczennika w Nozdrzcu
 https://kl6.tech5.pl:8105/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia p.w. w. Mikoaja w Rwnem
+#EXTINF:-1  group-title="Kościoły",Parafia p.w. Św. Mikołaja w Równem
 https://kl6.tech5.pl:8102/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Transmisja z Parafii Matki Kocioa w Dbie
+#EXTINF:-1  group-title="Kościoły",Transmisja z Parafii Matki Kościoła w Dąbie
 https://kl6.tech5.pl:8002/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia w. Mateusza Apostoa i Ewangelisty  Pasjonici Warszawa
+#EXTINF:-1  group-title="Kościoły",Parafia w. Mateusza Apostoła i Ewangelisty  Pasjonici Warszawa
 https://kl6.tech5.pl:8100/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",Sanktuarium Matki Bożej Racowej (Jezuici) Pozna
 https://kl6.tech5.pl:8095/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Dom zakonny Misjonarzy Oblatw Maryi Niepokalanej w Lublicu Koci grny
+#EXTINF:-1  group-title="Kościoły",Dom zakonny Misjonarzy Oblatw Maryi Niepokalanej w Lublińcu Kościół górny
 https://kl6a.tech5.pl:8098/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Dom zakonny Misjonarzy Oblatw Maryi Niepokalanej w Lublicu Koci dolny
+#EXTINF:-1  group-title="Kościoły",Dom zakonny Misjonarzy Oblatów Maryi Niepokalanej w Lublińcu Kościół dolny
 https://kl6.tech5.pl:8099/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Nowe Checho
+#EXTINF:-1  group-title="Kościoły",Nowe Chechło
 https://kl6.tech5.pl:8097/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia. pw. w. Wojciecha w Gawuszowicach
+#EXTINF:-1  group-title="Kościoły",Parafia. pw. Św. Wojciecha w Gawuszowicach
 https://kl6.tech5.pl:8096/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",PARAFIA RZYMSKOKATOLICKA pw. w. MICHAA ARCHANIOA w DOBRZANACH
+#EXTINF:-1  group-title="Kościoły",PARAFIA RZYMSKOKATOLICKA pw. Św. MICHAŁA ARCHANIOŚA w DOBRZANACH
 https://kl6.tech5.pl:8081/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Koci parafialny  Wilczyska
+#EXTINF:-1  group-title="Kościoły",Kościół parafialny  Wilczyska
 https://kl6.tech5.pl:8082/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia pw. Narodzenia NMP w Rozniszewie
 https://kl6.tech5.pl:8076/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Koci pw. NMP Niepokalanie Pocztej w Sierakowie
+#EXTINF:-1  group-title="Kościoły",Kościół pw. NMP Niepokalanej Poczętej w Sierakowie
 https://kl6.tech5.pl:8074/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia Plancenoit  Belgia
 https://kl6.tech5.pl:8062/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",Chocianowice
 https://kl6.tech5.pl:8072/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia Podwyszenia Krzya w. w Lublicu
+#EXTINF:-1  group-title="Kościoły",Parafia Podwyższenia Krzyża Św. w Lublińcu
 https://kl6.tech5.pl:8073/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia p. w. Matki Boskiej Nieustajcej Pomocy w Pyskowicach
 https://kl6.tech5.pl:8069/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia Rzymskokatolicka pw. w. Michaa Archanioa w Czempiniu
+#EXTINF:-1  group-title="Kościoły",Parafia Rzymskokatolicka pw. w. Michała Archanioła w Czempiniu
 https://kl6.tech5.pl:8070/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Koci Rzymskokatolicki Pw. Matki Bożej Racowej w Bykowie
+#EXTINF:-1  group-title="Kościoły",Kościół Rzymskokatolicki Pw. Matki Bożej Racowej w Bykowie
 https://kl6.tech5.pl:8075/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia p. w. Najwitszego Serca Pana Jezusa Wrocaw-Pawowice
+#EXTINF:-1  group-title="Kościoły",Parafia p. w. Najświętszego Serca Pana Jezusa Wrocław-Pawłowice
 https://kl6.tech5.pl:8059/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",Wilno
 https://kl6.tech5.pl:8063/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia pw. Maksymiliana Marii Kolbego w Strzebielinie
 https://kl6.tech5.pl:8067/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia w. Stanisława Biskupa i Mczennika. Bytom
+#EXTINF:-1  group-title="Kościoły",Parafia w. Stanisława Biskupa i Męczennika. Bytom
 https://kl6.tech5.pl:8061/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia pw. w. Maksymiliana Marii Kolbego w Skroniowie
 https://kl6.tech5.pl:8035/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia Niepokalanego Poczcia NMP w Wierbce
+#EXTINF:-1  group-title="Kościoły",Parafia Niepokalanego Poczęcia NMP w Wierbce
 https://kl6.tech5.pl:8053/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia świętego Brata Alberta w Radomiu
 https://kl6.tech5.pl:8057/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia Matki Bożej Królowej wiata  Kisielice
+#EXTINF:-1  group-title="Kościoły",Parafia Matki Bożej Królowej Świata  Kisielice
 https://kl6.tech5.pl:8048/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia pw. w. Marcina i Najwitszej Maryi Panny Królowej w Ochodzach
+#EXTINF:-1  group-title="Kościoły",Parafia pw. św. Marcina i Najświętszej Maryi Panny Królowej w Ochodzach
 https://kl6.tech5.pl:8045/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia Najwitszego Serca Jezusowego w Radomiu
+#EXTINF:-1  group-title="Kościoły",Parafia Najświętszego Serca Jezusowego w Radomiu
 https://kl6.tech5.pl:8047/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia p.w. świętego Jakuba Apostoa Skaryszew
 https://kl6.tech5.pl:8049/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Konkatedra Niepokalanego Serca NMP w Sokoowie Podlaskim
+#EXTINF:-1  group-title="Kościoły",Konkatedra Niepokalanego Serca NMP w Sokołowie Podlaskim
 https://kl6.tech5.pl:8056/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia Podwyszenia Krzya świętego w Zawadzie
+#EXTINF:-1  group-title="Kościoły",Parafia Podwyższenia Krzyża świętego w Zawadzie
 https://kl6.tech5.pl:8054/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia w. Józefa w Markuszowie
 https://kl6.tech5.pl:8025/hls/live.stream.m3u8
@@ -1039,27 +1039,27 @@ https://kl6.tech5.pl:8033/hls/live.stream.m3u8
 https://kl6.tech5.pl:8037/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia NMP Królowej Polski  Pionki
 https://kl6.tech5.pl:8040/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia Najświętszego Zbawiciela we Wocawku
+#EXTINF:-1  group-title="Kościoły",Parafia Najświętszego Zbawiciela we Włocławku
 https://kl6.tech5.pl:8030/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia w. Wawrzyca w Stolcu
+#EXTINF:-1  group-title="Kościoły",Parafia w. Wawrzyńca w Stolcu
 https://kl6.tech5.pl:8028/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia pw. w. Stanisława Biskupa w Lubatowej
+#EXTINF:-1  group-title="Kościoły",Parafia pw. św. Stanisława Biskupa w Lubatowej
 https://kl6.tech5.pl:8024/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",ZAGRZ Parafia pw. WNMP. Sanktuarium Matki Nowego ycia
+#EXTINF:-1  group-title="Kościoły",ZAGÓRZ Parafia pw. WNMP. Sanktuarium Matki Nowego Życia
 https://kl6.tech5.pl:8060/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia Matki Bożej Nieustajcej Pomocy w Jurkowie
 https://kl6.tech5.pl:8044/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia pw. Matki Bożej RACOWEJ W RUDCE
 https://cloudlive.pl:8058/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Koci w. Klemensa w Essen
+#EXTINF:-1  group-title="Kościoły",Kościół w. Klemensa w Essen
 https://kl6.tech5.pl:8026/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia w. Jana Chrzciciela w Ornecie
 https://kl6.tech5.pl:8034/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia. pw. Matki Bożej Czstochowskiej w Radomiu
+#EXTINF:-1  group-title="Kościoły",Parafia. pw. Matki Bożej Częstochowskiej w Radomiu
 https://kl6.tech5.pl:8036/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia w. Rozalii i w. Marcina w Zagnasku
+#EXTINF:-1  group-title="Kościoły",Parafia w. Rozalii i w. Marcina w Zagnańsku
 https://kl6.tech5.pl:8019/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia w. Rafaa w Radomiu
+#EXTINF:-1  group-title="Kościoły",Parafia w. Rafała w Radomiu
 https://kl6.tech5.pl:8006/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia w. Józefa w Sadowie
 https://kl6.tech5.pl:8032/hls/live.stream.m3u8
@@ -1069,11 +1069,11 @@ https://kl6.tech5.pl:8018/hls/live.stream.m3u8
 https://kl6.tech5.pl:8021/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia Chrystusa Króla w Radomiu
 https://kl6.tech5.pl:8020/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia Boego Miosierdzia w Jale
+#EXTINF:-1  group-title="Kościoły",Parafia Bożego Miłosierdzia w Jaśle
 https://kamerylive.tech5.pl:8025/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Parafia w. Michaa Archanioa Ropczyce-Witkowice
+#EXTINF:-1  group-title="Kościoły",Parafia w. Michała Archanioła Ropczyce-Witkowice
 https://kamerylive.tech5.pl:8024/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",Sanktuarium Najwitszej Maryi Panny Królowej Raca w. w Wysokim Kole
+#EXTINF:-1  group-title="Kościoły",Sanktuarium Najświtszej Maryi Panny Królowej Raca w. w Wysokim Kole
 https://kl6.tech5.pl:8013/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia NSPJ Sanok  Posada
 https://kl6.tech5.pl:8010/hls/live.stream.m3u8
@@ -1081,11 +1081,11 @@ https://kl6.tech5.pl:8010/hls/live.stream.m3u8
 https://kl6.tech5.pl:8004/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",Sanktuarium Matki Bożej Rzeszowskiej. Kaplica Matki Bożej
 https://kl6.tech5.pl:8005/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Kościoły",KOCI p.w. PODWYSZENIA KRZYA świętego w CZASZYNIE
+#EXTINF:-1  group-title="Kościoły",KOŚCIÓŁ p.w. PODWYŻSZENIA KRZYŻA świętego w CZASZYNIE
 https://kl6.tech5.pl:8052/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Termy Uniejw
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Termy Uniejów
 https://kamery.kol-net.pl:5443/HIKVISION/streams/va1O3NovRl1W1669376597373.m3u8?token=undefined&subscriberId=undefined&subscriberCode=undefined
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Widok na Twierdz - Srebrna Gra
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Widok na Twierdzę - Srebrna Góra
 https://stream4.stimotion.pl/live/srebrna2.m3u8
 #EXTINF:-1  group-title="EXPLORE.ORG - Afryka i nie tylko",E1
 https://outbound-production.explore.org/stream-production-12/.m3u8
@@ -1361,14 +1361,14 @@ https://gctxyhwc.liveplay.myqcloud.com/gc/hlzycc_1/index.m3u8
 https://kamery.emnetgluszyca.pl:5443/LiveApp/streams/032156245534129821333320.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Widok w kierunku Pieszyc
 https://kamery.emnetgluszyca.pl:5443/LiveApp/streams/471309556617146392118362.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Zegrzyskie
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Zegrzyńskie
 https://s1.worldcam.live:8082/zegrzynskie/index.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Bukowina Tatrzaska
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Bukowina Tatrzańska
 https://5d534d0532491.streamlock.net/live/grand.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lutowiska-pl.svg" group-title="Jeziora i inne miejsca",Chreptiow Lutowiska
 https://cdn2.bieszczady.live/hls-live/chreptiow/playlist.m3u8
-#EXTINF:-1  group-title="Miasta",Petersburg - Ermita w Rosji - Kaskad Grand Peterhof
-https://hls-spb03.timetechnology.ru:8080/1431/hls/33qjdyx5l645e6gx/live.m3u8
+#EXTINF:-1  group-title="Miasta",Petersburg - Ermitaż w Rosji
+https://streamer.camera.rt.ru/public/master.m3u8?sid=ac4ad2e3-8615-4d5b-90dc-3f6a57d9a589
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Zegrzyskie
 https://streaming.airmax.pl/umserock2/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Sabat Krajno
