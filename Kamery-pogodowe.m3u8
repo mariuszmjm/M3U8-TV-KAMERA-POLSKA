@@ -309,6 +309,8 @@ https://cdn02.aztv.pl/live_bochnia/live_bochnia2.stream/playlist.m3u8?conn_id=15
 https://vm2.umig.busko.pl/webcam/cam13.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/tarnow-pl.svg" group-title="Miasta",Rynek miejski w Tarnowie
 https://hoktastream3.webcamera.pl/tarnow_cam_d0e19c/tarnow_cam_d0e19c.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zakliczyn-pl.svg" group-title="Miasta",Zakliczyn - Rynek
+https://videocdn.km-net.pl/Zakliczyn_Rynek_3/video.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/nowy-sacz-pl.svg" group-title="Miasta",Nowy Sącz
 https://cd31010201.spaceweb.pl:5443/LiveApp/streams/390561851206038326690986.m3u8?token=null
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/szczawnica-pl.svg" group-title="Miasta",Szczawnica
