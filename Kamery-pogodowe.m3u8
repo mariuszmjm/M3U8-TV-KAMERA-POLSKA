@@ -321,6 +321,8 @@ https://hoktastream1.webcamera.pl/pkl_cam_2b18a1/pkl_cam_2b18a1.stream/playlist.
 https://video.jarosz.pl/hls/camera2.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/K/Krynica-zdroj-pl.svg" group-title="Miasta",Krynica-Zdrój - widok na deptak
 https://hoktastream1.webcamera.pl/krynicazdroj_cam_6127fe/krynicazdroj_cam_6127fe.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/debowiec-pl.svg" group-title="Miasta",Dębowiec - Rynek
+https://s1.worldcam.live:8082/debowiec-rynek/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/J/Jaslo-pl.svg" group-title="Miasta",Jasło
 https://cdn02.aztv.pl/sesja_jaslo/sesja_jaslo.stream/playlist.m3u8?conn_id=15093050361842266895
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/K/krosno-pl.svg" group-title="Miasta",Krosno
@@ -329,6 +331,8 @@ https://stream4.stimotion.pl/live/krosno8.m3u8
 https://stream4.stimotion.pl/live/iwonicz2.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/I/Iwonicz-zdroj-pl.svg" group-title="Miasta",Iwonicz Zdrój - Plac Dietla
 https://stream4.stimotion.pl/live/iwonicz1.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/Rymanow-pl.svg" group-title="Miasta",Rymanów - Rynek
+https://s1.worldcam.live:8082/rymanow/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/sanok-pl.svg" group-title="Miasta",Sanok
 https://cdn2.bieszczady.live/hls-live/sanok1mick/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/cisna-pl.svg" group-title="Miasta",Cisna
@@ -361,12 +365,16 @@ https://stream4.mat-sat.pl/str/zamek.m3u8
 https://stream.mat-sat.pl/str/1planty.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lancut-pl.svg" group-title="Miasta",Łańcut - Ogrody Zamkowe
 https://stream4.mat-sat.pl/str/zamekogrody.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jaroslaw-pl.svg" group-title="Miasta",Jarosław - Rynek
+https://7003.szczecin.pl/0live/streams/jarlive.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/ropczyce-pl.svg" group-title="Miasta",Ropczyce
 http://hls.r-ce.pl/rynekk.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kolbuszowa-pl.svg" group-title="Miasta",Kolbuszowa
 https://1650048485.rsc.cdn77.org/live/CZf117.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lubaczow-pl.svg" group-title="Miasta",Lubaczów - Rynek
 https://stream4.mat-sat.pl/str/1lubaczow.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/narol-pl.svg" group-title="Miasta", Narol
+https://s1.worldcam.live:8082/narol/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/T/Tomaszow-lubelski-pl.svg" group-title="Miasta",Tomaszów Lubelski
 https://newcam.tom-net.pl/memfs/0bf2fec2-11d0-467b-b493-1e0821bb165c.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zamosc-pl.svg" group-title="Miasta",Kamera z widokiem na RYNEK WIELKI w ZAMOŚCIU
