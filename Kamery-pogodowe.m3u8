@@ -523,8 +523,6 @@ https://hoktastream1.webcamera.pl/bukovina_cam_04f738/bukovina_cam_04f738.stream
 https://stream.devices.pl:5443/LiveApp/streams/498779877563728532759860.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Polańczyk - widok na Jezioro Solińskie
 https://hoktastream1.webcamera.pl/polanczyk_cam_d1e2d8/polanczyk_cam_d1e2d8.stream/playlist.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Zegrzyńskie
-https://streaming.airmax.pl/umserock2/index.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia p.w. Miłosierdzia Bożego Zakopane - Chramcówki
 https://hoktastream2.webcamera.pl/chramcowki_cam_616201/chramcowki_cam_616201.stream/playlist.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia pw. Św. Mateusza w Gniewczynie Łańcuckiej Archidiecezja Przemyska
@@ -905,8 +903,6 @@ https://stream.mazury24.eu/m_guzianka/index.m3u8
 https://stream.mazury24.eu/m_keja/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",jez. Niegocin
 https://stream.mazury24.eu/m_papugarnia/index.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Kościół Wang
-https://stream.infoo.net/memfs/07f53a7f-ae65-4db2-a51b-b0612c29d76c.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Białe Okuninka - Włodawa
 https://hoktastream1.webcamera.pl/nocowanie_cam_be431a/nocowanie_cam_be431a.stream/playlist.m3u8
 #EXTINF:-1  group-title="TV Polskie",DLACIEBIE.TV
@@ -1363,15 +1359,47 @@ https://kamery.emnetgluszyca.pl:5443/LiveApp/streams/032156245534129821333320.m3
 https://kamery.emnetgluszyca.pl:5443/LiveApp/streams/471309556617146392118362.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Zegrzyńskie
 https://s1.worldcam.live:8082/zegrzynskie/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Zegrzyńskie 2
+https://streaming.airmax.pl/umserock2/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Bukowina Tatrzańska
 https://5d534d0532491.streamlock.net/live/grand.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lutowiska-pl.svg" group-title="Jeziora i inne miejsca",Chreptiow Lutowiska
 https://cdn2.bieszczady.live/hls-live/chreptiow/playlist.m3u8
 #EXTINF:-1  group-title="Miasta",Petersburg - Ermitaż w Rosji
 https://streamer.camera.rt.ru/public/master.m3u8?sid=ac4ad2e3-8615-4d5b-90dc-3f6a57d9a589
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Zegrzyskie
-https://streaming.airmax.pl/umserock2/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Sabat Krajno
 https://s148.ipcamlive.com/streams/94zpclflwtrqfhgio/stream.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Trójstyk Wisztyniec
 http://217.182.74.242/stream1.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Stowarzyszenie "Szansa dla Bociana" w Kozubszczyźnie obok Lublina
+https://s1.worldcam.live:8082/kozubszczyzna1/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Stowarzyszenie "Szansa dla Bociana" w Kozubszczyźnie obok Lublina 2
+https://s1.worldcam.live:8082/kozubszczyzna2/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Pasieka przy ZTPO w Krakowie 
+https://s1.worldcam.live:8082/pasieka/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Woliery na żywo - MWG Mazury w Popowie
+https://s1.worldcam.live:8082/mwgmazury/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Widok ogólny - MWG Mazury w Popowie
+https://s1.worldcam.live:8082/mwgmazury2/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Mikuszowice Krakowskie - Bielsko Biała
+https://s1.worldcam.live:8082/neptun/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Widok na miejscowość Czaszyn / Bieszczady
+https://s1.worldcam.live:8082/czaszyn/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Widok na Lubawkę z Domu Weselnego Na Wzgórzu.
+https://s1.worldcam.live:8082/lubawka2/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Widok na żywo na molo nad zalewem w Opocznie
+https://s1.worldcam.live:8082/opocznozalew/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Karpacz - Karkonoskie Tajemnice na żywo
+https://s1.worldcam.live:8082/karpacz/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Lipie, Długie, Strzelce Krajeńskie, Lubuskie,
+https://s1.worldcam.live:8082/strzelce-krajenskie-jezioro-lipie/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Melsztyn – widok z Zamku /tarnowski
+https://videocdn.km-net.pl/Melsztyn_Zamek/video.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Gródek nad Dunajcem – Jezioro
+https://videocdn.km-net.pl/Grodek_Gmina/video.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",LKS Dunajec Zakliczyn
+https://videocdn.km-net.pl/Zakliczyn_Stadion/video.m3u8
+
+
+
+
