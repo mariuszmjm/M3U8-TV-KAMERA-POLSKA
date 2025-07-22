@@ -210,7 +210,7 @@ https://streaming.airmax.pl/ratuszglogowek2/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kedzierzyn-kozle-pl.svg" group-title="Miasta",Kędzierzyn Koźle
 https://streaming.airmax.pl/kedzierzynkozleplwolnosci/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/raciborz-pl.svg" group-title="Miasta",Racibórz
-https://video.raciborz24.pl/hls/rynek_high/index.m3u8
+https://video.raciborz24.pl/hls/rynek.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/nysa-pl.svg" group-title="Miasta",Nysa Rynek Panorama
 https://streaming.airmax.pl/nysa_panorama/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/cieszyn-pl.svg" group-title="Miasta",Cieszyn - Rynek
