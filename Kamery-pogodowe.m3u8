@@ -501,6 +501,8 @@ https://hoktastream1.webcamera.pl/czarnygron_cam_961902/czarnygron_cam_961902.st
 https://hoktastream2.webcamera.pl/dinolandia_cam_e38111/dinolandia_cam_e38111.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Osiek - Restauracja MOLO
 https://hoktastream1.webcamera.pl/molo_cam_b12e5a/molo_cam_b12e5a.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Molo Resort w Osieku - widok na basen
+https://hoktastream3.webcamera.pl/molo_cam_042f05/molo_cam_042f05.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Lanckorona - widok na rynek
 https://hstream2.webcamera.pl/lanckorona_cam_fdeac0/lanckorona_cam_fdeac0.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Rożnowskie
@@ -873,7 +875,7 @@ https://hoktastream1.webcamera.pl/sopot_cam_5d1d8c/sopot_cam_5d1d8c.stream/playl
 https://hoktastream4.webcamera.pl/stegna_cam_c00d9b/stegna_cam_c00d9b.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",JANTAR - widok na Plaże
 https://hoktastream3.webcamera.pl/jantar_cam_8948dd/jantar_cam_8948dd.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",KTY RYBACKIE - widok na plaże
+#EXTINF:-1  group-title="Plaże",KĄTY RYBACKIE - widok na plaże
 https://hoktastream1.webcamera.pl/katyrybackie_cam_2d3c0c/katyrybackie_cam_2d3c0c.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",KRYNICA MORSKA - widok na plaże
 https://hoktastream1.webcamera.pl/krynicamorska_cam_b92412/krynicamorska_cam_b92412.stream/playlist.m3u8
@@ -887,8 +889,6 @@ https://hoktastream1.webcamera.pl/tv_cam_9bb83d/tv_cam_9bb83d.stream/playlist.m3
 https://hoktastream1.webcamera.pl/tv_cam_781381/tv_cam_781381.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Holiday Park - Zator
 https://hoktastream4.webcamera.pl/holidaypark_cam_c90b83/holidaypark_cam_c90b83.stream/playlist.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Molo Resort w Osieku - widok na basen
-https://hoktastream3.webcamera.pl/molo_cam_042f05/molo_cam_042f05.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Szczecinek
 https://play.gawex.pl/szczecinek/zamek.stream/playlist.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia - Krosno Fara
