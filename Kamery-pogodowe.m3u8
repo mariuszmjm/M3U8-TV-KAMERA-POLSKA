@@ -885,9 +885,9 @@ https://hoktastream2.webcamera.pl/tv_cam_656df8/tv_cam_656df8.stream/playlist.m3
 https://hoktastream1.webcamera.pl/tv_cam_9bb83d/tv_cam_9bb83d.stream/playlist.m3u8
 #EXTINF:-1  group-title="TV",Najpiękniejsze Polskie Plaże
 https://hoktastream1.webcamera.pl/tv_cam_781381/tv_cam_781381.stream/playlist.m3u8
-#EXTINF:-1  group-title="TV",Holiday Park - Zator
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Holiday Park - Zator
 https://hoktastream4.webcamera.pl/holidaypark_cam_c90b83/holidaypark_cam_c90b83.stream/playlist.m3u8
-#EXTINF:-1  group-title="TV",Molo Resort w Osieku - widok na basen
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Molo Resort w Osieku - widok na basen
 https://hoktastream3.webcamera.pl/molo_cam_042f05/molo_cam_042f05.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Szczecinek
 https://play.gawex.pl/szczecinek/zamek.stream/playlist.m3u8
