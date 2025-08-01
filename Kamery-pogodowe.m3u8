@@ -233,8 +233,8 @@ https://hoktastream3.webcamera.pl/chorzow_cam_4f8efa/chorzow_cam_4f8efa.stream/p
 https://hoktastream3.webcamera.pl/czestochowa_cam_0c6362/czestochowa_cam_0c6362.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/czestochowa-pl.svg" group-title="Miasta",CZĘSTOCHOWA - widok na Sanktuarium Matki Boskiej Częstochowskiej
 https://hoktastream4.webcamera.pl/czestochowa_cam_18cb12/czestochowa_cam_18cb12.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/czechowice-dziedzice-pl.svg" group-title="Miasta",Czechowice-Dziedzice - widok na Plac Jana Pawła II
-https://hoktastream1.webcamera.pl/czechowice_live_94d1ae/czechowice_live_94d1ae.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wodzislaw-slaski-pl.svg" group-title="Miasta",Wodzisław Śląski
+https://streaming.netcorp.pl/hls/rynek/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jaworzno-pl.svg" group-title="Miasta",Jaworzno - Rynek  widok od strony biblioteki
 https://6034e09794f07.streamlock.net/mzdim/smil:rynek1.smil/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kety-pl.svg" group-title="Miasta",Kęty - widok na Rynek
