@@ -1405,5 +1405,8 @@ https://cam.tvsm.pl/live/Botaniczny.stream/playlist.m3u8
 https://cam.tvsm.pl/live/CEE.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Beskidzki Raj - Stryszawa
 https://stream.sumer.net.pl/cam/beskidzkiraj.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Jezioro Święcajty, Piękny Brzeg - Węgorzewo
+https://stream.mazury24.eu/m_pieknybrzeg2/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="MJeziora i inne miejsca",Świdnik - Pumptruck i skatepark
 https://s1.worldcam.live:8082/swidnik2/index.m3u8
+
