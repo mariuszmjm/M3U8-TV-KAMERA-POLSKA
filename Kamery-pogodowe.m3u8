@@ -1405,5 +1405,7 @@ https://cam.tvsm.pl/live/Botaniczny.stream/playlist.m3u8
 https://cam.tvsm.pl/live/CEE.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Beskidzki Raj - Stryszawa
 https://stream.sumer.net.pl/cam/beskidzkiraj.m3u8
-
-
+#EXTINF:-1  group-title="Miasta" Warszawa Górka
+https://www.youtube.com/watch?v=qrFLe2kBCw4&ab_channel=G%C3%B3rkaSzcz%C4%99%C5%9Bliwicka
+#EXTINF:-1  group-title="Miasta" Warszawa Zachodnia
+https://www.youtube.com/watch?v=ymjl0_nRXME&ab_channel=Urz%C4%85dTransportuKolejowego
