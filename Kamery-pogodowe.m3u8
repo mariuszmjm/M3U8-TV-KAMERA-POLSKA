@@ -266,8 +266,6 @@ https://hoktastream1.webcamera.pl/myslenicerynek_cam_69f3ea/myslenicerynek_cam_6
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/rabka-pl.svg" group-title="Miasta",Rabka Zdrój
 https://cdn02.aztv.pl/sesja_rabka/sesja_rabka3.stream/playlist.m3u8?conn_id=16131846141842266895
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/sucha-beskidzka-pl.svg" group-title="Miasta",Sucha Beskidzka
-https://hoktastream1.webcamera.pl/sucha24_cam_ba962c/sucha24_cam_ba962c.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/sucha-beskidzka-pl.svg" group-title="Miasta",Sucha Beskidzka 2
 https://stream.sumer.net.pl/cam/sucha.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kuznice-pl.svg" group-title="Miasta",KUŹNICE kolej na Kasprowy Wierch - stacja dolna
 https://hoktastream2.webcamera.pl/pkl_cam_473633/pkl_cam_473633.stream/playlist.m3u8
