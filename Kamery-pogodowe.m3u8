@@ -125,6 +125,8 @@ https://kamery.vcn.pl/play/hls/Kowal3/index.m3u8
 https://1377.szczecin.pl/camss/streams/plock3.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/plock-pl.svg" group-title="Miasta",Płock - Zalew Sobótka
 https://1377.szczecin.pl/camss/streams/plock2.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/wisla-pl.svg" group-title="Miasta", Urząd Miasta i Gminy Gąbin
+https://kamery.gabin.pl/api/streaming/hls/c7adb5bf-8470-433d-8ed8-e14c8cf93169/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wloclawek-pl.svg" group-title="Miasta",Włocławek
 https://ottx.satfilm.pl/stream/164R/stream.mpd?tm=089d1f7e840e4807a7170cceedf3a9fe
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/bydgoszcz-pl.svg" group-title="Miasta",Bydgoszcz - widok na Stary Rynek
@@ -1411,9 +1413,4 @@ https://stream.sumer.net.pl/cam/beskidzkiraj.m3u8
 https://stream.mazury24.eu/m_pieknybrzeg2/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Jeziora i inne miejsca",Świdnik - Pumptruck i skatepark
 https://s1.worldcam.live:8082/swidnik2/index.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/wisla-pl.svg" group-title="Miasta", Wisła
-htpps://polineo.pl:5443/LiveApp/512247076064114155658639.webrtc
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/wisla-pl.svg" group-title="Miasta", Szczytno
-http://185.240.98.133:8090/mjpeg
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/wisla-pl.svg" group-title="Miasta", Urząd Miasta i Gminy Gąbin
-https://kamery.gabin.pl/api/streaming/hls/c7adb5bf-8470-433d-8ed8-e14c8cf93169/stream.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Jeziora i inne miejsca",Hotel Heron - Górdek na Dunajcem
