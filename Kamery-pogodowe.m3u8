@@ -219,8 +219,8 @@ https://streaming.airmax.pl/nysa_panorama/index.m3u8
 https://streaming.euro.net.pl:8888/rynek/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gliwice-pl.svg" group-title="Miasta",GLIWICE - widok na Rynek
 https://hoktastream3.webcamera.pl/gliwice_cam_c28bda/gliwice_cam_c28bda.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/m/myslowice-pl.svg" group-title="Miasta",Mysłowice - Grunwaldzka
-https://cdn-13-go.toya.net.pl/kamery/mysl_grunwaldzka.m3u8?p=474f43414d005f5e0ff.ec376048a51ca4a82e9a00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/m/myslowice-pl.svg" group-title="Miasta",Mysłowice - Rynek
+https://cdn-14-go.toya.net.pl/kamery/mysl_rynek.m3u8?p=474f43414d005f5e0ff.250e56ac282581ea8d5800637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/dabrowa-gornicza-pl.svg" group-title="Miasta",Dąbrowa Górnicza
 https://kam1.dabrowa-gornicza.pl:4443/video-pkz-hires/vi.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/o/oswiecim-pl.svg" group-title="Miasta",Oświęcim - widok na Rynek
@@ -286,23 +286,27 @@ https://live.ntvk.com.pl/hls/kamera-lodziarka.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/N/Nowy-targ-pl.svg" group-title="Miasta",Nowy Targ - widok na Rynek
 https://hstream1.webcamera.pl/nowytarg_cam_0f85a4/nowytarg_cam_0f85a4.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - widok na Nową Hutę
-https://hoktastream4.webcamera.pl/krakow_cam_c4feaa/krakow_cam_c4feaa.stream/playlist.m3u8
+https://cdn-14-go.toya.net.pl/kamery/krak_nowa_huta.m3u8?p=474f43414d005f5e0ff.7db3e14c55217ca8fe7200637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Panorama Krakowa
 https://hoktastream1.webcamera.pl/krakow_cam_66c146/krakow_cam_66c146.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - Zakrzówek
 https://hoktastream2.webcamera.pl/krakow_cam_680fe3/krakow_cam_680fe3.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - Rynek Podgórski
-https://hoktastream1.webcamera.pl/krakow_cam_c44608/krakow_cam_c44608.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - Plac Jana Nowaka Jeziorańskiego
+https://cdn-14-go.toya.net.pl/kamery/krak_galkrakowskadworzec.m3u8?p=474f43414d005f5e0ff.fa87348ddcb1ae21f7d300637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",KRAKÓW - widok na WAWEL
 https://hoktastream2.webcamera.pl/krakow_cam_4c3e37/krakow_cam_4c3e37.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - widok na Wisłę i Most im. Marszałka Józefa Piłsudskiego
 https://hoktastream3.webcamera.pl/krakowkladka_cam_a51738/krakowkladka_cam_a51738.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",KRAKÓW - widok na Rynek Główny
-https://hoktastream2.webcamera.pl/krakow_cam_702b61/krakow_cam_702b61.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",KRAKÓW - widok na Rynek Główny 1
+https://cdn-14-go.toya.net.pl/kamery/krak_krakow1.m3u8?p=474f43414d005f5e0ff.bee8ff9027a0dbaa961400637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",KRAKÓW - widok na Rynek Główny 2
+https://cdn-14-go.toya.net.pl/kamery/krak_rynek1.m3u8?p=474f43414d005f5e0ff.2f86e01d683bf6559be400637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - widok na Rynek Główny 3
+https://cdn-14-go.toya.net.pl/kamery/krak_wentzl.m3u8?p=474f43414d005f5e0ff.c551b3e0241da99de2ba00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",KRAKÓW - widok na Zamek Królewski na Wawelu
 https://hoktastream2.webcamera.pl/krakow_cam_c78671/krakow_cam_c78671.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - widok na Rynek Główny
-https://hoktastream1.webcamera.pl/wentzl_cam_be5c6c/wentzl_cam_be5c6c.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",KRAKÓW - Aleja róż w Nowej Hucie
+https://cdn-13-go.toya.net.pl/kamery/krak_alroznowahuta.m3u8?p=474f43414d005f5e0ff.5b16abfb350186c10b5400637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/bochnia-pl.svg" group-title="Miasta",Bochnia
 https://cdn02.aztv.pl/live_bochnia/live_bochnia2.stream/playlist.m3u8?conn_id=15102030261842266895
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/busko-zdroj-pl.svg"  group-title="Miasta",Busko Zdrój - Fontanna przy Tęźni
@@ -1407,6 +1411,5 @@ https://cam.tvsm.pl/live/CEE.stream/playlist.m3u8
 https://stream.sumer.net.pl/cam/beskidzkiraj.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Jezioro Święcajty, Piękny Brzeg - Węgorzewo
 https://stream.mazury24.eu/m_pieknybrzeg2/index.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="MJeziora i inne miejsca",Świdnik - Pumptruck i skatepark
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Jeziora i inne miejsca",Świdnik - Pumptruck i skatepark
 https://s1.worldcam.live:8082/swidnik2/index.m3u8
-
