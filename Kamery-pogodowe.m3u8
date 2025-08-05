@@ -1415,3 +1415,5 @@ https://s1.worldcam.live:8082/swidnik2/index.m3u8
 htpps://polineo.pl:5443/LiveApp/512247076064114155658639.webrtc
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/wisla-pl.svg" group-title="Miasta", Szczytno
 http://185.240.98.133:8090/mjpeg
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/wisla-pl.svg" group-title="Miasta", Urząd Miasta i Gminy Gąbin
+https://kamery.gabin.pl/api/streaming/hls/c7adb5bf-8470-433d-8ed8-e14c8cf93169/stream.m3u8
