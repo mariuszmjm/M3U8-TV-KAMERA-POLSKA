@@ -367,8 +367,8 @@ https://k-rz.pl/HLS/capitalzam3.m3u8
 https://k-rz.pl/HLS/kladka2.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lancut-pl.svg" group-title="Miasta",Łańcut - Zamek
 https://stream4.mat-sat.pl/str/zamek.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lancut-pl.svg" group-title="Miasta",Łańcut - Planty
-https://stream.mat-sat.pl/str/1planty.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lancut-pl.svg" group-title="Miasta",Łańcut - Planty Rynek
+https://stream.mat-sat.pl/str/lan2planty.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lancut-pl.svg" group-title="Miasta",Łańcut - Ogrody Zamkowe
 https://stream4.mat-sat.pl/str/zamekogrody.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jaroslaw-pl.svg" group-title="Miasta",Jarosław - Rynek
@@ -1414,3 +1414,10 @@ https://stream.mazury24.eu/m_pieknybrzeg2/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Jeziora i inne miejsca",Świdnik - Pumptruck i skatepark
 https://s1.worldcam.live:8082/swidnik2/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Jeziora i inne miejsca",Hotel Heron - Górdek na Dunajcem
+https://53c7d208964cd.streamlock.net/ipcamstream360/AlarmService1/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Jeziora i inne miejsca",Hotel Tremonti - Karpacz
+https://7003.szczecin.pl/0live/streams/widoki1.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Jeziora i inne miejsca",Jastarnia
+https://edge9.popler.tv/popler_publishlive2/netrix/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC81LzIwMjUgMTowMjoyNCBQTSZoYXNoX3ZhbHVlPThScFNIelRkK3lsUXRuck9ITE5Yanc9PSZ2YWxpZG1pbnV0ZXM9NQ==
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Jeziora i inne miejsca",Uzdrowisko Horyniec Sp. z o.o.
+https://stream.mat-sat.pl/str/horynieczdroj.m3u8
