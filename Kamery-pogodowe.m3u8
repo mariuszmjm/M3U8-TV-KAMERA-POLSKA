@@ -1412,4 +1412,6 @@ https://stream.mazury24.eu/m_pieknybrzeg2/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Jeziora i inne miejsca",Świdnik - Pumptruck i skatepark
 https://s1.worldcam.live:8082/swidnik2/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/wisla-pl.svg" group-title="Miasta", Wisła
-wss://polineo.pl:5443/LiveApp/512247076064114155658639.webrtc
+htpps://polineo.pl:5443/LiveApp/512247076064114155658639.webrtc
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/wisla-pl.svg" group-title="Miasta", Szczytno
+http://185.240.98.133:8090/mjpeg
