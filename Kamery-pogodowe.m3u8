@@ -176,9 +176,9 @@ https://hoktastream1.webcamera.pl/karpacz_cam_96f84d/karpacz_cam_96f84d.stream/p
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lubin-pl.svg" group-title="Miasta",Lubin - Skwer Kajko i Kokosza
 https://kam1.mailfull.pl/17_2_skwerkik/memfs/a506ca85-4612-4fb2-bf20-eeeace94d007.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/legnica-pl.svg" group-title="Miasta",Legnica
-https://streaming.airmax.pl/legnica_panorama/index.m3u8
+https://streaming.airmax.pl/legnica_ewang2/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/polanica-zdroj-pl.svg" group-title="Miasta",Polanica Zdrój
-https://streaming.airmax.pl/polanica/index.m3u8
+https://streaming.airmax.pl/02polanica/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/nowa-ruda-pl.svg" group-title="Miasta",Nowa Ruda
 https://stream.devices.pl:5443/LiveApp/streams/023273871045625560087218.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/klodzko-k.svg" group-title="Miasta",Kłodzko
@@ -395,8 +395,6 @@ https://s1.worldcam.live:8082/swidnik3/index.m3u8
 https://s1.worldcam.live:8082/swidnik/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lublin-pl.svg" group-title="Miasta",LUBLIN - widok na Bramę Krakowską
 https://1172509122.rsc.cdn77.org/live/Qms618.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lublin-pl.svg" group-title="Miasta",LUBLIN - widok na Krakowskie Przedmieście
-https://stream6.nadaje.com:36338/live/pkO612.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lublin-pl.svg" group-title="Miasta",Lublin - widok na Park Ludowy
 https://1015909630.rsc.cdn77.org/live/xrw610.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lublin-pl.svg" group-title="Miasta",Lublin - Arena
@@ -876,7 +874,7 @@ https://hoktastream2.webcamera.pl/umgdansk_cam_e25623/umgdansk_cam_e25623.stream
 #EXTINF:-1  group-title="Plaże",SOPOT - widok na plażę
 https://hoktastream1.webcamera.pl/sopot_cam_5d1d8c/sopot_cam_5d1d8c.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",STEGNA - widok na plażę
-https://hoktastream4.webcamera.pl/stegna_cam_c00d9b/stegna_cam_c00d9b.stream/playlist.m3u8
+https://hoktastream4.webcamera.pl/stegna_cam_7e8d95/stegna_cam_7e8d95.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",JANTAR - widok na Plaże
 https://hoktastream3.webcamera.pl/jantar_cam_8948dd/jantar_cam_8948dd.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",KĄTY RYBACKIE - widok na plaże
