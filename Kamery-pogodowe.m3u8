@@ -381,7 +381,7 @@ https://1650048485.rsc.cdn77.org/live/CZf117.stream/playlist.m3u8
 https://stream4.mat-sat.pl/str/1lubaczow.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/narol-pl.svg" group-title="Miasta", Narol
 https://s1.worldcam.live:8082/narol/index.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/T/Tomaszow-lubelski-pl.svg" group-title="Miasta",Tomaszów Lubelski
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/tomaszow-lubelski-pl.svg" group-title="Miasta",Tomaszów Lubelski
 https://newcam.tom-net.pl/memfs/0bf2fec2-11d0-467b-b493-1e0821bb165c.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zamosc-pl.svg" group-title="Miasta",Kamera z widokiem na RYNEK WIELKI w ZAMOŚCIU
 https://hoktastream4.webcamera.pl/zamosc_cam_7cc632/zamosc_cam_7cc632.stream/playlist.m3u8
@@ -394,7 +394,7 @@ https://s1.worldcam.live:8082/swidnik3/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Miasta",Świdnik - Plac Konstytucji 3 Maja
 https://s1.worldcam.live:8082/swidnik/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lublin-pl.svg" group-title="Miasta",LUBLIN - widok na Bramę Krakowską
-https://1172509122.rsc.cdn77.org/live/Qms618.stream/playlist.m3u8
+https://1510162109.rsc.cdn77.org/live/EbW613.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lublin-pl.svg" group-title="Miasta",Lublin - widok na Park Ludowy
 https://1015909630.rsc.cdn77.org/live/xrw610.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lublin-pl.svg" group-title="Miasta",Lublin - Arena
