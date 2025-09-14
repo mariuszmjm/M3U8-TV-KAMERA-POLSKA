@@ -93,6 +93,10 @@ https://cdn-13-go.toya.net.pl/kamery/pisz_rondokaczynskiego.m3u8?p=474f43414d005
 https://live.miasto.elk.pl/LiveApp/streams/LCK9KM60W5m0vJNF936518552952.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/knyszyn-pl.svg" group-title="Miasta",Kamera Knyszyn Rynek
 https://knyszynkamery.firmaos.eu/kamera2/ramdisk/video.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/bialystok-pl.svg" group-title="Miasta",Kamera na BIAŁYSTOK - widok na Archikatedrę
+https://hoktastream3.webcamera.pl/bialystok_cam_dbe5b1/bialystok_cam_dbe5b1.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/bialystok-pl.svg" group-title="Miasta",Kamera na BIAŁYSTOK - widok na Rynek Kościuszki
+https://hoktastream3.webcamera.pl/bialystok_cam_4fc01a/bialystok_cam_4fc01a.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/suprasl-pl.svg" group-title="Miasta",Supraśl
 https://panolive.pl:8083/cam/suprasl2_sd/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/suprasl-pl.svg" group-title="Miasta",Supraśl - Widok na Pałac Buchholtzów
