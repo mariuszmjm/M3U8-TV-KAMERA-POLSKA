@@ -1421,3 +1421,5 @@ https://7003.szczecin.pl/0live/streams/widoki1.m3u8
 https://edge9.popler.tv/popler_publishlive2/netrix/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC81LzIwMjUgMTowMjoyNCBQTSZoYXNoX3ZhbHVlPThScFNIelRkK3lsUXRuck9ITE5Yanc9PSZ2YWxpZG1pbnV0ZXM9NQ==
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Jeziora i inne miejsca",Uzdrowisko Horyniec Sp. z o.o.
 https://stream.mat-sat.pl/str/horynieczdroj.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Osieczna - Jezioro Łoniewskie /Leszno
+https://streaming.airmax.pl/systemri1/index.m3u8
