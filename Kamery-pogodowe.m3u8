@@ -16,7 +16,7 @@ https://kl7.tech5.pl:8005/hls/live.stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/slubice-pl.svg" group-title="Miasta",Słubice
 https://1377.szczecin.pl/UZSWindow/streams/uzs20.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/szczecinek-pl.svg" group-title="Miasta",Szczecinek - Widok na Plac Wolności
-https://play.gawex.pl/szczecinek/plac.stream/playlist.m3u8
+https://play.gawex.pl/szczecinek/szczecinekdeptak.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/drawsko-pomorskie-pl.svg" group-title="Miasta",Drawsko Pomorskie - Plac Leopolda Kuczerawego
 https://play.gawex.pl/drawsko/drawskopocztowa.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kolobrzeg-pl.svg" group-title="Miasta",Kołobrzeg - Port oraz latarnia morska
