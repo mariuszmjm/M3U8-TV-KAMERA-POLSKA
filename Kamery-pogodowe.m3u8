@@ -4,7 +4,7 @@ https://hoktastream3.webcamera.pl/deptakswinoujscie_cam_9f1552/deptakswinoujscie
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swinoujscie-pl.svg" group-title="Miasta",Świnoujście - Widok z latarni morskiej
 https://1377.szczecin.pl/Swin/streams/swin1.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/szczecin-1-pl.svg" group-title="Miasta",Szczecin - Dźwigozaury
-https://stream5.lantech.com.pl/hls/dzwigozaury/index.m3u8
+https://ls-proxy-local.lantech.com.pl/hls/dzwigozaury/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/szczecin-1-pl.svg" group-title="Miasta",Szczecin Osiedle Reda
 https://ls-proxy-local.lantech.com.pl/hls/osreda/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/szczecin-1-pl.svg" group-title="Miasta",Szczecin - Lastadia Bulwary
@@ -15,10 +15,10 @@ https://hoktastream3.webcamera.pl/szczecin_cam_141876/szczecin_cam_141876.stream
 https://kl7.tech5.pl:8005/hls/live.stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/slubice-pl.svg" group-title="Miasta",Słubice
 https://1377.szczecin.pl/UZSWindow/streams/uzs20.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/szczecinek-pl.svg" group-title="Miasta",Szczecinek - Widok na Plac Wolności
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/szczecinek-pl.svg" group-title="Miasta",Szczecinek - Widok na Ratusz
 https://play.gawex.pl/szczecinek/szczecinekdeptak.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/drawsko-pomorskie-pl.svg" group-title="Miasta",Drawsko Pomorskie - Plac Leopolda Kuczerawego
-https://play.gawex.pl/drawsko/drawskopocztowa.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/drawsko-pomorskie-pl.svg" group-title="Miasta",Drawsko Pomorskie - Plac Konstytucji
+https://play.gawex.pl/drawsko/drawskoplac.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kolobrzeg-pl.svg" group-title="Miasta",Kołobrzeg - Port oraz latarnia morska
 https://play.gawex.pl/kolobrzeg/kolobrzeglatarnia.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/bialogard-pl.svg" group-title="Miasta",Białogard
