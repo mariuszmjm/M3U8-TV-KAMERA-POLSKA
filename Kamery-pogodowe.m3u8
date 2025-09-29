@@ -64,13 +64,11 @@ https://ls.tkchopin.pl:9043/live/gniew_widok_rynek_wieza_kosciola_static.stream/
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/m/malbork-pl.svg" group-title="Miasta",Malbork - widok na Zamek Krzyżacki
 https://stream.malborskieswiatlowody.pl:18850/Zamek_Parkowa_WEB1/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/m/malbork-pl.svg" group-title="Miasta",Malbork
-https://stream.malborskieswiatlowody.pl:18850/Mainsoft_Plac_Slowianski/index.m3u8
+http://kamerki.malbork.pl/video/live-7.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/tczew-pl.svg" group-title="Miasta",Panorama Tczewa - Rondo JP2
 https://panoramatczewa.pl/memfs/588aa0cf-d99a-4f7d-88e6-d9dd41401417.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jantar-pl.svg" group-title="Miasta",Jantar - Bar Karmazyn
 https://stream.malborskieswiatlowody.pl:18850/Jantar_Karmazyn/index.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/stegna-pl.svg" group-title="Miasta",Stegna
-https://stream.malborskieswiatlowody.pl:18850/Stegna_Klif/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zalewo-pl.svg" group-title="Miasta",Zalewo
 https://s1.worldcam.live:8082/zalewo-fontanna/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/e/elblag-pl.svg" group-title="Miasta",Elbląg - widok na panoramę miasta
@@ -209,8 +207,8 @@ https://streaming.airmax.pl/ratuszopole1/index.m3u8
 https://streaming.airmax.pl/walbrzychpa/tracks-v1/mono.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Pieszyce Wielka Sowa
 https://kamery.emnetgluszyca.pl:5443/LiveApp/streams/ZJOxqQjE5rMaCYOO1737705272155.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/paczkow-1-pl.svg" group-title="Miasta",Paczków Panorama
-https://streaming.airmax.pl/paczkowpanorama/index.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/paczkow-1-pl.svg" group-title="Miasta",Paczków
+https://streaming.airmax.pl/paczkow2/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/glogowek-pl.svg" group-title="Miasta",Głogówek - Ratusz
 https://streaming.airmax.pl/ratuszglogowek2/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kedzierzyn-kozle-pl.svg" group-title="Miasta",Kędzierzyn Koźle
@@ -285,10 +283,8 @@ https://hoktastream4.webcamera.pl/zakopanet_cam_5306f8/zakopanet_cam_5306f8.stre
 https://hoktastream2.webcamera.pl/krupowki2_cam_305cd7/krupowki2_cam_305cd7.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zakopane-pl.svg" group-title="Miasta",KANIÓWKA - Białka Tatrzańska
 https://hoktastream1.webcamera.pl/skywind_cam_bfed73/skywind_cam_bfed73.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/nowy-targ-pl.svg" group-title="Miasta",Nowy Targ
-https://live.ntvk.com.pl/hls/kamera-lodziarka.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/N/Nowy-targ-pl.svg" group-title="Miasta",Nowy Targ - widok na Rynek
-https://hstream1.webcamera.pl/nowytarg_cam_0f85a4/nowytarg_cam_0f85a4.stream/playlist.m3u8
+https://live.ntvk.com.pl/hls/kamera-rynek.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - widok na Nową Hutę
 https://cdn-14-go.toya.net.pl/kamery/krak_nowa_huta.m3u8?p=474f43414d005f5e0ff.7db3e14c55217ca8fe7200637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Panorama Krakowa
@@ -391,7 +387,7 @@ https://newcam.tom-net.pl/memfs/0bf2fec2-11d0-467b-b493-1e0821bb165c.m3u8
 https://hoktastream4.webcamera.pl/zamosc_cam_7cc632/zamosc_cam_7cc632.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zamosc-pl.svg" group-title="Miasta",Zamość
 https://newcam.tom-net.pl/memfs/4c157671-50da-47b0-ae5e-86c37423710a.m3u8
-#EXTINF:-1  group-title="Miasta",Stalowa Wola
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/S/STALOWA-WOLA-pl.svg" group-title="Miasta",Stalowa Wola
 http://stream.tvkstella.pl/stella/kamera1.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Miasta",Świdnik - Galeria Venus
 https://s1.worldcam.live:8082/swidnik3/index.m3u8
@@ -519,6 +515,8 @@ https://hoktastream1.webcamera.pl/polanczyk_cam_aa8511/polanczyk_cam_aa8511.stre
 https://hoktastream4.webcamera.pl/pkl_cam_683a26/pkl_cam_683a26.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Solina Grupa PKL - widok z górnej stacji kolei gondolowej Jawor
 https://hoktastream4.webcamera.pl/pkl_cam_82d922/pkl_cam_82d922.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Port Solina - zapora
+https://cdn2.bieszczady.live/hls-live/portSolina/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",CZORSZTYN - widok na Jezioro i zamek
 https://hstream1.webcamera.pl/niedzica_cam_a6aff0/niedzica_cam_a6aff0.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",TERMY BUKOVINA - Bukowina Tatrzańska
@@ -827,7 +825,7 @@ https://hoktastream3.webcamera.pl/ustka_cam_104ebc/ustka_cam_104ebc.stream/playl
 https://hoktastream1.webcamera.pl/ustka_cam_4feffd/ustka_cam_4feffd.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",ROWY - widok na plażę i morze
 https://hoktastream3.webcamera.pl/gminaustka_cam_294fb0/gminaustka_cam_294fb0.stream/playlist.m3u8
-#EXTINF:-1  group-title="Plaże",EBA - Kamera z widokiem na plażę i morze
+#EXTINF:-1  group-title="Plaże",ŁEBA - Kamera z widokiem na plażę i morze
 https://hoktastream4.webcamera.pl/leba_cam_0d3c03/leba_cam_0d3c03.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",Łeba - widok na plażę z Hotelu Neptun
 https://hoktastream1.webcamera.pl/leba_cam_863fcf/leba_cam_863fcf.stream/playlist.m3u8
@@ -928,7 +926,7 @@ http://185.194.224.189:8080/memfs/61df4d6f-8627-42e1-b3b8-9dbe9b28cf43.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Żubry
 https://p.video.wroclaw.pl/c859f49a-9dad-4f44-a685-bb42de25b174.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Żubry 2
-https://zŻubry.promontech.pl:8181/memfs/0d903f05-4f1d-4cff-a663-6d2a5b9c5c46.m3u8
+https://zubry.promontech.pl:8181/memfs/0d903f05-4f1d-4cff-a663-6d2a5b9c5c46.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Iława Jezioro
 https://streaming.airmax.pl/ilawaum/index.m3u8
 #EXTINF:-1  group-title="TV Polskie",4 FUNTV
