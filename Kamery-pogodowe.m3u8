@@ -51,6 +51,8 @@ https://hoktastream4.webcamera.pl/sopot_cam_caff26/sopot_cam_caff26.stream/playl
 https://kamera.task.gda.pl/rtplive/molo.sdp/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gdynia-pl.svg" group-title="Miasta",Gdynia Orłowo
 https://ls.tkchopin.pl:9043/live/gdynia_orlowo_plaza_obrotowa.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gdynia-pl.svg" group-title="Miasta",Gdynia - Restaracja Róża Wiatrów
+https://kamera.task.gda.pl/rtplive/k015.sdp/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gdynia-pl.svg" group-title="Miasta",GDYNIA - widok na Przystań Jachtową
 https://hoktastream1.webcamera.pl/gdynia_cam_b3ccea/gdynia_cam_b3ccea.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gdansk-pl.svg" group-title="Miasta",Gdańsk - widok na most zwodzony na Motławie
@@ -319,6 +321,8 @@ https://hoktastream3.webcamera.pl/tarnow_cam_d0e19c/tarnow_cam_d0e19c.stream/pla
 https://videocdn.km-net.pl/Zakliczyn_Rynek_3/video.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/nowy-sacz-pl.svg" group-title="Miasta",Nowy Sącz
 https://cd31010201.spaceweb.pl:5443/LiveApp/streams/390561851206038326690986.m3u8?token=null
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/S/STARY-sacz-pl.svg" group-title="Miasta",Stary Sącz
+https://rs-system.eu:5443/WebRTCApp/streams/838860928509386678711228.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/szczawnica-pl.svg" group-title="Miasta",Szczawnica
 https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam12.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/K/Krynica-zdroj-pl.svg" group-title="Miasta",KRYNICA ZDRÓJ - Góra Parkowa
@@ -1372,7 +1376,7 @@ https://cdn2.bieszczady.live/hls-live/chreptiow/playlist.m3u8
 #EXTINF:-1  group-title="Miasta",Petersburg - Ermitaż w Rosji
 https://streamer.camera.rt.ru/public/master.m3u8?sid=ac4ad2e3-8615-4d5b-90dc-3f6a57d9a589
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Sabat Krajno
-https://s148.ipcamlive.com/streams/94zpclflwtrqfhgio/stream.m3u8
+https://s110.ipcamlive.com/streams/6ebucny9gialeh5s4/stream.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Trójstyk Wisztyniec
 http://217.182.74.242/stream1.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Stowarzyszenie "Szansa dla Bociana" w Kozubszczyźnie obok Lublina
@@ -1423,3 +1427,13 @@ https://edge9.popler.tv/popler_publishlive2/netrix/playlist.m3u8?wmsAuthSign=c2V
 https://stream.mat-sat.pl/str/horynieczdroj.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Osieczna - Jezioro Łoniewskie /Leszno
 https://streaming.airmax.pl/systemri1/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Transmisja na żywo mariny nad jeziorem Wdzydze z tarasu karczmy Largo
+https://stream6.nadaje.com:32648/live/oTn1369.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Widok z wiatraka energetycznego ENERGAW w Szczecinku 
+https://play.gawex.pl/szczecinek/szczecinekwiatrak1.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Wisła
+https://polineo.pl:5443/LiveApp/play.html?id=574095533561142541138538
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Szczecinek - Mysia Wyspa
+https://play.gawex.pl/szczecinek/mysiawyspa.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Zabytkowa Kopalnia Ignacy w Rybniku
+https://streaming.leon.pl/hls/rybnik4/index.m3u8
