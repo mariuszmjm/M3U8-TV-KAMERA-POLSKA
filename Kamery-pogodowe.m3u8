@@ -913,18 +913,6 @@ https://stream.mazury24.eu/m_keja/index.m3u8
 https://stream.mazury24.eu/m_papugarnia/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Białe Okuninka - Włodawa
 https://hoktastream1.webcamera.pl/nocowanie_cam_be431a/nocowanie_cam_be431a.stream/playlist.m3u8
-#EXTINF:-1  group-title="TV Polskie",DLACIEBIE.TV
-https://6034e09794f07.streamlock.net/tv/dlaCiebieTv/playlist.m3u8
-#EXTINF:-1  group-title="TV Polskie",EWTN Polska
-https://cdn3.wowza.com/1/ZHdrMWt1NjlDSzFu/bzdDVG10/hls/live/playlist.m3u8
-#EXTINF:-1  group-title="TV Polskie",Hope Channel Polska
-https://stream.hopechannel.pl/livetv/colombo/hope.m3u8
-#EXTINF:-1  group-title="TV Polskie",Radio Czwórka
-https://stream14.polskieradio.pl/pr4_video/video_pr4.stream/playlist.m3u8
-#EXTINF:-1  group-title="TV Polskie",Telewizja Biznesowa
-https://s-pl-01.mediatool.tv/playout/tbpl-abr/index.m3u8
-#EXTINF:-1  group-title="TV Polskie",TV Asta
-https://5cce8c6f0e84c.streamlock.net/LiveCast/smil:PlayStream9.smil/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Kozienickie - Mazowieckie
 http://185.194.224.189:8080/memfs/61df4d6f-8627-42e1-b3b8-9dbe9b28cf43.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Żubry
@@ -933,38 +921,7 @@ https://p.video.wroclaw.pl/c859f49a-9dad-4f44-a685-bb42de25b174.m3u8
 https://zubry.promontech.pl:8181/memfs/0d903f05-4f1d-4cff-a663-6d2a5b9c5c46.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Iława Jezioro
 https://streaming.airmax.pl/ilawaum/index.m3u8
-#EXTINF:-1  group-title="TV Polskie",4 FUNTV
-https://stream.4fun.tv:8888/hls/4f_med/index.m3u8
-#EXTINF:-1  group-title="TV Polskie",TOYA TV
-https://cdn-1-go.toya.net.pl/live/Bg_mAdjr9ctHNzAmMCujSw/1738875743/001_toyahd_hls/03.m3u8
-#EXTINF:-1  group-title="TV Polskie",BIGTIME TV
-https://103f01c3ff79408e83c9212f8a374ecc.mediatailor.us-east-1.amazonaws.com/v1/manifest/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_BjgtjmeDarmoweFilmy/ff86de36-db8e-4ba9-81d8-b5df6f3b713a/2.m3u8
-#EXTINF:-1  group-title="TV Polskie",TOP MOVIES - RAKUTEN
-https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/bb91ca8e-0472-434a-9467-407c0e1f875b/4.m3u8
-#EXTINF:-1  group-title="TV Polskie",GRJNGO TV
-https://b6c7c7d1020a4588982ca7c2625f85d1.mediatailor.us-east-1.amazonaws.com/v1/manifest/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_GrjngoWesterny/aecd006a-7ece-48ed-a974-5fbdb303a442/0.m3u8
-#EXTINF:-1  group-title="TV Polskie",VIASAT EXPLORE
-https://da9c49fa.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/7b77a42f-d143-4022-be6d-549e3f3c27c9/2.m3u8
-#EXTINF:-1  group-title="TV Polskie",SFERA TV
-https://stream.sferatv.pl/sferatvlive/live.m3u8
-#EXTINF:-1  group-title="TV Polskie",TV REGIONALNA
-https://tvreg.klemit.net/regionalna/stream/index.m3u8
-#EXTINF:-1  group-title="TV Polskie",TVT
-https://live.streamtvt.pl/LiveAppStreamTVT/streams/853271271313930867905724.m3u8
-#EXTINF:-1  group-title="TV Polskie",TV JASŁO
-https://cdn01.sesja.pl/live_tvjaslo/live_tvjaslo.stream/playlist.m3u8?conn_id=06183116913632492185
-#EXTINF:-1  group-title="TV Polskie",TRUSO TV
-https://stream.truso.tv/elblag/myStream_aac/playlist.m3u8
-#EXTINF:-1  group-title="TV Polskie",TV TORUŃ
-https://mediaserwer.tvk.torun.pl/live/ngrp:tvk.stream_mobile/manifest_w107837920.m3u8
-#EXTINF:-1  group-title="TV Polskie",TV WIELKOPOLSKA
-https://stream6.nadaje.com:35308/live/stream-1/playlist.m3u8
-#EXTINF:-1  group-title="TV Polskie",RAKUTEN TV
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/7f8fa834-ea3c-4c7f-ad42-6b2aa9eeaf4a/2.m3u8
-#EXTINF:-1  group-title="TV Polskie",TV IMPERIUM
-https://91-193-208-10.eimperium.pl/TVIMPERIUM/index.m3u8
-#EXTINF:-1  group-title="TV Polskie",ECHO TV
-https://echo24new.pl/LiveAppStreamECHO24/streams/GL0VksiIgQUS1672825288490.m3u8?token=undefined&subscriberId=undefined&subscriberCode=undefined?token=undefined&subscriberId=undefined&subscriberCode=undefined
+
 #EXTINF:-1  group-title="Kościoły",Parafia Najświętszego Serca Pana Jezusa w Koszęcinie
 https://konto.tech5.pl:8108/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",SANKTUARIUM Matki Bożej Bolesnej i Pocieszenia w Radomyślu nad Sanem
