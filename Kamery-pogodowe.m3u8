@@ -1693,5 +1693,5 @@ https://topiscctv.eseoul.go.kr/sd1/ch147.stream/playlist.m3u8
 https://topiscctv.eseoul.go.kr/sd1/ch148.stream/playlist.m3u8		
 #EXTINF:-1 GROUP-TITLE="KOREA CCTV",CCTV149		
 https://topiscctv.eseoul.go.kr/sd1/ch149.stream/playlist.m3u8		
-#EXTINF:-1 GROUP-TITLE="KOREA CCTV",CCTV150		
+#EXTINF:-1 tvg-logo="https://www.meteobox.pl/api-svg/korea-poludniowa/seul.svg" GROUP-TITLE="KOREA CCTV",CCTV150		
 https://topiscctv.eseoul.go.kr/sd1/ch150.stream/playlist.m3u8	
