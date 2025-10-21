@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1  provider-logo="https://www.meteobox.pl/api-svg/polska/s/swinoujscie-pl.svg" group-title="Miasta",Świnoujście - widok na promenadę
+#EXTINF:-1  big-tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swinoujscie-pl.svg" group-title="Miasta",Świnoujście - widok na promenadę
 https://hoktastream3.webcamera.pl/deptakswinoujscie_cam_9f1552/deptakswinoujscie_cam_9f1552.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swinoujscie-pl.svg" group-title="Miasta",Świnoujście - Widok z latarni morskiej
 https://1377.szczecin.pl/Swin/streams/swin1.m3u8
