@@ -2,7 +2,9 @@
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swinoujscie-pl.svg" group-title="Miasta",Świnoujście - widok na promenadę
 https://hoktastream3.webcamera.pl/deptakswinoujscie_cam_9f1552/deptakswinoujscie_cam_9f1552.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swinoujscie-pl.svg" group-title="Miasta",Świnoujście - Widok z latarni morskiej
-https://1377.szczecin.pl/Swin/streams/swin1.m3u8
+https://ls-proxy-local.lantech.com.pl/hls/swinoujscie1/index.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swinoujscie-pl.svg" group-title="Miasta",Świnoujście - Kamera Wolin
+https://kamera.smslowianin.pl:8181/memfs/b43efa20-6a37-4477-b40b-922baa97edb1.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/szczecin-1-pl.svg" group-title="Miasta",Szczecin - Dźwigozaury
 https://ls-proxy-local.lantech.com.pl/hls/dzwigozaury/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/szczecin-1-pl.svg" group-title="Miasta",Szczecin Osiedle Reda
@@ -14,7 +16,7 @@ https://hoktastream3.webcamera.pl/szczecin_cam_141876/szczecin_cam_141876.stream
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/barlinek-pl.svg" group-title="Miasta",Barlinek
 https://kl7.tech5.pl:8005/hls/live.stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/slubice-pl.svg" group-title="Miasta",Słubice
-https://1377.szczecin.pl/UZSWindow/streams/uzs20.m3u8
+https://7005.szczecin.pl/UZSWindow/streams/uzs20.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/szczecinek-pl.svg" group-title="Miasta",Szczecinek - Widok na Ratusz
 https://play.gawex.pl/szczecinek/szczecinekdeptak.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/drawsko-pomorskie-pl.svg" group-title="Miasta",Drawsko Pomorskie - Plac Konstytucji
@@ -22,11 +24,11 @@ https://play.gawex.pl/drawsko/drawskoplac.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kolobrzeg-pl.svg" group-title="Miasta",Kołobrzeg - Port oraz latarnia morska
 https://play.gawex.pl/kolobrzeg/kolobrzeglatarnia.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/bialogard-pl.svg" group-title="Miasta",Białogard
-https://1377.szczecin.pl/camss/streams/Bialogard.m3u8
+https://7005.szczecin.pl/camss/streams/Bialogard.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/koszalin-pl.svg" group-title="Miasta",KOSZALIN - widok na Rynek Staromiejski
 https://hoktastream3.webcamera.pl/koszalin_cam_24513e/koszalin_cam_24513e.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/darlowo-pl.svg" group-title="Miasta",Darłowo - widok na miasto
-https://hoktastream4.webcamera.pl/darlowo_cam_a25f1f/darlowo_cam_a25f1f.stream/playlist.m3u8
+https://hoktastream3.webcamera.pl/darlowo_cam_a25f1f/darlowo_cam_a25f1f.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/darlowo-pl.svg" group-title="Miasta",DARŁOWO - widok na Rynek
 https://hoktastream3.webcamera.pl/darlowo_cam_fd6665/darlowo_cam_fd6665.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/u/ustka-pl.svg" group-title="Miasta",Ustka
@@ -126,9 +128,9 @@ https://stream2.ittam.pl:5443/WebRTCApp/streams/290708883039491885912420.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kowal-pl.svg" group-title="Miasta",Kowal
 https://kamery.vcn.pl/play/hls/Kowal3/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/plock-pl.svg" group-title="Miasta",Płock
-https://1377.szczecin.pl/camss/streams/plock3.m3u8
+https://7005.szczecin.pl/camss/streams/plock3.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/plock-pl.svg" group-title="Miasta",Płock - Zalew Sobótka
-https://1377.szczecin.pl/camss/streams/plock2.m3u8
+https://7005.szczecin.pl/camss/streams/plock2.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/wisla-pl.svg" group-title="Miasta", Widok z Kościoła w Gąbinie
 https://kamery.gabin.pl/api/streaming/hls/f5950b4f-a45b-4db0-a7d8-d9239d36b5cf/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wloclawek-pl.svg" group-title="Miasta",Włocławek
@@ -176,7 +178,7 @@ https://hoktastream4.webcamera.pl/jeleniagora_cam_73a10c/jeleniagora_cam_73a10c.
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/karpacz-pl.svg" group-title="Miasta",Karpacz - widok panoramiczny na miasto
 https://hoktastream2.webcamera.pl/karpacz_cam_ab594f/karpacz_cam_ab594f.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/karpacz-pl.svg" group-title="Miasta",Karpacz - widok na centrum miasta
-https://hoktastream4.webcamera.pl/karpacz_cam_133512/karpacz_cam_133512.stream/playlist.m3u8
+https://hoktastream5.webcamera.pl/karpacz_cam_133512/karpacz_cam_133512.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/karpacz-pl.svg" group-title="Jeziora i inne miejsca",Karpacz - widok na stadion lekkoatletyczny
 https://hoktastream1.webcamera.pl/karpacz_cam_96f84d/karpacz_cam_96f84d.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lubin-pl.svg" group-title="Miasta",Lubin - Skwer Kajko i Kokosza
@@ -194,7 +196,7 @@ https://stream.devices.pl:5443/LiveApp/streams/912421045283436415528139.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wroclaw-pl.svg" group-title="Miasta",WROCŁAW - widok na Stare Miasto
 https://hoktastream1.webcamera.pl/wroclaw_przed_cam_16c68e/wroclaw_przed_cam_16c68e.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wroclaw-pl.svg" group-title="Miasta",WrocŁaw Panorama
-https://7003.szczecin.pl/pge1/streams/wrocek.m3u8
+https://7005.szczecin.pl/pge1/streams/wrocek.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wroclaw-pl.svg" group-title="Miasta",WrocŁaw Panorama 2
 https://streaming.airmax.pl/wroclawpanorama/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/o/olesnica-pl.svg" group-title="Miasta",Widok na Plac Zwycięstwa w Oleśnicy
@@ -378,7 +380,7 @@ https://stream.mat-sat.pl/str/lan2planty.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lancut-pl.svg" group-title="Miasta",Łańcut - Ogrody Zamkowe
 https://stream4.mat-sat.pl/str/zamekogrody.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jaroslaw-pl.svg" group-title="Miasta",Jarosław - Rynek
-https://7003.szczecin.pl/0live/streams/jarlive.m3u8
+https://7004.szczecin.pl/0live/streams/jarlive.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/ropczyce-pl.svg" group-title="Miasta",Ropczyce
 http://hls.r-ce.pl/rynekk.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kolbuszowa-pl.svg" group-title="Miasta",Kolbuszowa
@@ -1374,7 +1376,7 @@ https://s1.worldcam.live:8082/swidnik2/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Jeziora i inne miejsca",Hotel Heron - Gródek na Dunajcem
 https://53c7d208964cd.streamlock.net/ipcamstream360/AlarmService1/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Jeziora i inne miejsca",Hotel Tremonti - Karpacz
-https://7003.szczecin.pl/0live/streams/widoki1.m3u8
+https://7004.szczecin.pl/0live/streams/widoki1.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Jeziora i inne miejsca",Jastarnia
 https://edge9.popler.tv/popler_publishlive2/netrix/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC81LzIwMjUgMTowMjoyNCBQTSZoYXNoX3ZhbHVlPThScFNIelRkK3lsUXRuck9ITE5Yanc9PSZ2YWxpZG1pbnV0ZXM9NQ==
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Jeziora i inne miejsca",Uzdrowisko Horyniec Sp. z o.o.
