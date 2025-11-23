@@ -23,6 +23,8 @@ https://play.gawex.pl/szczecinek/szczecinekdeptak.stream/playlist.m3u8
 https://play.gawex.pl/drawsko/drawskoplac.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kolobrzeg-pl.svg" group-title="Miasta",Kołobrzeg - Port oraz latarnia morska
 https://play.gawex.pl/kolobrzeg/kolobrzeglatarnia.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kolobrzeg-pl.svg" group-title="Miasta",Kołobrzeg - Port
+https://ls.tkchopin.pl:9043/live/kolobrzeg_port_static.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/bialogard-pl.svg" group-title="Miasta",Białogard
 https://7005.szczecin.pl/camss/streams/Bialogard.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/koszalin-pl.svg" group-title="Miasta",KOSZALIN - widok na Rynek Staromiejski
@@ -368,7 +370,7 @@ https://cdn-13-go.toya.net.pl/kamery/prze_rynekurzadmiasta.m3u8?p=474f43414d005f
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/przemysl-pl.svg" group-title="Miasta",Przemyśl - Plac Niepodległości
 https://cdn-13-go.toya.net.pl/kamery/prze_placniepodleglosci.m3u8?p=474f43414d005f5e0ff.6f00ccf0145aae8e646400637374.30363864643265653334396630363534643463303632343633643864373463323935613933313633&d=d9d68e693b6310a261d04d9dbadd5a63
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/rzeszow-pl.svg" group-title="Miasta",RZESZÓW - Widok na Stary Rynek i Ratusz
-https://hoktastream3.webcamera.pl/rzeszow_cam_b3e146/rzeszow_cam_b3e146.stream/playlist.m3u8
+https://hoktastream5.webcamera.pl/rzeszow_cam_b3e146/rzeszow_cam_b3e146.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/rzeszow-pl.svg" group-title="Miasta",Rzeszów - Aleja Kopisto
 https://k-rz.pl/HLS/capitalzam3.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/rzeszow-pl.svg" group-title="Miasta",Rzeszów - Kładka
@@ -571,6 +573,8 @@ https://hoktastream2.webcamera.pl/kurzagora_cam_b1bcb1/kurzagora_cam_b1bcb1.stre
 https://hoktastream4.webcamera.pl/kurzagora_cam_32863f/kurzagora_cam_32863f.stream/playlist.m3u8
 #EXTINF:-1  group-title="Góry, stoki narciarskie",Kurza Góra na Mazurach - widok na lodowisko
 https://hoktastream2.webcamera.pl/kurzagora_cam_60e702/kurzagora_cam_60e702.stream/playlist.m3u8
+#EXTINF:-1  group-title="Góry, stoki narciarskie",Kurza Góra na Mazurach - widok na stok
+https://hoktastream2.webcamera.pl/kurzagora_cam_565471/kurzagora_cam_565471.stream/playlist.m3u8
 #EXTINF:-1  group-title="Góry, stoki narciarskie",RYBNO SKI - widok na stok
 https://hoktastream4.webcamera.pl/rybno_cam_1bbabb/rybno_cam_1bbabb.stream/playlist.m3u8
 #EXTINF:-1  group-title="Góry, stoki narciarskie",Świeradw Ski&Sun - dolna stacja
@@ -925,6 +929,8 @@ https://p.video.wroclaw.pl/c859f49a-9dad-4f44-a685-bb42de25b174.m3u8
 https://zubry.promontech.pl:8181/memfs/0d903f05-4f1d-4cff-a663-6d2a5b9c5c46.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Iława Jezioro
 https://streaming.airmax.pl/ilawaum/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Puck - Zatoka Pucka
+https://ls.tkchopin.pl:9043/live/puck_wieza_kosciola_zatokapucka_obrotowa.stream/playlist.m3u8
 
 #EXTINF:-1  group-title="Kościoły",Parafia Najświętszego Serca Pana Jezusa w Koszęcinie
 https://konto.tech5.pl:8108/hls/live.stream.m3u8
