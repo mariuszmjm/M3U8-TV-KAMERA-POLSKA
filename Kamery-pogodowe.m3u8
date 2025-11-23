@@ -26,7 +26,7 @@ https://play.gawex.pl/kolobrzeg/kolobrzeglatarnia.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/bialogard-pl.svg" group-title="Miasta",Białogard
 https://7005.szczecin.pl/camss/streams/Bialogard.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/koszalin-pl.svg" group-title="Miasta",KOSZALIN - widok na Rynek Staromiejski
-https://hoktastream3.webcamera.pl/koszalin_cam_24513e/koszalin_cam_24513e.stream/playlist.m3u8
+https://kl7.tech5.pl:7999/hls/live.stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/darlowo-pl.svg" group-title="Miasta",Darłowo - widok na miasto
 https://hoktastream3.webcamera.pl/darlowo_cam_a25f1f/darlowo_cam_a25f1f.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/darlowo-pl.svg" group-title="Miasta",DARŁOWO - widok na Rynek
@@ -170,7 +170,7 @@ https://hoktastream4.webcamera.pl/zielonagora_cam_ed9042/zielonagora_cam_ed9042.
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/luban-pl.svg" group-title="Miasta",Lubań
 https://p.video.wroclaw.pl/intera/luban-park.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zlotoryja-pl.svg" group-title="Miasta",Złotoryja
-https://streaming.airmax.pl/zlotoryja_panorama/tracks-v1/mono.m3u8
+https://hoktastream3.webcamera.pl/zlotoryja_cam_0c5e15/zlotoryja_cam_0c5e15.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jelenia-gora-pl.svg" group-title="Miasta",JELENIA GÓRA - widok na miasto
 https://hoktastream1.webcamera.pl/jeleniagora_cam_377b56/jeleniagora_cam_377b56.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jelenia-gora-pl.svg" group-title="Miasta",JELENIA GÓRA - widok na Plac Piastowski
@@ -280,11 +280,11 @@ https://hoktastream2.webcamera.pl/pkl_cam_473633/pkl_cam_473633.stream/playlist.
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zakopane-pl.svg" group-title="Miasta",Zakopane - widok na ulicę Bronisława Czecha
 https://hoktastream1.webcamera.pl/wielka-krokiew_cam_b29b5d/wielka-krokiew_cam_b29b5d.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zakopane-pl.svg" group-title="Miasta",Zakopane - widok na Krupówki Dolne
-https://hoktastream4.webcamera.pl/krupowki2_cam_62169a/krupowki2_cam_62169a.stream/playlist.m3u8
+https://hoktastream5.webcamera.pl/krupowki2_cam_62169a/krupowki2_cam_62169a.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zakopane-pl.svg" group-title="Miasta",ZAKOPANE - widok na Krupówki
 https://hoktastream2.webcamera.pl/zakopanet_cam_4e4a21/zakopanet_cam_4e4a21.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zakopane-pl.svg" group-title="Miasta",Zakopane - ujęcie na ulicę Krupówki
-https://hoktastream4.webcamera.pl/zakopanet_cam_5306f8/zakopanet_cam_5306f8.stream/playlist.m3u8
+https://hoktastream4.webcamera.pl/zakopane_cam_cd5b2d/zakopane_cam_cd5b2d.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zakopane-pl.svg" group-title="Miasta",ZAKOPANE - widok na targowisko oraz kolej na Gubałówkę
 https://hoktastream2.webcamera.pl/krupowki2_cam_305cd7/krupowki2_cam_305cd7.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zakopane-pl.svg" group-title="Miasta",KANIÓWKA - Białka Tatrzańska
@@ -322,7 +322,7 @@ https://vm2.umig.busko.pl/webcam/cam10.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/tarnow-pl.svg" group-title="Miasta",Rynek miejski w Tarnowie
 https://hoktastream3.webcamera.pl/tarnow_cam_d0e19c/tarnow_cam_d0e19c.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zakliczyn-pl.svg" group-title="Miasta",Zakliczyn - Rynek
-https://videocdn.km-net.pl/Zakliczyn_Rynek_3/video.m3u8
+https://videocdn.km-net.pl/Zakliczyn_Rynek/video.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/nowy-sacz-pl.svg" group-title="Miasta",Nowy Sącz
 https://cd31010201.spaceweb.pl:5443/LiveApp/streams/390561851206038326690986.m3u8?token=null
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/S/STARY-sacz-pl.svg" group-title="Miasta",Stary Sącz
@@ -362,7 +362,7 @@ https://cdn2.bieszczady.live/hls-live/UMustrzykiRynek/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/a/arlamow-pl.svg" group-title="Miasta",Ustrzyki Dolne Hotel Arlamów
 https://cdn2.bieszczady.live/hls-live/arlamow8/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kroscienko-pl.svg" group-title="Miasta",Krościenko
-https://rynek.kroscienko.pl/hls/index.m3u8
+https://cdn01.aztv.pl/sesja_kroscienko/sesja_kroscienko_ch1.stream/playlist.m3u8?conn_id=23111602783633821498
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/przemysl-pl.svg" group-title="Miasta",Przemyśl - Rynek
 https://cdn-13-go.toya.net.pl/kamery/prze_rynekurzadmiasta.m3u8?p=474f43414d005f5e0ff.8102b90fa18dcec53d4c00637374.30363864643265653334396630363534643463303632343633643864373463323935613933313633&d=d9d68e693b6310a261d04d9dbadd5a63
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/przemysl-pl.svg" group-title="Miasta",Przemyśl - Plac Niepodległości
@@ -1395,6 +1395,8 @@ https://play.gawex.pl/szczecinek/mysiawyspa.stream/playlist.m3u8
 https://streaming.leon.pl/hls/rybnik4/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Jezioro Wielkie Cekcyńskie - Bory Tucholskie
 https://s1.worldcam.live:8082/cekcyn-bory-tucholskie/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Koszalin - Park Książąt Pomorskich
+https://kl7.tech5.pl:7998/hls/live.stream.m3u8
 
 
 #EXTINF: -1 group-title="Korea",Seoraksan National Park - Widok Ulsanbawi z Fortecy Gwongeumseong
