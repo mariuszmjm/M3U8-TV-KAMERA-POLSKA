@@ -239,6 +239,10 @@ https://hoktastream4.webcamera.pl/oswiecim_cam_f19b05/oswiecim_cam_f19b05.stream
 https://stream4.stimotion.pl/live/chorzow1.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chorzow-pl.svg" group-title="Miasta",Chorzów - widok na Ratusz
 https://hoktastream3.webcamera.pl/chorzow_cam_4f8efa/chorzow_cam_4f8efa.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chorzow-pl.svg" group-title="Miasta",Katowice - widok na Spodek i Rondo Ziętka
+https://hoktastream2.webcamera.pl/katowice_cam_2bcad5/katowice_cam_2bcad5.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chorzow-pl.svg" group-title="Miasta",Katowice - Rynek
+https://hoktastream2.webcamera.pl/katowice_cam_88da9e/katowice_cam_88da9e.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/czestochowa-pl.svg" group-title="Miasta",CZĘSTOCHOWA - widok na Stary Rynek
 https://hoktastream3.webcamera.pl/czestochowa_cam_0c6362/czestochowa_cam_0c6362.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/czestochowa-pl.svg" group-title="Miasta",CZĘSTOCHOWA - widok na Sanktuarium Matki Boskiej Częstochowskiej
