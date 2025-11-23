@@ -403,6 +403,8 @@ https://hoktastream4.webcamera.pl/zamosc_cam_7cc632/zamosc_cam_7cc632.stream/pla
 https://newcam.tom-net.pl/memfs/4c157671-50da-47b0-ae5e-86c37423710a.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/S/STALOWA-WOLA-pl.svg" group-title="Miasta",Stalowa Wola
 http://stream.tvkstella.pl/stella/kamera1.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/S/sandomierz-pl.svg" group-title="Miasta",Sandomierz
+https://hd-auth.skylinewebcams.com/live.m3u8?a=0ull0taolieug2cl873857o2r1
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Miasta",Świdnik - Galeria Venus
 https://s1.worldcam.live:8082/swidnik3/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Miasta",Świdnik - Plac Konstytucji 3 Maja
