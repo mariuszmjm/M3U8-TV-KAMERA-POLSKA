@@ -456,7 +456,7 @@ https://cdn-14-go.toya.net.pl/kamery/lodz_placwolnosci.m3u8?p=474f43414d005f5e0f
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lodz-pl.svg" group-title="Miasta",Łódż - Manufaktura
 https://cdn-13-go.toya.net.pl/kamery/lodz_manufaktura1.m3u8?p=474f43414d005f5e0ff.6b474195ac62e909d13a00637374.65643038306465613934653435373862623431633437353765636435353338323563653838663936&d=9050751970a0c704f9f9dcfb94055123
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lowicz-pl.svg" group-title="Miasta",Łowicz
-https://kamery.itvmedia.pl/kamsr/kamera1/playlist.m3u8
+https://kamery.itvmedia.pl/kamnr/kamera2/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/serock-pl.svg" group-title="Miasta",Serock
 https://streaming.airmax.pl/umserock1/tracks-v1/mono.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/grodzisk-mazowiecki-pl.svg" group-title="Miasta",Grodzisk Mazowiecki
