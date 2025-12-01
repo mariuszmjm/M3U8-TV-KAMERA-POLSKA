@@ -390,7 +390,7 @@ https://stream.mat-sat.pl/str/lan2planty.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lancut-pl.svg" group-title="Miasta",Łańcut - Ogrody Zamkowe
 https://stream4.mat-sat.pl/str/zamekogrody.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jaroslaw-pl.svg" group-title="Miasta",Jarosław - Rynek
-https://7004.szczecin.pl/0live/streams/jarlive.m3u8
+https://7004.szczecin.pl:443/0live/streams/jarlive.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/ropczyce-pl.svg" group-title="Miasta",Ropczyce
 http://hls.r-ce.pl/rynekk.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kolbuszowa-pl.svg" group-title="Miasta",Kolbuszowa
