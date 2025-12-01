@@ -63,6 +63,8 @@ https://hoktastream1.webcamera.pl/gdynia_cam_b3ccea/gdynia_cam_b3ccea.stream/pla
 https://hoktastream2.webcamera.pl/umgdansk_cam_11161c/umgdansk_cam_11161c.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gdansk-pl.svg" group-title="Miasta",GDAŃSK - widok na Stare Miasto
 https://hoktastream2.webcamera.pl/gdansk_cam_9e790c/gdansk_cam_9e790c.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gdansk-pl.svg" group-title="Miasta",GDAŃSK - widok na Długi Targ
+https://hoktastream4.webcamera.pl/umgdansk_cam_2e4f1b/umgdansk_cam_2e4f1b.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/nowy-dwor-gdanski-pl.svg" group-title="Miasta",Nowy Dwór Gdański
 https://stream.malborskieswiatlowody.pl:18850/NDG_Piorkowskiego/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gniew-pl.svg" group-title="Miasta",Gniew Panorama miasta
@@ -295,8 +297,8 @@ https://hoktastream2.webcamera.pl/zakopanet_cam_4e4a21/zakopanet_cam_4e4a21.stre
 https://hoktastream4.webcamera.pl/zakopane_cam_cd5b2d/zakopane_cam_cd5b2d.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zakopane-pl.svg" group-title="Miasta",ZAKOPANE - widok na targowisko oraz kolej na Gubałówkę
 https://hoktastream2.webcamera.pl/krupowki2_cam_305cd7/krupowki2_cam_305cd7.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zakopane-pl.svg" group-title="Miasta",KANIÓWKA - Białka Tatrzańska
-https://hoktastream1.webcamera.pl/skywind_cam_bfed73/skywind_cam_bfed73.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/m/murzasichle-pl.svg" group-title="Miasta",ZMurzasichle - Apartamenty
+https://streaming.airmax.pl/panoramagor1/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/N/Nowy-targ-pl.svg" group-title="Miasta",Nowy Targ - widok na Rynek
 https://live.ntvk.com.pl/hls/kamera-rynek.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - widok na Nową Hutę
@@ -329,6 +331,8 @@ https://stream.bucze.eu/memfs/4590f0a5-6019-48ef-ad79-c8e2565db517.m3u8
 https://videocdn.km-net.pl/Zakliczyn_Rynek_3/video.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/tarnow-pl.svg" group-title="Miasta",Rynek miejski w Tarnowie
 https://hoktastream3.webcamera.pl/tarnow_cam_d0e19c/tarnow_cam_d0e19c.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/limanowa-pl.svg" group-title="Miasta",Rynek miejski w Limanowej
+https://cdn02.aztv.pl/live_limanowa/live_limanowa.stream_live/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/nowy-sacz-pl.svg" group-title="Miasta",Nowy Sącz
 https://cd31010201.spaceweb.pl:5443/LiveApp/streams/390561851206038326690986.m3u8?token=null
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/S/STARY-sacz-pl.svg" group-title="Miasta",Stary Sącz
@@ -608,7 +612,7 @@ https://hoktastream4.webcamera.pl/zieleniec_cam_b059be/zieleniec_cam_b059be.stre
 #EXTINF:-1  group-title="Góry, stoki narciarskie",Zieleniec Sport Arena - Winterpol W3 dolna stacja
 https://hoktastream3.webcamera.pl/zieleniec_cam_79fa00/zieleniec_cam_79fa00.stream/playlist.m3u8
 #EXTINF:-1  group-title="Góry, stoki narciarskie",Czarna Góra - Sienna
-https://hoktastream3.webcamera.pl/czarnagora_cam_53a2ce/czarnagora_cam_53a2ce.stream/playlist.m3u8
+https://hoktastream2.webcamera.pl/czarnagora_cam_deb57c/czarnagora_cam_deb57c.stream/playlist.m3u8
 #EXTINF:-1  group-title="Góry, stoki narciarskie",Czarna Góra - Sienna - stacja narciarska
 https://hoktastream2.webcamera.pl/czarnagora_cam_a068a7/czarnagora_cam_a068a7.stream/playlist.m3u8
 #EXTINF:-1  group-title="Góry, stoki narciarskie",Czarna Góra - widok panoramiczny z górnej stacji
@@ -626,7 +630,7 @@ https://hoktastream2.webcamera.pl/beskidsport_cam_df0e9e/beskidsport_cam_df0e9e.
 #EXTINF:-1  group-title="Góry, stoki narciarskie",SKRZYCZNE - SZCZYRK
 https://hoktastream1.webcamera.pl/cos_cam_877af9/cos_cam_877af9.stream/playlist.m3u8
 #EXTINF:-1  group-title="Góry, stoki narciarskie",ŻYWIEC - widok na Kotlinę żywiecką
-https://hoktastream1.webcamera.pl/zywiec_cam_1ce519/zywiec_cam_1ce519.stream/playlist.m3u8
+https://hoktastream3.webcamera.pl/zywiec_cam_1ce519/zywiec_cam_1ce519.stream/playlist.m3u8
 #EXTINF:-1  group-title="Góry, stoki narciarskie",ZBÓJNICKA KOPA - SZCZYRK MOUNTAIN RESORT
 https://hoktastream4.webcamera.pl/tmr_cam_bbce85/tmr_cam_bbce85.stream/playlist.m3u8
 #EXTINF:-1  group-title="Góry, stoki narciarskie",HALA POŚREDNIA - SZCZYRK MOUNTAIN RESORT
@@ -683,6 +687,8 @@ https://hoktastream2.webcamera.pl/pkl_cam_473633/pkl_cam_473633.stream/playlist.
 https://hoktastream4.webcamera.pl/wielka-krokiew_cam_4adb77/wielka-krokiew_cam_4adb77.stream/playlist.m3u8
 #EXTINF:-1  group-title="Góry, stoki narciarskie",Polana Szymoszkowa - Zakopane
 https://hoktastream1.webcamera.pl/skywind_cam_85105a/skywind_cam_85105a.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zakopane-pl.svg" group-title="Miasta",KANIÓWKA - Białka Tatrzańska
+https://hoktastream1.webcamera.pl/skywind_cam_bfed73/skywind_cam_bfed73.stream/playlist.m3u8
 #EXTINF:-1  group-title="Góry, stoki narciarskie",GUBAŁÓWKA - widok na Tatry
 https://hoktastream1.webcamera.pl/pkl_cam_cc787e/pkl_cam_cc787e.stream/playlist.m3u8
 #EXTINF:-1  group-title="Góry, stoki narciarskie",Panorama Tatr z Willi
@@ -726,11 +732,11 @@ https://hoktastream2.webcamera.pl/czorsztynski_cam_27b967/czorsztynski_cam_27b96
 #EXTINF:-1  group-title="Góry, stoki narciarskie",Widok ze Schroniska PTTK Trzy Korony w Sromowcach Niżnych
 https://hoktastream3.webcamera.pl/schroniskapieninskie_cam_fb73aa/schroniskapieninskie_cam_fb73aa.stream/playlist.m3u8
 #EXTINF:-1  group-title="Góry, stoki narciarskie",MASTER SKI Tylicz
-https://hoktastream2.webcamera.pl/masterski_cam_557832/masterski_cam_557832.stream/playlist.m3u8
+https://hoktastream5.webcamera.pl/masterski_cam_ce7d7b/masterski_cam_ce7d7b.stream/playlist.m3u8
 #EXTINF:-1  group-title="Góry, stoki narciarskie",MASTER SKI - widok na nową kolej krzesełkową
-https://hoktastream4.webcamera.pl/masterski_cam_68446d/masterski_cam_68446d.stream/playlist.m3u8
+https://hoktastream5.webcamera.pl/masterski_cam_68446d/masterski_cam_68446d.stream/playlist.m3u8
 #EXTINF:-1  group-title="Góry, stoki narciarskie",MASTER SKI Tylicz
-https://hoktastream4.webcamera.pl/masterski_cam_ce7d7b/masterski_cam_ce7d7b.stream/playlist.m3u8
+https://hoktastream2.webcamera.pl/masterski_cam_94c295/masterski_cam_94c295.stream/playlist.m3u8
 #EXTINF:-1  group-title="Góry, stoki narciarskie",MASTER SKI Tylicz
 https://hoktastream4.webcamera.pl/masterski_cam_17fe2a/masterski_cam_17fe2a.stream/playlist.m3u8
 #EXTINF:-1  group-title="Góry, stoki narciarskie",RYTER-ski Raj - ośrodek narciarski w Rytrze
@@ -802,7 +808,7 @@ https://hoktastream2.webcamera.pl/grzybowo_cam_31ad63/grzybowo_cam_31ad63.stream
 #EXTINF:-1  group-title="Plaże",KOŁOBRZEG - widok na plażę zachodnią
 https://hoktastream4.webcamera.pl/kolobrzeg_cam_6df535/kolobrzeg_cam_6df535.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",KOŁOBRZEG - widok na molo i plażę
-https://hoktastream4.webcamera.pl/nocowanie_cam_a32dd1/nocowanie_cam_a32dd1.stream/playlist.m3u8
+https://hoktastream5.webcamera.pl/nocowanie_cam_a32dd1/nocowanie_cam_a32dd1.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",KOŁOBRZEG - widok na marinę
 https://hoktastream1.webcamera.pl/kolobrzegmarina_cam_967ce0/kolobrzegmarina_cam_967ce0.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",KOŁOBRZEG - widok na plażę
