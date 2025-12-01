@@ -323,8 +323,6 @@ https://cdn-14-go.toya.net.pl/kamery/krak_wentzl.m3u8?p=474f43414d005f5e0ff.c551
 https://hoktastream2.webcamera.pl/krakow_cam_c78671/krakow_cam_c78671.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",KRAKÓW - Aleja róż w Nowej Hucie
 https://cdn-13-go.toya.net.pl/kamery/krak_alroznowahuta.m3u8?p=474f43414d005f5e0ff.5b16abfb350186c10b5400637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/bochnia-pl.svg" group-title="Miasta",Bochnia
-https://cdn02.aztv.pl/live_bochnia/live_bochnia2.stream/playlist.m3u8?conn_id=15102030261842266895
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/B/brzesko-pl.svg" group-title="Miasta",Rynek w Brzesku
 https://stream.bucze.eu/memfs/4590f0a5-6019-48ef-ad79-c8e2565db517.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zakliczyn-pl.svg" group-title="Miasta",Zakliczyn - Rynek
