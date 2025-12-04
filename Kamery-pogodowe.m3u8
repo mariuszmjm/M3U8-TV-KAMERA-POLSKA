@@ -299,8 +299,6 @@ https://hoktastream2.webcamera.pl/zakopanet_cam_4e4a21/zakopanet_cam_4e4a21.stre
 https://hoktastream4.webcamera.pl/zakopane_cam_cd5b2d/zakopane_cam_cd5b2d.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zakopane-pl.svg" group-title="Miasta",ZAKOPANE - widok na targowisko oraz kolej na Gubałówkę
 https://hoktastream2.webcamera.pl/krupowki2_cam_305cd7/krupowki2_cam_305cd7.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/m/murzasichle-pl.svg" group-title="Miasta",ZMurzasichle - Apartamenty
-https://streaming.airmax.pl/panoramagor1/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/N/Nowy-targ-pl.svg" group-title="Miasta",Nowy Targ - widok na Rynek
 https://live.ntvk.com.pl/hls/kamera-rynek.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - widok na Nową Hutę
@@ -687,7 +685,7 @@ https://hoktastream2.webcamera.pl/pkl_cam_473633/pkl_cam_473633.stream/playlist.
 https://hoktastream4.webcamera.pl/wielka-krokiew_cam_4adb77/wielka-krokiew_cam_4adb77.stream/playlist.m3u8
 #EXTINF:-1  group-title="Góry, stoki narciarskie",Polana Szymoszkowa - Zakopane
 https://hoktastream1.webcamera.pl/skywind_cam_85105a/skywind_cam_85105a.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zakopane-pl.svg" group-title="Miasta",KANIÓWKA - Białka Tatrzańska
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zakopane-pl.svg" group-title="Góry, stoki narciarskie",KANIÓWKA - Białka Tatrzańska
 https://hoktastream1.webcamera.pl/skywind_cam_bfed73/skywind_cam_bfed73.stream/playlist.m3u8
 #EXTINF:-1  group-title="Góry, stoki narciarskie",GUBAŁÓWKA - widok na Tatry
 https://hoktastream1.webcamera.pl/pkl_cam_cc787e/pkl_cam_cc787e.stream/playlist.m3u8
@@ -2257,3 +2255,29 @@ http://218.148.169.193:1935/live/49.stream/playlist.m3u8
 #EXTINF:-1 group-title="KOREA",KOREA OTHER 50
 http://218.148.169.193:1935/live/50.stream/playlist.m3u8
 
+
+
+#EXTINF:-1 group-title="Miasta ze świata",Nabrzeże Admiralicji w Sankt Petersburgu
+https://river-3-363.rtbcdn.ru/stream/genetta-501.ost.rutube.ru/b9ntKHfaYN9M46YJo2Sg8Q/1764701356/af70989fe893a8bb4f16447936340e95/1080p_stream.m3u8 
+#EXTINF:-1 group-title="Miasta ze świata",Moskwa
+https://hls-spb03.timetechnology.ru:8080/2722/hls/fcdac098bed8c78a/live.m3u8 
+#EXTINF:-1 group-title="Miasta ze świata",    O'Connell Street Dublin
+https://media.evercam.io:8888/gpocam/main_stream.m3u8
+#EXTINF:-1 group-title="Miasta ze świata", La Massana Andorra
+https://api.projecte4estacions.com/live/lacortinada/live.m3u8
+#EXTINF:-1 group-title="Miasta ze świata",  Aruba Tara Beach
+https://videos-3.earthcam.com/fecnetwork/4644.flv/playlist.m3u8?DVR&t=ooKmCI2hhl0JUQI2HiRGMEdV5Yge%2B958NPrsDsV9GWHhyFWQ1pF8pYCba4OPbtmE&cid= 
+#EXTINF:-1 group-title="Miasta ze świata",  Mondsee Abbey Austria
+https://stream1.panocloud.com/mondseewredeplatz/mondseewredeplatz.stream/playlist.m3u8 
+#EXTINF:-1 group-title="Miasta ze świata",Bruksela Grand Palace
+https://livecam.brucity.be/LiveBrusselsWebcams/streams/vTm9wYDlwkAEO8mH1746783018793.m3u8 
+#EXTINF:-1 group-title="Miasta ze świata", Place de Brouckère Bruksela
+https://livecam.brucity.be/LiveBrusselsWebcams/streams/fDdnnEmqOn6Kyy3E1701416388577.m3u8 
+#EXTINF:-1 group-title="Miasta ze świata",RHADC Hamilton Harbor Bermudy
+https://s125.ipcamlive.com/streams/7drift47plyjmv5de/stream.m3u8   
+#EXTINF:-1 group-title="Miasta ze świata", Paryż na żywo
+https://webcam-paris.com/hls/stream.m3u8
+#EXTINF:-1 group-title="Miasta ze świata", Avenida das Hortênsias
+https://tv.rbt.psi.br/media/n/BZmZntmZy2GYnJu3otmW/a/playlist.m3u8
+#EXTINF:-1 group-title="Miasta ze świata", FERATEL
+https://stsfc001.feratel.com/streams/latest/1/5203.mp4?dcsdesign=WTP_feratel.com
