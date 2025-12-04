@@ -2261,23 +2261,47 @@ http://218.148.169.193:1935/live/50.stream/playlist.m3u8
 https://river-3-363.rtbcdn.ru/stream/genetta-501.ost.rutube.ru/b9ntKHfaYN9M46YJo2Sg8Q/1764701356/af70989fe893a8bb4f16447936340e95/1080p_stream.m3u8 
 #EXTINF:-1 group-title="Miasta ze świata",Moskwa
 https://hls-spb03.timetechnology.ru:8080/2722/hls/fcdac098bed8c78a/live.m3u8 
+#EXTINF:-1 group-title="Miasta ze świata", Saint Petersburg
+https://hls-spb03.timetechnology.ru:8080/1431/hls/33qjdyx5l645e6gx/live.m3u8
+#EXTINF:-1 group-title="Miasta ze świata", Nowosibirsk Rosja
+https://wowza-2.novo-sibirsk.ru/stream_live/forvard/chunklist.m3u8
+#EXTINF:-1 group-title="Miasta ze świata", Murmańsk Rosja
+https://s15.moidom-stream.ru/s/public/0000089203.m3u8
 #EXTINF:-1 group-title="Miasta ze świata",    O'Connell Street Dublin
 https://media.evercam.io:8888/gpocam/main_stream.m3u8
 #EXTINF:-1 group-title="Miasta ze świata", La Massana Andorra
 https://api.projecte4estacions.com/live/lacortinada/live.m3u8
-#EXTINF:-1 group-title="Miasta ze świata",  Aruba Tara Beach
-https://videos-3.earthcam.com/fecnetwork/4644.flv/playlist.m3u8?DVR&t=ooKmCI2hhl0JUQI2HiRGMEdV5Yge%2B958NPrsDsV9GWHhyFWQ1pF8pYCba4OPbtmE&cid= 
+#EXTINF:-1 group-title="Miasta ze świata",  Moskwa
+https://videos-3.earthcam.com/fecnetwork/moscowHD1.flv/playlist.m3u8?DVR&t=9yAJLpDk2Jq5li648kp2FKlaBygPb60ds8jKhLA0ASrKTJ3WDQnw%2F2IOsWAZM0HBEghL42Dlcn%2B%2Fl07zEE5NYA%3D%3D&cid=
 #EXTINF:-1 group-title="Miasta ze świata",  Mondsee Abbey Austria
 https://stream1.panocloud.com/mondseewredeplatz/mondseewredeplatz.stream/playlist.m3u8 
 #EXTINF:-1 group-title="Miasta ze świata",Bruksela Grand Palace
 https://livecam.brucity.be/LiveBrusselsWebcams/streams/vTm9wYDlwkAEO8mH1746783018793.m3u8 
 #EXTINF:-1 group-title="Miasta ze świata", Place de Brouckère Bruksela
 https://livecam.brucity.be/LiveBrusselsWebcams/streams/fDdnnEmqOn6Kyy3E1701416388577.m3u8 
+#EXTINF:-1 group-title="Miasta ze świata", Hamburg
+https://cdn.livespotting.com/vpu/46whfv4n/z44s8a8m.m3u8
+#EXTINF:-1 group-title="Miasta ze świata", Stuttgard
+https://cdn.livespotting.com/vpu/drgf25ku/y7g742o6.m3u8
+#EXTINF:-1 group-title="Miasta ze świata", Bad Brückenau
+https://cdn.livespotting.com/vpu/to4d3rza/3d2d2tcm.m3u8
+#EXTINF:-1 group-title="Miasta ze świata", Berlin
+https://cdn.livespotting.com/vpu/d5qak6qj/bqmqghk2.m3u8
+#EXTINF:-1 group-title="Miasta ze świata", Düsseldorf Marktplatz 2
+https://cdn.livespotting.com/vpu/a6mam24n/4xbp4z1f.m3u8
 #EXTINF:-1 group-title="Miasta ze świata",RHADC Hamilton Harbor Bermudy
 https://s125.ipcamlive.com/streams/7drift47plyjmv5de/stream.m3u8   
-#EXTINF:-1 group-title="Miasta ze świata", Paryż na żywo
-https://webcam-paris.com/hls/stream.m3u8
+#EXTINF:-1 group-title="Miasta ze świata", Praga
+https://live.idnes.cz/slow/amc_360p/playlist.m3u8
+#EXTINF:-1 group-title="Miasta ze świata", Bratysława, Słowacja
+https://eun13.playlist.ttvnw.net/v1/playlist/Cq8Gt6FoGYXlhEdTQGKNMSzV66-DzYAY6m8FX8cTVR4kurTeXkAx_G0fKuS7oD7wiUuLhDW-er6loZnUicaNLGMCEU_FtRv1WGGg6E9-1l1R-gA3i0oFkeMhlJV242AEJhzoeDXsxPbe3CQMqV_htN2hyEXWijrtp7pjYMit7JJQJn9WycSyvrK4wanRBkt9xmHju4mct4J1twG4qv7esIdVLRs6cFKsKl-pLTrctiSpNZNbJ1YmJXk3JTgqdejk_hZttGIS5lPeddZqx9KdaB4Or4P_fJWKUTHnJU5m-DzrKw_Agcd7GpuXQkJ4yvsL-cWBpyw4LR689I_Ea0RoUuwmVFVl_YP7H2XRCsHnZ_CtxQh0cdRbfZRETju6xOxa517gOOUrsUh4M8IPRiBczQTJWFCUPhqrBn1v4C2pV0-XbtT6htHnRrdMGqE_u13t9wPLXM2Wd-Bm2eD6mKOxYNxGLQSQ3n0samzXiUD-51bub3LwdiY8FMB6Aca9AxcgabHik8Cv99LhUu0eHkxlrzNG57poqX8rb-58q0RpdEaCb_ANautlBFVahzsbTd0Kp-jkufeVXFfDvDrUgHH3jC8cf1xjWDSh1sdERJSdjMS5V3hQ6QU4FBVeF1Lie61suI0xRaoM0InZLbZhO84_Q45oPQecXtcwlAhD6Htb8K38TKqLoQnXc43gxbnEqw53CHXWncDJeTNgSwdWnSMQR8L1hvfc2hopcjqgA2A8RMTLiSPyEuQJACCMVTzQG5PnAzzpVmD0VRDIo4T1T35gmPlm59eA10tetg7DRBDN30-4BqQVPRLHuw1mWPZ1yOwwV6xMtE7ypfR5nLiUuxLCO16fJIuEykiR1EzfiVHnXSh8A8BVGoxqkU_5kmst6qvlTi-JoT2XGAS-NqdhqmWaMYvx_OV8iEx5ME4V-tnIVfV10l7o16i7zdsm-II1OQqjp0rAighPEJI0Fm4fekYsM4wMhl1TPw0Tpa9knha45ZcyO0bsqv8q92hwIHzEFXi9x8Z84NNtrmPgPYK_jEQxwVEJhtA_d-rdNza9SP5tqHkn76Wu3J4pP7FMgy2Bj4Sb8q0aDD1mP9AC7WyY844JSCABKglldS13ZXN0LTIw7w0.m3u8
+#EXTINF:-1 group-title="Miasta ze świata", Debreczyn, Węgry
+https://s123.ipcamlive.com/streams/7bveaca6tf2lgnnbr/stream.m3u8
 #EXTINF:-1 group-title="Miasta ze świata", Avenida das Hortênsias
 https://tv.rbt.psi.br/media/n/BZmZntmZy2GYnJu3otmW/a/playlist.m3u8
-#EXTINF:-1 group-title="Miasta ze świata", FERATEL
-https://stsfc001.feratel.com/streams/latest/1/5203.mp4?dcsdesign=WTP_feratel.com
+#EXTINF:-1 group-title="Miasta ze świata", Barandov Czechy
+https://live.idnes.cz/slow/barandak_360p/playlist.m3u8
+#EXTINF:-1 group-title="Miasta ze świata", Golden Gate, San Francisco
+https://prope4091ef1.airspace-cdn.cbsivideo.com/weathercams/kpix-salesforce-2/s3-hls/master.m3u8
+#EXTINF:-1 group-title="Miasta ze świata", Nashville USA
+https://s115.ipcamlive.com/streams/73ikqbzoa4v5rnnjf/stream.m3u8
