@@ -178,7 +178,7 @@ https://hoktastream4.webcamera.pl/zielonagora_cam_ed9042/zielonagora_cam_ed9042.
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/luban-pl.svg" group-title="Miasta",Lubań
 https://p.video.wroclaw.pl/intera/luban-park.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zlotoryja-pl.svg" group-title="Miasta",Złotoryja
-https://hoktastream3.webcamera.pl/zlotoryja_cam_0c5e15/zlotoryja_cam_0c5e15.stream/playlist.m3u8
+https://streaming.airmax.pl/zlotoryja_panorama/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jelenia-gora-pl.svg" group-title="Miasta",JELENIA GÓRA - widok na miasto
 https://hoktastream1.webcamera.pl/jeleniagora_cam_377b56/jeleniagora_cam_377b56.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jelenia-gora-pl.svg" group-title="Miasta",JELENIA GÓRA - widok na Plac Piastowski
@@ -198,13 +198,13 @@ https://streaming.airmax.pl/02polanica/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/nowa-ruda-pl.svg" group-title="Miasta",Nowa Ruda
 https://stream.devices.pl:5443/LiveApp/streams/023273871045625560087218.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/klodzko-k.svg" group-title="Miasta",Kłodzko
-https://stream.devices.pl:5443/LiveApp/streams/077261276539648219147745.m3u8
+https://stream.devices.pl:5443/LiveApp/streams/736299437384757407792000.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/nowa-ruda-pl.svg" group-title="Miasta",Międzylesie
 https://stream.devices.pl:5443/LiveApp/streams/912421045283436415528139.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wroclaw-pl.svg" group-title="Miasta",WROCŁAW - widok na Stare Miasto
 https://hoktastream1.webcamera.pl/wroclaw_przed_cam_16c68e/wroclaw_przed_cam_16c68e.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wroclaw-pl.svg" group-title="Miasta",WrocŁaw Panorama
-https://7003.szczecin.pl/pge1/streams/wrocek.m3u8
+https://streaming.airmax.pl/wroclaw_fabryczna_panorama/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wroclaw-pl.svg" group-title="Miasta",WrocŁaw Panorama 2
 https://streaming.airmax.pl/wroclawpanorama/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/o/olesnica-pl.svg" group-title="Miasta",Widok na Plac Zwycięstwa w Oleśnicy
@@ -434,7 +434,7 @@ https://www.cnet24.pl/stream/kam07.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/radom-pl.svg" group-title="Miasta",Radom
 https://stream6.nadaje.com:34766/live/Xkd808.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/radom-pl.svg" group-title="Miasta",Radom 2
-https://kamera.umradom.pl/kam/video/stream.m3u8
+https://185.34.48.75/kam/video/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/P/Piotrkow-trybunalski-pl.svg" group-title="Miasta",Piotrków Trybunalski
 https://cdn-14-go.toya.net.pl/kamery/piot_rynektrybunalski.m3u8?p=474f43414d005f5e0ff.05c01f97287fc9e170c100637374.30363864643265653334396630363534643463303632343633643864373463323935613933313633&d=d9d68e693b6310a261d04d9dbadd5a63
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/piotrkow-trybunalski-pl.svg" group-title="Miasta",Piotrków Trybunalski
