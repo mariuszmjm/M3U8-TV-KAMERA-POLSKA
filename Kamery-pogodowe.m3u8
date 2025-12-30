@@ -348,7 +348,7 @@ https://s1.worldcam.live:8082/debowiec-rynek/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/J/Jaslo-pl.svg" group-title="Miasta",Jasło
 https://cdn02.aztv.pl/sesja_jaslo/sesja_jaslo.stream/playlist.m3u8?conn_id=15093050361842266895
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/K/krosno-pl.svg" group-title="Miasta",Krosno
-https://stream4.stimotion.pl/live/krosno8.m3u8
+https://stream4.stimotion.pl/live/krosno1.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/I/Iwonicz-zdroj-pl.svg" group-title="Miasta",Iwonicz Zdrój
 https://stream4.stimotion.pl/live/iwonicz2.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/I/Iwonicz-zdroj-pl.svg" group-title="Miasta",Iwonicz Zdrój - Plac Dietla
