@@ -146,7 +146,7 @@ https://hoktastream3.webcamera.pl/bydgoszcz_cam_406fa8/bydgoszcz_cam_406fa8.stre
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/bydgoszcz-pl.svg" group-title="Miasta",Bydgoszcz - Panorama
 https://s1.worldcam.live:8082/bydgoszcz-panorama/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/pila-pl.svg" group-title="Miasta",Piła
-https://5cce8c6f0e84c.streamlock.net/live/smil:PlayStream1.smil/playlist.m3u8
+https://5cce8c6f0e84c.streamlock.net/live/smil:PlayStream2.smil/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/cekcyn-pl.svg" group-title="Miasta", Cekcyn - Bory Tucholskie
 https://s1.worldcam.live:8082/cekcyn/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chojnice-pl.svg" group-title="Miasta",Chojnice
@@ -933,9 +933,9 @@ https://stream.mazury24.eu/m_papugarnia/index.m3u8
 https://hoktastream1.webcamera.pl/nocowanie_cam_be431a/nocowanie_cam_be431a.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Kozienickie - Mazowieckie
 http://185.194.224.189:8080/memfs/61df4d6f-8627-42e1-b3b8-9dbe9b28cf43.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Barlinek - gniazdo rybołowa
+https://s1.precate.pl/player/output/rybbar/cam1/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Żubry
-https://p.video.wroclaw.pl/c859f49a-9dad-4f44-a685-bb42de25b174.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Żubry 2
 https://zubry.promontech.pl:8181/memfs/0d903f05-4f1d-4cff-a663-6d2a5b9c5c46.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Iława Jezioro
 https://streaming.airmax.pl/ilawaum/index.m3u8
