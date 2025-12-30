@@ -356,7 +356,7 @@ https://stream4.stimotion.pl/live/iwonicz1.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/Rymanow-pl.svg" group-title="Miasta",Rymanów - Rynek
 https://s1.worldcam.live:8082/rymanow/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/sanok-pl.svg" group-title="Miasta",Sanok
-https://cdn2.bieszczady.live/hls-live/sanok1mick/playlist.m3u8
+https://str.metrosan.pl/rynek/hls/live.stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/cisna-pl.svg" group-title="Miasta",Cisna
 https://streaming.airmax.pl/informacjaturystycznacisna/tracks-v1/mono.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/U/Ustrzyki-gorne-pl.svg" group-title="Miasta",Ustrzyki Górne - Z hotelu Terebowiec
