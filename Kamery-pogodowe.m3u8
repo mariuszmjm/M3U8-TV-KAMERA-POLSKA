@@ -913,6 +913,8 @@ https://hoktastream2.webcamera.pl/tv_cam_656df8/tv_cam_656df8.stream/playlist.m3
 https://hoktastream1.webcamera.pl/tv_cam_9bb83d/tv_cam_9bb83d.stream/playlist.m3u8
 #EXTINF:-1  group-title="TV",Najpiękniejsze Polskie Plaże
 https://hoktastream1.webcamera.pl/tv_cam_781381/tv_cam_781381.stream/playlist.m3u8
+#EXTINF:-1  group-title="TV",Tatry Super Ski - 19 stacji
+https://hoktastream4.webcamera.pl/nartypl_cam_3da613/nartypl_cam_3da613.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Holiday Park - Zator
 https://hoktastream4.webcamera.pl/holidaypark_cam_c90b83/holidaypark_cam_c90b83.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Szczecinek
