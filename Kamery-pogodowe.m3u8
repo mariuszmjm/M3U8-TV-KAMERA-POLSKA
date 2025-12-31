@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swinoujscie-pl.svg" group-title="Miasta",Świnoujście - widok na promenadę
-https://hoktastream3.webcamera.pl/deptakswinoujscie_cam_9f1552/deptakswinoujscie_cam_9f1552.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swinoujscie-pl.svg" group-title="Miasta",Świnoujście - Kamera obrotowa
+https://ls.tkchopin.pl:9043/live/swinoujscie_centrum_obrotowa.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swinoujscie-pl.svg" group-title="Miasta",Świnoujście - Widok z latarni morskiej
 https://ls-proxy-local.lantech.com.pl/hls/swinoujscie1/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swinoujscie-pl.svg" group-title="Miasta",Świnoujście - Kamera Wolin
@@ -936,7 +936,7 @@ https://hoktastream1.webcamera.pl/nocowanie_cam_be431a/nocowanie_cam_be431a.stre
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Kozienickie - Mazowieckie
 http://185.194.224.189:8080/memfs/61df4d6f-8627-42e1-b3b8-9dbe9b28cf43.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Barlinek - gniazdo rybołowa
-https://s1.precate.pl/player/output/rybbar/cam1/playlist.m3u8
+https://s1.precate.pl/player/output/barlinek2/cam1/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Żubry
 https://zubry.promontech.pl:8181/memfs/0d903f05-4f1d-4cff-a663-6d2a5b9c5c46.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Iława Jezioro
@@ -1350,7 +1350,7 @@ https://cdn2.bieszczady.live/hls-live/chreptiow/playlist.m3u8
 #EXTINF:-1  group-title="Miasta",Petersburg - Ermitaż w Rosji
 https://streamer.camera.rt.ru/public/master.m3u8?sid=ac4ad2e3-8615-4d5b-90dc-3f6a57d9a589
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Sabat Krajno
-https://s124.ipcamlive.com/streams/7cbjpm3sudff5ljda/stream.m3u8
+https://s124.ipcamlive.com/streams/7cftjuooe1ltwvm64/stream.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Trójstyk Wisztyniec
 http://217.182.74.242/stream1.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Stowarzyszenie "Szansa dla Bociana" w Kozubszczyźnie obok Lublina
