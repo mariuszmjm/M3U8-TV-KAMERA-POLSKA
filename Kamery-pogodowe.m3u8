@@ -475,6 +475,9 @@ https://hoktastream3.webcamera.pl/warszawa_cam_42ced4/warszawa_cam_42ced4.stream
 https://hoktastream1.webcamera.pl/warszawa_cam_f2b95c/warszawa_cam_f2b95c.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/warszawa-pl.svg" group-title="Miasta",Warszawa - Panorama
 https://live.wizjer.pl/WarsawLive/index_1080p.m3u8
+
+
+
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Marina TRZEBIEŻ
 https://hoktastream3.webcamera.pl/MarinaTrzebiez_cam_3942c2/MarinaTrzebiez_cam_3942c2.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Wdzydze - Bory Tucholskie
@@ -493,6 +496,8 @@ https://hoktastream1.webcamera.pl/skywind_cam_267ae1/skywind_cam_267ae1.stream/p
 https://hoktastream4.webcamera.pl/gizycko_cam_a96a04/gizycko_cam_a96a04.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Wilkasy - widok na Jezioro Niegocin
 https://hoktastream4.webcamera.pl/skywind_cam_99451e/skywind_cam_99451e.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", OLSZTYN - Słoneczna Polana
+https://hoktastream2.webcamera.pl/olsztyn_cam_b8151b/olsztyn_cam_b8151b.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Giżycko - widok na most obrotowy na Kanale Łuczańskim
 https://hoktastream4.webcamera.pl/gizycko_cam_82df5c/gizycko_cam_82df5c.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Muzeum Wsi Mazowieckiej w Sierpcu
