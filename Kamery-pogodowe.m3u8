@@ -96,7 +96,7 @@ https://hoktastream4.webcamera.pl/gizycko_cam_82df5c/gizycko_cam_82df5c.stream/p
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/suwalki-pl.svg" group-title="Miasta",Suwałki
 http://online.um.suwalki.pl:1936/online/p.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/pisz-pl.svg" group-title="Miasta",Pisz: Rondo im. Lecha Kaczyńskiego
-https://cdn-13-go.toya.net.pl/kamery/pisz_rondokaczynskiego.m3u8?p=474f43414d005f5e0ff.88fe4f87437370683c1c00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+https://cdn-13-go.toya.net.pl/kamery/pisz_rondokaczynskiego.m3u8?p=474f43414d005f5e0ff.d55188942ae3f1628be800637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/e/elk-pl.svg" group-title="Miasta",Ełk
 https://live.miasto.elk.pl/LiveApp/streams/LCK9KM60W5m0vJNF936518552952.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/knyszyn-pl.svg" group-title="Miasta",Kamera Knyszyn Rynek
@@ -236,7 +236,7 @@ https://streaming.euro.net.pl:8888/rynek/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gliwice-pl.svg" group-title="Miasta",GLIWICE - widok na Rynek
 https://hoktastream3.webcamera.pl/gliwice_cam_c28bda/gliwice_cam_c28bda.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/m/myslowice-pl.svg" group-title="Miasta",Mysłowice - Rynek
-https://cdn-14-go.toya.net.pl/kamery/mysl_rynek.m3u8?p=474f43414d005f5e0ff.250e56ac282581ea8d5800637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+https://cdn-13-go.toya.net.pl/kamery/mysl_rynek.m3u8?p=474f43414d005f5e0ff.2b892ca2cc2f200540e000637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/dabrowa-gornicza-pl.svg" group-title="Miasta",Dąbrowa Górnicza
 https://kam1.dabrowa-gornicza.pl:4443/video-pkz-hires/vi.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/o/oswiecim-pl.svg" group-title="Miasta",Oświęcim - widok na Rynek
@@ -302,7 +302,7 @@ https://hoktastream2.webcamera.pl/krupowki2_cam_305cd7/krupowki2_cam_305cd7.stre
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/N/Nowy-targ-pl.svg" group-title="Miasta",Nowy Targ - widok na Rynek
 https://live.ntvk.com.pl/hls/kamera-rynek.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - widok na Nową Hutę
-https://cdn-14-go.toya.net.pl/kamery/krak_nowa_huta.m3u8?p=474f43414d005f5e0ff.7db3e14c55217ca8fe7200637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+https://hoktastream4.webcamera.pl/krakow_cam_c4feaa/krakow_cam_c4feaa.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Panorama Krakowa
 https://hoktastream1.webcamera.pl/krakow_cam_66c146/krakow_cam_66c146.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - Zakrzówek
@@ -321,8 +321,8 @@ https://cdn-14-go.toya.net.pl/kamery/krak_rynek1.m3u8?p=474f43414d005f5e0ff.2f86
 https://cdn-14-go.toya.net.pl/kamery/krak_wentzl.m3u8?p=474f43414d005f5e0ff.c551b3e0241da99de2ba00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",KRAKÓW - widok na Zamek Królewski na Wawelu
 https://hoktastream2.webcamera.pl/krakow_cam_c78671/krakow_cam_c78671.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",KRAKÓW - Aleja róż w Nowej Hucie
-https://cdn-13-go.toya.net.pl/kamery/krak_alroznowahuta.m3u8?p=474f43414d005f5e0ff.5b16abfb350186c10b5400637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",KRAKÓW - Rondo Grunwaldzkie
+https://cdn-13-go.toya.net.pl/kamery/krak_rondogrunwaldzkie.m3u8?p=474f43414d005f5e0ff.43886829ba532f21cfab00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/B/brzesko-pl.svg" group-title="Miasta",Rynek w Brzesku
 https://stream.bucze.eu/memfs/4590f0a5-6019-48ef-ad79-c8e2565db517.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zakliczyn-pl.svg" group-title="Miasta",Zakliczyn - Rynek
@@ -436,9 +436,9 @@ https://stream6.nadaje.com:34766/live/Xkd808.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/radom-pl.svg" group-title="Miasta",Radom 2
 https://185.34.48.75/kam/video/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/P/Piotrkow-trybunalski-pl.svg" group-title="Miasta",Piotrków Trybunalski
-https://cdn-14-go.toya.net.pl/kamery/piot_rynektrybunalski.m3u8?p=474f43414d005f5e0ff.05c01f97287fc9e170c100637374.30363864643265653334396630363534643463303632343633643864373463323935613933313633&d=d9d68e693b6310a261d04d9dbadd5a63
+https://cdn-13-go.toya.net.pl/kamery/piot_rynektrybunalski.m3u8?p=474f43414d005f5e0ff.812cb5c0b157af7376e400637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/piotrkow-trybunalski-pl.svg" group-title="Miasta",Piotrków Trybunalski
-https://cdn-13-go.toya.net.pl/kamery/piot_rondosolidarnosci.m3u8?p=474f43414d005f5e0ff.c401c1d497f042db336200637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+https://cdn-13-go.toya.net.pl/kamery/piot_rondosolidarnosci.m3u8?p=474f43414d005f5e0ff.6ae4333482d3dbeb26a400637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kutno-pl.svg" group-title="Miasta",Kutno
 https://s1.worldcam.live:8082/kutno/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/starachowice-pl.svg" group-title="Miasta",Starachowice - Panorama miasta
