@@ -372,9 +372,9 @@ https://cdn2.bieszczady.live/hls-live/arlamow8/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kroscienko-pl.svg" group-title="Miasta",Krościenko
 https://cdn01.aztv.pl/sesja_kroscienko/sesja_kroscienko_ch1.stream/playlist.m3u8?conn_id=23111602783633821498
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/przemysl-pl.svg" group-title="Miasta",Przemyśl - Rynek
-https://cdn-13-go.toya.net.pl/kamery/prze_rynekurzadmiasta.m3u8?p=474f43414d005f5e0ff.8102b90fa18dcec53d4c00637374.30363864643265653334396630363534643463303632343633643864373463323935613933313633&d=d9d68e693b6310a261d04d9dbadd5a63
+https://cdn-13-go.toya.net.pl/kamery/prze_rynekurzadmiasta.m3u8?p=474f43414d005f5e0ff.d8cab8c1d82221444bae00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/przemysl-pl.svg" group-title="Miasta",Przemyśl - Plac Niepodległości
-https://cdn-13-go.toya.net.pl/kamery/prze_placniepodleglosci.m3u8?p=474f43414d005f5e0ff.6f00ccf0145aae8e646400637374.30363864643265653334396630363534643463303632343633643864373463323935613933313633&d=d9d68e693b6310a261d04d9dbadd5a63
+https://cdn-13-go.toya.net.pl/kamery/prze_placniepodleglosci.m3u8?p=474f43414d005f5e0ff.f3eebebc53a700af8dd700637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/rzeszow-pl.svg" group-title="Miasta",RZESZÓW - Widok na Stary Rynek i Ratusz
 https://hoktastream5.webcamera.pl/rzeszow_cam_b3e146/rzeszow_cam_b3e146.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/rzeszow-pl.svg" group-title="Miasta",Rzeszów - Aleja Kopisto
