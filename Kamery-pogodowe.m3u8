@@ -2310,5 +2310,159 @@ https://tv.rbt.psi.br/media/n/BZmZntmZy2GYnJu3otmW/a/playlist.m3u8
 https://live.idnes.cz/slow/barandak_360p/playlist.m3u8
 #EXTINF:-1 group-title="Miasta ze świata", Golden Gate, San Francisco
 https://prope4091ef1.airspace-cdn.cbsivideo.com/weathercams/kpix-salesforce-2/s3-hls/master.m3u8
+
+#EXTINF:-1 group-title="Peregrinus-PL",Włocławek MPEC LIVE 1
+https://7004.szczecin.pl/mpec/streams/mpecz.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL",Włocławek MPEC LIVE 2
+https://7004.szczecin.pl/mpec/streams/mpecw.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL",Warszawa PKiN Live 1
+https://7004.szczecin.pl:443/pkinwawa/streams/cam1.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL",Warszawa PKiN Live 2
+https://7004.szczecin.pl/pkinwawa/streams/cam2.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL",Warszawa PKiN Live 3
+https://7004.szczecin.pl/pkinwawa/streams/cam3.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL",Warszawa PKiN Live 4
+https://7004.szczecin.pl/pkinwawa/streams/cam4.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL",Warszawa PKiN Live 5
+https://7004.szczecin.pl/pkinwawa/streams/cam5.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL",Warszawa PKiN Live 6
+https://7004.szczecin.pl/pkinwawa/streams/cam6.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL",Warszawa PKiN Live 7
+https://7004.szczecin.pl/pkinwawa/streams/cam7.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL",Głogów KGHM LIVE
+https://7004.szczecin.pl/kghm/streams/kghmcam1.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL",Głogów KGHM LIVE 2
+hhttps://7004.szczecin.pl/kghm/streams/kghmcam2.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL",Gdynia PGE EC LIVE
+https://sokoly.edu.pl/memfs/9d7724bc-d3aa-4351-a04c-fe2d3b02a1e3.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL",Gdynia PGE EC LIVE 2
+https://sokoly.edu.pl/memfs/36960640-008a-499d-823a-d19af9d752f3.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL",Gdynia PGE EC LIVE 3
+https://sokoly.edu.pl/memfs/1e154546-ec6a-4d3e-96bb-1c3eff0a11f1.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Płock ORLEN LIVE 1
+https://stream.orlen.pl/sokol/podest.stream/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Płock ORLEN LIVE 2
+https://stream.orlen.pl/sokol/gniazdo.stream/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Płock ORLEN LIVE 3
+https://stream.orlen.pl/sokol/gniazdo2.stream/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Płock ORLEN LIVE 4
+https://stream.orlen.pl/sokol/d8zew.stream/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Płock ORLEN LIVE 5
+https://stream.orlen.pl/sokol/d8wew1.stream/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Płock ORLEN LIVE 6
+https://stream.orlen.pl/sokol/d8wew1.stream/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Płock ORLEN LIVE 7
+https://stream.orlen.pl/sokol/d8wew2.stream/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Trzebież Nadleśnictwo LIVE
+https://7004.szczecin.pl/Lasam/streams/lasstream.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Trzebież Nadleśnictwo LIVE 2
+https://7004.szczecin.pl/Lasam/streams/lasstream2.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Toruń PGE EC LIVE 1
+https://sokoly.edu.pl/memfs/dc403c6f-8467-4ff4-8185-b4d9dfc00dbe.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Toruń PGE EC LIVE 2
+https://sokoly.edu.pl/memfs/47d8713d-aaab-4698-8e6c-bfd006225fcf.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Toruń PGE EC LIVE 3
+https://sokoly.edu.pl/memfs/2f67f152-4eb4-4d64-9ea3-20bb594e7759.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Poznań VEOLIA LIVE 1
+https://7004.szczecin.pl/veolia/streams/poznan1.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Poznań VEOLIA LIVE 2
+https://7004.szczecin.pl/veolia/streams/poznan2.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Poznań VEOLIA LIVE 3
+https://7004.szczecin.pl/veolia/streams/poznan3.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Lublin PGE EC LIVE 1
+https://sokoly.edu.pl/memfs/0635c8f5-1d42-40f9-8fbd-0a3d335e55d2.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Lublin PGE EC LIVE 2
+https://sokoly.edu.pl/memfs/c0b4918a-13d8-4ecb-b9b3-812e7476a8b7.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Lublin PGE EC LIVE 3
+https://sokoly.edu.pl/memfs/59499a3c-5b91-4713-be58-22aaebe60826.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Dolina Baryczy LIVE
+https://7004.szczecin.pl/pgetorun/streams/milicz.m3u88
+#EXTINF:-1 group-title="Peregrinus-PL", Warszawa Żerań ORLEN Termika S.A. LIVE 1
+https://s1.precate.pl/player/output/zeran/cam1/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Warszawa Żerań ORLEN Termika S.A. LIVE 2
+https://s1.precate.pl/player/output/zeran/cam2/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Warszawa Żerań ORLEN Termika S.A. LIVE 3
+https://s1.precate.pl/player/output/zeran/cam3/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Warszawa Kawęczyn ORLEN Termika S.A. LIVE 1
+https://s1.precate.pl/player/output/kaweczyn/cam1/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Warszawa Kawęczyn ORLEN Termika S.A. LIVE 2
+https://s1.precate.pl/player/output/kaweczyn/cam2/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Warszawa Kawęczyn ORLEN Termika S.A. LIVE 3
+https://s1.precate.pl/player/output/kaweczyn/cam3/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Koszalin MEC LIVE 1
+https://7004.szczecin.pl/koszalin/streams/kosz1.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Koszalin MEC LIVE 2
+https://7004.szczecin.pl/koszalin/streams/kosz2.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Koszalin MEC LIVE 3
+https://7004.szczecin.pl/koszalin/streams/kosz3.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Reda MPCK KOKSIK LIVE 1
+https://ls.tkchopin.pl:9043/live/reda_koksik_gniazdo_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Reda MPCK KOKSIK LIVE 2
+https://ls.tkchopin.pl:9043/live/reda_koksik_widokowa_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Reda MPCK KOKSIK LIVE 3
+https://ls.tkchopin.pl:9043/live/reda_koksik_gniazdo_static.stream/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Słupsk ENGiE LIVE 1
+https://s1.precate.pl/player/output/slupsk/cam1/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Słupsk ENGiE LIVE 2
+https://s1.precate.pl/player/output/slupsk/cam2/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Słupsk ENGiE LIVE 3
+https://s1.precate.pl/player/output/slupsk/cam3/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL",  Warszawa Siekierki ORLEN Termika S.A. LIVE 1
+https://s1.precate.pl/player/output/siekierki/cam1/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL",  Warszawa Siekierki ORLEN Termika S.A. LIVE 2
+https://s1.precate.pl/player/output/siekierki/cam2/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL",  Warszawa Siekierki ORLEN Termika S.A. LIVE 3
+https://s1.precate.pl/player/output/siekierki/cam3/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Łodź VEOLIA EC3 LIVE 1
+https://s1.precate.pl/player/output/veolialodz/cam1/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Łodź VEOLIA EC3 LIVE 2
+https://s1.precate.pl/player/output/veolialodz/cam2/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Łodź VEOLIA EC3 LIVE 3
+https://s1.precate.pl/player/output/veolialodz/cam3/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Włocławek ANWIL LIVE
+https://stream.orlen.pl/sokol/anw_apn.stream/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Konstancin-Jeziorna ORANGE Polska LIVE 1
+https://redir.cache.orange.pl/sokoly/streaming/falcons/streams/KMGC0dKnb5i1rv7Y1689847021663.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Konstancin-Jeziorna ORANGE Polska LIVE 2
+https://redir.cache.orange.pl/sokoly/streaming/falcons/streams/CknU8F9pXLVSwTx21689846951349.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Strzelce Opolskie ORANGE LIVE 1
+https://ec04-waw3.cache.orange.pl/sokoly/streaming/falcons/streams/S7g4XMToFwgBAxJ51689704275500.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Strzelce Opolskie ORANGE LIVE 2
+https://ec02-waw5.cache.orange.pl/sokoly/streaming/falcons/streams/ZdCM6Dorf6jMkbPZ1689704324434.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Liszkowo ORANGE POLSKA LIVE 1
+https://ec02-waw5.cache.orange.pl/sokoly/streaming/falcons/streams/uafgVBcYPrCnJTiI1693555958574.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Liszkowo ORANGE POLSKA LIVE 2
+https://ec06-waw3.cache.orange.pl/sokoly/streaming/falcons/streams/fnmA1n2rifDjFev31693556107388.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Kwidzyn ORANGE POLSKA LIVE 1
+https://ec02-waw2.cache.orange.pl/sokoly/streaming/falcons/streams/eFwyEgxgp9wvCpSD1693555443893.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Kwidzyn ORANGE POLSKA LIVE 2
+https://ec02-waw5.cache.orange.pl/sokoly/streaming/falcons/streams/tUgMrPazM9Gj5t661693555809505.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Wejherowo LIVE 1
+https://ls.tkchopin.pl:9043/live/wejherowo_opec_widokowa_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Wejherowo LIVE 2
+https://ls.tkchopin.pl:9043/live/wejherowo_opec_gniazdo_obrotowa.stream/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Wejherowo LIVE 3
+https://ec02-waw5.cache.orange.pl/sokoly/streaming/falcons/streams/tUgMrPazM9Gj5t661693555809505.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Tczew GPEC LIVE 1
+https://ls.tkchopin.pl:9043/live/tczew_gpec_gniazdo_podest_720P.stream/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Tczew GPEC LIVE 2
+https://ls.tkchopin.pl:9043/live/tczew_gpec_gniazdo_wnetrze_720P.stream/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Barlinek LIVE
+https://s1.precate.pl/player/output/barlinek2/cam1/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Legnica KGHM LIVE 1
+https://7004.szczecin.pl/kghm/streams/kghmleg1.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Legnica KGHM LIVE 2
+https://7004.szczecin.pl/kghm/streams/kghmleg2.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Łódź VEOLIA EC4 LIVE 1
+https://s1.precate.pl/player/output/veolia_ec4/cam1/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Łódź VEOLIA EC4 LIVE 2
+https://s1.precate.pl/player/output/veolia_ec4/cam2/playlist.m3u8
+#EXTINF:-1 group-title="Peregrinus-PL", Łódź VEOLIA EC4 LIVE 3
+https://s1.precate.pl/player/output/veolia_ec4/cam3/playlist.m3u8
+
+
+
+
+
 #EXTINF:-1 group-title="Miasta ze świata", Nashville USA
 https://s115.ipcamlive.com/streams/73ikqbzoa4v5rnnjf/stream.m3u8
