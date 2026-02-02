@@ -241,8 +241,8 @@ https://kam1.dabrowa-gornicza.pl:4443/video-pkz-hires/vi.m3u8
 https://hoktastream4.webcamera.pl/oswiecim_cam_f19b05/oswiecim_cam_f19b05.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chorzow-pl.svg" group-title="Miasta",Chorzów  Serce Górnego Śląska
 https://stream4.stimotion.pl/live/chorzow1.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chorzow-pl.svg" group-title="Miasta",Chorzów - widok na Ratusz
-https://hoktastream3.webcamera.pl/chorzow_cam_4f8efa/chorzow_cam_4f8efa.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chorzow-pl.svg" group-title="Miasta",Chorzów - widok na Pocztę
+https://1726104577.rsc.cdn77.org/live/pgB1435.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chorzow-pl.svg" group-title="Miasta",Katowice - widok na Spodek i Rondo Ziętka
 https://hoktastream2.webcamera.pl/katowice_cam_2bcad5/katowice_cam_2bcad5.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chorzow-pl.svg" group-title="Miasta",Katowice - Rynek
@@ -312,7 +312,7 @@ https://hoktastream2.webcamera.pl/krakow_cam_4c3e37/krakow_cam_4c3e37.stream/pla
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - widok na Wisłę i Most im. Marszałka Józefa Piłsudskiego
 https://hoktastream3.webcamera.pl/krakowkladka_cam_a51738/krakowkladka_cam_a51738.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",KRAKÓW - widok na Rynek Główny 1
-https://cdn-14-go.toya.net.pl/kamery/krak_krakow1.m3u8?p=474f43414d005f5e0ff.bee8ff9027a0dbaa961400637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+https://hoktastream2.webcamera.pl/krakow_cam_702b61/krakow_cam_702b61.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",KRAKÓW - widok na Rynek Główny 2
 https://cdn-14-go.toya.net.pl/kamery/krak_rynek1.m3u8?p=474f43414d005f5e0ff.2f86e01d683bf6559be400637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - widok na Rynek Główny 3
