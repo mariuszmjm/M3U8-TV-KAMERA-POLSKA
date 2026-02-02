@@ -110,7 +110,7 @@ https://panolive.pl:8083/cam/suprasl1_sd/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wyszkow-pl.svg" group-title="Miasta",Wyszków
 http://109.196.32.162/hls/komin_high/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/m/makow-mazowiecki-pl.svg" group-title="Miasta",Maków Mazowiecki
-https://streaming.netbis.pl/LiveApp/streams/ScvHCr90zyafd54e810406547140.m3u8
+https://streaming.netbis.pl/LiveApp/streams/PMM6I1weS6rtslsA1115751044628.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/rypin-pl.svg" group-title="Miasta",Rypin
 https://stream.profnet.com.pl:1936/liverec/rondo.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/grudziadz-pl.svg" group-title="Miasta",Grudziądz Widok na Wisłę
