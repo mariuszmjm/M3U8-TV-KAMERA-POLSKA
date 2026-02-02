@@ -175,6 +175,10 @@ https://streaming.airmax.pl/03umigwrzesnia/tracks-v1/mono.m3u8
 https://hoktastream4.webcamera.pl/zielonagora_cam_ed9042/zielonagora_cam_ed9042.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/luban-pl.svg" group-title="Miasta",Lubań
 https://p.video.wroclaw.pl/intera/luban-park.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/boleslawiec-pl.svg" group-title="Miasta",Bolesławiec - Rynek i Ratusz
+https://s160.ipcamlive.com/streams/a00ochjzpplkau1gh/stream.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/boleslawiec-pl.svg" group-title="Miasta",Bolesławiec - Wieżowiec Zachód
+https://s124.ipcamlive.com/streams_storage/7cnqxqmbwehsmkkdl/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zlotoryja-pl.svg" group-title="Miasta",Złotoryja
 https://hoktastream3.webcamera.pl/zlotoryja_cam_0c5e15/zlotoryja_cam_0c5e15.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jelenia-gora-pl.svg" group-title="Miasta",JELENIA GÓRA - widok na miasto
