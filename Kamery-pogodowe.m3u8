@@ -1075,6 +1075,8 @@ https://kl6.tech5.pl:8052/hls/live.stream.m3u8
 https://kamery.kol-net.pl:5443/HIKVISION/streams/va1O3NovRl1W1669376597373.m3u8?token=undefined&subscriberId=undefined&subscriberCode=undefined
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Widok na Twierdzę - Srebrna Góra
 https://stream4.stimotion.pl/live/srebrna2.m3u8
+
+
 #EXTINF:-1  group-title="EXPLORE.ORG - Afryka i nie tylko",E1
 https://outbound-production.explore.org/stream-production-12/.m3u8
 #EXTINF:-1  group-title="EXPLORE.ORG - Afryka i nie tylko",E2
