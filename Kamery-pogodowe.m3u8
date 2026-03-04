@@ -4075,22 +4075,22 @@ http://218.148.169.193:1935/live/50.stream/playlist.m3u8
 
 
 
-#EXTINF:-1 group-title="Miasta ze świata",Nabrzeże Admiralicji w Sankt Petersburgu
-https://river-3-363.rtbcdn.ru/stream/genetta-501.ost.rutube.ru/b9ntKHfaYN9M46YJo2Sg8Q/1764701356/af70989fe893a8bb4f16447936340e95/1080p_stream.m3u8 
-#EXTINF:-1 group-title="Miasta ze świata",Moskwa
-https://hls-spb03.timetechnology.ru:8080/2722/hls/fcdac098bed8c78a/live.m3u8 
-#EXTINF:-1 group-title="Miasta ze świata", Saint Petersburg
-https://hls-spb03.timetechnology.ru:8080/1431/hls/33qjdyx5l645e6gx/live.m3u8
-#EXTINF:-1 group-title="Miasta ze świata", Nowosibirsk Rosja
-https://wowza-2.novo-sibirsk.ru/stream_live/forvard/chunklist.m3u8
+#EXTINF:-1 group-title="Miasta ze świata",Kamera internetowa w porcie Svolvær
+https://s123.ipcamlive.com/streams_storage/7beznsfuwf9x3vwat/stream.m3u8 
+#EXTINF:-1 group-title="Miasta ze świata",Willa Favorita - San Sebastian - Hiszpania
+https://s160.ipcamlive.com/streams_storage/a0iatjsnqvb2kdynx/stream.m3u8
+#EXTINF:-1 group-title="Miasta ze świata", Złoty most we Władywostoku
+https://hls7.vladlink.ru/live/vlcam_117/playlist.m3u8
+#EXTINF:-1 group-title="Miasta ze świata", Obrotowa kamera internetowa w centrum Berlina
+https://cdn.livespotting.com/vpu/ehlpzb4g/nkw9elfh_hub.m3u8
 #EXTINF:-1 group-title="Miasta ze świata", Murmańsk Rosja
 https://s15.moidom-stream.ru/s/public/0000089203.m3u8
 #EXTINF:-1 group-title="Miasta ze świata",    O'Connell Street Dublin
 https://media.evercam.io:8888/gpocam/main_stream.m3u8
 #EXTINF:-1 group-title="Miasta ze świata", La Massana Andorra
 https://api.projecte4estacions.com/live/lacortinada/live.m3u8
-#EXTINF:-1 group-title="Miasta ze świata",  Moskwa
-https://videos-3.earthcam.com/fecnetwork/moscowHD1.flv/playlist.m3u8?DVR&t=9yAJLpDk2Jq5li648kp2FKlaBygPb60ds8jKhLA0ASrKTJ3WDQnw%2F2IOsWAZM0HBEghL42Dlcn%2B%2Fl07zEE5NYA%3D%3D&cid=
+#EXTINF:-1 group-title="Miasta ze świata",  Kamera internetowa na ulicy Kołomenskiej w Moskwie
+https://msk.rtsp.me/y45atY433sHsTLAYndLdQg/1772647479/hls/KB3DnHab.m3u8
 #EXTINF:-1 group-title="Miasta ze świata",  Mondsee Abbey Austria
 https://stream1.panocloud.com/mondseewredeplatz/mondseewredeplatz.stream/playlist.m3u8 
 #EXTINF:-1 group-title="Miasta ze świata",Bruksela Grand Palace
@@ -4107,8 +4107,8 @@ https://cdn.livespotting.com/vpu/to4d3rza/3d2d2tcm.m3u8
 https://cdn.livespotting.com/vpu/d5qak6qj/bqmqghk2.m3u8
 #EXTINF:-1 group-title="Miasta ze świata", Düsseldorf Marktplatz 2
 https://cdn.livespotting.com/vpu/a6mam24n/4xbp4z1f.m3u8
-#EXTINF:-1 group-title="Miasta ze świata",RHADC Hamilton Harbor Bermudy
-https://s125.ipcamlive.com/streams/7drift47plyjmv5de/stream.m3u8   
+#EXTINF:-1 group-title="Miasta ze świata",Pałac Lodowy Sibir-Arena, Nowosybirsk
+https://wowza-2.novo-sibirsk.ru/live_km/LDS.stream/playlist.m3u8 
 #EXTINF:-1 group-title="Miasta ze świata", Praga
 https://live.idnes.cz/slow/amc_360p/playlist.m3u8
 #EXTINF:-1 group-title="Miasta ze świata", Bratysława, Słowacja
