@@ -326,7 +326,7 @@ https://cdn-13-go.toya.net.pl/kamery/krak_rondogrunwaldzkie.m3u8?p=474f43414d005
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/B/brzesko-pl.svg" group-title="Miasta",Rynek w Brzesku
 https://stream.bucze.eu/memfs/4590f0a5-6019-48ef-ad79-c8e2565db517.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zakliczyn-pl.svg" group-title="Miasta",Zakliczyn - Rynek
-https://videocdn.km-net.pl/Zakliczyn_Rynek_3/video.m3u8
+https://videocdn.km-net.pl/Zakliczyn_Rynek_2/video.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/tarnow-pl.svg" group-title="Miasta",Rynek miejski w Tarnowie
 https://hoktastream3.webcamera.pl/tarnow_cam_d0e19c/tarnow_cam_d0e19c.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/limanowa-pl.svg" group-title="Miasta",Rynek miejski w Limanowej
