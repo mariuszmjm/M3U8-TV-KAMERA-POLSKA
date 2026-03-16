@@ -326,7 +326,7 @@ https://cdn-13-go.toya.net.pl/kamery/krak_rondogrunwaldzkie.m3u8?p=474f43414d005
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/B/brzesko-pl.svg" group-title="Miasta",Rynek w Brzesku
 https://stream.bucze.eu/memfs/4590f0a5-6019-48ef-ad79-c8e2565db517.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zakliczyn-pl.svg" group-title="Miasta",Zakliczyn - Rynek
-https://videocdn.km-net.pl/Zakliczyn_Rynek_3/tracks-v1/mono.ts.m3u8
+https://videocdn.km-net.pl/Zakliczyn_Rynek_3/video.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/tarnow-pl.svg" group-title="Miasta",Rynek miejski w Tarnowie
 https://hoktastream3.webcamera.pl/tarnow_cam_d0e19c/tarnow_cam_d0e19c.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/limanowa-pl.svg" group-title="Miasta",Rynek miejski w Limanowej
@@ -348,7 +348,7 @@ https://s1.worldcam.live:8082/debowiec-rynek/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/J/Jaslo-pl.svg" group-title="Miasta",Jasło
 https://cdn02.aztv.pl/sesja_jaslo/sesja_jaslo.stream/playlist.m3u8?conn_id=15093050361842266895
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/K/krosno-pl.svg" group-title="Miasta",Krosno
-https://stream4.stimotion.pl/live/krosno1.m3u8
+https://kamery.krosno24.pl/stream/nafta/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/I/Iwonicz-zdroj-pl.svg" group-title="Miasta",Iwonicz Zdrój
 https://stream4.stimotion.pl/live/iwonicz2.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/I/Iwonicz-zdroj-pl.svg" group-title="Miasta",Iwonicz Zdrój - Plac Dietla
@@ -420,7 +420,7 @@ https://1470969865.rsc.cdn77.org/live/lAK611.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/K/Kazimierz-dolny-pl.svg" group-title="Miasta",Kazimierz Dolny - widok na Rynek
 https://hoktastream1.webcamera.pl/nocowanie_cam_0c89d6/nocowanie_cam_0c89d6.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kielce-pl.svg" group-title="Miasta",Kielce
-https://nazywo.emkielce.pl/live/em2-radio/index.m3u8
+https://nazywo.emkielce.pl/live/test/13/13-radio/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kielce-pl.svg" group-title="Miasta",KIELCE - widok na Kielecką Starówką
 https://hoktastream4.webcamera.pl/kielcerynek_cam_6913aa/kielcerynek_cam_6913aa.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/o/ostrowiec-swietokrzyski-pl.svg" group-title="Miasta",Ostrowiec Świętokrzyski
@@ -454,7 +454,7 @@ https://cdn-14-go.toya.net.pl/kamery/lodz_placwolnosci.m3u8?p=474f43414d005f5e0f
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lodz-pl.svg" group-title="Miasta",Łódż - Manufaktura
 https://cdn-13-go.toya.net.pl/kamery/lodz_manufaktura1.m3u8?p=474f43414d005f5e0ff.6b474195ac62e909d13a00637374.65643038306465613934653435373862623431633437353765636435353338323563653838663936&d=9050751970a0c704f9f9dcfb94055123
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lowicz-pl.svg" group-title="Miasta",Łowicz
-https://kamery.itvmedia.pl/kamnr/kamera1/playlist.m3u8
+https://kamery.itvmedia.pl/kamsr/kamera1/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/serock-pl.svg" group-title="Miasta",Serock
 https://streaming.airmax.pl/umserock1/tracks-v1/mono.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/grodzisk-mazowiecki-pl.svg" group-title="Miasta",Grodzisk Mazowiecki
