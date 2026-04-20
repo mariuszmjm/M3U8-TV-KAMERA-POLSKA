@@ -335,6 +335,8 @@ https://hoktastream2.webcamera.pl/krakow_cam_c78671/krakow_cam_c78671.stream/pla
 https://cdn-13-go.toya.net.pl/kamery/krak_rondogrunwaldzkie.m3u8?p=474f43414d005f5e0ff.43886829ba532f21cfab00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/B/brzesko-pl.svg" group-title="Miasta",Rynek w Brzesku
 https://stream.bucze.eu/memfs/4590f0a5-6019-48ef-ad79-c8e2565db517.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/B/bochnia-pl.svg" group-title="Miasta",Rynek w Bochni
+https://cdn01.aztv.pl/live_bochnia/live_bochnia.stream/playlist.m3u8
 #EXTINF:0  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zakliczyn-pl.svg" group-title="Miasta",Zakliczyn - Rynek
 https://videocdn.km-net.pl/Zakliczyn_Rynek_3/video.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/tarnow-pl.svg" group-title="Miasta",Rynek miejski w Tarnowie
