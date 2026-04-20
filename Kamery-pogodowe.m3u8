@@ -67,6 +67,8 @@ https://hoktastream2.webcamera.pl/umgdansk_cam_11161c/umgdansk_cam_11161c.stream
 https://hoktastream2.webcamera.pl/gdansk_cam_9e790c/gdansk_cam_9e790c.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gdansk-pl.svg" group-title="Miasta",GDAŃSK - widok na Długi Targ
 https://hoktastream4.webcamera.pl/umgdansk_cam_2e4f1b/umgdansk_cam_2e4f1b.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gdansk-pl.svg" group-title="Miasta",GDAŃSK - widok na Motławę
+https://ls.tkchopin.pl:9043/live/gdansk_olowianka_widok_motlawa_obrotowa.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/nowy-dwor-gdanski-pl.svg" group-title="Miasta",Nowy Dwór Gdański
 https://stream.malborskieswiatlowody.pl:18850/NDG_Piorkowskiego/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gniew-pl.svg" group-title="Miasta",Gniew Panorama miasta
@@ -91,6 +93,8 @@ https://dktr.pl:10343/memfs/6ed2c8c1-3a42-4a04-90c1-d37e7b9edb97.m3u8
 https://hoktastream2.webcamera.pl/olsztyn_cam_43a997/olsztyn_cam_43a997.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gizycko-pl.svg" group-title="Miasta",Giżycko - widok na most obrotowy na Kanale Łuczańskim
 https://hoktastream4.webcamera.pl/gizycko_cam_82df5c/gizycko_cam_82df5c.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/grajewo-pl.svg" group-title="Miasta",Grajewo
+https://s1.worldcam.live:8082/grajewo/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/suwalki-pl.svg" group-title="Miasta",Suwałki
 http://online.um.suwalki.pl:1936/online/p.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/pisz-pl.svg" group-title="Miasta",Pisz: Rondo im. Lecha Kaczyńskiego
@@ -115,6 +119,8 @@ https://streaming.netbis.pl/LiveApp/streams/PMM6I1weS6rtslsA1115751044628.m3u8
 https://stream.profnet.com.pl:1936/liverec/rondo.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/grudziadz-pl.svg" group-title="Miasta",Grudziądz Widok na Wisłę
 https://ls.tkchopin.pl:9043/live/grudziadz_wisla_static.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/grudziadz-pl.svg" group-title="Miasta",Grudziądz Widok z wieży Klimek
+https://cam.tvsm.pl/live/Klimek.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chelmno-pl.svg" group-title="Miasta",Chełmno - widok na Starówkę
 https://hoktastream1.webcamera.pl/chelmno_cam_5e8601/chelmno_cam_5e8601.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/torun-pl.svg" group-title="Miasta",Toruń - widok na Rynek Staromiejski
@@ -131,6 +137,8 @@ https://stream2.ittam.pl:5443/WebRTCApp/streams/918996469770748831631839.m3u8
 https://stream2.ittam.pl:5443/WebRTCApp/streams/290708883039491885912420.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kowal-pl.svg" group-title="Miasta",Kowal
 https://kamery.vcn.pl/play/hls/Kowal3/index.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/i/inowroclaw-pl.svg" group-title="Miasta",Inowrocław
+https://player.inonet.pl/hls/output.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/plock-pl.svg" group-title="Miasta",Płock
 https://7005.szczecin.pl/camss/streams/plock3.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/plock-pl.svg" group-title="Miasta",Płock - Zalew Sobótka
