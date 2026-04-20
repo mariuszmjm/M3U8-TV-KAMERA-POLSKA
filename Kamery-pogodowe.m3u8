@@ -112,7 +112,7 @@ https://panolive.pl:8083/cam/suprasl2_sd/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/suprasl-pl.svg" group-title="Miasta",Supraśl - Widok na Pałac Buchholtzów
 https://panolive.pl:8083/cam/suprasl1_sd/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wyszkow-pl.svg" group-title="Miasta",Wyszków
-http://109.196.32.162/hls/komin_high/index.m3u8
+https://www.fuz.pl/hls/komin_high/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/m/makow-mazowiecki-pl.svg" group-title="Miasta",Maków Mazowiecki
 https://streaming.netbis.pl/LiveApp/streams/PMM6I1weS6rtslsA1115751044628.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/rypin-pl.svg" group-title="Miasta",Rypin
@@ -206,7 +206,7 @@ https://streaming.airmax.pl/02polanica/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/nowa-ruda-pl.svg" group-title="Miasta",Nowa Ruda
 https://stream.devices.pl:5443/LiveApp/streams/023273871045625560087218.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/klodzko-k.svg" group-title="Miasta",Kłodzko
-https://stream.devices.pl:5443/LiveApp/streams/736299437384757407792000.m3u8
+https://stream.devices.pl:5443/LiveApp/streams/434229517092329191383030.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/nowa-ruda-pl.svg" group-title="Miasta",Międzylesie
 https://streaming.airmax.pl/miedzylesie/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wroclaw-pl.svg" group-title="Miasta",WROCŁAW - widok na Stare Miasto
