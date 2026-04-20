@@ -246,7 +246,7 @@ https://streaming.euro.net.pl:8888/rynek/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gliwice-pl.svg" group-title="Miasta",GLIWICE - widok na Rynek
 https://hoktastream3.webcamera.pl/gliwice_cam_c28bda/gliwice_cam_c28bda.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/m/myslowice-pl.svg" group-title="Miasta",Mysłowice - Rynek
-https://cdn-13-go.toya.net.pl/kamery/mysl_rynek.m3u8?p=474f43414d005f5e0ff.2b892ca2cc2f200540e000637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+https://cdn-12-go.toya.net.pl/kamery/mysl_grunwaldzka.m3u8?p=63616d005f5e0ff.1bf76402375b2e0d9c1c00637374.756e617574686f72697a6564&pl=web
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/dabrowa-gornicza-pl.svg" group-title="Miasta",Dąbrowa Górnicza
 https://kam1.dabrowa-gornicza.pl:4443/video-pkz-hires/vi.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/o/oswiecim-pl.svg" group-title="Miasta",Oświęcim - widok na Rynek
@@ -456,7 +456,7 @@ https://s1.worldcam.live:8082/kutno/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/starachowice-pl.svg" group-title="Miasta",Starachowice - Panorama miasta
 https://hoktastream3.webcamera.pl/starachowice_cam_ac8dee/starachowice_cam_ac8dee.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/pabianice-pl.svg" group-title="Miasta",Pabianice
-https://cdn-13-go.toya.net.pl/kamery/pabi_warszawskamajdany.m3u8?p=474f43414d005f5e0ff.e69ae7b57930ce12529800637374.30363864643265653334396630363534643463303632343633643864373463323935613933313633&d=d9d68e693b6310a261d04d9dbadd5a63
+https://cdn-14-go.toya.net.pl/kamery/pabi_zamkowatraugutta.m3u8?p=63616d005f5e0ff.9ce3a85c2ea1a884ecb200637374.756e617574686f72697a6564&pl=web
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zgierz-pl.svg" group-title="Miasta",Zgierz
 https://cdn-13-go.toya.net.pl/kamery/zgrz_galeriazgierskaarmiikrajowej.m3u8?p=474f43414d005f5e0ff.79c0b012880810f3b0ba00637374.31326636636431633634336638633935626439373033636430653038646636303437376665636665&d=98ddb549233de5516da63bbe0732afb6
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lodz-pl.svg" group-title="Miasta",ŁÓDŹ - widok na Ulic Piotrkowską
