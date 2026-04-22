@@ -566,6 +566,43 @@ https://hoktastream1.webcamera.pl/bukovina_cam_04f738/bukovina_cam_04f738.stream
 https://stream.devices.pl:5443/LiveApp/streams/498779877563728532759860.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Polańczyk - widok na Jezioro Solińskie
 https://hoktastream1.webcamera.pl/polanczyk_cam_d1e2d8/polanczyk_cam_d1e2d8.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Stary Sącz
+https://online2.kamery24.org/cam/janpawel.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Świątynia Wang
+https://stream.infoo.net/memfs/07f53a7f-ae65-4db2-a51b-b0612c29d76c.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Dębowiec - Tężnia solankowa
+https://s1.worldcam.live:8082/debowieccn/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Srebrna Góra
+https://streaming.airmax.pl/srebrnatwierdza3/tracks-v1/mono.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Nidzkie - plaża Jakowo
+https://stream.mazury24.eu/m_jaskowo/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Ruciane Nida
+https://stream.mazury24.eu/m_guzianka/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Port Keja
+https://stream.mazury24.eu/m_keja/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",jez. Niegocin
+https://stream.mazury24.eu/m_papugarnia/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Białe Okuninka - Włodawa
+https://hoktastream1.webcamera.pl/nocowanie_cam_be431a/nocowanie_cam_be431a.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Kozienickie - Mazowieckie
+http://185.194.224.189:8080/memfs/61df4d6f-8627-42e1-b3b8-9dbe9b28cf43.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Barlinek - gniazdo rybołowa
+https://s1.precate.pl/player/output/barlinek2/cam1/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Żubry
+https://zubry.promontech.pl:8181/memfs/0d903f05-4f1d-4cff-a663-6d2a5b9c5c46.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Iława Jezioro
+https://streaming.airmax.pl/ilawaum/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Puck - Zatoka Pucka
+https://ls.tkchopin.pl:9043/live/puck_wieza_kosciola_zatokapucka_obrotowa.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Termy Uniejów
+https://kamery.kol-net.pl:5443/HIKVISION/streams/va1O3NovRl1W1669376597373.m3u8?token=undefined&subscriberId=undefined&subscriberCode=undefined
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Widok na Twierdzę - Srebrna Góra
+https://stream4.stimotion.pl/live/srebrna2.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Holiday Park - Zator
+https://hoktastream4.webcamera.pl/holidaypark_cam_c90b83/holidaypark_cam_c90b83.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Szczecinek
+https://play.gawex.pl/szczecinek/zamek.stream/playlist.m3u8
+
 #EXTINF:-1  group-title="Kościoły",Parafia p.w. Miłosierdzia Bożego Zakopane - Chramcówki
 https://hoktastream2.webcamera.pl/chramcowki_cam_616201/chramcowki_cam_616201.stream/playlist.m3u8
 #EXTINF:-1  group-title="Kościoły",Parafia pw. Św. Mateusza w Gniewczynie Łańcuckiej Archidiecezja Przemyska
@@ -588,6 +625,8 @@ https://hoktastream2.webcamera.pl/witanowice_cam_09d640/witanowice_cam_09d640.st
 https://hoktastream2.webcamera.pl/parafiaandrychow_cam_18fe7d/parafiaandrychow_cam_18fe7d.stream/playlist.m3u8
 #EXTINF:-1  group-title="Kościoły",Archidiecezja Przemysko-Warszawska Kocioła Grekokatolickiego w Polsce
 https://hoktastream4.webcamera.pl/okocam_cam_9f90fb/okocam_cam_9f90fb.stream/playlist.m3u8
+
+
 #EXTINF:-1  group-title="Góry, stoki narciarskie",Kotlinka Szymbark
 https://hoktastream3.webcamera.pl/kotlinkaszymbark_cam_5d869c/kotlinkaszymbark_cam_5d869c.stream/playlist.m3u8
 #EXTINF:-1  group-title="Góry, stoki narciarskie",WIEŻYCA - Koszałkowo
@@ -784,6 +823,8 @@ https://hoktastream3.webcamera.pl/pkl_cam_0b7bb7/pkl_cam_0b7bb7.stream/playlist.
 https://hoktastream1.webcamera.pl/kiczeraski_cam_2b0ef4/kiczeraski_cam_2b0ef4.stream/playlist.m3u8
 #EXTINF:-1  group-title="Góry, stoki narciarskie",Słotwiny Arena - widok z górnej stacji
 https://hoktastream1.webcamera.pl/moit_cam_0b9f47/moit_cam_0b9f47.stream/playlist.m3u8
+
+
 #EXTINF:-1  group-title="Plaże",ŚWINOUJCIE - widok na Plaże i morze
 https://hoktastream4.webcamera.pl/swinoujscie_cam_3be0ba/swinoujscie_cam_3be0ba.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",ŚWINOUJCIE - widok na plażę
@@ -924,6 +965,7 @@ https://hoktastream3.webcamera.pl/jantar_cam_8948dd/jantar_cam_8948dd.stream/pla
 https://hoktastream1.webcamera.pl/katyrybackie_cam_2d3c0c/katyrybackie_cam_2d3c0c.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",KRYNICA MORSKA - widok na plaże
 https://hoktastream1.webcamera.pl/krynicamorska_cam_b92412/krynicamorska_cam_b92412.stream/playlist.m3u8
+
 #EXTINF:-1  group-title="TV",Aktualne warunki online z Ośrodków Narciarskich w Polsce
 https://hoktastream4.webcamera.pl/nartypl_cam_fec03d/nartypl_cam_fec03d.stream/playlist.m3u8
 #EXTINF:-1  group-title="TV",Kamery pogodowe z turystycznych miejsc w Polsce
@@ -934,35 +976,11 @@ https://hoktastream1.webcamera.pl/tv_cam_9bb83d/tv_cam_9bb83d.stream/playlist.m3
 https://hoktastream1.webcamera.pl/tv_cam_781381/tv_cam_781381.stream/playlist.m3u8
 #EXTINF:-1  group-title="TV",Tatry Super Ski - 19 stacji
 https://hoktastream4.webcamera.pl/nartypl_cam_3da613/nartypl_cam_3da613.stream/playlist.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Holiday Park - Zator
-https://hoktastream4.webcamera.pl/holidaypark_cam_c90b83/holidaypark_cam_c90b83.stream/playlist.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Szczecinek
-https://play.gawex.pl/szczecinek/zamek.stream/playlist.m3u8
+
+
+
 #EXTINF:-1  group-title="Kościoły",Parafia - Krosno Fara
 https://stream4.stimotion.pl/live/krosno12.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Srebrna Góra
-https://streaming.airmax.pl/srebrnatwierdza3/tracks-v1/mono.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Nidzkie - plaża Jakowo
-https://stream.mazury24.eu/m_jaskowo/index.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Ruciane Nida
-https://stream.mazury24.eu/m_guzianka/index.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Port Keja
-https://stream.mazury24.eu/m_keja/index.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",jez. Niegocin
-https://stream.mazury24.eu/m_papugarnia/index.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Białe Okuninka - Włodawa
-https://hoktastream1.webcamera.pl/nocowanie_cam_be431a/nocowanie_cam_be431a.stream/playlist.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Kozienickie - Mazowieckie
-http://185.194.224.189:8080/memfs/61df4d6f-8627-42e1-b3b8-9dbe9b28cf43.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Barlinek - gniazdo rybołowa
-https://s1.precate.pl/player/output/barlinek2/cam1/playlist.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Żubry
-https://zubry.promontech.pl:8181/memfs/0d903f05-4f1d-4cff-a663-6d2a5b9c5c46.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Iława Jezioro
-https://streaming.airmax.pl/ilawaum/index.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca", Puck - Zatoka Pucka
-https://ls.tkchopin.pl:9043/live/puck_wieza_kosciola_zatokapucka_obrotowa.stream/playlist.m3u8
-
 #EXTINF:-1  group-title="Kościoły",Parafia Najświętszego Serca Pana Jezusa w Koszęcinie
 https://konto.tech5.pl:8108/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",SANKTUARIUM Matki Bożej Bolesnej i Pocieszenia w Radomyślu nad Sanem
@@ -1085,10 +1103,7 @@ https://kl6.tech5.pl:8004/hls/live.stream.m3u8
 https://kl6.tech5.pl:8005/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",KOŚCIÓŁ p.w. PODWYŻSZENIA KRZYŻA świętego w CZASZYNIE
 https://kl6.tech5.pl:8052/hls/live.stream.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Termy Uniejów
-https://kamery.kol-net.pl:5443/HIKVISION/streams/va1O3NovRl1W1669376597373.m3u8?token=undefined&subscriberId=undefined&subscriberCode=undefined
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Widok na Twierdzę - Srebrna Góra
-https://stream4.stimotion.pl/live/srebrna2.m3u8
+
 
 
 #EXTINF:-1	group-title="EXPLORE.ORG - Afryka i nie tylko",	1
@@ -3092,12 +3107,6 @@ https://outbound-production.explore.org/stream-production-999/.m3u8
 #EXTINF:-1	group-title="EXPLORE.ORG - Afryka i nie tylko",	1000
 https://outbound-production.explore.org/stream-production-1000/.m3u8		
 
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Stary Sącz
-https://online2.kamery24.org/cam/janpawel.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Świątynia Wang
-https://stream.infoo.net/memfs/07f53a7f-ae65-4db2-a51b-b0612c29d76c.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Dębowiec - Tężnia solankowa
-https://s1.worldcam.live:8082/debowieccn/index.m3u8
 
 #EXTINF:-1  tvg-logo="p1.img.cctvpic.com/photoAlbum/templet/common/DEPA1604393067070717/fxlogo.png" group-title="Chiny",Kryty most Anshun znajduje si obok Pawilonu Hejiang u zbiegu rzek Fuhe i Nanhe w miecie Chengdu w prowincji Syczuan
 https://gctxyhwc.liveplay.myqcloud.com/gc/zsslsjjfsd_1_md.m3u8
@@ -4135,6 +4144,8 @@ https://tv.rbt.psi.br/media/n/BZmZntmZy2GYnJu3otmW/a/playlist.m3u8
 https://live.idnes.cz/slow/barandak_360p/playlist.m3u8
 #EXTINF:-1 group-title="Miasta ze świata", Golden Gate, San Francisco
 https://prope4091ef1.airspace-cdn.cbsivideo.com/weathercams/kpix-salesforce-2/s3-hls/master.m3u8
+#EXTINF:-1 group-title="Miasta ze świata", Nashville USA
+https://s115.ipcamlive.com/streams/73ikqbzoa4v5rnnjf/stream.m3u8
 
 #EXTINF:-1 group-title="Peregrinus-PL",Włocławek MPEC LIVE 1
 https://7004.szczecin.pl/mpec/streams/mpecz.m3u8
@@ -4285,9 +4296,3 @@ https://s1.precate.pl/player/output/veolia_ec4/cam2/playlist.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Łódź VEOLIA EC4 LIVE 3
 https://s1.precate.pl/player/output/veolia_ec4/cam3/playlist.m3u8
 
-
-
-
-
-#EXTINF:-1 group-title="Miasta ze świata", Nashville USA
-https://s115.ipcamlive.com/streams/73ikqbzoa4v5rnnjf/stream.m3u8
