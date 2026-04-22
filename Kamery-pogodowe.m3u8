@@ -446,7 +446,7 @@ https://www.cnet24.pl/stream/kam07.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/radom-pl.svg" group-title="Miasta",Radom
 https://stream6.nadaje.com:34766/live/Xkd808.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/radom-pl.svg" group-title="Miasta",Radom 2
-https://185.34.48.75/kam/video/stream.m3u8
+https://kamera.umradom.pl/kam/video/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/P/Piotrkow-trybunalski-pl.svg" group-title="Miasta",Piotrków Trybunalski
 https://cdn-13-go.toya.net.pl/kamery/piot_rynektrybunalski.m3u8?p=474f43414d005f5e0ff.812cb5c0b157af7376e400637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/piotrkow-trybunalski-pl.svg" group-title="Miasta",Piotrków Trybunalski
@@ -512,6 +512,8 @@ https://hoktastream4.webcamera.pl/skywind_cam_99451e/skywind_cam_99451e.stream/p
 https://hoktastream2.webcamera.pl/olsztyn_cam_b8151b/olsztyn_cam_b8151b.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Giżycko - widok na most obrotowy na Kanale Łuczańskim
 https://hoktastream4.webcamera.pl/gizycko_cam_82df5c/gizycko_cam_82df5c.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Starachowice - zalew Pasternik
+https://hoktastream1.webcamera.pl/starachowice_cam_11ce7e/starachowice_cam_11ce7e.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Muzeum Wsi Mazowieckiej w Sierpcu
 https://hoktastream3.webcamera.pl/sierpc_cam_1b07be/sierpc_cam_1b07be.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",PASŁĘK - Gniazdo bociana
