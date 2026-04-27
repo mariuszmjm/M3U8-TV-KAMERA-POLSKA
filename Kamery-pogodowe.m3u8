@@ -966,8 +966,8 @@ https://hoktastream1.webcamera.pl/katyrybackie_cam_2d3c0c/katyrybackie_cam_2d3c0
 #EXTINF:-1  group-title="Plaże",KRYNICA MORSKA - widok na plaże
 https://hoktastream1.webcamera.pl/krynicamorska_cam_b92412/krynicamorska_cam_b92412.stream/playlist.m3u8
 
-#EXTINF:-1  group-title="TV",Aktualne warunki online z Ośrodków Narciarskich w Polsce
-https://hoktastream4.webcamera.pl/nartypl_cam_fec03d/nartypl_cam_fec03d.stream/playlist.m3u8
+#EXTINF:-1  group-title="TV",Kamery z Gór
+https://hoktastream6.webcamera.pl/toya_cam_a4c281/toya_cam_a4c281.stream/playlist.m3u8?p=63616d005f5e0ff.3659b7bbbfb69c3cbf1c00637374.756e617574686f72697a6564&pl=web
 #EXTINF:-1  group-title="TV",Kamery pogodowe z turystycznych miejsc w Polsce
 https://hoktastream2.webcamera.pl/tv_cam_656df8/tv_cam_656df8.stream/playlist.m3u8
 #EXTINF:-1  group-title="TV",Jesień w górach - 25 ujęć z kamer z widokiem na góry
@@ -975,7 +975,7 @@ https://hoktastream1.webcamera.pl/tv_cam_9bb83d/tv_cam_9bb83d.stream/playlist.m3
 #EXTINF:-1  group-title="TV",Najpiękniejsze Polskie Plaże
 https://hoktastream1.webcamera.pl/tv_cam_781381/tv_cam_781381.stream/playlist.m3u8
 #EXTINF:-1  group-title="TV",Tatry Super Ski - 19 stacji
-https://hoktastream4.webcamera.pl/nartypl_cam_3da613/nartypl_cam_3da613.stream/playlist.m3u8
+https://hoktastream4.webcamera.pl/nartypl_cam_fec03d/nartypl_cam_fec03d.stream/playlist.m3u8
 
 
 
