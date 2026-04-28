@@ -1105,73 +1105,82 @@ https://kl6.tech5.pl:8005/hls/live.stream.m3u8
 https://kl6.tech5.pl:8052/hls/live.stream.m3u8
 
 
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Alicante - Calpe - Playa del Arenal Bol
+#EXTINF:-1 group-title="Hiszpania", Alicante - Calpe - Playa del Arenal Bol
 https://webcam-4.ibericam.com:5443/live/streams/calpe-playa-del-arenal-bol.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Alicante - Famorca - vista a la Sierra de la Serrella
+#EXTINF:-1 group-title="Hiszpania", Alicante - Famorca - vista a la Sierra de la Serrella
 https://webcam-4.ibericam.com:5443/live/streams/famorca.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Teruel - Albentosa
+#EXTINF:-1 group-title="Hiszpania", Teruel - Albentosa
 https://webcam-2.ibericam.com:5443/live/streams/albentosa.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Teruel - Alcalá de la Selva - vista al castillo
+#EXTINF:-1 group-title="Hiszpania", Teruel - Alcalá de la Selva - vista al castillo
 https://webcam-2.ibericam.com:5443/live/streams/alcala-de-la-selva.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Teruel - Alcalá de la Selva - Campo de Golf El Castillejo
+#EXTINF:-1 group-title="Hiszpania", Teruel - Alcalá de la Selva - Campo de Golf El Castillejo
 https://webcam-4.ibericam.com:5443/live/streams/alcala-de-la-selva-campo-de-golf.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Teruel - Alcalá de la Selva - Hotel Villa María
+#EXTINF:-1 group-title="Hiszpania", Teruel - Alcalá de la Selva - Hotel Villa María
 https://webcam-2.ibericam.com:5443/live/streams/hotel-villa-maria.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Teruel - Alcalá de la Selva - Alto de San Rafael
+#EXTINF:-1 group-title="Hiszpania", Teruel - Alcalá de la Selva - Alto de San Rafael
 https://webcam-2.ibericam.com:5443/live/streams/alcala-de-la-selva-san-rafael.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Teruel - Aliaga - parque geológico
+#EXTINF:-1 group-title="Hiszpania", Teruel - Aliaga - parque geológico
 https://webcam-4.ibericam.com:5443/live/streams/aliaga.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Teruel - Cabra de Mora
+#EXTINF:-1 group-title="Hiszpania", Teruel - Cabra de Mora
 https://webcam-2.ibericam.com:5443/live/streams/cabra-de-mora.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Teruel - El Castellar
+#EXTINF:-1 group-title="Hiszpania", Teruel - El Castellar
 https://webcam-2.ibericam.com:5443/live/streams/el-castellar.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Teruel - Formiche Alto
+#EXTINF:-1 group-title="Hiszpania", Teruel - Formiche Alto
 https://webcam-2.ibericam.com:5443/live/streams/formiche-alto.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Teruel - Fortanete
+#EXTINF:-1 group-title="Hiszpania", Teruel - Fortanete
 https://webcam-2.ibericam.com:5443/live/streams/fortanete.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Teruel - Gúdar
+#EXTINF:-1 group-title="Hiszpania", Teruel - Gúdar
 https://webcam-2.ibericam.com:5443/live/streams/gudar.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Teruel - Jorcas
+#EXTINF:-1 group-title="Hiszpania", Teruel - Jorcas
 https://webcam-2.ibericam.com:5443/live/streams/jorcas.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Teruel - Miravete de la Sierra
+#EXTINF:-1 group-title="Hiszpania", Teruel - Miravete de la Sierra
 https://webcam-4.ibericam.com:5443/live/streams/miravete-de-la-sierra.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Teruel - Monteagudo del Castillo
+#EXTINF:-1 group-title="Hiszpania", Teruel - Monteagudo del Castillo
 https://webcam-2.ibericam.com:5443/live/streams/monteagudo.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Teruel - Mora de Rubielos
+#EXTINF:-1 group-title="Hiszpania", Teruel - Mora de Rubielos
 https://webcam-2.ibericam.com:5443/live/streams/mora-de-rubielos.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Teruel - San Agustín
+#EXTINF:-1 group-title="Hiszpania", Teruel - San Agustín
 https://webcam-2.ibericam.com:5443/live/streams/san-agustin.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Teruel - Sarrión
+#EXTINF:-1 group-title="Hiszpania", Teruel - Sarrión
 https://webcam-2.ibericam.com:5443/live/streams/sarrion.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Teruel - Torrijas
+#EXTINF:-1 group-title="Hiszpania", Teruel - Torrijas
 https://webcam-2.ibericam.com:5443/live/streams/torrijas.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Teruel - Valdelinares
+#EXTINF:-1 group-title="Hiszpania", Teruel - Valdelinares
 https://webcam-2.ibericam.com:5443/live/streams/valdelinares.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Granada - Alhambra
+#EXTINF:-1 group-title="Hiszpania", Granada - Alhambra
 https://webcam-4.ibericam.com:5443/live/streams/granada.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Granada -Salobreña
+#EXTINF:-1 group-title="Hiszpania", Granada -Salobreña
 https://webcam-2.ibericam.com:5443/live/streams/salobrena.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Guadalajara - Ciruelos del Pinar - Plaza Mayor
+#EXTINF:-1 group-title="Hiszpania", Guadalajara - Ciruelos del Pinar - Plaza Mayor
 https://webcam-4.ibericam.com:5443/live/streams/ciruelos-del-pinar.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Guadalajara - Estriégana - desde el Ayuntamiento
+#EXTINF:-1 group-title="Hiszpania", Guadalajara - Estriégana - desde el Ayuntamiento
 https://webcam-4.ibericam.com:5443/live/streams/estriegana.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Guadalajara -  Luzaga - desde el Ayuntamiento
+#EXTINF:-1 group-title="Hiszpania", Guadalajara -  Luzaga - desde el Ayuntamiento
 https://webcam-4.ibericam.com:5443/live/streams/luzaga.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Guadalajara - Saúca - vista a la iglesia románica
+#EXTINF:-1 group-title="Hiszpania", Guadalajara - Saúca - vista a la iglesia románica
 https://webcam-2.ibericam.com:5443/live/streams/sauca.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Valencia - Chulilla
+#EXTINF:-1 group-title="Hiszpania", Valencia - Chulilla
 https://webcam-2.ibericam.com:5443/live/streams/chulilla.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Valencia - Chulilla - Apartamentos la Muela
+#EXTINF:-1 group-title="Hiszpania", Valencia - Chulilla - Apartamentos la Muela
 https://webcam-2.ibericam.com:5443/live/streams/chulilla-apartamentos.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Valencia - Gandía - Playa de Gandía
+#EXTINF:-1 group-title="Hiszpania", Valencia - Gandía - Playa de Gandía
 https://webcam-4.ibericam.com:5443/live/streams/gandia-playa-de-gandia.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Valencia - Valencia – Calle de la Paz
+#EXTINF:-1 group-title="Hiszpania", Valencia - Valencia – Calle de la Paz
 https://webcam-2.ibericam.com:5443/live/streams/valencia-calle-de-la-paz.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Valencia - Valencia – Plaza del Ayuntamiento
+#EXTINF:-1 group-title="Hiszpania", Valencia - Valencia – Plaza del Ayuntamiento
 https://webcam-4.ibericam.com:5443/live/streams/valencia-plaza-del-ayuntamiento.m3u8
-#EXTINF:-1 group-title="Ibericam - Hiszpania", Canaria - test
+#EXTINF:-1 group-title="Hiszpania", Canaria - test
 https://camserver2.in2thebeach.es/streams/playa-patalavaca-arguineguin/index.m3u8
-
+#EXTINF:-1 group-title="Hiszpania", Canaria - Arguineguin
+https://camserver2.in2thebeach.es/streams/playa-patalavaca-arguineguin/index.m3u8
+#EXTINF:-1 group-title="Hiszpania", Canaria - Puerto Rico
+https://camserver2.in2thebeach.es/streams/puertorico1/index.m3u8
+#EXTINF:-1 group-title="Hiszpania", Canaria - San Agustin
+https://camserver2.in2thebeach.es/streams/el_veril_playa_del_ingles/index.m3u8
+#EXTINF:-1 group-title="Hiszpania", Canaria - Playa del Ingles
+https://camserver2.in2thebeach.es/streams/dunas-de-maspalomas-y-playa-del-ingles/index.m3u8
+#EXTINF:-1 group-title="Hiszpania", Canaria - Maspalomas
+https://camserver2.in2thebeach.es/streams/playa-de-maspalomas/index.m3u8
 
 #EXTINF:-1	group-title="EXPLORE.ORG - Afryka i nie tylko",	1
 https://outbound-production.explore.org/stream-production-1/.m3u8		
