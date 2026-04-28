@@ -1169,6 +1169,8 @@ https://webcam-4.ibericam.com:5443/live/streams/gandia-playa-de-gandia.m3u8
 https://webcam-2.ibericam.com:5443/live/streams/valencia-calle-de-la-paz.m3u8
 #EXTINF:-1 group-title="Ibericam - Hiszpania", Valencia - Valencia – Plaza del Ayuntamiento
 https://webcam-4.ibericam.com:5443/live/streams/valencia-plaza-del-ayuntamiento.m3u8
+#EXTINF:-1 group-title="Ibericam - Hiszpania", Canaria - test
+https://hd-auth.skylinewebcams.com/live.m3u8?a=vmf15qm6fl3lk4j0mkh4amkct2
 
 
 #EXTINF:-1	group-title="EXPLORE.ORG - Afryka i nie tylko",	1
@@ -4360,5 +4362,3 @@ https://s1.precate.pl/player/output/veolia_ec4/cam1/playlist.m3u8
 https://s1.precate.pl/player/output/veolia_ec4/cam2/playlist.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Łódź VEOLIA EC4 LIVE 3
 https://s1.precate.pl/player/output/veolia_ec4/cam3/playlist.m3u8
-
-https://hd-auth.skylinewebcams.com/live.m3u8?a=vmf15qm6fl3lk4j0mkh4amkct2
