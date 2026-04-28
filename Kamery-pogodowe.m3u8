@@ -248,7 +248,7 @@ https://streaming.euro.net.pl:8888/rynek/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gliwice-pl.svg" group-title="Miasta",GLIWICE - widok na Rynek
 https://hoktastream3.webcamera.pl/gliwice_cam_c28bda/gliwice_cam_c28bda.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/m/myslowice-pl.svg" group-title="Miasta",Mysłowice - Rynek
-https://cdn-12-go.toya.net.pl/kamery/mysl_grunwaldzka.m3u8?p=63616d005f5e0ff.1bf76402375b2e0d9c1c00637374.756e617574686f72697a6564&pl=web
+https://hoktastream6.webcamera.pl/toya_cam_a4c281/toya_cam_a4c281.stream/playlist.m3u8?p=63616d005f5e0ff.8cf5d604a5939079e24000637374.756e617574686f72697a6564&pl=web
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/dabrowa-gornicza-pl.svg" group-title="Miasta",Dąbrowa Górnicza
 https://kam1.dabrowa-gornicza.pl:4443/video-pkz-hires/vi.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/o/oswiecim-pl.svg" group-title="Miasta",Oświęcim - widok na Rynek
@@ -972,7 +972,7 @@ https://hoktastream4.webcamera.pl/krynicamorska_cam_ba179a/krynicamorska_cam_ba1
 
 
 #EXTINF:-1  group-title="TV",Kamery z Gór
-https://hoktastream6.webcamera.pl/toya_cam_a4c281/toya_cam_a4c281.stream/playlist.m3u8?p=63616d005f5e0ff.3659b7bbbfb69c3cbf1c00637374.756e617574686f72697a6564&pl=web
+https://hoktastream6.webcamera.pl/toya_cam_a4c281/toya_cam_a4c281.stream/playlist.m3u8?p=63616d005f5e0ff.8cf5d604a5939079e24000637374.756e617574686f72697a6564&pl=web
 #EXTINF:-1  group-title="TV",Kamery pogodowe z turystycznych miejsc w Polsce
 https://hoktastream2.webcamera.pl/tv_cam_656df8/tv_cam_656df8.stream/playlist.m3u8
 #EXTINF:-1  group-title="TV",Jesień w górach - 25 ujęć z kamer z widokiem na góry
