@@ -981,6 +981,10 @@ https://hoktastream1.webcamera.pl/tv_cam_9bb83d/tv_cam_9bb83d.stream/playlist.m3
 https://hoktastream1.webcamera.pl/tv_cam_781381/tv_cam_781381.stream/playlist.m3u8
 #EXTINF:-1  group-title="TV",Telewizja dla Narciarzy
 https://hoktastream4.webcamera.pl/nartypl_cam_fec03d/nartypl_cam_fec03d.stream/playlist.m3u8
+#EXTINF:-1  group-title="TV",Telewizja i Radio Hiszpania
+https://bit.ly/3lbJQo3
+#EXTINF:-1  group-title="TV", Webcamery z Rosji
+https://iptvlist.ru/webcam.m3u
 
 
 
