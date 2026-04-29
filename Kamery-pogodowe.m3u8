@@ -1198,6 +1198,25 @@ https://s61.ipcamlive.com/streams/3dih9zsf14tk6oxae/stream.m3u8
 https://www.crtvg.es:1554/hls/quintana/index.m3u8
 #EXTINF:-1 group-title="Hiszpania", Playa de San Agustín
 https://camserver2.in2thebeach.es/streams/el_veril_playa_del_ingles/index.m3u8
+#EXTINF:-1 group-title="Hiszpania", Donostia-San Sebastián
+https://s169.ipcamlive.com/streams/a96gs3fud5dceoi0z/stream.m3u8
+#EXTINF:-1 group-title="Hiszpania", Calpe, Alicante
+https://s64.ipcamlive.com/streams/40ohc4ksuafsnizlb/stream.m3u8
+#EXTINF:-1 group-title="Hiszpania", Malaga - Port
+https://livecams.meteo365.es/hls_live/puerto_drei.m3u8
+#EXTINF:-1 group-title="Hiszpania", Benalmadena, Port
+https://webcam.meteo365.es/hls_live/benalmadenamarina.m3u8
+#EXTINF:-1 group-title="Hiszpania", Ronda, Puente Nuevo & el Tajo
+https://webcam.meteo365.es/hls_live/ronda.m3u8
+#EXTINF:-1 group-title="Hiszpania", Benidorn - Playa de Levante
+https://livecams.meteo365.es/hls_live/benidorm.m3u8
+#EXTINF:-1 group-title="Hiszpania", Ceuta - View of the Port of Ceuta, the Heliport and the Strait of Gibraltar
+https://livecams.meteo365.es/hls_live/ceuta.m3u8
+#EXTINF:-1 group-title="Hiszpania", Tarifa - Playa de Los Lances
+https://webcam.meteo365.es/hls_live/tarifasurfer.m3u8
+#EXTINF:-1 group-title="Hiszpania", Nerja - Playa El Salón
+https://webcam.meteo365.es/hls_live/nerjaplaya.m3u8
+
 
 
 
