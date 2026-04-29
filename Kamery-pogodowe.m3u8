@@ -490,8 +490,6 @@ https://hoktastream1.webcamera.pl/warszawa_cam_f2b95c/warszawa_cam_f2b95c.stream
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/warszawa-pl.svg" group-title="Miasta",Warszawa - Panorama
 https://live.wizjer.pl/WarsawLive/index_1080p.m3u8
 
-
-
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Marina TRZEBIEŻ
 https://hoktastream3.webcamera.pl/MarinaTrzebiez_cam_3942c2/MarinaTrzebiez_cam_3942c2.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Wdzydze - Bory Tucholskie
@@ -629,7 +627,6 @@ https://hoktastream2.webcamera.pl/witanowice_cam_09d640/witanowice_cam_09d640.st
 https://hoktastream2.webcamera.pl/parafiaandrychow_cam_18fe7d/parafiaandrychow_cam_18fe7d.stream/playlist.m3u8
 #EXTINF:-1  group-title="Kościoły",Archidiecezja Przemysko-Warszawska Kocioła Grekokatolickiego w Polsce
 https://hoktastream4.webcamera.pl/okocam_cam_9f90fb/okocam_cam_9f90fb.stream/playlist.m3u8
-
 
 #EXTINF:-1  group-title="Góry, stoki narciarskie",Kotlinka Szymbark
 https://hoktastream3.webcamera.pl/kotlinkaszymbark_cam_5d869c/kotlinkaszymbark_cam_5d869c.stream/playlist.m3u8
@@ -828,7 +825,6 @@ https://hoktastream1.webcamera.pl/kiczeraski_cam_2b0ef4/kiczeraski_cam_2b0ef4.st
 #EXTINF:-1  group-title="Góry, stoki narciarskie",Słotwiny Arena - widok z górnej stacji
 https://hoktastream1.webcamera.pl/moit_cam_0b9f47/moit_cam_0b9f47.stream/playlist.m3u8
 
-
 #EXTINF:-1  group-title="Plaże",ŚWINOUJCIE - widok na Plaże i morze
 https://hoktastream4.webcamera.pl/swinoujscie_cam_3be0ba/swinoujscie_cam_3be0ba.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",ŚWINOUJCIE - widok na plażę
@@ -970,7 +966,6 @@ https://hoktastream1.webcamera.pl/katyrybackie_cam_2d3c0c/katyrybackie_cam_2d3c0
 #EXTINF:-1  group-title="Plaże",KRYNICA MORSKA - widok na plaże
 https://hoktastream4.webcamera.pl/krynicamorska_cam_ba179a/krynicamorska_cam_ba179a.stream/playlist.m3u8
 
-
 #EXTINF:-1  group-title="TV",Kamery z Gór
 https://hoktastream6.webcamera.pl/toya_cam_a4c281/toya_cam_a4c281.stream/playlist.m3u8?p=63616d005f5e0ff.8cf5d604a5939079e24000637374.756e617574686f72697a6564&pl=web
 #EXTINF:-1  group-title="TV",Kamery pogodowe z turystycznych miejsc w Polsce
@@ -985,8 +980,6 @@ https://hoktastream4.webcamera.pl/nartypl_cam_fec03d/nartypl_cam_fec03d.stream/p
 https://bit.ly/3lbJQo3
 #EXTINF:-1  group-title="TV", Webcamery z Rosji
 https://iptvlist.ru/webcam.m3u
-
-
 
 #EXTINF:-1  group-title="Kościoły",Parafia - Krosno Fara
 https://stream4.stimotion.pl/live/krosno12.m3u8
@@ -1113,7 +1106,6 @@ https://kl6.tech5.pl:8005/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",KOŚCIÓŁ p.w. PODWYŻSZENIA KRZYŻA świętego w CZASZYNIE
 https://kl6.tech5.pl:8052/hls/live.stream.m3u8
 
-
 #EXTINF:-1 group-title="Hiszpania", Alicante - Calpe - Playa del Arenal Bol
 https://webcam-4.ibericam.com:5443/live/streams/calpe-playa-del-arenal-bol.m3u8
 #EXTINF:-1 group-title="Hiszpania", Alicante - Famorca - vista a la Sierra de la Serrella
@@ -1216,9 +1208,6 @@ https://livecams.meteo365.es/hls_live/ceuta.m3u8
 https://webcam.meteo365.es/hls_live/tarifasurfer.m3u8
 #EXTINF:-1 group-title="Hiszpania", Nerja - Playa El Salón
 https://webcam.meteo365.es/hls_live/nerjaplaya.m3u8
-
-
-
 
 #EXTINF:-1	group-title="EXPLORE.ORG - Afryka i nie tylko",	1
 https://outbound-production.explore.org/stream-production-1/.m3u8		
@@ -3221,7 +3210,6 @@ https://outbound-production.explore.org/stream-production-999/.m3u8
 #EXTINF:-1	group-title="EXPLORE.ORG - Afryka i nie tylko",	1000
 https://outbound-production.explore.org/stream-production-1000/.m3u8		
 
-
 #EXTINF:-1  tvg-logo="p1.img.cctvpic.com/photoAlbum/templet/common/DEPA1604393067070717/fxlogo.png" group-title="Chiny",Kryty most Anshun znajduje si obok Pawilonu Hejiang u zbiegu rzek Fuhe i Nanhe w miecie Chengdu w prowincji Syczuan
 https://gctxyhwc.liveplay.myqcloud.com/gc/zsslsjjfsd_1_md.m3u8
 #EXTINF:-1  tvg-logo="p1.img.cctvpic.com/photoAlbum/templet/common/DEPA1604393067070717/fxlogo.png" group-title="Chiny",Lancang River to nazwa grnego biegu rzeki Mekong w Chinach. Jest to jedna z najwikszych rzek poudniowo-zachodnich Chin  trzecia pod wzgldem dugoci rzeka w Azji i najdusza rzeka w Azji Poudniowo-Wschodniej. Nabrzee Wayao w miasteczku Wayao
@@ -3368,7 +3356,6 @@ https://streaming.leon.pl/hls/rybnik4/index.m3u8
 https://s1.worldcam.live:8082/cekcyn-bory-tucholskie/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Koszalin - Park Książąt Pomorskich
 https://kl7.tech5.pl:7998/hls/live.stream.m3u8
-
 
 #EXTINF: -1 group-title="Korea",Seoraksan National Park - Widok Ulsanbawi z Fortecy Gwongeumseong
 https://live.knps.or.kr/cctv/hls/jodo.m3u8
@@ -4007,7 +3994,6 @@ https://topiscctv.eseoul.go.kr/sd2/ch149.stream/playlist.m3u8
 #EXTINF:-1 group-title="KOREA",SEOUL CCTV SD2 150
 https://topiscctv.eseoul.go.kr/sd2/ch150.stream/playlist.m3u8
 
-
 #EXTINF:-1 group-title="KOREA",KOREA 1
 https://kbscctv-cache.loomex.net/lowStream/_definst_/9950_low.stream/playlist.m3u8
 #EXTINF:-1 group-title="KOREA",KOREA 2
@@ -4209,8 +4195,6 @@ http://218.148.169.193:1935/live/48.stream/playlist.m3u8
 http://218.148.169.193:1935/live/49.stream/playlist.m3u8
 #EXTINF:-1 group-title="KOREA",KOREA OTHER 50
 http://218.148.169.193:1935/live/50.stream/playlist.m3u8
-
-
 
 #EXTINF:-1 group-title="Miasta ze świata",Kamera internetowa w porcie Svolvær
 https://s123.ipcamlive.com/streams_storage/7beznsfuwf9x3vwat/stream.m3u8 
