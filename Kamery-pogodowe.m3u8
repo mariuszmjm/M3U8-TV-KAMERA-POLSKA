@@ -186,7 +186,7 @@ https://hoktastream4.webcamera.pl/zielonagora_cam_ed9042/zielonagora_cam_ed9042.
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/luban-pl.svg" group-title="Miasta",Lubań
 https://p.mstream.pl/intera/luban-park.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/boleslawiec-pl.svg" group-title="Miasta",Bolesławiec - Wieżowiec Zachód
-https://s104.ipcamlive.com/streams_storage/5buu126js5jz7cn0a/stream.m3u8
+https://s123.ipcamlive.com/streams_storage/2bvvus9ew20bliela/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zlotoryja-pl.svg" group-title="Miasta",Złotoryja
 https://hoktastream3.webcamera.pl/zlotoryja_cam_0c5e15/zlotoryja_cam_0c5e15.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jelenia-gora-pl.svg" group-title="Miasta",JELENIA GÓRA - widok na miasto
@@ -248,7 +248,7 @@ https://streaming.euro.net.pl:8888/rynek/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gliwice-pl.svg" group-title="Miasta",GLIWICE - widok na Rynek
 https://hoktastream3.webcamera.pl/gliwice_cam_c28bda/gliwice_cam_c28bda.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/m/myslowice-pl.svg" group-title="Miasta",Mysłowice - Rynek
-https://hoktastream6.webcamera.pl/toya_cam_a4c281/toya_cam_a4c281.stream/playlist.m3u8?p=63616d005f5e0ff.8cf5d604a5939079e24000637374.756e617574686f72697a6564&pl=web
+https://cdn-14-go.toya.net.pl/kamery/mysl_rynek.m3u8?p=63616d005f5e0ff.adf401b0472af498646500637374.756e617574686f72697a6564&pl=web
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/dabrowa-gornicza-pl.svg" group-title="Miasta",Dąbrowa Górnicza
 https://kam1.dabrowa-gornicza.pl:4443/video-pkz-hires/vi.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/o/oswiecim-pl.svg" group-title="Miasta",Oświęcim - widok na Rynek
@@ -268,7 +268,7 @@ https://hoktastream4.webcamera.pl/czestochowa_cam_18cb12/czestochowa_cam_18cb12.
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wodzislaw-slaski-pl.svg" group-title="Miasta",Wodzisław Śląski
 https://streaming.netcorp.pl/hls/rynek/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jaworzno-pl.svg" group-title="Miasta",Jaworzno - Rynek  widok od strony biblioteki
-https://6034e09794f07.streamlock.net/mzdim/smil:rynek1.smil/playlist.m3u8
+https://6034e09794f07.streamlock.net/mzdim/rynek2.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kety-pl.svg" group-title="Miasta",Kęty - widok na Rynek
 https://hoktastream1.webcamera.pl/kety_cam_f5ce13/kety_cam_f5ce13.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zywiec-pl.svg" group-title="Miasta",ŻYWIEC - widok na Rynek
@@ -452,7 +452,7 @@ https://kamera.umradom.pl/kam/video/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/P/Piotrkow-trybunalski-pl.svg" group-title="Miasta",Piotrków Trybunalski
 https://cdn-13-go.toya.net.pl/kamery/piot_rynektrybunalski.m3u8?p=474f43414d005f5e0ff.812cb5c0b157af7376e400637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/piotrkow-trybunalski-pl.svg" group-title="Miasta",Piotrków Trybunalski
-https://cdn-13-go.toya.net.pl/kamery/piot_rondosolidarnosci.m3u8?p=474f43414d005f5e0ff.6ae4333482d3dbeb26a400637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+https://cdn-11-go.toya.net.pl/kamery/piot_slowackiegokostromska.m3u8?p=63616d005f5e0ff.6d1a7247729eb93b23a500637374.756e617574686f72697a6564&pl=web
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kutno-pl.svg" group-title="Miasta",Kutno
 https://s1.worldcam.live:8082/kutno/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/starachowice-pl.svg" group-title="Miasta",Starachowice - Panorama miasta
@@ -507,7 +507,7 @@ https://hoktastream1.webcamera.pl/skywind_cam_267ae1/skywind_cam_267ae1.stream/p
 #EXTINF:-1  group-title="Jeziora i inne miejsca",GIŻYCKO - Widok na Jezioro Niegocin
 https://hoktastream4.webcamera.pl/gizycko_cam_a96a04/gizycko_cam_a96a04.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Wilkasy - widok na Jezioro Niegocin
-https://hoktastream4.webcamera.pl/skywind_cam_99451e/skywind_cam_99451e.stream/playlist.m3u8
+https://stream.mazury24.eu/m_strzelce/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", OLSZTYN - Słoneczna Polana
 https://hoktastream2.webcamera.pl/olsztyn_cam_b8151b/olsztyn_cam_b8151b.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Giżycko - widok na most obrotowy na Kanale Łuczańskim
@@ -563,9 +563,9 @@ https://hoktastream1.webcamera.pl/bukovina_cam_7aa04f/bukovina_cam_7aa04f.stream
 #EXTINF:-1  group-title="Jeziora i inne miejsca",BUKOVINA Resort - widok na hotel
 https://hoktastream1.webcamera.pl/bukovina_cam_04f738/bukovina_cam_04f738.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Panorama z Twierdzy Kłodzko
-https://stream.devices.pl:5443/LiveApp/streams/498779877563728532759860.m3u8
+https://stream.devices.pl:5443/LiveApp/streams/565130831612622131462488.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Polańczyk - widok na Jezioro Solińskie
-https://hoktastream1.webcamera.pl/polanczyk_cam_d1e2d8/polanczyk_cam_d1e2d8.stream/playlist.m3u8
+https://cdn2.bieszczady.live/hls-live/polanczykPan2/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Stary Sącz
 https://online2.kamery24.org/cam/janpawel.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Świątynia Wang
