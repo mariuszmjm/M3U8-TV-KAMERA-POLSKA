@@ -326,11 +326,11 @@ https://hoktastream2.webcamera.pl/krakow_cam_4c3e37/krakow_cam_4c3e37.stream/pla
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - widok na Wisłę i Most im. Marszałka Józefa Piłsudskiego
 https://hoktastream3.webcamera.pl/krakowkladka_cam_a51738/krakowkladka_cam_a51738.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",KRAKÓW - widok na Rynek Główny 1
-https://hoktastream2.webcamera.pl/krakow_cam_702b61/krakow_cam_702b61.stream/playlist.m3u8
+https://cdn-13-go.toya.net.pl/kamery/krak_krakow1.m3u8?p=63616d005f5e0ff.ac6647a8f15060df051500637374.756e617574686f72697a6564&pl=web
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",KRAKÓW - widok na Rynek Główny 2
-https://cdn-14-go.toya.net.pl/kamery/krak_rynek1.m3u8?p=474f43414d005f5e0ff.2f86e01d683bf6559be400637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+https://cdn-14-go.toya.net.pl/kamery/krak_wentzl.m3u8?p=63616d005f5e0ff.ac6647a8f15060df051500637374.756e617574686f72697a6564&pl=web
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - widok na Rynek Główny 3
-https://cdn-14-go.toya.net.pl/kamery/krak_wentzl.m3u8?p=474f43414d005f5e0ff.c551b3e0241da99de2ba00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+https://cdn-13-go.toya.net.pl/kamery/krak_rynek1.m3u8?p=63616d005f5e0ff.ac6647a8f15060df051500637374.756e617574686f72697a6564&pl=web
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",KRAKÓW - widok na Zamek Królewski na Wawelu
 https://hoktastream2.webcamera.pl/krakow_cam_c78671/krakow_cam_c78671.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",KRAKÓW - Rondo Grunwaldzkie
