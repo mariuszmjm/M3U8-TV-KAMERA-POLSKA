@@ -313,6 +313,8 @@ https://hoktastream4.webcamera.pl/zakopane_cam_cd5b2d/zakopane_cam_cd5b2d.stream
 https://hoktastream2.webcamera.pl/krupowki2_cam_305cd7/krupowki2_cam_305cd7.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/N/Nowy-targ-pl.svg" group-title="Miasta",Nowy Targ - widok na Rynek
 https://live.ntvk.com.pl/hls/kamera-rynek.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zator-pl.svg" group-title="Miasta",Zator - widok na Rynek
+https://60a1c76f3dc10.streamlock.net/live/zator.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - widok na Nową Hutę
 https://hoktastream4.webcamera.pl/krakow_cam_c4feaa/krakow_cam_c4feaa.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Panorama Krakowa
@@ -4393,3 +4395,5 @@ https://s1.precate.pl/player/output/veolia_ec4/cam1/playlist.m3u8
 https://s1.precate.pl/player/output/veolia_ec4/cam2/playlist.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Łódź VEOLIA EC4 LIVE 3
 https://s1.precate.pl/player/output/veolia_ec4/cam3/playlist.m3u8
+
+https://polineo.pl:5443/LiveApp/streams/926624802825651451221327.m3u8
