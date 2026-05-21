@@ -4437,3 +4437,27 @@ https://lon.rtsp.me/tMxaxCg4ee4znLnYYOG-4A/1779365046/hls/RZG9rH7i.m3u8?ip=109.2
 https://lon.rtsp.me/6K3_75RcCQ3z0atm9b5jMw/1779365120/hls/AZ28Sih4.m3u8?ip=109.206.195.15
 #EXTINF:-1 group-title="TEST",Francja - Troyes, Main Square
 https://ds2-cache.quanteec.com/contents/encodings/live/555fb3d0-7b6a-4e1a-3036-3630-6d61-63-a529-611d7063c4d5d/media_0.m3u8
+#EXTINF:-1 group-title="TEST",Kirgistan - Ala-Too Square
+https://webcam.elcat.kg/Bishkek_Ala-Too_Square/tracks-v1/mono.m3u8
+#EXTINF:-1 group-title="TEST",Azerbejdżan - Ski resort Tufandag
+https://lon.rtsp.me/5sjoddhfn2QdOi0m68LMOw/1779365918/hls/aa4FDYRT.m3u8?ip=109.206.195.15
+#EXTINF:-1 group-title="TEST",Dania - The Great Belt Bridge
+https://stream.sob.m-dn.net/live/sb1/vKVhWPO2ysiYNGrNfA+Krw1/stream.m3u8?plain=true
+#EXTINF:-1 group-title="TEST",Czechy - Krnov panorama
+https://cam.moses.cz/stream/cam2/stream.m3u8
+#EXTINF:-1 group-title="TEST",Czechy - Spindleruv Mlyn, Mountains
+https://webcams.sympact.cz/spindl/cam4/webcam.m3u8
+#EXTINF:-1 group-title="TEST",Rosja - Wieżowiec Lahta Center w Petersburgu
+https://hls-spb03.timetechnology.ru:8080/5117/hls/fdcc04d2fa414943/live.m3u8
+#EXTINF:-1 group-title="TEST", Grecja - Marathias Nature Park
+https://frn.rtsp.me/g5VN-UmWUf7dyVTXrVb6EA/1779368426/hls/Fn84rT2S.m3u8
+#EXTINF:-1 group-title="TEST", RPA - Paarl Golf Club
+https://lon.rtsp.me/WH2DE8_sLa1qNChKHmfbCQ/1779369156/hls/HiBy96KQ.m3u8?ip=109.206.195.15
+#EXTINF:-1 group-title="TEST",Chiny - Harbin, Jihong Bridge
+https://gctxyhwc.liveplay.myqcloud.com/gc/hkts09_1_md.m3u8
+#EXTINF:-1 group-title="TEST",Indonesia - Sadeng Beach
+https://mam.jogjaprov.go.id:1937/cctv-public/ViewSadeng.stream/playlist.m3u8
+#EXTINF:-1 group-title="TEST",Indonesia -City traffic in Yogyakarta
+https://mam.jogjaprov.go.id:1937/atcs-kota/PasarDemangan.stream/playlist.m3u8
+#EXTINF:-1 group-title="TEST", Rosja - Astrachań
+https://dvr2.astrakhan.ru/nabp-14k2-hd-2/tracks-v1/index.fmp4.m3u8
