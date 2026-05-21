@@ -189,8 +189,8 @@ https://streaming.airmax.pl/03umigwrzesnia/tracks-v1/mono.m3u8
 https://hoktastream4.webcamera.pl/zielonagora_cam_ed9042/zielonagora_cam_ed9042.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/luban-pl.svg" group-title="Miasta",Lubań
 https://p.mstream.pl/intera/luban-park.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/boleslawiec-pl.svg" group-title="Miasta",Bolesławiec - Wieżowiec Zachód
-https://s123.ipcamlive.com/streams_storage/2bvvus9ew20bliela/stream.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/boleslawiec-pl.svg" group-title="Miasta",Bolesławiec
+https://streaming.istotne.pl/hls/stream24.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zlotoryja-pl.svg" group-title="Miasta",Złotoryja
 https://hoktastream3.webcamera.pl/zlotoryja_cam_0c5e15/zlotoryja_cam_0c5e15.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jelenia-gora-pl.svg" group-title="Miasta",JELENIA GÓRA - widok na miasto
@@ -542,6 +542,8 @@ https://hoktastream1.webcamera.pl/dab-bartek_cam_187c42/dab-bartek_cam_187c42.st
 https://hoktastream4.webcamera.pl/krasocin_cam_42cdc1/krasocin_cam_42cdc1.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Lodowisko w Pszowie
 https://hoktastream1.webcamera.pl/pszow2_cam_4b93fa/pszow2_cam_4b93fa.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Bolesławiec - wiadukt i skatepark
+https://streaming.istotne.pl/hls/stream20.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Międzyrzecze - widok na karmnik
 https://hoktastream1.webcamera.pl/SPM_cam_936d84/SPM_cam_936d84.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Mucharskie - Zapora w Świnnej Porębie
@@ -598,6 +600,8 @@ https://stream.mazury24.eu/m_keja/index.m3u8
 https://stream.mazury24.eu/m_papugarnia/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Białe Okuninka - Włodawa
 https://hoktastream1.webcamera.pl/nocowanie_cam_be431a/nocowanie_cam_be431a.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Bielawa 
+https://streaming.airmax.pl/bielawa3/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Kozienickie - Mazowieckie
 http://185.194.224.189:8080/memfs/61df4d6f-8627-42e1-b3b8-9dbe9b28cf43.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Barlinek - gniazdo rybołowa
