@@ -13,6 +13,8 @@ https://ls-proxy-local.lantech.com.pl/hls/osreda/index.m3u8
 https://ls-proxy-local.lantech.com.pl/hls/lastadiabulwary/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/szczecin-1-pl.svg" group-title="Miasta",Szczecin - widok na Bulwary
 https://hoktastream3.webcamera.pl/szczecin_cam_141876/szczecin_cam_141876.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/niechorze-pl.svg" group-title="Miasta",Niechorze - widok na latarnię
+https://hoktastream1.webcamera.pl/rewal_cam_a332c4/rewal_cam_a332c4.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/barlinek-pl.svg" group-title="Miasta",Barlinek
 https://kl7.tech5.pl:8005/hls/live.stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/slubice-pl.svg" group-title="Miasta",Słubice
@@ -179,6 +181,8 @@ https://streaming.airmax.pl/cambox_20251128/index.m3u8
 https://hoktastream4.webcamera.pl/gorzow_cam_0e7519/gorzow_cam_0e7519.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gorzow-wielkopolski-pl.svg" group-title="Miasta",GORZÓW WIELKOPOLSKI - widok na Katedrę
 https://hoktastream2.webcamera.pl/gorzow_cam_0039e8/gorzow_cam_0039e8.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/Dobiegniew-pl.svg" group-title="Miasta",Dobiegniew
+https://flu.lisek.pl/Dobiegniew_Kam1/index.fmp4.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wrzesnia-pl.svg" group-title="Miasta",Września
 https://streaming.airmax.pl/03umigwrzesnia/tracks-v1/mono.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zielona-gora-pl.svg" group-title="Miasta",ZIELONA GÓRA - widok na panoramę miasta
@@ -217,6 +221,10 @@ https://hoktastream1.webcamera.pl/wroclaw_przed_cam_16c68e/wroclaw_przed_cam_16c
 https://streaming.airmax.pl/wroclaw_fabryczna_panorama/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wroclaw-pl.svg" group-title="Miasta",WrocŁaw Panorama 2
 https://streaming.airmax.pl/wroclawpanorama/index.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/o/olawa-pl.svg" group-title="Miasta",Oława
+https://streaming.airmax.pl/olawaum/index.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/brzeg-pl.svg" group-title="Miasta",Brzeg
+https://streaming.airmax.pl/brzegk1/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/o/olesnica-pl.svg" group-title="Miasta",Widok na Plac Zwycięstwa w Oleśnicy
 https://edial.pl:8080/hls/stream/placOL/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/o/opole-pl.svg" group-title="Miasta",Opolska Aleja Gwiazd
@@ -243,6 +251,8 @@ https://video.raciborz24.pl/hls/rynek.m3u8
 https://video.raciborz24.pl/hls/zamek.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/nysa-pl.svg" group-title="Miasta",Nysa Rynek Panorama
 https://streaming.airmax.pl/nysa_panorama/index.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/prudnik-pl.svg" group-title="Miasta",Prudnik
+https://streaming.prudnik.eu/Rynek.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/cieszyn-pl.svg" group-title="Miasta",Cieszyn - Rynek
 https://streaming.euro.net.pl:8888/rynek/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gliwice-pl.svg" group-title="Miasta",GLIWICE - widok na Rynek
@@ -261,6 +271,8 @@ https://1726104577.rsc.cdn77.org/live/pgB1435.stream/playlist.m3u8
 https://hoktastream2.webcamera.pl/katowice_cam_2bcad5/katowice_cam_2bcad5.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chorzow-pl.svg" group-title="Miasta",Katowice - Rynek
 https://hoktastream2.webcamera.pl/katowice_cam_88da9e/katowice_cam_88da9e.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/bedzin-pl.svg" group-title="Miasta",Będzin
+https://streaming.airmax.pl/bedzin2/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/czestochowa-pl.svg" group-title="Miasta",CZĘSTOCHOWA - widok na Stary Rynek
 https://hoktastream3.webcamera.pl/czestochowa_cam_0c6362/czestochowa_cam_0c6362.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/czestochowa-pl.svg" group-title="Miasta",CZĘSTOCHOWA - widok na Sanktuarium Matki Boskiej Częstochowskiej
@@ -321,8 +333,8 @@ https://hoktastream4.webcamera.pl/krakow_cam_c4feaa/krakow_cam_c4feaa.stream/pla
 https://hoktastream1.webcamera.pl/krakow_cam_66c146/krakow_cam_66c146.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - Zakrzówek
 https://hoktastream2.webcamera.pl/krakow_cam_680fe3/krakow_cam_680fe3.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - Plac Jana Nowaka Jeziorańskiego
-https://cdn-14-go.toya.net.pl/kamery/krak_galkrakowskadworzec.m3u8?p=474f43414d005f5e0ff.fa87348ddcb1ae21f7d300637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - Plac Wszystkich Świętych
+https://hoktastream3.webcamera.pl/krakow_cam_6f3258/krakow_cam_6f3258.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",KRAKÓW - widok na WAWEL
 https://hoktastream2.webcamera.pl/krakow_cam_4c3e37/krakow_cam_4c3e37.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - widok na Wisłę i Most im. Marszałka Józefa Piłsudskiego
@@ -837,6 +849,8 @@ https://hoktastream1.webcamera.pl/miedzyzdroje_cam_613997/miedzyzdroje_cam_61399
 https://hoktastream1.webcamera.pl/miedzyzdroje_cam_52898b/miedzyzdroje_cam_52898b.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",Międzyzdroje - widok na plażę
 https://hoktastream1.webcamera.pl/miedzyzdroje_cam_bcc4fd/miedzyzdroje_cam_bcc4fd.stream/playlist.m3u8
+#EXTINF:-1  group-title="Plaże",Międzyzdroje - Molo Międzyzdroje
+https://streaming.airmax.pl/apiconnect4_molo1/index.m3u8
 #EXTINF:-1  group-title="Plaże",Międzywodzie - widok na plażę
 https://hoktastream3.webcamera.pl/miedzywodzie_cam_6b6996/miedzywodzie_cam_6b6996.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",Dziwnów - widok na Marinę
@@ -3353,7 +3367,7 @@ https://polineo.pl:5443/LiveApp/play.html?id=574095533561142541138538
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Szczecinek - Mysia Wyspa
 https://play.gawex.pl/szczecinek/mysiawyspa.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Zabytkowa Kopalnia Ignacy w Rybniku
-https://streaming.leon.pl/hls/rybnik4/index.m3u8
+https://streaming.leon.pl/hls/rybnik3/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Jezioro Wielkie Cekcyńskie - Bory Tucholskie
 https://s1.worldcam.live:8082/cekcyn-bory-tucholskie/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Koszalin - Park Książąt Pomorskich
