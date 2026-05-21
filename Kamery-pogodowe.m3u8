@@ -126,7 +126,7 @@ https://cam.tvsm.pl/live/Klimek.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chelmno-pl.svg" group-title="Miasta",Chełmno - widok na Starówkę
 https://hoktastream1.webcamera.pl/chelmno_cam_5e8601/chelmno_cam_5e8601.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/torun-pl.svg" group-title="Miasta",Toruń - widok na Rynek Staromiejski
-https://panolive.pl:8083/cam/torun1_sd/playlist.m3u8
+https://hoktastream3.webcamera.pl/torun_cam_41fa74/torun_cam_41fa74.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/torun-pl.svg" group-title="Miasta",Toruń - panorama miasta
 https://hoktastream1.webcamera.pl/torun_cam_e412c4/torun_cam_e412c4.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/torun-pl.svg" group-title="Miasta",Toruń - Aleja Jana Pawła II
@@ -279,6 +279,8 @@ https://hoktastream3.webcamera.pl/czestochowa_cam_0c6362/czestochowa_cam_0c6362.
 https://hoktastream4.webcamera.pl/czestochowa_cam_18cb12/czestochowa_cam_18cb12.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wodzislaw-slaski-pl.svg" group-title="Miasta",Wodzisław Śląski
 https://streaming.netcorp.pl/hls/rynek/index.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/rybnik-pl.svg" group-title="Miasta",Rybnik
+https://streaming.leon.pl/hls/rybnik1/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jaworzno-pl.svg" group-title="Miasta",Jaworzno - Rynek  widok od strony biblioteki
 https://6034e09794f07.streamlock.net/mzdim/rynek2.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kety-pl.svg" group-title="Miasta",Kęty - widok na Rynek
@@ -986,20 +988,14 @@ https://hoktastream1.webcamera.pl/katyrybackie_cam_2d3c0c/katyrybackie_cam_2d3c0
 #EXTINF:-1  group-title="Plaże",KRYNICA MORSKA - widok na plaże
 https://hoktastream4.webcamera.pl/krynicamorska_cam_ba179a/krynicamorska_cam_ba179a.stream/playlist.m3u8
 
-#EXTINF:-1  group-title="TV",Kamery z Gór
-https://hoktastream6.webcamera.pl/toya_cam_a4c281/toya_cam_a4c281.stream/playlist.m3u8?p=63616d005f5e0ff.8cf5d604a5939079e24000637374.756e617574686f72697a6564&pl=web
 #EXTINF:-1  group-title="TV",Kamery pogodowe z turystycznych miejsc w Polsce
 https://hoktastream2.webcamera.pl/tv_cam_656df8/tv_cam_656df8.stream/playlist.m3u8
-#EXTINF:-1  group-title="TV",Jesień w górach - 25 ujęć z kamer z widokiem na góry
+#EXTINF:-1  group-title="TV", Góry w Polsce
 https://hoktastream1.webcamera.pl/tv_cam_9bb83d/tv_cam_9bb83d.stream/playlist.m3u8
 #EXTINF:-1  group-title="TV",Najpiękniejsze Polskie Plaże
 https://hoktastream1.webcamera.pl/tv_cam_781381/tv_cam_781381.stream/playlist.m3u8
 #EXTINF:-1  group-title="TV",Telewizja dla Narciarzy
 https://hoktastream4.webcamera.pl/nartypl_cam_fec03d/nartypl_cam_fec03d.stream/playlist.m3u8
-#EXTINF:-1  group-title="TV",Telewizja i Radio Hiszpania
-https://bit.ly/3lbJQo3
-#EXTINF:-1  group-title="TV", Webcamery z Rosji
-https://iptvlist.ru/webcam.m3u
 
 #EXTINF:-1  group-title="Kościoły",Parafia - Krosno Fara
 https://stream4.stimotion.pl/live/krosno12.m3u8
@@ -3310,6 +3306,7 @@ https://5d534d0532491.streamlock.net/live/grand.stream/playlist.m3u8
 https://cdn2.bieszczady.live/hls-live/chreptiow/playlist.m3u8
 #EXTINF:-1  group-title="Miasta",Petersburg - Ermitaż w Rosji
 https://streamer.camera.rt.ru/public/master.m3u8?sid=ac4ad2e3-8615-4d5b-90dc-3f6a57d9a589
+
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Sabat Krajno
 https://s124.ipcamlive.com/streams/7cftjuooe1ltwvm64/stream.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Trójstyk Wisztyniec
@@ -3371,7 +3368,7 @@ https://polineo.pl:5443/LiveApp/play.html?id=574095533561142541138538
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Szczecinek - Mysia Wyspa
 https://play.gawex.pl/szczecinek/mysiawyspa.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Zabytkowa Kopalnia Ignacy w Rybniku
-https://streaming.leon.pl/hls/rybnik3/index.m3u8
+https://streaming.leon.pl/hls/rybnik4/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Jezioro Wielkie Cekcyńskie - Bory Tucholskie
 https://s1.worldcam.live:8082/cekcyn-bory-tucholskie/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Koszalin - Park Książąt Pomorskich
@@ -4413,5 +4410,19 @@ https://s1.precate.pl/player/output/veolia_ec4/cam1/playlist.m3u8
 https://s1.precate.pl/player/output/veolia_ec4/cam2/playlist.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Łódź VEOLIA EC4 LIVE 3
 https://s1.precate.pl/player/output/veolia_ec4/cam3/playlist.m3u8
-#EXTINF:-1 group-title="Polineo", Polineo
-https://polineo.pl:5443/LiveApp/streams/926624802825651451221327.m3u8
+
+#EXTINF:-1 group-title="TEST", Hiszpania - La Corunna
+https://www.crtvg.es:1554/hls/mcoruna/index.m3u8
+#EXTINF:-1 group-title="TEST", Hiszpania - Sagrada Familia
+https://s159.ipcamlive.com/streams/9fw3hgln07zuzatw6/stream.m3u8
+#EXTINF:-1 group-title="TEST", Hiszpania - The Aqueduct of Segovia
+https://frn.rtsp.me/mstkyVa7TTPbxnA1gXkL2Q/1779363056/hls/4asatA6z.m3u8?ip=109.206.195.15
+#EXTINF:-1 group-title="TEST", Hiszpania - A Guarda, Castro de Santa Trega
+https://www.crtvg.es:1556/hls/aguarda/index.m3u8
+#EXTINF:-1 group-title="TEST", Hiszpania - Santiago de Compostela 
+https://www.crtvg.es:1554/hls/obradoiro/index.m3u8
+#EXTINF:-1 group-title="TEST", Hiszpania - Peniscola
+https://streaming.comunitatvalenciana.com/webcam/Penyiscola/manifest.m3u8
+#EXTINF:-1 group-title="TEST", Rosja - Moskwa
+https://hls-spb03.timetechnology.ru:8080/2722/hls/fcdac098bed8c78a/live.m3u8
+
