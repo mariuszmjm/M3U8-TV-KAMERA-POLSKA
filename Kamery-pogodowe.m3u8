@@ -4425,4 +4425,15 @@ https://www.crtvg.es:1554/hls/obradoiro/index.m3u8
 https://streaming.comunitatvalenciana.com/webcam/Penyiscola/manifest.m3u8
 #EXTINF:-1 group-title="TEST", Rosja - Moskwa
 https://hls-spb03.timetechnology.ru:8080/2722/hls/fcdac098bed8c78a/live.m3u8
-
+#EXTINF:-1 group-title="TEST",Brazylia - Gramado -Avenida das Hortênsias
+https://tv.rbt.psi.br/media/n/BZmZntmZy2GYnJu3otmW/a/playlist.m3u8
+#EXTINF:-1 group-title="TEST",Chorwacja - Baška Voda 
+https://cdn-005.whatsupcams.com/hls/hr_baskavoda1.m3u8
+#EXTINF:-1 group-title="TEST",Węgry - Budapeszt
+https://cam.idokep.hu/live/hotelvictoria/live-31076a5bfd.m3u8
+#EXTINF:-1 group-title="TEST",Gruzja - Batumi
+https://lon.rtsp.me/tMxaxCg4ee4znLnYYOG-4A/1779365046/hls/RZG9rH7i.m3u8?ip=109.206.195.15
+#EXTINF:-1 group-title="TEST",Gruzja - Batumi
+https://lon.rtsp.me/6K3_75RcCQ3z0atm9b5jMw/1779365120/hls/AZ28Sih4.m3u8?ip=109.206.195.15
+#EXTINF:-1 group-title="TEST",Francja - Troyes, Main Square
+https://ds2-cache.quanteec.com/contents/encodings/live/555fb3d0-7b6a-4e1a-3036-3630-6d61-63-a529-611d7063c4d5d/media_0.m3u8
