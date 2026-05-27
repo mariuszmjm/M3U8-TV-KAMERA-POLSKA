@@ -3368,7 +3368,7 @@ https://stream6.nadaje.com:32648/live/oTn1369.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Widok z wiatraka energetycznego ENERGAW w Szczecinku 
 https://play.gawex.pl/szczecinek/szczecinekwiatrak1.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Wisła
-https://polineo.pl:5443/LiveApp/574095533561142541138538.webrtc
+https://polineo.pl:5443/LiveApp/play.html?name=574095533561142541138538
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Szczecinek - Mysia Wyspa
 https://play.gawex.pl/szczecinek/mysiawyspa.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Zabytkowa Kopalnia Ignacy w Rybniku
