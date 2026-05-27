@@ -3308,9 +3308,13 @@ https://cdn2.bieszczady.live/hls-live/chreptiow/playlist.m3u8
 https://streamer.camera.rt.ru/public/master.m3u8?sid=ac4ad2e3-8615-4d5b-90dc-3f6a57d9a589
 
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Sabat Krajno
-https://s124.ipcamlive.com/streams/7cftjuooe1ltwvm64/stream.m3u8
+https://s168.ipcamlive.com/streams/a8fkge5dv0ymsacp8/stream.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Trójstyk Wisztyniec
 http://217.182.74.242/stream1.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Przystań klubu żeglarskiego "Kamena" oraz wyspa Ostrów.
+https://1340016098.rsc.cdn77.org/live/BtE1182.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Widok na jezioro Wigry z wieży widokowej w Kruszniku
+https://1352096138.rsc.cdn77.org/live/qKP1370.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Stowarzyszenie "Szansa dla Bociana" w Kozubszczyźnie obok Lublina
 https://s1.worldcam.live:8082/kozubszczyzna1/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Stowarzyszenie "Szansa dla Bociana" w Kozubszczyźnie obok Lublina 2
