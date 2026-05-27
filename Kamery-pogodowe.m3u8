@@ -368,8 +368,8 @@ https://rs-system.eu:5443/WebRTCApp/streams/838860928509386678711228.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/szczawnica-pl.svg" group-title="Miasta",Szczawnica
 https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam12.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/K/Krynica-zdroj-pl.svg" group-title="Miasta",KRYNICA ZDRÓJ - Góra Parkowa
-https://hoktastream1.webcamera.pl/pkl_cam_2b18a1/pkl_cam_2b18a1.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/K/Krynica-zdroj-pl.svg" group-title="Miasta",Krynica Zdrój
+https://hoktastream2.webcamera.pl/pkl_cam_1ce9c9/pkl_cam_1ce9c9.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/K/Krynica-zdroj-pl.svg" group-title="Miasta",Krynica Zdrój - Dom zdrojowy
 https://video.jarosz.pl/hls/camera2.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/K/Krynica-zdroj-pl.svg" group-title="Miasta",Krynica-Zdrój - widok na deptak
 https://hoktastream1.webcamera.pl/krynicazdroj_cam_6127fe/krynicazdroj_cam_6127fe.stream/playlist.m3u8
@@ -4465,3 +4465,6 @@ https://mam.jogjaprov.go.id:1937/cctv-public/ViewSadeng.stream/playlist.m3u8
 https://mam.jogjaprov.go.id:1937/atcs-kota/PasarDemangan.stream/playlist.m3u8
 #EXTINF:-1 group-title="TEST", Rosja - Astrachań
 https://dvr2.astrakhan.ru/nabp-14k2-hd-2/tracks-v1/index.fmp4.m3u8
+
+#EXTINF:-1 group-title="TEST", Legnica
+https://video.legnica.eu/2/stream
