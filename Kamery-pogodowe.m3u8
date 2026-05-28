@@ -231,6 +231,10 @@ https://streaming.airmax.pl/olawaum/index.m3u8
 https://streaming.airmax.pl/brzegk1/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/o/olesnica-pl.svg" group-title="Miasta",Widok na Plac Zwycięstwa w Oleśnicy
 https://edial.pl:8080/hls/stream/placOL/index.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/sycow-pl.svg" group-title="Miasta",Widok na Rynek w Sycowie
+https://edial.pl:8080/hls/stream/rynekSC/index.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/twardogora-pl.svg" group-title="Miasta",Widok na Rynek w Twardogórze
+https://edial.pl:8080/hls/stream/rynekTW/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/o/opole-pl.svg" group-title="Miasta",Opolska Aleja Gwiazd
 https://hoktastream4.webcamera.pl/opole_cam_8b53d4/opole_cam_8b53d4.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/o/opole-pl.svg" group-title="Miasta",Opole - Ratusz
@@ -239,12 +243,12 @@ https://streaming.airmax.pl/ratuszopole3/index.m3u8
 https://streaming.airmax.pl/opolepanorama/tracks-v1/mono.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/o/opole-pl.svg" group-title="Miasta",Opole Panorama - Panorama wieża Piastowska
 https://streaming.airmax.pl/ratuszopole1/index.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/o/olesno-pl.svg" group-title="Miasta",Olesno - Rynek
+https://1000228020.rsc.cdn77.org/live/nad403.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/walbrzych-pl.svg" group-title="Miasta",Wałbrzych Plac Na Rozdrożu
 https://streaming.airmax.pl/walbrzychpa/tracks-v1/mono.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Pieszyce Wielka Sowa
 https://kamery.emnetgluszyca.pl:5443/LiveApp/streams/ZJOxqQjE5rMaCYOO1737705272155.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/paczkow-1-pl.svg" group-title="Miasta",Paczków
-https://streaming.airmax.pl/paczkow2/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/glogowek-pl.svg" group-title="Miasta",Głogówek - Ratusz
 https://streaming.airmax.pl/ratuszglogowek2/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kedzierzyn-kozle-pl.svg" group-title="Miasta",Kędzierzyn Koźle
@@ -255,6 +259,10 @@ https://video.raciborz24.pl/hls/rynek.m3u8
 https://video.raciborz24.pl/hls/zamek.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/nysa-pl.svg" group-title="Miasta",Nysa Rynek Panorama
 https://streaming.airmax.pl/nysa_panorama/index.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/paczkow-1-pl.svg" group-title="Miasta",Paczków
+https://streaming.airmax.pl/paczkow2/index.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/glucholazy-1-pl.svg" group-title="Miasta",Widok na most Andrzeja w Głuchołazach
+https://cam.lokalna.net/hls/most_andrzeja_glucholazy/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/prudnik-pl.svg" group-title="Miasta",Prudnik
 https://streaming.prudnik.eu/Rynek.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/cieszyn-pl.svg" group-title="Miasta",Cieszyn - Rynek
@@ -363,6 +371,8 @@ https://cdn02.aztv.pl/live_bochnia/live_bochnia2.stream/playlist.m3u8
 https://videocdn.km-net.pl/Zakliczyn_Rynek_3/video.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/tarnow-pl.svg" group-title="Miasta",Rynek miejski w Tarnowie
 https://hoktastream3.webcamera.pl/tarnow_cam_d0e19c/tarnow_cam_d0e19c.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/pilzno-pl.svg" group-title="Miasta", Pilzno - Rynek
+https://online2.kamery24.org/cam/pilzno.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/limanowa-pl.svg" group-title="Miasta",Rynek miejski w Limanowej
 https://cdn02.aztv.pl/live_limanowa/live_limanowa.stream_live/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/nowy-sacz-pl.svg" group-title="Miasta",Nowy Sącz
@@ -564,6 +574,8 @@ https://hoktastream2.webcamera.pl/dinolandia_cam_e38111/dinolandia_cam_e38111.st
 https://hoktastream1.webcamera.pl/molo_cam_b12e5a/molo_cam_b12e5a.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Molo Resort w Osieku - widok na basen
 https://hoktastream3.webcamera.pl/molo_cam_042f05/molo_cam_042f05.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Uzdrowisko Latoszyn Zdrój - Park Zdrojowy
+https://online2.kamery24.org/cam/latoszyn2.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Lanckorona - widok na rynek
 https://hstream2.webcamera.pl/lanckorona_cam_fdeac0/lanckorona_cam_fdeac0.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Rożnowskie
