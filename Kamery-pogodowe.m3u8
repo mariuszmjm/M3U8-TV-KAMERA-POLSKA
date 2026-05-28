@@ -4597,7 +4597,15 @@ https://stream.profi-net.sk/tmr/STREAM12.stream/playlist.m3u8
 https://stream.profi-net.sk/tmr/STREAM13.stream/playlist.m3u8
 #EXTINF:-1 group-title="TEST", Słowacja
 https://stream.profi-net.sk/tmr/STREAM14.stream/playlist.m3u8
-
-
-
-
+#EXTINF:-1 group-title="TEST", Węgry - Tihany - Echo Hill
+https://cam.idokep.hu/live/tihany_onkormanyzat/live-2e08585db1.m3u8
+#EXTINF:-1 group-title="TEST", Węgry -Epleny 
+https://cam.idokep.hu/live/epleny_hegy/live-893bd8b2a1.m3u8
+#EXTINF:-1 group-title="TEST", Węgry - Miskolc - Avas - Uniwersytet 
+https://cam.idokep.hu/live/remiasm/live-a7d2267507.m3u8
+#EXTINF:-1 group-title="TEST", Węgry - Demjén - Jezioro termalne 
+https://cam.idokep.hu/live/demjeni_termalto/live-0cad5ebd70.m3u8
+#EXTINF:-1 group-title="TEST", Węgry - Maconka-Raj Wędkarski 
+https://cam.idokep.hu/live/bshe_maconka1/live-5680e57f3a.m3u8
+#EXTINF:-1 group-title="TEST", Węgry - Salgótarján Zagyvapálfalva NW 
+https://cam.idokep.hu/live/volgyvaros4/live-8384194f13.m3u8
