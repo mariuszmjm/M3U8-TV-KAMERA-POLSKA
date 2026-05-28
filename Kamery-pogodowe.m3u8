@@ -140,7 +140,7 @@ https://stream2.ittam.pl:5443/WebRTCApp/streams/918996469770748831631839.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/ciechocinek-pl.svg" group-title="Miasta",Ciechocinek - Fontanna “Grzybek”
 https://stream2.ittam.pl:5443/WebRTCApp/streams/290708883039491885912420.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kowal-pl.svg" group-title="Miasta",Kowal
-https://kamery.vcn.pl/play/hls/Kowal3/index.m3u8
+https://kamery.vcn.pl/play/hls/Kowal1/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/i/inowroclaw-pl.svg" group-title="Miasta",Inowrocław
 https://player.inonet.pl/hls/output.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/plock-pl.svg" group-title="Miasta",Płock
