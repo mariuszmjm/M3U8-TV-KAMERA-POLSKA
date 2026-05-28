@@ -404,7 +404,7 @@ https://cdn2.bieszczady.live/hls-live/UMustrzykiRynek/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/a/arlamow-pl.svg" group-title="Miasta",Ustrzyki Dolne Hotel Arlamów
 https://cdn2.bieszczady.live/hls-live/arlamow8/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kroscienko-pl.svg" group-title="Miasta",Krościenko
-https://cdn01.aztv.pl/sesja_kroscienko/sesja_kroscienko_ch1.stream/playlist.m3u8?conn_id=23111602783633821498
+https://cdn02.aztv.pl/sesja_kroscienko/sesja_kroscienko.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/przemysl-pl.svg" group-title="Miasta",Przemyśl - Rynek
 https://cdn-13-go.toya.net.pl/kamery/prze_rynekurzadmiasta.m3u8?p=474f43414d005f5e0ff.d8cab8c1d82221444bae00637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/przemysl-pl.svg" group-title="Miasta",Przemyśl - Plac Niepodległości
@@ -1127,6 +1127,88 @@ https://kl6.tech5.pl:8004/hls/live.stream.m3u8
 https://kl6.tech5.pl:8005/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Kościoły",KOŚCIÓŁ p.w. PODWYŻSZENIA KRZYŻA świętego w CZASZYNIE
 https://kl6.tech5.pl:8052/hls/live.stream.m3u8
+#EXTINF:-1  group-title="Kościoły", Sanktuarium Matki Boskiej Bolesnej w Limanowej 
+https://cdn01.aztv.pl/aztv_bazylikalimanowa/aztv_bazylikalimanowa.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Sanktuarium Matki Bożej Pocieszenia w Pasierbcu
+https://cdn02.aztv.pl/aztv_pasierbiec/aztv_pasierbiec.stream_dcs/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Sanktuarium Matki Boskiej Zwycięskiej Parafia Oczyszczenia NMP w Odporyszowie
+https://cdn01.aztv.pl/aztv_sanktuariumodporyszow/aztv_sanktuariumodporyszow.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Sanktuarium Św. Rity w Nowym Sączu
+https://cdn01.aztv.pl/aztv_swrita/aztv_swrita.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Sanktuarium Matki Bożej Zawierzenia w Tarnowcu
+https://cdn01.aztv.pl/aztv_tarnowiec/aztv_tarnowiec.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Bazylika Katedralna Narodzenia NMP w Tarnowie
+https://cdn01.aztv.pl/aztv_tarnow/aztv_tarnow.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Bazylika Św. Szczepana i Matki Boskiej Boguckiej w Katowicach
+https://cdn02.aztv.pl/aztv_bogucice/aztv_bogucice.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Bazylika Św. Małgorzaty - Sanktuarium Przemienienia Pańskiego w Nowym Sączu
+https://cdn01.aztv.pl/aztv_bazylikanowysacz/aztv_bazylikanowysacz.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia Św. Wawrzyńca w Nowym Sączu- Biegonice
+https://cdn02.aztv.pl/aztv_biegonice/aztv_biegonice.stream-tuk3xGmoHemZydgw58/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia Św. Marcina w Biskupicach
+https://cdn01.aztv.pl/aztv_biskupice/aztv_biskupice.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia Matki Boskiej Królowej Męczennikow w Bydgoszczy
+https://cdn01.aztv.pl/aztv_mbkm/aztv_mbkm.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia Św. Franciszka z Asyżu w Cieniawie
+https://cdn01.aztv.pl/aztv_cieniawa/aztv_cieniawa.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia Rzymskokatolicka Narodzenia Najświętszej Maryi Panny w Jazowsku
+https://cdn01.aztv.pl/aztv_parafiajazowsko/aztv_parafiajazowsko.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia Wniebowzięcia Najświętszej Maryi Panny Kazimierza Mała
+https://cdn01.aztv.pl/aztv_parafia-kazimierzamala/BYQe5cHhBMXTmdVCd7zrSs/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia pw. Podwyższenia Krzyża Świętego w Kazimierzy Wielkiej
+https://cdn01.aztv.pl/aztv_kazimierza/9SCjynBquKnRFKfEh3tvEh/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia Najświętszego Serca Pana Jezusa w Krakowie
+https://cdn01.aztv.pl/aztv_sercanie/aztv_sercanie.stream-DLZQn93Er8EFuSF49p/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia Matki Bożej Pocieszenia w Krakowie - Nowa Huta
+https://cdn02.aztv.pl/aztv_nowohuckie/aztv_nowohuckie.stream_dcs/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia Św. Judy Tadeusza w Krakowie - Czyżynach
+https://cdn02.aztv.pl/aztv_parafiaczyzyny/aztv_parafiaczyzyny.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia Matki Bożej Nieustającej Pomocy w Krynicy
+https://cdn02.aztv.pl/aztv_mbnpkrynica/aztv_mbnpkrynica.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia Św. Józefa Oblubieńca NMP w Lubomierzu
+https://cdn01.aztv.pl/aztv_lubomierz/aztv_lubomierz.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", – Parafia pw. Św. Jana Chrzciciela w Łącku
+https://cdn02.aztv.pl/aztv_parafialacko/aztv_parafialacko.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia pw. Dobrego Pasterza Nowa Wieś
+https://cdn01.aztv.pl/aztv_dobry-pasterz/aztv_dobry-pasterz.stream-W9NYC8BTLmpS47YowY/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia pw. Wniebowzięcia Najświętszej Maryi Panny w Proszowicach
+https://cdn02.aztv.pl/aztv_parafiaproszowice/aztv_parafiaproszowice.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia pw. Św. Mikołaja Biskupa w Przyszowej
+https://cdn02.aztv.pl/aztv_parafiaprzyszowa/aztv_parafiaprzyszowa.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia pw. Przemienienia Pańskiego w Radomyślu Wielkim
+https://cdn01.aztv.pl/aztv_radomyslwielki/aztv_radomyslwielki.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia pw. Św. Józefa w Rzeszowie
+https://cdn01.aztv.pl/aztv_parafia-jozef/aztv_parafia-jozef.stream-Y8dGorRZkUN6AxDaaR/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia Świetego Jana Chrzciciela w Skalbmierzu
+https://cdn02.aztv.pl/aztv_skalbmierz/aztv_skalbmierz.stream-fEygkKH4aCR4Rc5Q5A/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia Św. Andrzeja Apostoła w Słopnicach
+https://cdn01.aztv.pl/aztv_slopnice/aztv_slopnice.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia Wszystkich Świetych w Sobolowie
+https://cdn01.aztv.pl/aztv_sobolow/aztv_sobolow.stream-GVGwRkwdEbFFs6AnxP/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia pw. Św. Józefa Rzemieślnika w Starej Wsi
+https://cdn01.aztv.pl/aztv_parafiastarawies/aztv_parafiastarawies.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia pw. Św. Maksymiliana Marii Kolbego w Świebodzinie
+https://cdn02.aztv.pl/aztv_parafiaswiebodzin/aztv_parafiaswiebodzin.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia pw. Św. Stanisława BM i Św. Barbary w Szyku
+https://cdn02.aztv.pl/aztv_parafiaszyk/aztv_parafiaszyk.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia pw. Krzyża Świętego i MBNP w Tarnowie
+https://cdn01.aztv.pl/aztv_tarnowkrzyz/aztv_tarnowkrzyz.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia Św. Jakuba Starszego Apostoła w Tuchowie
+https://cdn01.aztv.pl/aztv_tuchow/aztv_tuchow.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia pw. Św. Apostoła Piotra i Pawła - Sanktuarium Matki Bożej Tylickiej
+https://cdn02.aztv.pl/aztv_tylicz/aztv_tylicz.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia pw. Św. Wincentego Pallottiego w Warszawie
+https://cdn01.aztv.pl/aztv_skaryszewska/aztv_skaryszewska.stream_dcs/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia pw. Św. Mikołaja - Sanktuarium Kalwaryjskie w Wielu
+https://cdn02.aztv.pl/aztv_kalwariawielewska/aztv_kalwariawielewska.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia Wniebowzięcia Najświętszej Maryi Panny we Włoszczowej
+https://cdn02.aztv.pl/aztv_parafiawloszczowa/aztv_parafiawloszczowa.stream-gerV35cGmCzfP7E2oT/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia pw. Św. Jadwigi Królowej w Wólce Podleśnej
+https://cdn02.aztv.pl/aztv_parafiajadwiga/aztv_parafiajadwiga.stream-tftrupYbnnvtLp73tt/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Parafia Św. Jana Ewangelisty w Zalasowej
+https://cdn01.aztv.pl/aztv_zalasowa/aztv_zalasowa.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Kościół Niepokalanego Serca NMP w Woli Piskulińskiej
+https://cdn02.aztv.pl/aztv_wolapiskulina/aztv_wolapiskulina.stream_dcs/playlist.m3u8
 
 #EXTINF:-1 group-title="Hiszpania", Alicante - Calpe - Playa del Arenal Bol
 https://webcam-4.ibericam.com:5443/live/streams/calpe-playa-del-arenal-bol.m3u8
