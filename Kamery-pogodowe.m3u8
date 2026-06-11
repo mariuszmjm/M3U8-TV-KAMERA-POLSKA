@@ -496,7 +496,7 @@ https://hoktastream3.webcamera.pl/lodz_cam_42fb00/lodz_cam_42fb00.stream/playlis
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lodz-pl.svg" group-title="Miasta",Łódź - Plac wolności
 https://cdn-14-go.toya.net.pl/kamery/lodz_placwolnosci.m3u8?p=474f43414d005f5e0ff.0eedee8d480ea2e5756600637374.30363864643265653334396630363534643463303632343633643864373463323935613933313633&d=d9d68e693b6310a261d04d9dbadd5a63
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lodz-pl.svg" group-title="Miasta",Łódż - Manufaktura
-https://cdn-13-go.toya.net.pl/kamery/lodz_manufaktura1.m3u8?p=474f43414d005f5e0ff.6b474195ac62e909d13a00637374.65643038306465613934653435373862623431633437353765636435353338323563653838663936&d=9050751970a0c704f9f9dcfb94055123
+https://cdn-14-go.toya.net.pl/kamery/lodz_manufaktura2.m3u8?p=63616d005f5e0ff.35f6178398d4727f13bd00637374.756e617574686f72697a6564&pl=Windows
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lowicz-pl.svg" group-title="Miasta",Łowicz
 https://kamery.itvmedia.pl/kamsr/kamera1/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/serock-pl.svg" group-title="Miasta",Serock
