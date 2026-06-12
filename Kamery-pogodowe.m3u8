@@ -53,6 +53,8 @@ https://ls.tkchopin.pl:9043/live/puck_stary_rynek_static.stream/playlist.m3u8
 https://ls.tkchopin.pl:9043/live/wejherowo_plac_jakuba_obrotowa.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wejherowo-pl.svg" group-title="Miasta",WEJHEROWO - widok panoramiczny
 https://ls.tkchopin.pl:9043/live/wejherowo_wzgorze_wolnosci_obrotowa.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wejherowo-pl.svg" group-title="Miasta",WEJHEROWO - Widok z Hotelu Kahlberg
+https://ls.tkchopin.pl/live/wejherowo_filharmonia_static.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/sopot-pl.svg" group-title="Miasta",Plac Przyjaciół Sopotu
 https://hoktastream4.webcamera.pl/sopot_cam_caff26/sopot_cam_caff26.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/sopot-pl.svg" group-title="Miasta",Sopot - Molo
@@ -528,8 +530,10 @@ https://hoktastream3.webcamera.pl/MarinaTrzebiez_cam_3942c2/MarinaTrzebiez_cam_3
 https://hoktastream1.webcamera.pl/wdzydze_cam_8d77ee/wdzydze_cam_8d77ee.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Wejherowo - Bieliki
 https://hoktastream1.webcamera.pl/um_wejherowo_cam_d5888b/um_wejherowo_cam_d5888b.stream/playlist.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Gniew - widok na gniazdo bociana
-https://hoktastream1.webcamera.pl/burnit_cam_fb8ba3/burnit_cam_fb8ba3.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Gniew - zakole Wisły
+https://ls.tkchopin.pl/live/gniew_widok_zakole_wisly_obrotowa.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Gniewino - Kaszubskie oko
+https://ls.tkchopin.pl/live/gniewino_kaszubskie_oko_obrotowa.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Widok na MOLO w MRĄGOWIE
 https://hoktastream2.webcamera.pl/mragowo_cam_9b8f18/mragowo_cam_9b8f18.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",RYN - Widok na Marinę
@@ -539,7 +543,7 @@ https://hoktastream1.webcamera.pl/skywind_cam_267ae1/skywind_cam_267ae1.stream/p
 #EXTINF:-1  group-title="Jeziora i inne miejsca",GIŻYCKO - Widok na Jezioro Niegocin
 https://hoktastream4.webcamera.pl/gizycko_cam_a96a04/gizycko_cam_a96a04.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Wilkasy - widok na Jezioro Niegocin
-https://stream.mazury24.eu/m_strzelce/index.m3u8
+https://stream.mazury24.eu/m_azswilkasy2/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", OLSZTYN - Słoneczna Polana
 https://hoktastream2.webcamera.pl/olsztyn_cam_b8151b/olsztyn_cam_b8151b.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Giżycko - widok na most obrotowy na Kanale Łuczańskim
@@ -560,8 +564,8 @@ https://hoktastream1.webcamera.pl/dab-bartek_cam_187c42/dab-bartek_cam_187c42.st
 https://hoktastream4.webcamera.pl/krasocin_cam_42cdc1/krasocin_cam_42cdc1.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Lodowisko w Pszowie
 https://hoktastream1.webcamera.pl/pszow2_cam_4b93fa/pszow2_cam_4b93fa.stream/playlist.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Bolesławiec - wiadukt i skatepark
-https://streaming.istotne.pl/hls/stream20.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca",Bolesławiec - wiadukt
+https://streaming.istotne.pl/hls/stream4.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Międzyrzecze - widok na karmnik
 https://hoktastream1.webcamera.pl/SPM_cam_936d84/SPM_cam_936d84.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Mucharskie - Zapora w Świnnej Porębie
@@ -3468,8 +3472,8 @@ https://cam.tvsm.pl/live/Botaniczny.stream/playlist.m3u8
 https://cam.tvsm.pl/live/CEE.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Beskidzki Raj - Stryszawa
 https://stream.sumer.net.pl/cam/beskidzkiraj.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca", Jezioro Święcajty, Piękny Brzeg - Węgorzewo
-https://stream.mazury24.eu/m_pieknybrzeg2/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Jezioro Święcajty, Węgorzewo
+https://stream.mazury24.eu/m_kal1/tracks-v1/mono.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Jeziora i inne miejsca",Świdnik - Pumptruck i skatepark
 https://s1.worldcam.live:8082/swidnik2/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Jeziora i inne miejsca",Hotel Heron - Gródek na Dunajcem
