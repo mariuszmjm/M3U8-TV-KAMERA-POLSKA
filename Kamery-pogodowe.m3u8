@@ -401,6 +401,8 @@ https://stream4.stimotion.pl/live/iwonicz1.m3u8
 https://s1.worldcam.live:8082/rymanow/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/sanok-pl.svg" group-title="Miasta",Sanok
 https://str.metrosan.pl/rynek/hls/live.stream.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/sanok-pl.svg" group-title="Miasta",Sanok 2
+https://cdn2.bieszczady.live/hls-live/sanok1mick/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/cisna-pl.svg" group-title="Miasta",Cisna
 https://streaming.airmax.pl/informacjaturystycznacisna/tracks-v1/mono.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/U/Ustrzyki-gorne-pl.svg" group-title="Miasta",Ustrzyki Górne - Z hotelu Terebowiec
@@ -642,6 +644,20 @@ https://play.gawex.pl/szczecinek/zamek.stream/playlist.m3u8
 https://stream.mazury24.eu/m_faryj1/tracks-v1/mono.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Czorsztyn
 https://cdn02.aztv.pl/sesja_czorsztyn/wrzv4zy8247bx9gx9xexb2.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Kamera Skansen Sanok
+https://kl7.tech5.pl:8002/hls/live.stream.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Hotel Arłamów - paśnik
+https://cdn2.bieszczady.live/hls-live/arlamow6/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Kamera krajobrazowa przy współpracy ze wspólnotą Molo Międzyzdroje
+https://streaming.airmax.pl/apiconnect4_molo1/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Kamera Międzyzdroje – Online
+https://streaming.airmax.pl/apiconnect2_alejagwiazd/index.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Szczyrk - Hala Skrzyczeńska II - 1000 m n.p.m. 
+https://hoktastream4.webcamera.pl/tmr_cam_9b0145/tmr_cam_9b0145.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Kamera Wołkowyja - Bieszczady pow. leski
+https://cdn2.bieszczady.live/hls-live/wolkowyja1/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Kamera Polańczyk Hotel Skalny
+https://cdn2.bieszczady.live/hls-live/skalny1/playlist.m3u8
 
 #EXTINF:-1  group-title="Kościoły",Parafia p.w. Miłosierdzia Bożego Zakopane - Chramcówki
 https://hoktastream2.webcamera.pl/chramcowki_cam_616201/chramcowki_cam_616201.stream/playlist.m3u8
@@ -665,6 +681,9 @@ https://hoktastream2.webcamera.pl/witanowice_cam_09d640/witanowice_cam_09d640.st
 https://hoktastream2.webcamera.pl/parafiaandrychow_cam_18fe7d/parafiaandrychow_cam_18fe7d.stream/playlist.m3u8
 #EXTINF:-1  group-title="Kościoły",Archidiecezja Przemysko-Warszawska Kocioła Grekokatolickiego w Polsce
 https://hoktastream4.webcamera.pl/okocam_cam_9f90fb/okocam_cam_9f90fb.stream/playlist.m3u8
+#EXTINF:-1  group-title="Kościoły", Kaplica Caritas Myczkowce kamera
+https://cdn2.bieszczady.live/hls-live/caritas1/playlist.m3u8
+
 
 #EXTINF:-1  group-title="Góry, stoki narciarskie",Kotlinka Szymbark
 https://hoktastream3.webcamera.pl/kotlinkaszymbark_cam_5d869c/kotlinkaszymbark_cam_5d869c.stream/playlist.m3u8
