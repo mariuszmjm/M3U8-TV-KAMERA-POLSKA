@@ -1319,20 +1319,14 @@ https://camserver2.in2thebeach.es/streams/el_veril_playa_del_ingles/index.m3u8
 https://camserver2.in2thebeach.es/streams/dunas-de-maspalomas-y-playa-del-ingles/index.m3u8
 #EXTINF:-1 group-title="Hiszpania", Canaria - Maspalomas
 https://camserver2.in2thebeach.es/streams/playa-de-maspalomas/index.m3u8
-#EXTINF:-1 group-title="Hiszpania", La Sagrada Familia
-https://s68.ipcamlive.com/streams/44ic9sn1jbspt2q5f/stream.m3u8
 #EXTINF:-1 group-title="Hiszpania", Camino Natural de San Rosendo
 https://www.crtvg.es:1555/hls/celanova/index.m3u8
 #EXTINF:-1 group-title="Hiszpania", Segovia Aqueduct
-https://s61.ipcamlive.com/streams/3dih9zsf14tk6oxae/stream.m3u8
+https://frn.rtsp.me/PMj9Nyk8KLqi5ZtQKp5pRw/1782383935/hls/4asatA6z.m3u8
 #EXTINF:-1 group-title="Hiszpania", Cathedral of Santiago de Compostela
 https://www.crtvg.es:1554/hls/quintana/index.m3u8
 #EXTINF:-1 group-title="Hiszpania", Playa de San Agustín
 https://camserver2.in2thebeach.es/streams/el_veril_playa_del_ingles/index.m3u8
-#EXTINF:-1 group-title="Hiszpania", Donostia-San Sebastián
-https://s169.ipcamlive.com/streams/a96gs3fud5dceoi0z/stream.m3u8
-#EXTINF:-1 group-title="Hiszpania", Calpe, Alicante
-https://s64.ipcamlive.com/streams/40ohc4ksuafsnizlb/stream.m3u8
 #EXTINF:-1 group-title="Hiszpania", Malaga - Port
 https://livecams.meteo365.es/hls_live/puerto_drei.m3u8
 #EXTINF:-1 group-title="Hiszpania", Benalmadena, Port
@@ -3430,8 +3424,6 @@ https://cdn2.bieszczady.live/hls-live/chreptiow/playlist.m3u8
 #EXTINF:-1  group-title="Miasta",Petersburg - Ermitaż w Rosji
 https://streamer.camera.rt.ru/public/master.m3u8?sid=ac4ad2e3-8615-4d5b-90dc-3f6a57d9a589
 
-#EXTINF:-1  group-title="Jeziora i inne miejsca",Sabat Krajno
-https://s168.ipcamlive.com/streams/a8fkge5dv0ymsacp8/stream.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Trójstyk Wisztyniec
 http://217.182.74.242/stream1.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Przystań klubu żeglarskiego "Kamena" oraz wyspa Ostrów.
@@ -4378,16 +4370,12 @@ https://wowza-2.novo-sibirsk.ru/live_km/LDS.stream/playlist.m3u8
 https://live.idnes.cz/slow/amc_360p/playlist.m3u8
 #EXTINF:-1 group-title="Miasta ze świata", Władywostokul. Krygina, Rosja
 https://hls7.vladlink.ru/live/vlcam_18336/playlist.m3u8
-#EXTINF:-1 group-title="Miasta ze świata", Debreczyn, Węgry
-https://s123.ipcamlive.com/streams/7bveaca6tf2lgnnbr/stream.m3u8
 #EXTINF:-1 group-title="Miasta ze świata", Avenida das Hortênsias
 https://tv.rbt.psi.br/media/n/BZmZntmZy2GYnJu3otmW/a/playlist.m3u8
 #EXTINF:-1 group-title="Miasta ze świata", Barandov Czechy
 https://live.idnes.cz/slow/barandak_360p/playlist.m3u8
 #EXTINF:-1 group-title="Miasta ze świata", Golden Gate, San Francisco
 https://prope4091ef1.airspace-cdn.cbsivideo.com/weathercams/kpix-salesforce-2/s3-hls/master.m3u8
-#EXTINF:-1 group-title="Miasta ze świata", Nashville USA
-https://s115.ipcamlive.com/streams/73ikqbzoa4v5rnnjf/stream.m3u8
 
 #EXTINF:-1 group-title="Peregrinus-PL",Włocławek MPEC LIVE 1
 https://7004.szczecin.pl/mpec/streams/mpecz.m3u8
@@ -4540,8 +4528,6 @@ https://s1.precate.pl/player/output/veolia_ec4/cam3/playlist.m3u8
 
 #EXTINF:-1 group-title="TEST", Hiszpania - La Corunna
 https://www.crtvg.es:1554/hls/mcoruna/index.m3u8
-#EXTINF:-1 group-title="TEST", Hiszpania - Sagrada Familia
-https://s159.ipcamlive.com/streams/9fw3hgln07zuzatw6/stream.m3u8
 #EXTINF:-1 group-title="TEST", Hiszpania - The Aqueduct of Segovia
 https://frn.rtsp.me/mstkyVa7TTPbxnA1gXkL2Q/1779363056/hls/4asatA6z.m3u8
 #EXTINF:-1 group-title="TEST", Hiszpania - A Guarda, Castro de Santa Trega
