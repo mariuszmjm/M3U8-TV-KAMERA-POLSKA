@@ -4529,7 +4529,7 @@ https://s1.precate.pl/player/output/veolia_ec4/cam3/playlist.m3u8
 #EXTINF:-1 group-title="TEST", Hiszpania - La Corunna
 https://www.crtvg.es:1554/hls/mcoruna/index.m3u8
 #EXTINF:-1 group-title="TEST", Hiszpania - The Aqueduct of Segovia
-https://frn.rtsp.me/mstkyVa7TTPbxnA1gXkL2Q/1779363056/hls/4asatA6z.m3u8
+https://frn.rtsp.me/ggyIwXGuRMi1PhECHwRdlA/1782384012/hls/4asatA6z.m3u8
 #EXTINF:-1 group-title="TEST", Hiszpania - A Guarda, Castro de Santa Trega
 https://www.crtvg.es:1556/hls/aguarda/index.m3u8
 #EXTINF:-1 group-title="TEST", Hiszpania - Santiago de Compostela 
@@ -4574,11 +4574,7 @@ https://mam.jogjaprov.go.id:1937/cctv-public/ViewSadeng.stream/playlist.m3u8
 https://mam.jogjaprov.go.id:1937/atcs-kota/PasarDemangan.stream/playlist.m3u8
 #EXTINF:-1 group-title="TEST", Rosja - Astrachań
 https://dvr2.astrakhan.ru/nabp-14k2-hd-2/tracks-v1/index.fmp4.m3u8
-#EXTINF:-1 group-title="TEST", Słowacja - Bratysława
 
-
-#EXTINF:-1 group-title="TEST", Legnica
-https://video.legnica.eu/2/stream
 https://stream.profi-net.sk/tmr/STREAM1.stream/playlist.m3u8
 #EXTINF:-1 group-title="TEST", Słowacja
 https://stream.profi-net.sk/tmr/STREAM2.stream/playlist.m3u8
@@ -4618,3 +4614,5 @@ https://cam.idokep.hu/live/demjeni_termalto/live-0cad5ebd70.m3u8
 https://cam.idokep.hu/live/bshe_maconka1/live-5680e57f3a.m3u8
 #EXTINF:-1 group-title="TEST", Węgry - Salgótarján Zagyvapálfalva NW 
 https://cam.idokep.hu/live/volgyvaros4/live-8384194f13.m3u8
+#EXTINF:-1 group-title="TEST", Norway
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1782404862/ei/ngI9au-gEbeH6dsPhcS46Aw/ip/109.206.195.15/id/tz5u7zWL8Xo.4/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/bui/ARmQxEV_qQbpEaXv19eiFdw3Y9aELONAQbLYcX8al6SdU6pTSS3ihUL9zMSEYKbHdEUCqEqvLQBx5U_j/spc/SQ-umuJ5CVDb224cCJlm9HwqjP6yUgoJAgLnPqqYhNbYfPUnGg/vprv/1/go/1/rqh/5/reg/0/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51565116%2C51565681%2C51987687/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cbui%2Cspc%2Cvprv%2Cgo%2Crqh%2Creg%2Citag%2Cplaylist_type/sig/AHEqNM4wRQIhAIKHvrofcny35dfixLQ7gtflM3IoQdVkCO6KLgMwLQNYAiAS0LHjdVKcttjrsS2_lsFdWrDBcBocO5_x1exK_v17Uw%3D%3D/file/index.m3u8
