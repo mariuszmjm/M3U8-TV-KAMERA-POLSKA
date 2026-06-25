@@ -1247,6 +1247,8 @@ https://cdn02.aztv.pl/aztv_wolapiskulina/aztv_wolapiskulina.stream_dcs/playlist.
 
 #EXTINF:-1 group-title="Hiszpania", Alicante - Calpe - Playa del Arenal Bol
 https://webcam-4.ibericam.com:5443/live/streams/calpe-playa-del-arenal-bol.m3u8
+#EXTINF:-1 group-title="Hiszpania", Playa de Amadores
+https://camserver2.in2thebeach.es/streams/playa_de_amadores/index.m3u8
 #EXTINF:-1 group-title="Hiszpania", Alicante - Famorca - vista a la Sierra de la Serrella
 https://webcam-4.ibericam.com:5443/live/streams/famorca.m3u8
 #EXTINF:-1 group-title="Hiszpania", Teruel - Albentosa
@@ -1341,6 +1343,13 @@ https://livecams.meteo365.es/hls_live/ceuta.m3u8
 https://webcam.meteo365.es/hls_live/tarifasurfer.m3u8
 #EXTINF:-1 group-title="Hiszpania", Nerja - Playa El Salón
 https://webcam.meteo365.es/hls_live/nerjaplaya.m3u8
+#EXTINF:-1 group-title="Hiszpania", Nerja - Praia da Ribeira
+https://video-auth1.iol.pt/beachcam/praiadospescadores/playlist.m3u8
+#EXTINF:-1 group-title="Hiszpania", COSTA CALMA
+https://camserver1.in2thebeach.es/streams/costa-calma/index.m3u8
+#EXTINF:-1 group-title="Hiszpania", PLAYA DE LA GARITA
+https://camserver1.in2thebeach.es/streams/playa_de_la_garita_telde/index.m3u8
+
 
 #EXTINF:-1	group-title="EXPLORE.ORG - Afryka i nie tylko",	1
 https://outbound-production.explore.org/stream-production-1/.m3u8		
