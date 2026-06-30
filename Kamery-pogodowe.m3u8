@@ -9,6 +9,8 @@ https://kamera.smslowianin.pl:8181/memfs/b43efa20-6a37-4477-b40b-922baa97edb1.m3
 https://ls-proxy-local.lantech.com.pl/hls/dzwigozaury/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/szczecin-1-pl.svg" group-title="Miasta",Szczecin Osiedle Reda
 https://ls-proxy-local.lantech.com.pl/hls/osreda/index.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/szczecin-1-pl.svg" group-title="Miasta",Szczecin - widok z Czerwonego Ratusza
+https://7005.szczecin.pl/UZSWindow/streams/uzs1.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/szczecin-1-pl.svg" group-title="Miasta",Szczecin - Lastadia Bulwary
 https://ls-proxy-local.lantech.com.pl/hls/lastadiabulwary/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/szczecin-1-pl.svg" group-title="Miasta",Szczecin - widok na Bulwary
@@ -100,7 +102,7 @@ https://hoktastream4.webcamera.pl/gizycko_cam_82df5c/gizycko_cam_82df5c.stream/p
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/grajewo-pl.svg" group-title="Miasta",Grajewo
 https://s1.worldcam.live:8082/grajewo/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/suwalki-pl.svg" group-title="Miasta",Suwałki
-http://online.um.suwalki.pl:1935/live/plac.stream/playlist.m3u8
+https://69e8b5f40802b.streamlock.net:1936/live/plac.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/pisz-pl.svg" group-title="Miasta",Pisz: Rondo im. Lecha Kaczyńskiego
 https://cdn-13-go.toya.net.pl/kamery/pisz_rondokaczynskiego.m3u8?p=474f43414d005f5e0ff.d55188942ae3f1628be800637374.544f59415f474f5f574542&d=50d2eecd4bd272ed42512387fbe6cd0d
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/e/elk-pl.svg" group-title="Miasta",Ełk
@@ -156,7 +158,7 @@ https://7005.szczecin.pl/camss/streams/plock2.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gabin-pl.svg" group-title="Miasta", Widok z Kościoła w Gąbinie
 https://kamery.gabin.pl/api/streaming/hls/f5950b4f-a45b-4db0-a7d8-d9239d36b5cf/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wloclawek-pl.svg" group-title="Miasta",Włocławek
-https://ottx.satfilm.pl/stream/164R/stream.mpd?tm=089d1f7e840e4807a7170cceedf3a9fe
+https://ott8.satfilm.pl/stream/164R/stream.mpd?tm=089d1f7e840e4807a7170cceedf3a9fe
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/bydgoszcz-pl.svg" group-title="Miasta",Bydgoszcz - widok na Stary Rynek
 https://hoktastream3.webcamera.pl/bydgoszcz_cam_406fa8/bydgoszcz_cam_406fa8.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/bydgoszcz-pl.svg" group-title="Miasta",Bydgoszcz - Panorama
@@ -526,6 +528,8 @@ https://live.wizjer.pl/WarsawLive/index_1080p.m3u8
 
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Marina TRZEBIEŻ
 https://hoktastream3.webcamera.pl/MarinaTrzebiez_cam_3942c2/MarinaTrzebiez_cam_3942c2.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Sopot Widok z mola
+https://ls.tkchopin.pl/live/sopot_molo_meridian_obrotowa.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Wdzydze - Bory Tucholskie
 https://hoktastream1.webcamera.pl/wdzydze_cam_8d77ee/wdzydze_cam_8d77ee.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Wejherowo - Bieliki
@@ -550,6 +554,10 @@ https://hoktastream2.webcamera.pl/olsztyn_cam_b8151b/olsztyn_cam_b8151b.stream/p
 https://hoktastream4.webcamera.pl/gizycko_cam_82df5c/gizycko_cam_82df5c.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Starachowice - zalew Pasternik
 https://hoktastream1.webcamera.pl/starachowice_cam_11ce7e/starachowice_cam_11ce7e.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Chałupy - Kite.pl
+https://ls.tkchopin.pl/live/chalupy6_szkolka_kitepl.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Chałupy przystań
+https://ls.tkchopin.pl/live/chalupy_molo_obrotowa.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Muzeum Wsi Mazowieckiej w Sierpcu
 https://hoktastream3.webcamera.pl/sierpc_cam_1b07be/sierpc_cam_1b07be.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",PASŁĘK - Gniazdo bociana
@@ -662,6 +670,8 @@ https://hoktastream4.webcamera.pl/tmr_cam_9b0145/tmr_cam_9b0145.stream/playlist.
 https://cdn2.bieszczady.live/hls-live/wolkowyja1/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Kamera Polańczyk Hotel Skalny
 https://cdn2.bieszczady.live/hls-live/skalny1/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Rumia - Wzgórze Markowca
+https://ls.tkchopin.pl/live/rumia_wzgorze_markowca_obrotowa.stream/playlist.m3u8
 
 #EXTINF:-1  group-title="Kościoły",Parafia p.w. Miłosierdzia Bożego Zakopane - Chramcówki
 https://hoktastream2.webcamera.pl/chramcowki_cam_616201/chramcowki_cam_616201.stream/playlist.m3u8
@@ -976,6 +986,8 @@ https://hoktastream4.webcamera.pl/leba_cam_0d3c03/leba_cam_0d3c03.stream/playlis
 https://hoktastream1.webcamera.pl/leba_cam_863fcf/leba_cam_863fcf.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",LUBIATOWO PLAŻA
 https://hoktastream3.webcamera.pl/lubiatowo_cam_543fb2/lubiatowo_cam_543fb2.stream/playlist.m3u8
+#EXTINF:-1  group-title="Plaże", Białogóra - Plaża
+https://ls.tkchopin.pl/live/bialogora_plaza_obrotowa.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",DĘBKI - widok na plażę
 https://hoktastream2.webcamera.pl/debki_cam_284a24/debki_cam_284a24.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",JASTRZĘBIA GÓRA - widok na plażę
@@ -994,6 +1006,10 @@ https://ls.tkchopin.pl/live/puck_wieza_kosciola_zatokapucka_obrotowa.stream/play
 https://hoktastream3.webcamera.pl/kuznica_cam_b7acd2/kuznica_cam_b7acd2.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",JASTARNIA - widok na Zatokę Pucką
 https://hoktastream2.webcamera.pl/jastarnia_cam_a14385/jastarnia_cam_a14385.stream/playlist.m3u8
+#EXTINF:-1  group-title="Plaże",JASTARNIA - Kemping Maszoperia
+https://ls.tkchopin.pl/live/jastarnia_kemping_maszoperia_obrotowa.stream/playlist.m3u8
+#EXTINF:-1  group-title="Plaże",JASTARNIA - plaża, Dom Zdrojowy
+https://ls.tkchopin.pl/live/jastarnia_plaza_dom_zdrojowy_obrotowa.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",JURATA - widok na Molo
 https://hoktastream1.webcamera.pl/jurata_cam_c060aa/jurata_cam_c060aa.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",Jurata - widok na plażę
@@ -1001,7 +1017,7 @@ https://hoktastream4.webcamera.pl/jurata_cam_24f25d/jurata_cam_24f25d.stream/pla
 #EXTINF:-1  group-title="Plaże",HEL - widok na marinę
 https://hoktastream1.webcamera.pl/hel_cam_79fe71/hel_cam_79fe71.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",HEL - widok na bulwar i plażę
-https://hoktastream1.webcamera.pl/hel_cam_cf55ee/hel_cam_cf55ee.stream/playlist.m3u8
+https://ls.tkchopin.pl/live/hel_bulwar_nadmorski_obrotowa.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",REWA - widok na Zatokę Puck
 https://hoktastream3.webcamera.pl/rewa_cam_c2a755/rewa_cam_c2a755.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",GDYNIA - widok na wejście do Portu Morskiego i terminal
@@ -1012,6 +1028,8 @@ https://hoktastream1.webcamera.pl/gdynia_cam_b3ccea/gdynia_cam_b3ccea.stream/pla
 https://hoktastream1.webcamera.pl/gdynia_cam_b80d1e/gdynia_cam_b80d1e.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",SOPOT - widok z molo
 https://hoktastream1.webcamera.pl/sopot_cam_e1c28f/sopot_cam_e1c28f.stream/playlist.m3u8
+#EXTINF:-1  group-title="Plaże", Sopot - plaża, małe molo
+https://ls.tkchopin.pl/live/sopot_plaza_male_molo_obrotowa.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",SOPOT - widok na Monciak
 https://hoktastream2.webcamera.pl/sopot_cam_7b9f92/sopot_cam_7b9f92.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",Gdańsk Brzeźno - widok na Molo
