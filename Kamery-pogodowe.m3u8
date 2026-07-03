@@ -55,7 +55,7 @@ https://ls.tkchopin.pl:9043/live/puck_stary_rynek_static.stream/playlist.m3u8
 https://ls.tkchopin.pl:9043/live/wejherowo_plac_jakuba_obrotowa.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wejherowo-pl.svg" group-title="Miasta",Wejherowo - widok panoramiczny
 https://ls.tkchopin.pl:9043/live/wejherowo_wzgorze_wolnosci_obrotowa.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wejherowo-pl.svg" group-title="Miasta",Wejherowo - Widok z Hotelu Kahlberg
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wejherowo-pl.svg" group-title="Miasta",Wejherowo - Filharmonia
 https://ls.tkchopin.pl/live/wejherowo_filharmonia_static.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/sopot-pl.svg" group-title="Miasta",Plac Przyjaciół Sopotu
 https://hoktastream4.webcamera.pl/sopot_cam_caff26/sopot_cam_caff26.stream/playlist.m3u8
@@ -4645,3 +4645,7 @@ https://cam.idokep.hu/live/bshe_maconka1/live-5680e57f3a.m3u8
 https://cam.idokep.hu/live/volgyvaros4/live-8384194f13.m3u8
 #EXTINF:-1 group-title="TEST", Macedonia Północna - centrum starego miasta w Ochrydzie 
 https://cdn-007.whatsupcams.com/hls/mk_ohrid01.m3u8
+#EXTINF:-1 group-title="TEST", Krynica Morska - Hotel Kahlberg
+https://s43.ipcamlive.com/streams/2bcmavc9arp5lbknj/stream.m3u8
+#EXTINF:-1 group-title="TEST", Włochy - Marina di Venezia 
+https://stream1.panocloud.com/marinadivenezia/marinadivenezia.stream/playlist.m3u8
