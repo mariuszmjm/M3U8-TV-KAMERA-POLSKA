@@ -496,7 +496,7 @@ https://hoktastream3.webcamera.pl/starachowice_cam_ac8dee/starachowice_cam_ac8de
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/pabianice-pl.svg" group-title="Miasta",Pabianice
 https://cdn-14-go.toya.net.pl/kamery/pabi_zamkowatraugutta.m3u8?p=63616d005f5e0ff.9ce3a85c2ea1a884ecb200637374.756e617574686f72697a6564&pl=web
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zgierz-pl.svg" group-title="Miasta",Zgierz
-https://cdn-13-go.toya.net.pl/kamery/zgrz_galeriazgierskaarmiikrajowej.m3u8?p=474f43414d005f5e0ff.79c0b012880810f3b0ba00637374.31326636636431633634336638633935626439373033636430653038646636303437376665636665&d=98ddb549233de5516da63bbe0732afb6
+https://cdn-14-go.toya.net.pl/kamery/zgrz_zsmparzeczewskagalczynskiego.m3u8?p=63616d005f5e0ff.eb97151922ab01e1496b00637374.756e617574686f72697a6564&pl=Windows
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lodz-pl.svg" group-title="Miasta",ŁÓDŹ - widok na Ulic Piotrkowską
 https://hoktastream3.webcamera.pl/lodz_cam_42fb00/lodz_cam_42fb00.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lodz-pl.svg" group-title="Miasta",Łódź - Plac wolności
