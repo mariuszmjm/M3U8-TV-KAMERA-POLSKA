@@ -105,6 +105,8 @@ https://s1.worldcam.live:8082/grajewo/index.m3u8
 https://69e8b5f40802b.streamlock.net:1936/live/plac.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/pisz-pl.svg" group-title="Miasta",Pisz: Rondo im. Lecha Kaczyńskiego
 https://cdn-13-go.toya.net.pl/kamery/pisz_rondokaczynskiego.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/rajgrod-pl.svg" group-title="Miasta",Rajgród
+https://srs.umrajgrod.pl/live/RTSP_CAM11.flv
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/e/elk-pl.svg" group-title="Miasta",Ełk
 https://live.miasto.elk.pl/LiveApp/streams/LCK9KM60W5m0vJNF936518552952.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/knyszyn-pl.svg" group-title="Miasta",Kamera Knyszyn Rynek
@@ -169,6 +171,8 @@ https://5cce8c6f0e84c.streamlock.net/live/smil:PlayStream2.smil/playlist.m3u8
 https://s1.worldcam.live:8082/cekcyn/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chojnice-pl.svg" group-title="Miasta",Chojnice
 https://www.chojnice.com/hls/stream.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/debrzno-pl.svg" group-title="Miasta",Debrzno
+https://streaming.airmax.pl/urzaddebrzno/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wagrowiec-pl.svg" group-title="Miasta",Wągrowiec
 https://5cce8c6f0e84c.streamlock.net/live/smil:PlayStream6.smil/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/strzelce-krajenskie-pl.svg" group-title="Miasta",Strzelce Krajeńskie
@@ -247,8 +251,12 @@ https://streaming.airmax.pl/ratuszopole3/index.m3u8
 https://streaming.airmax.pl/opolepanorama/tracks-v1/mono.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/o/opole-pl.svg" group-title="Miasta",Opole Panorama - Panorama wieża Piastowska
 https://streaming.airmax.pl/ratuszopole1/index.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krapkowice-pl.svg" group-title="Miasta",Krapkowice - Panorama rynku
+https://panolive.pl:8083/cam/krapkowice1_sd/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/o/olesno-pl.svg" group-title="Miasta",Olesno - Rynek
 https://1000228020.rsc.cdn77.org/live/nad403.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/m/mieroszow-pl.svg" group-title="Miasta",Mieroszów - Rynek
+https://streaming.airmax.pl/umwmieroszowie/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/walbrzych-pl.svg" group-title="Miasta",Wałbrzych Plac Na Rozdrożu
 https://streaming.airmax.pl/walbrzychpa/tracks-v1/mono.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Pieszyce Wielka Sowa
@@ -263,6 +271,8 @@ https://video.raciborz24.pl/hls/rynek.m3u8
 https://video.raciborz24.pl/hls/zamek.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/nysa-pl.svg" group-title="Miasta",Nysa Rynek Panorama
 https://streaming.airmax.pl/nysa_panorama/index.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/o/otmuchow-pl.svg" group-title="Miasta",Otmuchów
+https://streaming.airmax.pl/otmuchow3/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/paczkow-1-pl.svg" group-title="Miasta",Paczków
 https://streaming.airmax.pl/paczkow2/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/glucholazy-pl.svg" group-title="Miasta",Widok na most Andrzeja w Głuchołazach
@@ -315,6 +325,8 @@ https://hoktastream1.webcamera.pl/nocowanie_cam_a470d8/nocowanie_cam_a470d8.stre
 https://hoktastream4.webcamera.pl/rownicaustron_cam_2ecf8b/rownicaustron_cam_2ecf8b.stream/playlist.m3u8
 #EXTINF:-0 tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wisla-pl.svg" group-title="Miasta",WISŁA - widok na centrum
 https://hoktastream1.webcamera.pl/wisla_cam_e154be/wisla_cam_e154be.stream/playlist.m3u8
+#EXTINF:-0 tvg-logo="https://www.meteobox.pl/api-svg/polska/m/milowka-pl.svg" group-title="Miasta",Milówka
+https://stream.arkomnet.eu/mrondo/tracks-v1/mono.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kalwaria-zebrzydowska-pl.svg" group-title="Miasta",Kalwaria Zebrzydowska
 https://hoktastream3.webcamera.pl/kalwariazeb_cam_e81271/kalwariazeb_cam_e81271.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/a/andrychow-pl.svg" group-title="Miasta",Andrychów - widok na panoramę Beskidu Małego
@@ -441,6 +453,8 @@ https://stream4.mat-sat.pl/str/zamekogrody.m3u8
 https://7004.szczecin.pl:443/0live/streams/jarlive.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/ropczyce-pl.svg" group-title="Miasta",Ropczyce
 http://hls.r-ce.pl/rynekk.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/debica-pl.svg" group-title="Miasta",Dębica
+https://online2.kamery24.org/cam/debica.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kolbuszowa-pl.svg" group-title="Miasta",Kolbuszowa
 https://1650048485.rsc.cdn77.org/live/CZf117.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lubaczow-pl.svg" group-title="Miasta",Lubaczów - Rynek
@@ -505,6 +519,8 @@ https://cdn-14-go.toya.net.pl/kamery/lodz_placwolnosci.m3u8
 https://cdn-14-go.toya.net.pl/kamery/lodz_manufaktura2.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lowicz-pl.svg" group-title="Miasta",Łowicz
 https://kamery.itvmedia.pl/kamsr/kamera1/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/nasielsk-pl.svg" group-title="Miasta",Nasielsk
+https://cdn02.aztv.pl/sesja_nasielsk/sesja_nasielsk5.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/serock-pl.svg" group-title="Miasta",Serock
 https://streaming.airmax.pl/umserock1/tracks-v1/mono.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/grodzisk-mazowiecki-pl.svg" group-title="Miasta",Grodzisk Mazowiecki
