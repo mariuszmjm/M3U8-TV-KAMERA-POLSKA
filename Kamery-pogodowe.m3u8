@@ -27,6 +27,8 @@ https://play.gawex.pl/szczecinek/szczecinekdeptak.stream/playlist.m3u8
 https://play.gawex.pl/drawsko/drawskoplac.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/drawsko-pomorskie-pl.svg" group-title="Miasta",Drawsko Pomorskie - Plac Leopolda Kuczerawego
 https://play.gawex.pl/drawsko/drawskopocztowa.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/goleniow-pl.svg" group-title="Miasta",Goleniów
+http://streaming.goleniow.pl:5080/WebRTCApp/streams/650025280577105569688749.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kolobrzeg-pl.svg" group-title="Miasta",Kołobrzeg - Port oraz latarnia morska
 https://play.gawex.pl/kolobrzeg/kolobrzeglatarnia.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kolobrzeg-pl.svg" group-title="Miasta",Kołobrzeg - Port
@@ -173,6 +175,8 @@ https://s1.worldcam.live:8082/cekcyn/index.m3u8
 https://www.chojnice.com/hls/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/debrzno-pl.svg" group-title="Miasta",Debrzno
 https://streaming.airmax.pl/urzaddebrzno/index.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/sepolno-krajenskie-pl.svg" group-title="Miasta",Sępólno Krajeńskie
+https://24.gmina-sepolno.pl:8181/memfs/db08b9ef-0b45-4186-846c-72134336a242.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wagrowiec-pl.svg" group-title="Miasta",Wągrowiec
 https://5cce8c6f0e84c.streamlock.net/live/smil:PlayStream6.smil/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/strzelce-krajenskie-pl.svg" group-title="Miasta",Strzelce Krajeńskie
