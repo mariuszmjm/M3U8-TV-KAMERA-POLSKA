@@ -389,6 +389,8 @@ https://tvbrzesko.pl/kamcentrum/index.fmp4.m3u8
 https://cdn02.aztv.pl/live_bochnia/live_bochnia2.stream/playlist.m3u8
 #EXTINF:0  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zakliczyn-pl.svg" group-title="Miasta",Zakliczyn - Rynek
 https://videocdn.km-net.pl/Zakliczyn_Rynek_3/video.m3u8
+#EXTINF:0  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/tegoborze-pl.svg" group-title="Miasta", Tęgoborze
+https://videocdn.km-net.pl/Tegoborze/index.fmp4.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/tarnow-pl.svg" group-title="Miasta",Rynek miejski w Tarnowie
 https://hoktastream3.webcamera.pl/tarnow_cam_d0e19c/tarnow_cam_d0e19c.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/pilzno-pl.svg" group-title="Miasta", Pilzno - Rynek
@@ -3508,7 +3510,7 @@ https://videocdn.km-net.pl/Melsztyn_Zamek/video.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Gródek nad Dunajcem – Jezioro
 https://videocdn.km-net.pl/Grodek_Gmina/video.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",LKS Dunajec Zakliczyn
-https://videocdn.km-net.pl/Zakliczyn_Rynek_3/video.m3u8
+https://videocdn.km-net.pl/Zakliczyn_Stadion/index.fmp4.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Grudziądz - Ogród Botaniczny
 https://cam.tvsm.pl/live/Botaniczny.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Grudziądz - Centrum edukacji Ekologicznej
@@ -3516,7 +3518,7 @@ https://cam.tvsm.pl/live/CEE.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Beskidzki Raj - Stryszawa
 https://stream.sumer.net.pl/cam/beskidzkiraj.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Jezioro Święcajty, Węgorzewo
-https://stream.mazury24.eu/m_kal1/tracks-v1/mono.m3u8
+https://stream.mazury24.eu/m_ogonki/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Jeziora i inne miejsca",Świdnik - Pumptruck i skatepark
 https://s1.worldcam.live:8082/swidnik2/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Jeziora i inne miejsca",Hotel Heron - Gródek na Dunajcem
