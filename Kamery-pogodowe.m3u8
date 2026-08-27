@@ -4595,8 +4595,12 @@ https://hls-spb03.timetechnology.ru:8080/2722/hls/fcdac098bed8c78a/live.m3u8
 https://tv.rbt.psi.br/media/n/BZmZntmZy2GYnJu3otmW/a/playlist.m3u8
 #EXTINF:-1 group-title="TEST",Chorwacja - Baška Voda 
 https://cdn-005.whatsupcams.com/hls/hr_baskavoda1.m3u8
+#EXTINF:-1 group-title="TEST",Chorwacja - Jelsa
+https://cdn.livespotting.com/vpu/ggazg0ll/taelb29k.m3u8
 #EXTINF:-1 group-title="TEST",Węgry - Budapeszt
 https://cam.idokep.hu/live/hotelvictoria/live-b3aac89bf2.m3u8
+#EXTINF:-1 group-title="TEST",Niemcy - Berlin
+https://cdn.livespotting.com/vpu/ehlpzb4g/nkw9elfh.m3u8
 #EXTINF:-1 group-title="TEST",Gruzja - Batumi
 https://streaming-hls1.televizia.org/hls/tbilisi-mtkvari.m3u8
 #EXTINF:-1 group-title="TEST",Gruzja - Batumi
@@ -4627,7 +4631,7 @@ https://mam.jogjaprov.go.id:1937/cctv-public/ViewSadeng.stream/playlist.m3u8
 https://mam.jogjaprov.go.id:1937/atcs-kota/PasarDemangan.stream/playlist.m3u8
 #EXTINF:-1 group-title="TEST", Rosja - Astrachań
 https://dvr2.astrakhan.ru/nabp-14k2-hd-2/tracks-v1/index.fmp4.m3u8
-
+#EXTINF:-1 group-title="TEST", Słowacja
 https://stream.profi-net.sk/tmr/STREAM1.stream/playlist.m3u8
 #EXTINF:-1 group-title="TEST", Słowacja
 https://stream.profi-net.sk/tmr/STREAM2.stream/playlist.m3u8
