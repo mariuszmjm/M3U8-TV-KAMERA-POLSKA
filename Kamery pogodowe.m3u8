@@ -945,7 +945,8 @@ https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/
 https://91-193-208-10.eimperium.pl/TVIMPERIUM/index.m3u8
 #EXTINF:-1 tvg-logo=""group-title="TV Polskie",ECHO TV
 https://echo24new.pl/LiveAppStreamECHO24/streams/GL0VksiIgQUS1672825288490.m3u8?token=undefined&subscriberId=undefined&subscriberCode=undefined?token=undefined&subscriberId=undefined&subscriberCode=undefined
-#EXTINF:-1 tvg-logo=""group-title="Kościoły",Parafia Najświętszego Serca Pana Jezusa w Koszęcinie
+#EXTINF:-1 tvg-logo=""group-title="Kościoły",Parafia Najbuda
+świętszego Serca Pana Jezusa w Koszęcinie
 https://konto.tech5.pl:8108/hls/live.stream.m3u8
 #EXTINF:-1 tvg-logo=""group-title="Kościoły",SANKTUARIUM Matki Bożej Bolesnej i Pocieszenia w Radomyślu nad Sanem
 https://kl6.tech5.pl:8039/hls/live.stream.m3u8
