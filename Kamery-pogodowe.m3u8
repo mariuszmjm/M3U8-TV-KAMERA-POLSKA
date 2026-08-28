@@ -4601,6 +4601,7 @@ https://www.crtvg.es:1554/hls/obradoiro/index.m3u8
 https://streaming.comunitatvalenciana.com/webcam/Penyiscola/manifest.m3u8
 #EXTINF:-1 group-title="TEST", Rosja - Moskwa
 https://hls-spb03.timetechnology.ru:8080/2722/hls/fcdac098bed8c78a/live.m3u8
+#EXTINF:-1 group-title="TEST", Rosja - Park Galicki i Stadion Krasnodarski. Krasnodar
 #EXTINF:-1 group-title="TEST",Brazylia - Gramado -Avenida das Hortênsias
 https://tv.rbt.psi.br/media/n/BZmZntmZy2GYnJu3otmW/a/playlist.m3u8
 #EXTINF:-1 group-title="TEST",Chorwacja - Baška Voda 
@@ -4608,9 +4609,11 @@ https://cdn-005.whatsupcams.com/hls/hr_baskavoda1.m3u8
 #EXTINF:-1 group-title="TEST",Chorwacja - Jelsa
 https://cdn.livespotting.com/vpu/ggazg0ll/taelb29k.m3u8
 #EXTINF:-1 group-title="TEST",Węgry - Budapeszt
-https://cam.idokep.hu/live/hotelvictoria/live-b3aac89bf2.m3u8
+https://videos-3.earthcam.com/fecnetwork/15041.flv/playlist.m3u8
 #EXTINF:-1 group-title="TEST",Niemcy - Berlin
 https://cdn.livespotting.com/vpu/ehlpzb4g/nkw9elfh.m3u8
+#EXTINF:-1 group-title="TEST",Niemcy - Düsseldorf
+https://ch-fra-n16.livespotting.com/vpu/a6mam24n/4xbp4z1f_720.m3u8
 #EXTINF:-1 group-title="TEST",Gruzja - Batumi
 https://streaming-hls1.televizia.org/hls/tbilisi-mtkvari.m3u8
 #EXTINF:-1 group-title="TEST",Gruzja - Batumi
@@ -4619,6 +4622,14 @@ https://streaming-hls1.televizia.org/hls/batumi3.m3u8
 https://ds2-cache.quanteec.com/contents/encodings/live/555fb3d0-7b6a-4e1a-3036-3630-6d61-63-a529-611d7063c4d5d/media_0.m3u8
 #EXTINF:-1 group-title="TEST",Kirgistan - Ala-Too Square
 https://webcam.elcat.kg/Bishkek_Ala-Too_Square/tracks-v1/mono.m3u8
+#EXTINF:-1 group-title="TEST", Kazachstan - Aktau - Szlak wzdłuż skalistego wybrzeża 
+https://cam.xcom.kz:8081/rockypath/index.m3u8
+#EXTINF:-1 group-title="TEST", Kazachstan - Aktau - Amfiteatr
+https://cam.xcom.kz:2443/amfiteatr15a/video.m3u8
+#EXTINF:-1 group-title="TEST", Kazachstan - Aktau
+https://cam.xcom.kz:8081/28ring/index.m3u8
+#EXTINF:-1 group-title="TEST", Jamajka - kawiarnia w Negril
+https://videos-3.earthcam.com/fecnetwork/4369.flv/playlist.m3u8
 #EXTINF:-1 group-title="TEST",Azerbejdżan - Ski resort Tufandag
 https://fn.rtsp.me/NMKccLFlhO4qDGBdE03U3g/1787832920/hls/aa4FDYRT.m3u8
 #EXTINF:-1 group-title="TEST",Dania - The Great Belt Bridge
@@ -4684,6 +4695,44 @@ https://cam.idokep.hu/live/volgyvaros4/live-8384194f13.m3u8
 #EXTINF:-1 group-title="TEST", Macedonia Północna - centrum starego miasta w Ochrydzie 
 https://cdn-007.whatsupcams.com/hls/mk_ohrid01.m3u8
 #EXTINF:-1 group-title="TEST", Krynica Morska - Hotel Kahlberg
-https://s43.ipcamlive.com/streams/2bcmavc9arp5lbknj/stream.m3u8
+https://s24.ipcamlive.com/streams/18i08podaan6wn39h/stream.m3u8
 #EXTINF:-1 group-title="TEST", Włochy - Marina di Venezia 
 https://stream1.panocloud.com/marinadivenezia/marinadivenezia.stream/playlist.m3u8
+#EXTINF:-1 group-title="TEST", Słowacja - AQUAPARK BEŠEŇOVÁ II
+https://stream2.profi-net.sk/tmr//STREAM51.stream/playlist.m3u8
+#EXTINF:-1 group-title="TEST", Francja - Plaża w Nicei
+https://deliverys4.quanteec.com/contents/encodings/vod/8f8b6a72-da84-47f7-3637-3330-6d61-63-b889-56936e2c425ed/media_0.m3u8
+#EXTINF:-1 group-title="TEST", Czechy - Mlýnská kolonáda
+https://kamery2.wolfnet.cz/KV-kolonada.m3u8
+#EXTINF:-1 group-title="TEST", Czechy - Ostrov - náměstí
+https://kamery2.wolfnet.cz/Ostrov-namesti.m3u8
+#EXTINF:-1 group-title="TEST", Czechy - Loket - hrad
+https://kamery3.wolfnet.cz/Loket-hrad.m3u8
+#EXTINF:-1 group-title="TEST", Czechy - Zámek Holešov
+https://streamer.raab.cz/memfs/786213c2-6156-4260-bb25-ac1d8a99fc09.m3u8
+#EXTINF:-1 group-title="TEST", Słowenia - Zamek Ptuj
+https://s74.ipcamlive.com/streams/4avkkvxr9gcqluxbh/stream.m3u8
+#EXTINF:-1 group-title="TEST", Rumunia - Braszów
+https://digilive.rcs-rds.ro/digilivedge/poiana_brasov_desktop.stream/index.m3u8
+#EXTINF:-1 group-title="TEST", Macedonia Północna -  centrum starego miasta w Ochrydzie 
+https://cdn-007.whatsupcams.com/hls/mk_ohrid01.m3u8
+#EXTINF:-1 group-title="TEST", Węgry - Uniwersytet w Debreczynie
+https://mms.iptv.unideb.hu/ipcam/ipcam.sport.stream/playlist.m3u8
+#EXTINF:-1 group-title="TEST", Grecja - Port Rafinia
+https://streaming.forecastweather.gr:8090/live/rafinacamport/playlist.m3u8
+#EXTINF:-1 group-title="TEST", Grecja - Plac Syntagma - Ateny
+https://streaming.forecastweather.gr:8090/live/plateiasyntagmatos/playlist.m3u8
+#EXTINF:-1 group-title="TEST", Grecja - Plac Centralny w Vilii
+https://streaming.forecastweather.gr:8090/live/viliaplateiacam/playlist.m3u8
+#EXTINF:-1 group-title="TEST", Grecja - Góra Athos
+https://streaming.forecastweather.gr:8090/live/mtathos/playlist.m3u8
+#EXTINF:-1 group-title="TEST", Grecja - Góra Olimp
+https://streaming.forecastweather.gr:8090/live/olymposstefanicam/playlist.m3u8
+#EXTINF:-1 group-title="TEST", Grecja - Tilos
+https://streaming.forecastweather.gr:8090/live/tiloscamport/playlist.m3u8
+#EXTINF:-1 group-title="TEST", Grecja - Ote
+https://streaming.forecastweather.gr:8090/live/voloskeraiaote/playlist.m3u8
+#EXTINF:-1 group-title="TEST", Grecja - Posąg Posejdona
+https://streaming.forecastweather.gr:8090/live/agalmaposeidonacam/playlist.m3u8
+#EXTINF:-1 group-title="TEST", Grecja - Limnos
+https://streaming.forecastweather.gr:8090/live/lgdabiaapartments/playlist.m3u8
