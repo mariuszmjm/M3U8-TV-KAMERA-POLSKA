@@ -7,7 +7,7 @@ import urllib.request
 
 ALIAS = "5958e21475225"
 PLAYLIST_FILE = pathlib.Path("Kamery-pogodowe.m3u8")
-CAMERA_NAME = "Gniezno - Rynek"
+CAMERA_NAME = "Krynica Morska - Hotel Kahlberg"
 
 PLAYER_URL = f"https://g0.ipcamlive.com/player/player.php?alias={ALIAS}"
 
