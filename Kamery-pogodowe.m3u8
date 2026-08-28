@@ -159,6 +159,8 @@ https://player.inonet.pl/hls/stream_0.m3u8
 https://7005.szczecin.pl/camss/streams/plock3.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/plock-pl.svg" group-title="Miasta",Płock - Zalew Sobótka
 https://7005.szczecin.pl/camss/streams/plock2.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chocen-pl.svg" group-title="Miasta",Gmina Choceń
+https://test2.host330798.xce.pl/cam1/video1_stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gabin-pl.svg" group-title="Miasta", Widok z Kościoła w Gąbinie
 https://kamery.gabin.pl/api/streaming/hls/f5950b4f-a45b-4db0-a7d8-d9239d36b5cf/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wloclawek-pl.svg" group-title="Miasta",Włocławek
@@ -513,6 +515,8 @@ https://cdn-11-go.toya.net.pl/kamery/piot_slowackiegokostromska.m3u8
 https://cdn-13-go.toya.net.pl/kamery/kutn_jp2podrzeczna.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/starachowice-pl.svg" group-title="Miasta",Starachowice - Panorama miasta
 https://hoktastream3.webcamera.pl/starachowice_cam_ac8dee/starachowice_cam_ac8dee.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/nowaslupia-pl.svg" group-title="Miasta",Nowa Słupia
+https://cd31010201.spaceweb.pl:5443/LiveApp/streams/944252251938117755615424.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/pabianice-pl.svg" group-title="Miasta",Pabianice
 https://cdn-14-go.toya.net.pl/kamery/pabi_zamkowatraugutta.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zgierz-pl.svg" group-title="Miasta",Zgierz
@@ -698,6 +702,8 @@ https://cdn2.bieszczady.live/hls-live/skalny1/playlist.m3u8
 https://ls.tkchopin.pl/live/rumia_wzgorze_markowca_obrotowa.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Basen na Bursakach w Krośnie
 https://stream4.stimotion.pl/live/basen1.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Czarnorzeki / niedaleko Krościenka
+https://stream4.stimotion.pl/live/czarnorzeki3.m3u8
 
 #EXTINF:-1  group-title="Kościoły",Parafia p.w. Miłosierdzia Bożego Zakopane - Chramcówki
 https://hoktastream2.webcamera.pl/chramcowki_cam_616201/chramcowki_cam_616201.stream/playlist.m3u8
@@ -1046,6 +1052,8 @@ https://hoktastream1.webcamera.pl/hel_cam_79fe71/hel_cam_79fe71.stream/playlist.
 https://ls.tkchopin.pl/live/hel_bulwar_nadmorski_obrotowa.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",REWA - widok na Zatokę Puck
 https://hoktastream3.webcamera.pl/rewa_cam_c2a755/rewa_cam_c2a755.stream/playlist.m3u8
+#EXTINF:-1  group-title="Plaże",Kosakowo - Mechelniki
+https://mechelinki.ozitech.pl:5443/LiveApp/streams/622198033469081097364656.m3u8
 #EXTINF:-1  group-title="Plaże",GDYNIA - widok na wejście do Portu Morskiego i terminal
 https://hoktastream1.webcamera.pl/gdynia_cam_e257dc/gdynia_cam_e257dc.stream/playlist.m3u8
 #EXTINF:-1  group-title="Plaże",GDYNIA - widok na Przystań Jachtową
