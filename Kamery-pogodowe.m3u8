@@ -497,8 +497,8 @@ https://hoktastream4.webcamera.pl/kielcerynek_cam_6913aa/kielcerynek_cam_6913aa.
 https://s1.worldcam.live:8082/ostrowiec-swietokrzyski/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/busko-zdroj-pl.svg"  group-title="Miasta",Busko Zdrój - Fontanna przy Tęźni
 https://vm2.umig.busko.pl/webcam/cam13.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/busko-zdroj-pl.svg"  group-title="Miasta",Busko Zdrój - Kompleks Tężnia
-https://vm2.umig.busko.pl/webcam/cam10.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/busko-zdroj-pl.svg"  group-title="Miasta",Busko Zdrój - Muszla koncertowa
+https://vm2.umig.busko.pl/webcam/cam5.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wloszczowa-pl.svg" group-title="Miasta",Włoszczowa
 https://www.cnet24.pl/stream/kam07.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/radom-pl.svg" group-title="Miasta",Radom
