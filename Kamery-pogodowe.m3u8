@@ -4461,7 +4461,7 @@ https://7004.szczecin.pl/pkinwawa/streams/cam7.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL",Głogów KGHM LIVE
 https://7004.szczecin.pl/kghm/streams/kghmcam1.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL",Głogów KGHM LIVE 2
-hhttps://7004.szczecin.pl/kghm/streams/kghmcam2.m3u8
+https://7004.szczecin.pl/kghm/streams/kghmcam2.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL",Gdynia PGE EC LIVE
 https://sokoly.edu.pl/memfs/9d7724bc-d3aa-4351-a04c-fe2d3b02a1e3.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL",Gdynia PGE EC LIVE 2
@@ -4505,7 +4505,7 @@ https://sokoly.edu.pl/memfs/c0b4918a-13d8-4ecb-b9b3-812e7476a8b7.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Lublin PGE EC LIVE 3
 https://sokoly.edu.pl/memfs/59499a3c-5b91-4713-be58-22aaebe60826.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Dolina Baryczy LIVE
-https://7004.szczecin.pl/pgetorun/streams/milicz.m3u88
+https://7004.szczecin.pl/pgetorun/streams/milicz.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Warszawa Żerań ORLEN Termika S.A. LIVE 1
 https://s1.precate.pl/player/output/zeran/cam1/playlist.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Warszawa Żerań ORLEN Termika S.A. LIVE 2
