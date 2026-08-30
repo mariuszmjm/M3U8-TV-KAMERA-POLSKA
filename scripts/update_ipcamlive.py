@@ -29,12 +29,7 @@ CAMERAS = {
 
     "Słowenia - Zamek Ptuj": [
         "ptujcastlecam"
-    ],
-
-    "Kamera internetowa w porcie Svolvær": [
-        "svolvarhavnnotsteal23",
-        "svolvarhavnnotsteal"
-    ],
+   
 }
 
 
