@@ -29,6 +29,7 @@ CAMERAS = {
 
     "Słowenia - Zamek Ptuj": [
         "ptujcastlecam"
+     ],
    
 }
 
