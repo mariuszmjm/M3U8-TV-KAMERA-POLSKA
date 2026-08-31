@@ -1,0 +1,25 @@
+name: TEST Ibericam
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-ibericam:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v4
+
+      - name: Ustaw Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Zainstaluj requests
+        run: pip install requests
+
+      - name: Test Ibericam
+        run: python scripts/test_ibericam.py
