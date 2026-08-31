@@ -4463,11 +4463,11 @@ https://7004.szczecin.pl/kghm/streams/kghmcam1.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL",Głogów KGHM LIVE 2
 https://7004.szczecin.pl/kghm/streams/kghmcam2.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL",Gdynia PGE EC LIVE
-https://sokoly.edu.pl/memfs/9d7724bc-d3aa-4351-a04c-fe2d3b02a1e3.m3u8
+https://sokoly.ovh/memfs/0a62a0a4-a037-4912-af82-1faee866c253.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL",Gdynia PGE EC LIVE 2
-https://sokoly.edu.pl/memfs/36960640-008a-499d-823a-d19af9d752f3.m3u8
+https://sokoly.ovh/memfs/48e259b1-661b-467a-b393-9f18fd9331a7.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL",Gdynia PGE EC LIVE 3
-https://sokoly.edu.pl/memfs/1e154546-ec6a-4d3e-96bb-1c3eff0a11f1.m3u8
+https://sokoly.ovh/memfs/36eb3e08-f960-424d-8c68-e2cf93522540.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Płock ORLEN LIVE 1
 https://stream.orlen.pl/sokol/podest.stream/playlist.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Płock ORLEN LIVE 2
@@ -4487,11 +4487,11 @@ https://7004.szczecin.pl/Lasam/streams/lasstream.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Trzebież Nadleśnictwo LIVE 2
 https://7004.szczecin.pl/Lasam/streams/lasstream2.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Toruń PGE EC LIVE 1
-https://sokoly.edu.pl/memfs/dc403c6f-8467-4ff4-8185-b4d9dfc00dbe.m3u8
+https://sokoly.ovh/memfs/8cfcb988-e012-4597-9f7f-34dd066fff21.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Toruń PGE EC LIVE 2
-https://sokoly.edu.pl/memfs/47d8713d-aaab-4698-8e6c-bfd006225fcf.m3u8
+https://sokoly.ovh/memfs/6028e03c-87a4-4f1f-b36a-1ee68350bf07.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Toruń PGE EC LIVE 3
-https://sokoly.edu.pl/memfs/2f67f152-4eb4-4d64-9ea3-20bb594e7759.m3u8
+https://sokoly.ovh/memfs/494ff915-fece-492c-8688-6c14e26cbb54.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Poznań VEOLIA LIVE 1
 https://7004.szczecin.pl/veolia/streams/poznan1.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Poznań VEOLIA LIVE 2
@@ -4499,11 +4499,11 @@ https://7004.szczecin.pl/veolia/streams/poznan2.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Poznań VEOLIA LIVE 3
 https://7004.szczecin.pl/veolia/streams/poznan3.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Lublin PGE EC LIVE 1
-https://sokoly.edu.pl/memfs/0635c8f5-1d42-40f9-8fbd-0a3d335e55d2.m3u8
+https://sokoly.ovh/memfs/cfd283d1-4c4a-4a1a-a969-27865ce499f4.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Lublin PGE EC LIVE 2
-https://sokoly.edu.pl/memfs/c0b4918a-13d8-4ecb-b9b3-812e7476a8b7.m3u8
+https://sokoly.ovh/memfs/35360187-5beb-466d-b0f3-3df0d45a0c1c.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Lublin PGE EC LIVE 3
-https://sokoly.edu.pl/memfs/59499a3c-5b91-4713-be58-22aaebe60826.m3u8
+https://sokoly.ovh/memfs/eded79f7-aae7-4a81-b1fc-f99868cf52ce.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Dolina Baryczy LIVE
 https://7004.szczecin.pl/pgetorun/streams/milicz.m3u8
 #EXTINF:-1 group-title="Peregrinus-PL", Warszawa Żerań ORLEN Termika S.A. LIVE 1
