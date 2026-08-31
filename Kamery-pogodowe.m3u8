@@ -286,7 +286,7 @@ https://cam.lokalna.net/hls/most_andrzeja_glucholazy/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/prudnik-pl.svg" group-title="Miasta",Prudnik
 https://streaming.prudnik.eu/Rynek.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/cieszyn-pl.svg" group-title="Miasta",Cieszyn - Rynek
-https://streaming.euro.net.pl:8888/rynek/stream.m3u8
+https://streaming.euro.net.pl/streams/rynek-ratusz/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gliwice-pl.svg" group-title="Miasta",GLIWICE - widok na Rynek
 https://hoktastream3.webcamera.pl/gliwice_cam_c28bda/gliwice_cam_c28bda.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/m/myslowice-pl.svg" group-title="Miasta",Mysłowice - Rynek
