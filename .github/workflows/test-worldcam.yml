@@ -1,14 +1,19 @@
-name: TEST WorldCam Gniezno
+name: Aktualizacja WorldCam
 
 on:
   workflow_dispatch:
 
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
 jobs:
-  test-worldcam:
+  update-worldcam:
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Pobierz repozytorium
         uses: actions/checkout@v4
 
@@ -22,5 +27,19 @@ jobs:
           pip install playwright
           playwright install --with-deps chromium
 
-      - name: Sprawdź WorldCam
+      - name: Sprawdź i aktualizuj WorldCam
         run: python scripts/test_worldcam.py
+
+      - name: Zapisz zmiany
+        run: |
+          if git diff --quiet; then
+            echo "Brak zmian WorldCam."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add Kamery-pogodowe.m3u8
+          git commit -m "Automatyczna aktualizacja WorldCam"
+          git push
