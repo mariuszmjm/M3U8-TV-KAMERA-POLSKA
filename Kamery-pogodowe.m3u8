@@ -1308,7 +1308,7 @@ https://webcam-4.ibericam.com:5443/live/streams/famorca.m3u8
 #EXTINF:-1 group-title="Hiszpania", Teruel - Albentosa
 https://webcam-2.ibericam.com:5443/live/streams/albentosa.m3u8
 #EXTINF:-1 group-title="Hiszpania", Teruel - Alcalá de la Selva - vista al castillo
-https://webcam-2.ibericam.com:5443/live/streams/alcala-de-la-selva.m3u8
+https://webcam-3.ibericam.com:5443/live/streams/alcala-de-la-selva.m3u8
 #EXTINF:-1 group-title="Hiszpania", Teruel - Alcalá de la Selva - Campo de Golf El Castillejo
 https://webcam-4.ibericam.com:5443/live/streams/alcala-de-la-selva-campo-de-golf.m3u8
 #EXTINF:-1 group-title="Hiszpania", Teruel - Alcalá de la Selva - Hotel Villa María
@@ -1326,13 +1326,13 @@ https://webcam-2.ibericam.com:5443/live/streams/formiche-alto.m3u8
 #EXTINF:-1 group-title="Hiszpania", Teruel - Fortanete
 https://webcam-2.ibericam.com:5443/live/streams/fortanete.m3u8
 #EXTINF:-1 group-title="Hiszpania", Teruel - Gúdar
-https://webcam-2.ibericam.com:5443/live/streams/gudar.m3u8
+https://webcam-3.ibericam.com:5443/live/streams/gudar.m3u8
 #EXTINF:-1 group-title="Hiszpania", Teruel - Jorcas
 https://webcam-2.ibericam.com:5443/live/streams/jorcas.m3u8
 #EXTINF:-1 group-title="Hiszpania", Teruel - Miravete de la Sierra
 https://webcam-4.ibericam.com:5443/live/streams/miravete-de-la-sierra.m3u8
 #EXTINF:-1 group-title="Hiszpania", Teruel - Monteagudo del Castillo
-https://webcam-2.ibericam.com:5443/live/streams/monteagudo.m3u8
+https://webcam-3.ibericam.com:5443/live/streams/monteagudo.m3u8
 #EXTINF:-1 group-title="Hiszpania", Teruel - Mora de Rubielos
 https://webcam-2.ibericam.com:5443/live/streams/mora-de-rubielos.m3u8
 #EXTINF:-1 group-title="Hiszpania", Teruel - San Agustín
@@ -1346,7 +1346,7 @@ https://webcam-2.ibericam.com:5443/live/streams/valdelinares.m3u8
 #EXTINF:-1 group-title="Hiszpania", Granada - Alhambra
 https://webcam-4.ibericam.com:5443/live/streams/granada.m3u8
 #EXTINF:-1 group-title="Hiszpania", Granada -Salobreña
-https://webcam-2.ibericam.com:5443/live/streams/salobrena.m3u8
+https://webcam-4.ibericam.com:5443/live/streams/salobrena.m3u8
 #EXTINF:-1 group-title="Hiszpania", Guadalajara - Ciruelos del Pinar - Plaza Mayor
 https://webcam-4.ibericam.com:5443/live/streams/ciruelos-del-pinar.m3u8
 #EXTINF:-1 group-title="Hiszpania", Guadalajara - Estriégana - desde el Ayuntamiento
@@ -1358,7 +1358,7 @@ https://webcam-2.ibericam.com:5443/live/streams/sauca.m3u8
 #EXTINF:-1 group-title="Hiszpania", Valencia - Chulilla
 https://webcam-2.ibericam.com:5443/live/streams/chulilla.m3u8
 #EXTINF:-1 group-title="Hiszpania", Valencia - Chulilla - Apartamentos la Muela
-https://webcam-2.ibericam.com:5443/live/streams/chulilla-apartamentos.m3u8
+https://webcam-3.ibericam.com:5443/live/streams/chulilla-apartamentos.m3u8
 #EXTINF:-1 group-title="Hiszpania", Valencia - Gandía - Playa de Gandía
 https://webcam-4.ibericam.com:5443/live/streams/gandia-playa-de-gandia.m3u8
 #EXTINF:-1 group-title="Hiszpania", Valencia - Valencia – Calle de la Paz
