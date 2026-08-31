@@ -1,0 +1,26 @@
+name: TEST WorldCam Gniezno
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-worldcam:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v4
+
+      - name: Ustaw Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Zainstaluj Playwright
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Sprawdź WorldCam
+        run: python scripts/test_worldcam.py
