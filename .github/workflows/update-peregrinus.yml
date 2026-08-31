@@ -1,0 +1,48 @@
+name: Aktualizacja Peregrinus
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "37 4 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-peregrinus:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v4
+
+      - name: Ustaw Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Zainstaluj Playwright
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Sprawdź i aktualizuj Peregrinus
+        run: python scripts/update_peregrinus.py
+
+      - name: Zapisz zmiany
+        run: |
+          if git diff --quiet; then
+            echo "Brak zmian Peregrinus."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add Kamery-pogodowe.m3u8
+          git commit -m "Automatyczna aktualizacja Peregrinus"
+
+          git pull --rebase
+          git push
