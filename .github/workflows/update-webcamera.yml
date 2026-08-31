@@ -1,0 +1,51 @@
+name: Aktualizacja WebCamera
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "53 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-webcamera
+  cancel-in-progress: false
+
+jobs:
+  update-webcamera:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v4
+
+      - name: Ustaw Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Zainstaluj requests
+        run: pip install requests
+
+      - name: Sprawdź i aktualizuj WebCamera
+        run: python scripts/update_webcamera.py
+
+      - name: Zapisz zmiany
+        run: |
+          if git diff --quiet; then
+            echo "Brak zmian WebCamera."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add Kamery-pogodowe.m3u8
+          git commit -m "Automatyczna aktualizacja WebCamera"
+
+          git pull --rebase origin main
+          git push
