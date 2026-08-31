@@ -1,0 +1,51 @@
+name: Aktualizacja Ibericam
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "29 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-ibericam
+  cancel-in-progress: false
+
+jobs:
+  update-ibericam:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v4
+
+      - name: Ustaw Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Zainstaluj requests
+        run: pip install requests
+
+      - name: Sprawdź i aktualizuj Ibericam
+        run: python scripts/update_ibericam.py
+
+      - name: Zapisz zmiany
+        run: |
+          if git diff --quiet; then
+            echo "Brak zmian Ibericam."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add Kamery-pogodowe.m3u8
+          git commit -m "Automatyczna aktualizacja Ibericam"
+
+          git pull --rebase origin main
+          git push
