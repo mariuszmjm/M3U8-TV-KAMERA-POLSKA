@@ -1378,7 +1378,7 @@ https://camserver2.in2thebeach.es/streams/playa-de-maspalomas/index.m3u8
 #EXTINF:-1 group-title="Hiszpania", Camino Natural de San Rosendo
 https://www.crtvg.es:1555/hls/celanova/index.m3u8
 #EXTINF:-1 group-title="Hiszpania", Segovia Aqueduct
-https://frn.rtsp.me/PMj9Nyk8KLqi5ZtQKp5pRw/1782383935/hls/4asatA6z.m3u8
+https://s170.ipcamlive.com/streams/aadfljqk6pm5c2hj0/stream.m3u8
 #EXTINF:-1 group-title="Hiszpania", Cathedral of Santiago de Compostela
 https://www.crtvg.es:1554/hls/quintana/index.m3u8
 #EXTINF:-1 group-title="Hiszpania", Playa de San Agustín
@@ -4592,7 +4592,7 @@ https://s1.precate.pl/player/output/veolia_ec4/cam3/playlist.m3u8
 #EXTINF:-1 group-title="TEST", Hiszpania - La Corunna
 https://www.crtvg.es:1554/hls/mcoruna/index.m3u8
 #EXTINF:-1 group-title="TEST", Hiszpania - The Aqueduct of Segovia
-https://frn.rtsp.me/ggyIwXGuRMi1PhECHwRdlA/1782384012/hls/4asatA6z.m3u8
+https://s170.ipcamlive.com/streams/aadfljqk6pm5c2hj0/stream.m3u8
 #EXTINF:-1 group-title="TEST", Hiszpania - A Guarda, Castro de Santa Trega
 https://www.crtvg.es:1556/hls/aguarda/index.m3u8
 #EXTINF:-1 group-title="TEST", Hiszpania - Santiago de Compostela 
@@ -4615,9 +4615,9 @@ https://cdn.livespotting.com/vpu/ehlpzb4g/nkw9elfh.m3u8
 #EXTINF:-1 group-title="TEST",Niemcy - Düsseldorf
 https://ch-fra-n16.livespotting.com/vpu/a6mam24n/4xbp4z1f_720.m3u8
 #EXTINF:-1 group-title="TEST",Gruzja - Batumi
+https://streaming-hls1.televizia.org/hls/batumi.m3u8
+#EXTINF:-1 group-title="TEST",Gruzja - Tbilisi
 https://streaming-hls1.televizia.org/hls/tbilisi-mtkvari.m3u8
-#EXTINF:-1 group-title="TEST",Gruzja - Batumi
-https://streaming-hls1.televizia.org/hls/batumi3.m3u8
 #EXTINF:-1 group-title="TEST",Francja - Troyes, Main Square
 https://ds2-cache.quanteec.com/contents/encodings/live/555fb3d0-7b6a-4e1a-3036-3630-6d61-63-a529-611d7063c4d5d/media_0.m3u8
 #EXTINF:-1 group-title="TEST",Kirgistan - Ala-Too Square
