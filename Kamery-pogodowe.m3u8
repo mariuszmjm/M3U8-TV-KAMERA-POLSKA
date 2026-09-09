@@ -4610,7 +4610,7 @@ https://cdn-005.whatsupcams.com/hls/hr_baskavoda1.m3u8
 #EXTINF:-1 group-title="TEST",Chorwacja - Jelsa
 https://cdn.livespotting.com/vpu/ggazg0ll/taelb29k.m3u8
 #EXTINF:-1 group-title="TEST",Węgry - Budapeszt
-https://videos-3.earthcam.com/fecnetwork/15041.flv/playlist.m3u8
+https://earthcam-proxy.adiutor-mariusz.workers.dev/15041/playlist.m3u8
 #EXTINF:-1 group-title="TEST",Niemcy - Berlin
 https://cdn.livespotting.com/vpu/ehlpzb4g/nkw9elfh.m3u8
 #EXTINF:-1 group-title="TEST",Niemcy - Düsseldorf
@@ -4630,7 +4630,7 @@ https://cam.xcom.kz:2443/amfiteatr15a/video.m3u8
 #EXTINF:-1 group-title="TEST", Kazachstan - Aktau
 https://cam.xcom.kz:8081/28ring/index.m3u8
 #EXTINF:-1 group-title="TEST", Jamajka - kawiarnia w Negril
-https://videos-3.earthcam.com/fecnetwork/4369.flv/playlist.m3u8
+https://earthcam-proxy.adiutor-mariusz.workers.dev/4369/playlist.m3u8
 #EXTINF:-1 group-title="TEST",Azerbejdżan - Ski resort Tufandag
 https://fn.rtsp.me/NCXNlhBOctWVGv4K7R5b9w/1788848005/hls/aa4FDYRT.m3u8?ip=20.127.238.83
 #EXTINF:-1 group-title="TEST",Dania - The Great Belt Bridge
