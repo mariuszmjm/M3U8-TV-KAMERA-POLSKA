@@ -11,16 +11,29 @@ jobs:
     steps:
 
       - name: Pobierz repozytorium
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Ustaw Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.x"
 
+      - name: Ustaw Node.js 24
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          package-manager-cache: false
+
       - name: Zainstaluj yt-dlp
         run: |
-          pip install -U yt-dlp requests
+          python -m pip install --upgrade pip
+          pip install -U "yt-dlp[default]" requests
+
+      - name: Sprawdź wersje
+        run: |
+          python --version
+          node --version
+          yt-dlp --version
 
       - name: Test YouTube
         run: python scripts/test_youtube.py
