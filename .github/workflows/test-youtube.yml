@@ -1,0 +1,26 @@
+name: TEST YouTube HLS
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-youtube:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v4
+
+      - name: Ustaw Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Zainstaluj yt-dlp
+        run: |
+          pip install -U yt-dlp requests
+
+      - name: Test YouTube
+        run: python scripts/test_youtube.py
