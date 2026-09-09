@@ -56,6 +56,16 @@ OFFICIAL_PAGES = {
         "https://www.earthcam.com/"
         "cams/dc/washingtonmonument/"
         "?cam=wamo",
+
+    "15041.flv":
+        "https://www.earthcam.com/"
+        "cams/hungary/budapest/"
+        "?cam=hotelvictoria",
+
+    "4369.flv":
+        "https://www.earthcam.com/"
+        "cams/jamaica/negril/"
+        "?cam=rickscafe",
 }
 
 
@@ -408,10 +418,7 @@ async def capture_hls(
     stream,
 ):
 
-    expected_path = (
-        f"/fecnetwork/{stream}/"
-    ).lower()
-
+   
     for source_page in player_pages(
         stream
     ):
@@ -450,9 +457,9 @@ async def capture_hls(
             if "earthcam.com" not in lower:
                 return
 
-            if expected_path not in lower:
+            if "/fecnetwork/" not in lower:
                 return
-
+            
             if url not in found:
 
                 found.append(url)
