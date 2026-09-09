@@ -4629,10 +4629,12 @@ https://cam.xcom.kz:8081/rockypath/index.m3u8
 https://cam.xcom.kz:2443/amfiteatr15a/video.m3u8
 #EXTINF:-1 group-title="TEST", Kazachstan - Aktau
 https://cam.xcom.kz:8081/28ring/index.m3u8
+#EXTINF:-1 group-title="TEST", Kazachstan - Aktau - Wieczny płomień
+https://cam.xcom.kz:2443/dramteatr/video.m3u8
 #EXTINF:-1 group-title="TEST", Jamajka - kawiarnia w Negril
 https://earthcam-proxy.adiutor-mariusz.workers.dev/4369/playlist.m3u8
 #EXTINF:-1 group-title="TEST",Azerbejdżan - Ski resort Tufandag
-https://fn.rtsp.me/NCXNlhBOctWVGv4K7R5b9w/1788848005/hls/aa4FDYRT.m3u8?ip=20.127.238.83
+https://fn.rtsp.me/NCXNlhBOctWVGv4K7R5b9w/1788848005/hls/aa4FDYRT.m3u8
 #EXTINF:-1 group-title="TEST",Dania - The Great Belt Bridge
 https://stream.sob.m-dn.net/live/sb1/vKVhWPO2ysiYNGrNfA+Krw1/stream.m3u8?plain=true
 #EXTINF:-1 group-title="TEST",Czechy - Krnov panorama
@@ -4642,7 +4644,7 @@ https://webcams.sympact.cz/spindl/cam4/webcam.m3u8
 #EXTINF:-1 group-title="TEST",Rosja - Wieżowiec Lahta Center w Petersburgu
 https://hls-spb03.timetechnology.ru:8080/5117/hls/fdcc04d2fa414943/live.m3u8
 #EXTINF:-1 group-title="TEST", RPA - Paarl Golf Club
-https://fn.rtsp.me/37fZNvpKpn2vttTBLzU4rQ/1788848062/hls/HiBy96KQ.m3u8?ip=20.127.238.83
+https://fn.rtsp.me/37fZNvpKpn2vttTBLzU4rQ/1788848062/hls/HiBy96KQ.m3u8
 #EXTINF:-1 group-title="TEST",Chiny - Harbin, Jihong Bridge
 https://gctxyhwc.liveplay.myqcloud.com/gc/hkts09_1_md.m3u8
 #EXTINF:-1 group-title="TEST",Indonesia - Sadeng Beach
