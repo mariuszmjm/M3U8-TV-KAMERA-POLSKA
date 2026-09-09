@@ -4641,8 +4641,6 @@ https://cam.moses.cz/stream/cam2/stream.m3u8
 https://webcams.sympact.cz/spindl/cam4/webcam.m3u8
 #EXTINF:-1 group-title="TEST",Rosja - Wieżowiec Lahta Center w Petersburgu
 https://hls-spb03.timetechnology.ru:8080/5117/hls/fdcc04d2fa414943/live.m3u8
-#EXTINF:-1 group-title="TEST", Grecja - Marathias Nature Park
-https://fn.rtsp.me/KnVCyE55WOScKfZgHVERiw/1788934465/hls/S2Tr48nF.m3u8?ip=172.184.209.144
 #EXTINF:-1 group-title="TEST", RPA - Paarl Golf Club
 https://fn.rtsp.me/37fZNvpKpn2vttTBLzU4rQ/1788848062/hls/HiBy96KQ.m3u8?ip=20.127.238.83
 #EXTINF:-1 group-title="TEST",Chiny - Harbin, Jihong Bridge
