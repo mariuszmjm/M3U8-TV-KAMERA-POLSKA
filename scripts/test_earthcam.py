@@ -1,10 +1,12 @@
 import asyncio
 import pathlib
 import re
+from datetime import datetime
 from urllib.parse import (
     urljoin,
     urlparse,
     urlunparse,
+    parse_qs,
 )
 
 import requests
@@ -23,87 +25,159 @@ USER_AGENT = (
     "Chrome/140.0 Safari/537.36"
 )
 
-# Obsługujemy np.:
+
+# --------------------------------------------------
+# RĘCZNE ADRESY DO TESTU
+# --------------------------------------------------
 #
-# https://videos-3.earthcam.com/
-# fecnetwork/7132.flv/playlist.m3u8?t=...&td=...
+# Ten URL podałeś wcześniej.
+# Jeśli token już wygasł, to też jest cenna informacja.
 #
-# oraz starsze:
-#
-# https://video3.earthcam.com/...
-#
+MANUAL_URLS = [
+    (
+        "EarthCam 7132",
+        "https://videos-3.earthcam.com/"
+        "fecnetwork/7132.flv/playlist.m3u8"
+        "?t=suFkKMnfT%2B7NQuL5FdDHhFVCTAUovyKsltg7eHatVdD1M0SyMx6GVct0inHBTqTL"
+        "&td=202609090738"
+    ),
+]
+
+
+OFFICIAL_PAGES = {
+    "7132.flv":
+        "https://www.earthcam.com/"
+        "cams/dc/washingtonmonument/"
+        "?cam=wamo",
+}
+
+
 EARTHCAM_RE = re.compile(
     r"https?://"
-    r"(?P<host>"
-    r"(?:videos-\d+|video\d+)"
-    r"\.earthcam\.com"
-    r")"
-    r"/fecnetwork/"
-    r"(?P<stream>"
-    r"[^/\s?#]+\.flv"
-    r")"
+    r"(?:(?:videos-\d+)|(?:video\d+))"
+    r"\.earthcam\.com/"
+    r"fecnetwork/"
+    r"([^/\s?#]+\.flv)"
     r"/playlist\.m3u8"
     r"(?:\?[^\s]*)?",
     re.IGNORECASE,
 )
 
 
-# Dla 7132 znamy oficjalną stronę.
-# Kolejne można później dopisać,
-# jeżeli będą potrzebne.
-OFFICIAL_PAGES = {
-    "7132.flv":
-        "https://www.earthcam.com/"
-        "cams/dc/washingtonmonument/"
-        "?cam=wamo",
-
-    "15041.flv":
-        "https://www.earthcam.com/"
-        "cams/hungary/budapest/"
-        "?cam=hotelvictoria",
-
-    "4369.flv":
-        "https://www.earthcam.com/"
-        "cams/jamaica/negril/"
-        "?cam=rickscafe",
-}
-
-
-def get_camera_name(lines, index):
+def get_name(lines, index):
 
     if index <= 0:
         return "(nieznana kamera)"
 
-    line = lines[index - 1]
+    previous = lines[index - 1]
 
     if (
-        not line.startswith("#EXTINF")
-        or "," not in line
+        previous.startswith("#EXTINF")
+        and "," in previous
     ):
-        return "(nieznana kamera)"
+        return previous.split(",", 1)[1].strip()
 
-    return line.split(",", 1)[1].strip()
+    return "(nieznana kamera)"
 
 
-def browser_headers(referer):
+def strip_query(url):
+
+    parsed = urlparse(url)
+
+    return urlunparse(
+        parsed._replace(
+            query=""
+        )
+    )
+
+
+def get_stream_id(url):
+
+    match = re.search(
+        r"/fecnetwork/"
+        r"([^/]+\.flv)"
+        r"/playlist\.m3u8",
+        url,
+        re.IGNORECASE,
+    )
+
+    if match:
+        return match.group(1)
+
+    return None
+
+
+def print_token_info(url):
+
+    parsed = urlparse(url)
+    query = parse_qs(parsed.query)
+
+    token = query.get(
+        "t",
+        [None]
+    )[0]
+
+    td = query.get(
+        "td",
+        [None]
+    )[0]
+
+    print(
+        "  Parametr t:",
+        "TAK" if token else "NIE"
+    )
+
+    if token:
+        print(
+            "  Długość tokenu:",
+            len(token)
+        )
+
+    print(
+        "  Parametr td:",
+        td or "BRAK"
+    )
+
+    if (
+        td
+        and re.fullmatch(
+            r"\d{12}",
+            td
+        )
+    ):
+
+        try:
+
+            dt = datetime.strptime(
+                td,
+                "%Y%m%d%H%M"
+            )
+
+            print(
+                "  td wygląda jak data/czas:",
+                dt.strftime(
+                    "%Y-%m-%d %H:%M"
+                )
+            )
+
+        except Exception:
+            pass
+
+
+def headers(referer):
 
     return {
         "User-Agent": USER_AGENT,
         "Accept": "*/*",
         "Referer": referer,
-        "Origin": "https://www.earthcam.com",
+        "Origin":
+            "https://www.earthcam.com",
         "Cache-Control": "no-cache",
         "Pragma": "no-cache",
     }
 
 
-def carry_query(parent_url, child_url):
-
-    """
-    Jeżeli EarthCam wymaga tokenu również
-    w podrzędnym M3U8 lub segmencie,
-    próbujemy zachować query rodzica.
-    """
+def inherit_query(parent_url, child_url):
 
     parent = urlparse(parent_url)
     child = urlparse(child_url)
@@ -127,42 +201,26 @@ def test_segment(
     referer,
 ):
 
-    candidates = [url]
+    try:
 
-    # Spróbujemy również wariantu
-    # z tokenem odziedziczonym z playlisty.
-    # Duplikaty zostaną pominięte później.
+        h = headers(referer)
+        h["Range"] = "bytes=0-8191"
 
-    for candidate in list(candidates):
+        response = session.get(
+            url,
+            headers=h,
+            timeout=12,
+            allow_redirects=True,
+            stream=True,
+        )
 
-        try:
+        return (
+            response.status_code
+            in (200, 206)
+        )
 
-            headers = browser_headers(
-                referer
-            )
-
-            headers["Range"] = (
-                "bytes=0-4095"
-            )
-
-            response = session.get(
-                candidate,
-                headers=headers,
-                timeout=12,
-                allow_redirects=True,
-                stream=True,
-            )
-
-            if response.status_code in (
-                200,
-                206,
-            ):
-                return True
-
-        except Exception:
-            pass
-
-    return False
+    except Exception:
+        return False
 
 
 def check_hls(
@@ -173,7 +231,6 @@ def check_hls(
 ):
 
     if depth > 4:
-
         return {
             "ok": False,
             "status":
@@ -185,9 +242,7 @@ def check_hls(
 
         response = session.get(
             url,
-            headers=browser_headers(
-                referer
-            ),
+            headers=headers(referer),
             timeout=15,
             allow_redirects=True,
         )
@@ -221,23 +276,23 @@ def check_hls(
         }
 
     lines = [
-        line.strip()
-        for line in text.splitlines()
-        if line.strip()
+        x.strip()
+        for x in text.splitlines()
+        if x.strip()
     ]
 
-    # ----------------------------------
+    # ------------------------------------------
     # MASTER PLAYLIST
-    # ----------------------------------
+    # ------------------------------------------
 
     if any(
-        line.startswith(
+        x.startswith(
             "#EXT-X-STREAM-INF"
         )
-        for line in lines
+        for x in lines
     ):
 
-        children = []
+        candidates = []
 
         for i, line in enumerate(lines):
 
@@ -254,33 +309,30 @@ def check_hls(
             if child.startswith("#"):
                 continue
 
-            child_url = urljoin(
+            absolute = urljoin(
                 response.url,
-                child,
+                child
             )
 
-            children.append(
-                child_url
+            candidates.append(
+                absolute
             )
 
-            with_query = carry_query(
+            inherited = inherit_query(
                 response.url,
-                child_url,
+                absolute
             )
 
-            if (
-                with_query
-                not in children
-            ):
-                children.append(
-                    with_query
+            if inherited not in candidates:
+                candidates.append(
+                    inherited
                 )
 
-        for child in children:
+        for candidate in candidates:
 
             result = check_hls(
                 session,
-                child,
+                candidate,
                 referer,
                 depth + 1,
             )
@@ -296,14 +348,14 @@ def check_hls(
             "segments": 0,
         }
 
-    # ----------------------------------
+    # ------------------------------------------
     # MEDIA PLAYLIST
-    # ----------------------------------
+    # ------------------------------------------
 
-    extinf_count = sum(
+    extinf = sum(
         1
-        for line in lines
-        if line.startswith("#EXTINF:")
+        for x in lines
+        if x.startswith("#EXTINF:")
     )
 
     segments = []
@@ -318,30 +370,24 @@ def check_hls(
 
         segment = urljoin(
             response.url,
-            line,
+            line
         )
 
         segments.append(segment)
 
-    if (
-        extinf_count == 0
-        or not segments
-    ):
+    if not segments:
 
         return {
             "ok": False,
-            "status":
-                "M3U8 BEZ SEGMENTÓW",
+            "status": "BRAK SEGMENTÓW",
             "segments": 0,
         }
 
-    # Najnowsze segmenty LIVE.
-
     for segment in segments[-3:]:
 
-        candidates = [
+        variants = [
             segment,
-            carry_query(
+            inherit_query(
                 response.url,
                 segment
             ),
@@ -349,24 +395,23 @@ def check_hls(
 
         checked = set()
 
-        for candidate in candidates:
+        for variant in variants:
 
-            if candidate in checked:
+            if variant in checked:
                 continue
 
-            checked.add(candidate)
+            checked.add(variant)
 
             if test_segment(
                 session,
-                candidate,
+                variant,
                 referer,
             ):
 
                 return {
                     "ok": True,
                     "status": "OK",
-                    "segments":
-                        extinf_count,
+                    "segments": extinf,
                 }
 
     return {
@@ -374,312 +419,267 @@ def check_hls(
         "status":
             "PLAYLISTA JEST, "
             "ALE SEGMENTY NIE DZIAŁAJĄ",
-        "segments": extinf_count,
+        "segments": extinf,
     }
 
 
-def player_pages(stream):
-
-    pages = []
-
-    # Jeśli znamy oficjalną stronę,
-    # próbujemy jej jako pierwszej.
-
-    if stream in OFFICIAL_PAGES:
-
-        pages.append(
-            OFFICIAL_PAGES[stream]
-        )
-
-    # EarthCam używa również własnego
-    # playera do osadzania strumienia.
-    #
-    # To jest bardzo przydatne,
-    # ponieważ potrzebujemy tylko
-    # nazwy strumienia, np. 7132.flv.
-
-    container = (
-        "https://www.earthcam.com/"
-        "cams/includes/twittercards/"
-        "container.php"
-        f"?name={stream}"
-        "&w=728"
-        "&h=410"
-    )
-
-    if container not in pages:
-        pages.append(container)
-
-    return pages
-
-
-async def capture_hls(
+async def capture_fresh(
     browser,
     stream,
+    official_page,
 ):
 
-   
-    for source_page in player_pages(
-        stream
-    ):
+    print()
+    print(
+        "Otwieram oficjalną stronę:"
+    )
+    print(
+        official_page
+    )
 
-        print()
-        print(
-            "  Otwieram:"
+    context = await browser.new_context(
+        user_agent=USER_AGENT,
+        locale="en-US",
+        viewport={
+            "width": 1280,
+            "height": 800,
+        },
+    )
+
+    page = await context.new_page()
+
+    found = []
+
+    def inspect(request):
+
+        url = request.url
+        lower = url.lower()
+
+        if ".m3u8" not in lower:
+            return
+
+        if "earthcam.com" not in lower:
+            return
+
+        if "/fecnetwork/" not in lower:
+            return
+
+        if url not in found:
+
+            found.append(url)
+
+            print()
+            print(
+                "PRZECHWYCONO:"
+            )
+            print(url)
+
+    page.on(
+        "request",
+        inspect
+    )
+
+    try:
+
+        await page.goto(
+            official_page,
+            wait_until=
+                "domcontentloaded",
+            timeout=60000,
         )
 
-        print(
-            " ",
-            source_page
-        )
-
-        context = await browser.new_context(
-            user_agent=USER_AGENT,
-            locale="en-US",
-            viewport={
-                "width": 1280,
-                "height": 800,
-            },
-        )
-
-        page = await context.new_page()
-
-        found = []
-
-        def inspect_request(request):
-
-            url = request.url
-            lower = url.lower()
-
-            if ".m3u8" not in lower:
-                return
-
-            if "earthcam.com" not in lower:
-                return
-
-            if "/fecnetwork/" not in lower:
-                return
-            
-            if url not in found:
-
-                found.append(url)
-
-                print(
-                    "  PRZECHWYCONO:"
-                )
-
-                print(
-                    "   ",
-                    url
-                )
-
-        page.on(
-            "request",
-            inspect_request
+        await page.wait_for_timeout(
+            4000
         )
 
         try:
 
-            await page.goto(
-                source_page,
-                wait_until=
-                    "domcontentloaded",
-                timeout=60000,
-            )
+            await page.evaluate(
+                """
+                () => {
+                    const videos =
+                        document.querySelectorAll(
+                            'video'
+                        );
 
-            await page.wait_for_timeout(
-                4000
-            )
+                    for (
+                        const video
+                        of videos
+                    ) {
+                        video.muted = true;
 
-            # Próbujemy wystartować video,
-            # jeżeli autoplay jest wyłączony.
-
-            try:
-
-                await page.evaluate(
-                    """
-                    () => {
-                        const videos =
-                            document
-                            .querySelectorAll(
-                                'video'
-                            );
-
-                        for (
-                            const video
-                            of videos
-                        ) {
-                            video.muted = true;
-
-                            video.play()
-                                .catch(
-                                    () => {}
-                                );
-                        }
+                        video.play()
+                            .catch(() => {});
                     }
-                    """
-                )
-
-            except Exception:
-                pass
-
-            # Próba kliknięcia przycisku
-            # Play, jeśli taki istnieje.
-
-            try:
-
-                buttons = page.locator(
-                    "button"
-                )
-
-                count = await buttons.count()
-
-                for i in range(
-                    min(count, 20)
-                ):
-
-                    button = (
-                        buttons.nth(i)
-                    )
-
-                    try:
-
-                        text = (
-                            await button
-                            .inner_text()
-                        ).lower()
-
-                        aria = (
-                            await button
-                            .get_attribute(
-                                "aria-label"
-                            )
-                            or ""
-                        ).lower()
-
-                        if (
-                            "play" in text
-                            or "play" in aria
-                        ):
-
-                            await button.click(
-                                timeout=2000
-                            )
-
-                    except Exception:
-                        pass
-
-            except Exception:
-                pass
-
-            await page.wait_for_timeout(
-                12000
+                }
+                """
             )
 
-        except Exception as e:
+        except Exception:
+            pass
 
-            print(
-                "  BŁĄD strony:",
-                type(e).__name__,
+        # Klikamy możliwe Play
+
+        try:
+
+            elements = page.locator(
+                "button, [role='button']"
             )
 
-        finally:
+            count = await elements.count()
 
-            await context.close()
+            for i in range(
+                min(count, 30)
+            ):
 
-        if found:
+                el = elements.nth(i)
 
-            # Preferujemy dokładne
-            # playlist.m3u8 z tokenem.
+                try:
 
-            tokenized = [
-                url
-                for url in found
-                if (
-                    "playlist.m3u8?"
-                    in url.lower()
-                )
-            ]
+                    text = (
+                        await el.inner_text()
+                    ).lower()
 
-            candidates = (
-                tokenized
-                + [
-                    url
-                    for url in found
-                    if url not in tokenized
-                ]
+                    aria = (
+                        await el.get_attribute(
+                            "aria-label"
+                        )
+                        or ""
+                    ).lower()
+
+                    title = (
+                        await el.get_attribute(
+                            "title"
+                        )
+                        or ""
+                    ).lower()
+
+                    if (
+                        "play" in text
+                        or "play" in aria
+                        or "play" in title
+                    ):
+
+                        await el.click(
+                            timeout=1500
+                        )
+
+                except Exception:
+                    pass
+
+        except Exception:
+            pass
+
+        await page.wait_for_timeout(
+            15000
+        )
+
+    except Exception as e:
+
+        print(
+            "BŁĄD STRONY:",
+            type(e).__name__,
+            str(e),
+        )
+
+    finally:
+
+        await context.close()
+
+    return found
+
+
+def load_cameras():
+
+    cameras = []
+    seen = set()
+
+    if PLAYLIST_FILE.exists():
+
+        text = PLAYLIST_FILE.read_text(
+            encoding="utf-8"
+        )
+
+        lines = text.splitlines()
+
+        for index, line in enumerate(lines):
+
+            match = EARTHCAM_RE.search(
+                line
             )
 
-            return (
-                candidates,
-                source_page,
+            if not match:
+                continue
+
+            url = match.group(0)
+
+            parsed = urlparse(url)
+            params = parse_qs(
+                parsed.query
             )
 
-    return [], None
+            # Tutaj interesują nas tylko
+            # tokenizowane EarthCam.
+            if (
+                "t" not in params
+                and "td" not in params
+            ):
+                continue
+
+            if url in seen:
+                continue
+
+            seen.add(url)
+
+            cameras.append({
+                "name":
+                    get_name(
+                        lines,
+                        index
+                    ),
+                "url": url,
+                "source": "M3U",
+            })
+
+    # Dodajemy ręczne przykłady,
+    # jeżeli jeszcze nie występują w M3U.
+
+    for name, url in MANUAL_URLS:
+
+        if url in seen:
+            continue
+
+        seen.add(url)
+
+        cameras.append({
+            "name": name,
+            "url": url,
+            "source": "RĘCZNY TEST",
+        })
+
+    return cameras
 
 
 async def main():
 
-    text = PLAYLIST_FILE.read_text(
-        encoding="utf-8"
-    )
-
-    lines = text.splitlines()
-
-    cameras = []
-
-    seen = set()
-
-    for index, line in enumerate(lines):
-
-        match = EARTHCAM_RE.search(
-            line
-        )
-
-        if not match:
-            continue
-
-        url = match.group(0)
-        stream = match.group("stream")
-        host = match.group("host")
-
-        key = (
-            stream,
-            url,
-        )
-
-        if key in seen:
-            continue
-
-        seen.add(key)
-
-        cameras.append({
-            "name":
-                get_camera_name(
-                    lines,
-                    index
-                ),
-            "url": url,
-            "stream": stream,
-            "host": host,
-        })
+    cameras = load_cameras()
 
     print()
     print("#" * 78)
-    print("TEST EARTHCAM")
+    print(
+        "TEST TOKENIZOWANYCH EARTHCAM"
+    )
     print("#" * 78)
 
     print(
-        "Znalezionych kamer EarthCam:",
+        "Znalezionych/testowanych:",
         len(cameras)
     )
 
-    session = requests.Session()
+    if not cameras:
+        return
 
-    current_ok = 0
-    fresh_ok = 0
-    fresh_failed = 0
-    no_capture = 0
+    session = requests.Session()
 
     async with async_playwright() as p:
 
@@ -709,195 +709,221 @@ async def main():
             )
 
             print(
-                "STREAM:",
-                camera["stream"]
+                "ŹRÓDŁO:",
+                camera["source"]
             )
 
+            print()
             print(
-                "OBECNY URL:"
+                "OBECNY TOKENIZOWANY URL:"
             )
 
             print(
                 camera["url"]
             )
 
-            parsed = urlparse(
+            print()
+
+            print_token_info(
+                camera["url"]
+            )
+
+            stream = get_stream_id(
                 camera["url"]
             )
 
             print(
-                "TOKEN W URL:",
-                (
-                    "TAK"
-                    if parsed.query
-                    else "NIE"
+                "STREAM ID:",
+                stream
+            )
+
+            official_page = (
+                OFFICIAL_PAGES.get(
+                    stream
                 )
             )
 
-            # Referer dla 7132 = oficjalna strona.
-            # Dla innych użyjemy playera.
-
-            pages = player_pages(
-                camera["stream"]
+            referer = (
+                official_page
+                or
+                "https://www.earthcam.com/"
             )
 
-            referer = pages[0]
+            # ----------------------------------
+            # TEST TOKENU
+            # ----------------------------------
 
-            result = check_hls(
+            print()
+            print(
+                "TEST Z TOKENEM:"
+            )
+
+            token_result = check_hls(
                 session,
                 camera["url"],
                 referer,
             )
 
-            print()
             print(
-                "OBECNY HLS:",
-                result["status"],
+                token_result["status"],
                 "| segmenty:",
-                result["segments"],
+                token_result["segments"],
             )
 
-            if result["ok"]:
-                current_ok += 1
+            # ----------------------------------
+            # TEST BEZ TOKENU
+            # ----------------------------------
 
-            # Jeżeli URL jest tokenizowany
-            # albo nie działa,
-            # próbujemy uzyskać świeży.
+            plain_url = strip_query(
+                camera["url"]
+            )
+
+            print()
+            print(
+                "TEST BEZ TOKENU:"
+            )
+
+            print(
+                plain_url
+            )
+
+            plain_result = check_hls(
+                session,
+                plain_url,
+                referer,
+            )
+
+            print(
+                plain_result["status"],
+                "| segmenty:",
+                plain_result["segments"],
+            )
 
             if (
-                parsed.query
-                or not result["ok"]
+                token_result["ok"]
+                and not plain_result["ok"]
             ):
 
                 print()
                 print(
-                    ">>> PRÓBUJĘ UZYSKAĆ "
-                    "ŚWIEŻY HLS <<<"
+                    ">>> TOKEN JEST "
+                    "WYMAGANY <<<"
                 )
 
-                (
-                    captured,
-                    source_page,
-                ) = await capture_hls(
-                    browser,
-                    camera["stream"],
+            elif (
+                plain_result["ok"]
+            ):
+
+                print()
+                print(
+                    ">>> TOKEN NIE JEST "
+                    "OBECNIE POTRZEBNY <<<"
                 )
 
-                if not captured:
+            # ----------------------------------
+            # PRZECHWYCENIE ŚWIEŻEGO
+            # ----------------------------------
 
-                    print()
-                    print(
-                        "NIE PRZECHWYCONO "
-                        "NOWEGO HLS."
+            if not official_page:
+
+                print()
+                print(
+                    "Brak przypisanej "
+                    "oficjalnej strony."
+                )
+
+                print(
+                    "Nie mogę automatycznie "
+                    "pobrać nowego tokenu."
+                )
+
+                continue
+
+            captured = await capture_fresh(
+                browser,
+                stream,
+                official_page,
+            )
+
+            if not captured:
+
+                print()
+                print(
+                    ">>> NIE PRZECHWYCONO "
+                    "ŚWIEŻEGO HLS <<<"
+                )
+
+                continue
+
+            working = []
+
+            for candidate in captured:
+
+                print()
+                print("-" * 78)
+
+                print(
+                    "KANDYDAT:"
+                )
+
+                print(candidate)
+
+                print_token_info(
+                    candidate
+                )
+
+                result = check_hls(
+                    session,
+                    candidate,
+                    official_page,
+                )
+
+                print(
+                    "TEST:",
+                    result["status"],
+                    "| segmenty:",
+                    result["segments"],
+                )
+
+                if result["ok"]:
+                    working.append(
+                        candidate
                     )
 
-                    no_capture += 1
-                    continue
+            if not working:
 
-                working = None
+                print()
+                print(
+                    ">>> ŻADEN "
+                    "PRZECHWYCONY HLS "
+                    "NIE DZIAŁA <<<"
+                )
 
-                for candidate in captured:
+                continue
 
-                    print()
-                    print(
-                        "TEST NOWEGO:"
-                    )
+            print()
+            print("#" * 78)
 
-                    print(candidate)
+            print(
+                "DZIAŁAJĄCE ŚWIEŻE HLS:"
+            )
 
-                    fresh_result = (
-                        check_hls(
-                            session,
-                            candidate,
-                            source_page,
-                        )
-                    )
+            for candidate in working:
 
-                    print(
-                        fresh_result[
-                            "status"
-                        ],
-                        "| segmenty:",
-                        fresh_result[
-                            "segments"
-                        ],
-                    )
+                print()
+                print(candidate)
 
-                    if fresh_result["ok"]:
+            print()
+            print(
+                "SKOPIUJ PIERWSZY ADRES "
+                "I SPRAWDŹ GO W "
+                "M3U-IP.TV PO "
+                "ZAKOŃCZENIU ACTION."
+            )
 
-                        working = candidate
-                        break
-
-                if working:
-
-                    fresh_ok += 1
-
-                    print()
-                    print(
-                        ">>> ŚWIEŻY HLS "
-                        "DZIAŁA <<<"
-                    )
-
-                    print()
-                    print(
-                        "URL DO TESTU "
-                        "W M3U-IP.TV:"
-                    )
-
-                    print(working)
-
-                    # Porównanie tokenu.
-
-                    if (
-                        working
-                        != camera["url"]
-                    ):
-
-                        print()
-                        print(
-                            "TOKEN/URL JEST "
-                            "INNY NIŻ W M3U."
-                        )
-
-                else:
-
-                    fresh_failed += 1
-
-                    print()
-                    print(
-                        "PRZECHWYCONO HLS, "
-                        "ALE TEST NIE PRZESZEDŁ."
-                    )
+            print("#" * 78)
 
         await browser.close()
-
-    print()
-    print("#" * 78)
-    print("PODSUMOWANIE EARTHCAM")
-    print("#" * 78)
-
-    print(
-        "Obecne HLS działają:",
-        current_ok
-    )
-
-    print(
-        "Świeże HLS przechwycone "
-        "i działają:",
-        fresh_ok
-    )
-
-    print(
-        "Przechwycone, ale nie działają:",
-        fresh_failed
-    )
-
-    print(
-        "Nie udało się przechwycić:",
-        no_capture
-    )
-
-    print("#" * 78)
 
 
 if __name__ == "__main__":
