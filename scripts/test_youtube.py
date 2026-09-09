@@ -33,7 +33,6 @@ def get_info():
 
     VIDEO_URL,
 ]
-
     result = subprocess.run(
         cmd,
         capture_output=True,
