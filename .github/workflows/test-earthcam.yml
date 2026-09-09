@@ -1,0 +1,27 @@
+name: TEST EarthCam
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-earthcam:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v4
+
+      - name: Ustaw Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Zainstaluj biblioteki
+        run: |
+          pip install requests playwright
+          playwright install --with-deps chromium
+
+      - name: Test EarthCam
+        run: python scripts/test_earthcam.py
