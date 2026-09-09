@@ -1,4 +1,5 @@
 #EXTM3U
+#FORECASTWEATHER-REFRESH:2026090909
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swinoujscie-pl.svg" group-title="Miasta",Świnoujście - Kamera obrotowa
 https://ls.tkchopin.pl:9043/live/swinoujscie_centrum_obrotowa.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swinoujscie-pl.svg" group-title="Miasta",Świnoujście - Widok z latarni morskiej
@@ -4719,23 +4720,23 @@ https://cdn-007.whatsupcams.com/hls/mk_ohrid01.m3u8
 #EXTINF:-1 group-title="TEST", Węgry - Uniwersytet w Debreczynie
 https://mms.iptv.unideb.hu/ipcam/ipcam.sport.stream/playlist.m3u8
 #EXTINF:-1 group-title="TEST", Grecja - Port Rafinia
-https://streaming.forecastweather.gr:8090/live/rafinacamport/playlist.m3u8
+https://streaming.forecastweather.gr:8090/live/rafinacamport/playlist.m3u8?refresh=2026090909
 #EXTINF:-1 group-title="TEST", Grecja - Plac Syntagma - Ateny
-https://streaming.forecastweather.gr:8090/live/plateiasyntagmatos/playlist.m3u8
+https://streaming.forecastweather.gr:8090/live/plateiasyntagmatos/playlist.m3u8?refresh=2026090909
 #EXTINF:-1 group-title="TEST", Grecja - Plac Centralny w Vilii
-https://streaming.forecastweather.gr:8090/live/viliaplateiacam/playlist.m3u8
+https://streaming.forecastweather.gr:8090/live/viliaplateiacam/playlist.m3u8?refresh=2026090909
 #EXTINF:-1 group-title="TEST", Grecja - Góra Athos
-https://streaming.forecastweather.gr:8090/live/mtathos/playlist.m3u8
+https://streaming.forecastweather.gr:8090/live/mtathos/playlist.m3u8?refresh=2026090909
 #EXTINF:-1 group-title="TEST", Grecja - Góra Olimp
-https://streaming.forecastweather.gr:8090/live/olymposstefanicam/playlist.m3u8
+https://streaming.forecastweather.gr:8090/live/olymposstefanicam/playlist.m3u8?refresh=2026090909
 #EXTINF:-1 group-title="TEST", Grecja - Tilos
-https://streaming.forecastweather.gr:8090/live/tiloscamport/playlist.m3u8
+https://streaming.forecastweather.gr:8090/live/tiloscamport/playlist.m3u8?refresh=2026090909
 #EXTINF:-1 group-title="TEST", Grecja - Ote
-https://streaming.forecastweather.gr:8090/live/voloskeraiaote/playlist.m3u8
+https://streaming.forecastweather.gr:8090/live/voloskeraiaote/playlist.m3u8?refresh=2026090909
 #EXTINF:-1 group-title="TEST", Grecja - Posąg Posejdona
-https://streaming.forecastweather.gr:8090/live/agalmaposeidonacam/playlist.m3u8
+https://streaming.forecastweather.gr:8090/live/agalmaposeidonacam/playlist.m3u8?refresh=2026090909
 #EXTINF:-1 group-title="TEST", Grecja - Limnos
-https://streaming.forecastweather.gr:8090/live/lgdabiaapartments/playlist.m3u8
+https://streaming.forecastweather.gr:8090/live/lgdabiaapartments/playlist.m3u8?refresh=2026090909
 #EXTINF:-1 group-title="TEST", Brama Morska Rodos
 https://hd-auth.skylinewebcams.com/live.m3u8?a=9gfb5rqo9slb57ilqng1je9p33
 #EXTINF:-1 group-title="TEST", Nowy Sącz, widok na skrzyżowanie ulic Długosza, Rejtana, Nawojowskiej i Grodzkiej
