@@ -19,10 +19,20 @@ USER_AGENT = (
 
 def get_info():
     cmd = [
-        "yt-dlp",
-        "--no-warnings",
-        "--dump-single-json",
-        VIDEO_URL,
+    "yt-dlp",
+
+    "--verbose",
+
+    "--js-runtimes",
+    "node",
+
+    "--remote-components",
+    "ejs:github",
+
+    "--dump-single-json",
+
+    VIDEO_URL,
+]
     ]
 
     result = subprocess.run(
