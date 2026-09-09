@@ -4722,11 +4722,6 @@ https://mms.iptv.unideb.hu/ipcam/ipcam.sport.stream/playlist.m3u8
 #EXTINF:-1 group-title="TEST", Grecja - Port Rafinia
 https://streaming.forecastweather.gr:8090/live/rafinacamport/playlist.m3u8?refresh=2026090909
 #EXTINF:-1 group-title="TEST", Grecja - Plac Syntagma - Ateny
-#EXTINF:-1 group-title="Kamery Grecja",Grecja - Plac Syntagma - Ateny
-#EXTVLCOPT:http-referrer=https://www.forecastweather.gr/
-#EXTVLCOPT:http-origin=https://www.forecastweather.gr
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https%3A%2F%2Fwww.forecastweather.gr%2F&Origin=https%3A%2F%2Fwww.forecastweather.gr&User-Agent=Mozilla%2F5.0
 https://streaming.forecastweather.gr:8090/live/plateiasyntagmatos/playlist.m3u8
 #EXTINF:-1 group-title="TEST", Grecja - Plac Centralny w Vilii
 https://streaming.forecastweather.gr:8090/live/viliaplateiacam/playlist.m3u8?refresh=2026090909
