@@ -1,13 +1,11 @@
-import asyncio
 import pathlib
 import re
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from urllib.parse import urljoin, urlparse
+import time
+import hashlib
+from urllib.parse import urljoin
 
 import requests
 import urllib3
-from bs4 import BeautifulSoup
-from playwright.async_api import async_playwright
 
 
 urllib3.disable_warnings(
@@ -18,10 +16,7 @@ PLAYLIST_FILE = pathlib.Path(
     "Kamery-pogodowe.m3u8"
 )
 
-BASE = "https://www.forecastweather.gr"
-CAMERAS_HOME = (
-    "https://www.forecastweather.gr/kameres.html"
-)
+WAIT_SECONDS = 20
 
 USER_AGENT = (
     "Mozilla/5.0 "
@@ -34,24 +29,16 @@ USER_AGENT = (
 HEADERS = {
     "User-Agent": USER_AGENT,
     "Accept": "*/*",
+    "Referer": "https://www.forecastweather.gr/",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
 }
-
-# np.
-# https://streaming.forecastweather.gr:8090/
-# live/voloskeraiaote/playlist.m3u8
 
 FORECAST_RE = re.compile(
     r"https?://streaming\.forecastweather\.gr"
     r":8090/live/"
     r"([^/?#\s]+)/playlist\.m3u8"
     r"(?:\?[^\s]*)?",
-    re.IGNORECASE,
-)
-
-STREAM_IN_HTML_RE = re.compile(
-    r"https?://streaming\.forecastweather\.gr"
-    r":8090/live/"
-    r"([^/'\"?<>\s]+)/playlist\.m3u8",
     re.IGNORECASE,
 )
 
@@ -72,178 +59,141 @@ def camera_name(lines, index):
     return line.split(",", 1)[1].strip()
 
 
-def get_text(session, url, timeout=15):
+def get_playlist(session, url):
 
     try:
 
         response = session.get(
             url,
             headers=HEADERS,
-            timeout=timeout,
-            allow_redirects=True,
-            verify=False,
-        )
-
-        if response.status_code != 200:
-            return None
-
-        return response.text
-
-    except Exception:
-        return None
-
-
-def test_segment(session, url, referer):
-
-    try:
-
-        headers = HEADERS.copy()
-        headers["Referer"] = referer
-        headers["Range"] = "bytes=0-1023"
-
-        response = session.get(
-            url,
-            headers=headers,
-            timeout=12,
-            allow_redirects=True,
-            verify=False,
-            stream=True,
-        )
-
-        return response.status_code in (
-            200,
-            206,
-        )
-
-    except Exception:
-        return False
-
-
-def check_hls(
-    session,
-    url,
-    referer=BASE,
-    depth=0,
-):
-
-    if depth > 3:
-
-        return {
-            "ok": False,
-            "status": "ZA DUŻO POZIOMÓW",
-            "segments": 0,
-        }
-
-    try:
-
-        headers = HEADERS.copy()
-        headers["Referer"] = referer
-
-        response = session.get(
-            url,
-            headers=headers,
             timeout=15,
             allow_redirects=True,
             verify=False,
         )
 
+        if response.status_code != 200:
+
+            return None, (
+                f"HTTP {response.status_code}"
+            )
+
+        if "#EXTM3U" not in response.text:
+
+            return None, "BRAK #EXTM3U"
+
+        return response, "OK"
+
     except Exception as e:
 
+        return None, (
+            f"{type(e).__name__}: {e}"
+        )
+
+
+def resolve_media_playlist(
+    session,
+    url,
+    depth=0,
+):
+
+    if depth > 3:
+        return None
+
+    response, status = get_playlist(
+        session,
+        url,
+    )
+
+    if response is None:
         return {
             "ok": False,
-            "status": f"ERROR: {e}",
-            "segments": 0,
+            "status": status,
         }
 
-    if response.status_code != 200:
-
-        return {
-            "ok": False,
-            "status": (
-                f"HTTP {response.status_code}"
-            ),
-            "segments": 0,
-        }
-
-    text = response.text
-
-    if "#EXTM3U" not in text:
-
-        return {
-            "ok": False,
-            "status": "BRAK #EXTM3U",
-            "segments": 0,
-        }
-
-    plines = [
+    lines = [
         x.strip()
-        for x in text.splitlines()
+        for x in response.text.splitlines()
         if x.strip()
     ]
 
-    # MASTER
+    # MASTER PLAYLIST
 
     if any(
         x.startswith("#EXT-X-STREAM-INF")
-        for x in plines
+        for x in lines
     ):
 
-        children = []
+        variants = []
 
-        for i, line in enumerate(plines):
+        for i, line in enumerate(lines):
 
             if not line.startswith(
                 "#EXT-X-STREAM-INF"
             ):
                 continue
 
-            if i + 1 >= len(plines):
+            if i + 1 >= len(lines):
                 continue
 
-            child = plines[i + 1]
+            child = lines[i + 1]
 
             if child.startswith("#"):
                 continue
 
-            children.append(
+            variants.append(
                 urljoin(
                     response.url,
-                    child
+                    child,
                 )
             )
 
-        for child in children:
+        for child in variants:
 
-            result = check_hls(
+            result = resolve_media_playlist(
                 session,
                 child,
-                referer,
                 depth + 1,
             )
 
-            if result["ok"]:
+            if result and result.get("ok"):
                 return result
 
         return {
             "ok": False,
             "status": (
-                "MASTER BEZ "
-                "DZIAŁAJĄCEGO WARIANTU"
+                "MASTER BEZ DZIAŁAJĄCEGO "
+                "WARIANTU"
             ),
-            "segments": 0,
         }
 
-    # MEDIA
+    # MEDIA PLAYLIST
 
-    extinf_count = sum(
-        1
-        for line in plines
-        if line.startswith("#EXTINF:")
-    )
+    sequence = None
+    program_date_time = None
+
+    for line in lines:
+
+        if line.startswith(
+            "#EXT-X-MEDIA-SEQUENCE:"
+        ):
+
+            try:
+                sequence = int(
+                    line.split(":", 1)[1]
+                )
+            except Exception:
+                pass
+
+        if line.startswith(
+            "#EXT-X-PROGRAM-DATE-TIME:"
+        ):
+            program_date_time = (
+                line.split(":", 1)[1]
+            )
 
     segments = []
 
-    for line in plines:
+    for line in lines:
 
         if line.startswith("#"):
             continue
@@ -258,347 +208,143 @@ def check_hls(
             )
         )
 
-    if (
-        not segments
-        or extinf_count == 0
-    ):
+    if not segments:
 
         return {
             "ok": False,
-            "status": "M3U8 BEZ SEGMENTÓW",
-            "segments": 0,
+            "status": "BRAK SEGMENTÓW",
         }
 
-    # sprawdzamy najnowsze segmenty
+    last_segment = segments[-1]
 
-    for segment in segments[-3:]:
+    # Pobieramy kawałek ostatniego segmentu
+    # i robimy jego hash.
 
-        if test_segment(
-            session,
-            segment,
-            referer,
-        ):
-
-            return {
-                "ok": True,
-                "status": "OK",
-                "segments": extinf_count,
-            }
-
-    return {
-        "ok": False,
-        "status": (
-            "PLAYLISTA JEST, "
-            "ALE SEGMENTY NIE DZIAŁAJĄ"
-        ),
-        "segments": extinf_count,
-    }
-
-
-def forecast_page_link(url):
+    segment_hash = None
+    segment_status = None
 
     try:
-        parsed = urlparse(url)
 
-        if (
-            parsed.netloc
-            != "www.forecastweather.gr"
-        ):
-            return False
+        h = HEADERS.copy()
+        h["Range"] = "bytes=0-65535"
 
-        path = parsed.path.lower()
-
-        if "/kameres/" not in path:
-            return False
-
-        if not path.endswith(".html"):
-            return False
-
-        return True
-
-    except Exception:
-        return False
-
-
-def extract_links(html, base_url):
-
-    soup = BeautifulSoup(
-        html,
-        "html.parser"
-    )
-
-    urls = set()
-
-    for anchor in soup.find_all(
-        "a",
-        href=True
-    ):
-
-        url = urljoin(
-            base_url,
-            anchor["href"]
-        )
-
-        if forecast_page_link(url):
-            urls.add(url)
-
-    return urls
-
-
-def discover_camera_pages(session):
-
-    print()
-    print(
-        "Pobieram katalog kamer "
-        "ForecastWeather..."
-    )
-
-    home_html = get_text(
-        session,
-        CAMERAS_HOME
-    )
-
-    if not home_html:
-
-        print(
-            "Nie udało się pobrać "
-            "katalogu kamer."
-        )
-
-        return []
-
-    first_level = extract_links(
-        home_html,
-        CAMERAS_HOME
-    )
-
-    print(
-        "Linków pierwszego poziomu:",
-        len(first_level)
-    )
-
-    all_pages = set(first_level)
-
-    # Przeglądamy strony regionów,
-    # aby znaleźć strony konkretnych kamer.
-
-    with ThreadPoolExecutor(
-        max_workers=10
-    ) as executor:
-
-        futures = {
-            executor.submit(
-                get_text,
-                session,
-                url,
-            ): url
-            for url in first_level
-        }
-
-        for future in as_completed(futures):
-
-            url = futures[future]
-
-            try:
-                html = future.result()
-            except Exception:
-                continue
-
-            if not html:
-                continue
-
-            all_pages.update(
-                extract_links(
-                    html,
-                    url
-                )
-            )
-
-    print(
-        "Łącznie znalezionych "
-        "stron kamer/regionów:",
-        len(all_pages)
-    )
-
-    return sorted(all_pages)
-
-
-def map_streams_to_pages(
-    session,
-    pages,
-    wanted_streams,
-):
-
-    mapping = {}
-
-    wanted = set(wanted_streams)
-
-    print()
-    print(
-        "Szukam strumieni na "
-        "oficjalnych stronach..."
-    )
-
-    def inspect_page(url):
-
-        html = get_text(
-            session,
-            url,
+        r = session.get(
+            last_segment,
+            headers=h,
             timeout=15,
+            verify=False,
+            allow_redirects=True,
         )
 
-        if not html:
-            return url, []
+        segment_status = r.status_code
 
-        found = STREAM_IN_HTML_RE.findall(
-            html
-        )
+        if r.status_code in (200, 206):
 
-        return url, found
-
-    with ThreadPoolExecutor(
-        max_workers=12
-    ) as executor:
-
-        futures = [
-            executor.submit(
-                inspect_page,
-                url
-            )
-            for url in pages
-        ]
-
-        for future in as_completed(futures):
-
-            try:
-                url, found = future.result()
-            except Exception:
-                continue
-
-            for stream_id in found:
-
-                if stream_id not in wanted:
-                    continue
-
-                if stream_id not in mapping:
-
-                    mapping[stream_id] = url
-
-                    print(
-                        "  MAPA:",
-                        stream_id
-                    )
-
-                    print(
-                        "   ",
-                        url
-                    )
-
-    return mapping
-
-
-async def capture_from_page(
-    browser,
-    page_url,
-):
-
-    context = await browser.new_context(
-        user_agent=USER_AGENT,
-        viewport={
-            "width": 1280,
-            "height": 800,
-        },
-    )
-
-    page = await context.new_page()
-
-    found = []
-
-    def inspect_request(request):
-
-        url = request.url
-
-        lower = url.lower()
-
-        if ".m3u8" not in lower:
-            return
-
-        if (
-            "forecastweather.gr"
-            not in lower
-        ):
-            return
-
-        if url not in found:
-
-            found.append(url)
-
-            print(
-                "  PRZECHWYCONO:"
-            )
-
-            print(
-                "   ",
-                url
-            )
-
-    page.on(
-        "request",
-        inspect_request
-    )
-
-    try:
-
-        await page.goto(
-            page_url,
-            wait_until="domcontentloaded",
-            timeout=60000,
-        )
-
-        await page.wait_for_timeout(
-            3000
-        )
-
-        try:
-
-            await page.evaluate(
-                """
-                () => {
-                    const videos =
-                        document.querySelectorAll(
-                            'video'
-                        );
-
-                    for (const v of videos) {
-                        v.muted = true;
-                        v.play().catch(() => {});
-                    }
-                }
-                """
-            )
-
-        except Exception:
-            pass
-
-        await page.wait_for_timeout(
-            10000
-        )
+            segment_hash = hashlib.sha256(
+                r.content[:65536]
+            ).hexdigest()
 
     except Exception as e:
 
+        segment_status = str(e)
+
+    return {
+        "ok": (
+            segment_hash is not None
+        ),
+        "status": (
+            "OK"
+            if segment_hash
+            else "SEGMENT NIE DZIAŁA"
+        ),
+        "media_url": response.url,
+        "sequence": sequence,
+        "segments": segments,
+        "last_segment": last_segment,
+        "hash": segment_hash,
+        "program_date_time": (
+            program_date_time
+        ),
+        "segment_status": (
+            segment_status
+        ),
+    }
+
+
+def snapshot(session, cameras):
+
+    result = {}
+
+    for camera in cameras:
+
+        print()
         print(
-            "  BŁĄD strony:",
-            e
+            "Sprawdzam:",
+            camera["name"],
         )
 
-    finally:
+        data = resolve_media_playlist(
+            session,
+            camera["url"],
+        )
 
-        await context.close()
+        result[
+            camera["stream_id"]
+        ] = data
 
-    return found
+        print(
+            " Status:",
+            data.get("status")
+        )
+
+        if data.get("ok"):
+
+            print(
+                " Media sequence:",
+                data.get("sequence")
+            )
+
+            print(
+                " Segmentów:",
+                len(
+                    data.get(
+                        "segments",
+                        []
+                    )
+                )
+            )
+
+            print(
+                " Ostatni segment:"
+            )
+
+            print(
+                " ",
+                data.get(
+                    "last_segment"
+                )
+            )
+
+            print(
+                " Hash:",
+                data.get("hash")
+            )
+
+            if data.get(
+                "program_date_time"
+            ):
+
+                print(
+                    " Program-Date-Time:",
+                    data[
+                        "program_date_time"
+                    ]
+                )
+
+    return result
 
 
-async def main():
+def main():
 
     text = PLAYLIST_FILE.read_text(
         encoding="utf-8"
@@ -621,23 +367,15 @@ async def main():
 
         stream_id = match.group(1)
 
-        if (
-            stream_id,
-            line.strip()
-        ) in seen:
+        if stream_id in seen:
             continue
 
-        seen.add(
-            (
-                stream_id,
-                line.strip()
-            )
-        )
+        seen.add(stream_id)
 
         cameras.append({
             "name": camera_name(
                 lines,
-                index
+                index,
             ),
             "stream_id": stream_id,
             "url": line.strip(),
@@ -645,7 +383,10 @@ async def main():
 
     print()
     print("#" * 80)
-    print("TEST FORECASTWEATHER.GR")
+    print(
+        "TEST RZECZYWISTEGO LIVE "
+        "FORECASTWEATHER.GR"
+    )
     print("#" * 80)
 
     print(
@@ -655,254 +396,171 @@ async def main():
 
     session = requests.Session()
 
-    # Najpierw testujemy obecne HLS.
+    print()
+    print("=" * 80)
+    print("POMIAR NR 1")
+    print("=" * 80)
+
+    first = snapshot(
+        session,
+        cameras,
+    )
+
+    print()
+    print(
+        f"Czekam {WAIT_SECONDS} sekund..."
+    )
+
+    time.sleep(WAIT_SECONDS)
+
+    print()
+    print("=" * 80)
+    print("POMIAR NR 2")
+    print("=" * 80)
+
+    second = snapshot(
+        session,
+        cameras,
+    )
+
+    moving = 0
+    frozen = 0
+    offline = 0
+
+    print()
+    print("#" * 80)
+    print("WYNIKI")
+    print("#" * 80)
 
     for camera in cameras:
 
-        camera["current_result"] = (
-            check_hls(
-                session,
-                camera["url"],
-            )
+        sid = camera["stream_id"]
+
+        a = first.get(sid, {})
+        b = second.get(sid, {})
+
+        print()
+        print(
+            "KAMERA:",
+            camera["name"]
         )
 
-    # Szukamy odpowiadających stron
-    # w oficjalnym katalogu.
-
-    pages = discover_camera_pages(
-        session
-    )
-
-    mapping = map_streams_to_pages(
-        session,
-        pages,
-        [
-            c["stream_id"]
-            for c in cameras
-        ],
-    )
-
-    same_hls = 0
-    other_hls = 0
-    direct_only = 0
-    offline = 0
-    no_page = 0
-
-    async with async_playwright() as p:
-
-        browser = await p.chromium.launch(
-            headless=True,
-            args=[
-                "--autoplay-policy="
-                "no-user-gesture-required"
-            ],
-        )
-
-        for number, camera in enumerate(
-            cameras,
-            start=1,
+        if (
+            not a.get("ok")
+            or not b.get("ok")
         ):
 
-            print()
-            print("=" * 80)
-
             print(
-                f"[{number}/{len(cameras)}]"
+                ">>> OFFLINE / BŁĄD <<<"
             )
 
             print(
-                "KAMERA:",
-                camera["name"]
+                "Pomiar 1:",
+                a.get("status")
             )
 
             print(
-                "STREAM ID:",
-                camera["stream_id"]
+                "Pomiar 2:",
+                b.get("status")
             )
+
+            offline += 1
+            continue
+
+        seq_changed = (
+            a.get("sequence")
+            != b.get("sequence")
+        )
+
+        segment_changed = (
+            a.get("last_segment")
+            != b.get("last_segment")
+        )
+
+        hash_changed = (
+            a.get("hash")
+            != b.get("hash")
+        )
+
+        time_changed = (
+            a.get("program_date_time")
+            != b.get("program_date_time")
+        )
+
+        print(
+            "Sequence:",
+            a.get("sequence"),
+            "->",
+            b.get("sequence"),
+        )
+
+        print(
+            "Zmienił się segment:",
+            segment_changed
+        )
+
+        print(
+            "Zmienił się hash:",
+            hash_changed
+        )
+
+        if (
+            a.get("program_date_time")
+            or b.get("program_date_time")
+        ):
 
             print(
-                "OBECNY URL:"
+                "Zmienił się czas HLS:",
+                time_changed
             )
+
+        if (
+            seq_changed
+            or segment_changed
+            or hash_changed
+            or time_changed
+        ):
 
             print(
-                camera["url"]
+                ">>> TRANSMISJA "
+                "ODŚWIEŻA SIĘ <<<"
             )
 
-            result = camera[
-                "current_result"
-            ]
+            moving += 1
+
+        else:
 
             print(
-                "OBECNY HLS:",
-                result["status"],
-                "| segmenty:",
-                result["segments"],
+                ">>> UWAGA: "
+                "TRANSMISJA STOI <<<"
             )
 
-            source_page = mapping.get(
-                camera["stream_id"]
-            )
-
-            if not source_page:
-
-                print()
-                print(
-                    "Nie znaleziono "
-                    "oficjalnej strony kamery."
-                )
-
-                if result["ok"]:
-                    direct_only += 1
-                else:
-                    no_page += 1
-
-                continue
-
-            print()
-            print(
-                "OFICJALNA STRONA:"
-            )
-
-            print(source_page)
-
-            print()
-            print(
-                "Przechwytuję player..."
-            )
-
-            captured = await capture_from_page(
-                browser,
-                source_page,
-            )
-
-            working = []
-
-            for captured_url in captured:
-
-                captured_result = check_hls(
-                    session,
-                    captured_url,
-                    source_page,
-                )
-
-                print()
-                print(
-                    "CAPTURED:"
-                )
-
-                print(captured_url)
-
-                print(
-                    captured_result["status"],
-                    "| segmenty:",
-                    captured_result[
-                        "segments"
-                    ],
-                )
-
-                if captured_result["ok"]:
-
-                    working.append(
-                        captured_url
-                    )
-
-            print()
-            print("-" * 80)
-
-            if working:
-
-                normalized_current = (
-                    camera["url"]
-                    .split("?", 1)[0]
-                )
-
-                same = any(
-                    url.split("?", 1)[0]
-                    == normalized_current
-                    for url in working
-                )
-
-                if same:
-
-                    print(
-                        "WYNIK: STRONA UŻYWA "
-                        "TEGO SAMEGO HLS"
-                    )
-
-                    same_hls += 1
-
-                else:
-
-                    print(
-                        "WYNIK: STRONA UŻYWA "
-                        "INNEGO DZIAŁAJĄCEGO HLS"
-                    )
-
-                    for url in working:
-                        print(
-                            " ",
-                            url
-                        )
-
-                    other_hls += 1
-
-            else:
-
-                if result["ok"]:
-
-                    print(
-                        "WYNIK: BEZPOŚREDNI HLS "
-                        "DZIAŁA, ALE PLAYER "
-                        "NIC NIE PRZECHWYCIŁ"
-                    )
-
-                    direct_only += 1
-
-                else:
-
-                    print(
-                        "WYNIK: KAMERA "
-                        "PRAWDOPODOBNIE OFFLINE"
-                    )
-
-                    offline += 1
-
-        await browser.close()
+            frozen += 1
 
     print()
     print("#" * 80)
     print(
-        "PODSUMOWANIE FORECASTWEATHER"
+        "PODSUMOWANIE FORECASTWEATHER LIVE"
     )
     print("#" * 80)
 
     print(
-        "Strona używa tego samego HLS:",
-        same_hls
+        "Odświeża się:",
+        moving
     )
 
     print(
-        "Strona używa innego HLS:",
-        other_hls
+        "Stoi / stare segmenty:",
+        frozen
     )
 
     print(
-        "Działa tylko bezpośredni HLS:",
-        direct_only
-    )
-
-    print(
-        "Prawdopodobnie offline:",
+        "Offline / błąd:",
         offline
     )
 
-    print(
-        "Brak dopasowanej strony "
-        "i HLS nie działa:",
-        no_page
-    )
-
     print("#" * 80)
 
 
-asyncio.run(main())
+if __name__ == "__main__":
+    main()
