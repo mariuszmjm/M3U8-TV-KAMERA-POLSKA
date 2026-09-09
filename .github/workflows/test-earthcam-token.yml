@@ -1,0 +1,27 @@
+name: TEST EarthCam token
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-earthcam-token:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v4
+
+      - name: Ustaw Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Zainstaluj biblioteki
+        run: |
+          pip install requests playwright
+          playwright install --with-deps chromium
+
+      - name: Test tokenizowanego EarthCam
+        run: python scripts/test_earthcam_token.py
