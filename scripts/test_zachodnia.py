@@ -1,3 +1,8 @@
+import urllib3
+
+urllib3.disable_warnings(
+    urllib3.exceptions.InsecureRequestWarning
+)
 import asyncio
 import requests
 from playwright.async_api import async_playwright
@@ -25,10 +30,12 @@ def test_hls(url):
 
     try:
         r = requests.get(
-            url,
-            headers=headers,
-            timeout=20,
-            allow_redirects=True,
+    url,
+    headers=headers,
+    timeout=20,
+    allow_redirects=True,
+    verify=False,
+)
         )
     except Exception as e:
         print("BŁĄD:", repr(e))
