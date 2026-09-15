@@ -19,6 +19,11 @@ PLAYLIST_FILE = pathlib.Path("Kamery-pogodowe.m3u8")
 # ============================================================
 
 CAMERAS = {
+
+    # =========================================================
+    # DOTYCHCZASOWE KAMERY
+    # =========================================================
+
     "Krynica Morska - Hotel Kahlberg": [
         "5958e21475225"
     ],
@@ -29,8 +34,161 @@ CAMERAS = {
 
     "Słowenia - Zamek Ptuj": [
         "ptujcastlecam"
-     ],
-   
+    ],
+
+
+    # =========================================================
+    # NOWE KAMERY IPCAMLIVE
+    # =========================================================
+
+    "Anglia - Cotswold Airport": [
+        "cotswold"
+    ],
+
+    "Anglia - Pagham Beach": [
+        "6654f97b9fdf3"
+    ],
+
+    "Australia - Darwin Harbour": [
+        "69421e5731fe2"
+    ],
+
+    "Botswana - Chobe River": [
+        "57053402af5ea"
+    ],
+
+    "Cedar Cove Resort": [
+        "cedarcoveresort"
+    ],
+
+    "Chorwacja - Kovacine": [
+        "kovacine"
+    ],
+
+    "Francja - Saintes-Maries-de-la-Mer": [
+        "otport"
+    ],
+
+    "Grecja - Rodos": [
+        "dagilberto"
+    ],
+
+    "Hiszpania - Llafranc - plaża": [
+        "6149f4deaa509"
+    ],
+
+    "Hiszpania - Llafranc - port": [
+        "6149f4976134f"
+    ],
+
+    "Hiszpania - Port Torredembarra": [
+        "porttorre"
+    ],
+
+    "Laurelwood Golf - green": [
+        "laurelwoodgreen"
+    ],
+
+    "Laurelwood Golf - panorama": [
+        "laurelwoodview"
+    ],
+
+    "Ozo Golf Club": [
+        "ozogolfclub"
+    ],
+
+    "Polska - Bolesławiec - panorama": [
+        "wiezowieczachod"
+    ],
+
+    "Rileys River Cam": [
+        "rorc"
+    ],
+
+    "RPA - Ladysmith Airport": [
+        "6690f8f74882c"
+    ],
+
+    "Słowenia - Planina nad Vrhniko": [
+        "znpvkamera2"
+    ],
+
+    "Turcja - Belcekiz Beach": [
+        "belcekizbeachclub"
+    ],
+
+    "USA - 5th Avenue Beach": [
+        "5thavebeach"
+    ],
+
+    "USA - Bay Head Yacht Club": [
+        "572100e287461"
+    ],
+
+    "USA - Lost Lake Woods": [
+        "snowcam1"
+    ],
+
+    "USA - Old Saybrook - rybołów": [
+        "oldsaybrook"
+    ],
+
+    "USA - Pine Grove Resort": [
+        "64543e68da21a"
+    ],
+
+    "USA - Royal Mountain": [
+        "63cb127a0a4f9"
+    ],
+
+    "USA - Sandpiper Cove Beach": [
+        "sandpipercovebeach"
+    ],
+
+    "USA - Seneca Lake Pier": [
+        "acb92fbd0c3c"
+    ],
+
+    "USA - Stone Harbor Beach South": [
+        "62fe39146c821"
+    ],
+
+    "USA - Stone Harbor Yacht Club": [
+        "647220b9d946a"
+    ],
+
+    "USA - Stuarts Draft Weather": [
+        "sdwxcam"
+    ],
+
+    "USA - Ventura Harbor Entrance": [
+        "jky47s3rdft73mek111a"
+    ],
+
+    "Weather Cam": [
+        "5bfd8be9978fc"
+    ],
+
+    "Włochy - Albissola Marina": [
+        "lidosparesort"
+    ],
+
+    "Włochy - Cervo - Camping Ondina": [
+        "campingondina"
+    ],
+
+    "Włochy - Diano Marina": [
+        "hotelgabriella"
+    ],
+
+    "Włochy - Ischia - Maronti": [
+        "62da90f20979d"
+    ],
+
+    "Włochy - Rimini": [
+        "riminieyecom"
+    ],
+ 
 }
 
 
