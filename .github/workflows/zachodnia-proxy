@@ -1,0 +1,560 @@
+const CAMERAS = {
+  chojnik: {
+    embed:
+      "https://embed.karkonosze.online/ssl/chojnik",
+
+    host:
+      "webcam10.zachodnia.tv",
+  },
+};
+
+
+function corsHeaders() {
+  return {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods":
+      "GET, HEAD, OPTIONS",
+    "Access-Control-Allow-Headers": "*",
+  };
+}
+
+
+function browserHeaders(embedUrl) {
+  return {
+    "User-Agent":
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) " +
+      "AppleWebKit/537.36 (KHTML, like Gecko) " +
+      "Chrome/140.0 Safari/537.36",
+
+    "Accept": "*/*",
+
+    "Referer": embedUrl,
+
+    "Origin":
+      "https://embed.karkonosze.online",
+
+    "Cache-Control": "no-cache",
+
+    "Pragma": "no-cache",
+  };
+}
+
+
+/*
+  Pobiera stronę embed i wyciąga
+  ŚWIEŻY tokenizowany playlist.m3u8.
+*/
+
+async function getFreshPlaylist(config) {
+
+  const pageUrl =
+    new URL(config.embed);
+
+  // Zapobiega zwróceniu starego HTML/tokena.
+  pageUrl.searchParams.set(
+    "_cb",
+    Date.now().toString()
+  );
+
+  const response =
+    await fetch(
+      pageUrl.toString(),
+      {
+        headers: {
+          "User-Agent":
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) " +
+            "AppleWebKit/537.36 (KHTML, like Gecko) " +
+            "Chrome/140.0 Safari/537.36",
+
+          "Accept":
+            "text/html,application/xhtml+xml,*/*",
+
+          "Cache-Control":
+            "no-cache",
+
+          "Pragma":
+            "no-cache",
+        },
+        redirect: "follow",
+      }
+    );
+
+  if (!response.ok) {
+    throw new Error(
+      "Embed HTTP " +
+      response.status
+    );
+  }
+
+  let html =
+    await response.text();
+
+  /*
+    HTML może zawierać:
+    &amp;
+    zamiast &
+  */
+
+  html =
+    html.replaceAll(
+      "&amp;",
+      "&"
+    );
+
+  /*
+    Szukamy adresu:
+
+    https://webcam10.zachodnia.tv...
+    playlist.m3u8?wowzatoken...
+  */
+
+  const match =
+    html.match(
+      /https:\/\/webcam\d+\.zachodnia\.tv(?::443)?\/[^"'<> ]+\/playlist\.m3u8\?[^"'<> ]*wowzatoken[^"'<> ]*/i
+    );
+
+  if (!match) {
+    throw new Error(
+      "Nie znaleziono świeżego HLS w HTML"
+    );
+  }
+
+  return match[0];
+}
+
+
+/*
+  Tworzymy adres prowadzący ponownie
+  przez Workera.
+*/
+
+function workerProxyUrl(
+  origin,
+  camera,
+  upstream
+) {
+  return (
+    origin +
+    "/" +
+    camera +
+    "/proxy?u=" +
+    encodeURIComponent(upstream)
+  );
+}
+
+
+/*
+  Przepisuje playlistę HLS tak,
+  żeby chunklist oraz segmenty .ts
+  NIE łączyły się bezpośrednio
+  z Zachodnia.tv.
+*/
+
+function rewritePlaylist(
+  text,
+  upstreamUrl,
+  workerOrigin,
+  camera
+) {
+
+  const lines =
+    text.split(/\r?\n/);
+
+  const result =
+    lines.map((line) => {
+
+      const trimmed =
+        line.trim();
+
+      if (!trimmed) {
+        return line;
+      }
+
+      /*
+        Normalny wpis:
+        chunklist...
+        media....ts
+      */
+
+      if (
+        !trimmed.startsWith("#")
+      ) {
+
+        try {
+          const absolute =
+            new URL(
+              trimmed,
+              upstreamUrl
+            ).toString();
+
+          return workerProxyUrl(
+            workerOrigin,
+            camera,
+            absolute
+          );
+
+        } catch {
+          return line;
+        }
+      }
+
+      /*
+        Obsługa:
+        URI="..."
+      */
+
+      return line.replace(
+        /URI="([^"]+)"/g,
+        (whole, uri) => {
+
+          try {
+
+            const absolute =
+              new URL(
+                uri,
+                upstreamUrl
+              ).toString();
+
+            return (
+              'URI="' +
+              workerProxyUrl(
+                workerOrigin,
+                camera,
+                absolute
+              ) +
+              '"'
+            );
+
+          } catch {
+            return whole;
+          }
+        }
+      );
+    });
+
+  return result.join("\n");
+}
+
+
+/*
+  Pobieranie HLS / segmentów
+  z Zachodnia.tv.
+*/
+
+async function fetchUpstream(
+  upstream,
+  config,
+  workerOrigin,
+  camera
+) {
+
+  let url;
+
+  try {
+    url =
+      new URL(upstream);
+  } catch {
+    return new Response(
+      "Nieprawidłowy upstream",
+      { status: 400 }
+    );
+  }
+
+  /*
+    Zabezpieczenie:
+    Worker może proxy'ować tylko
+    zachodnia.tv.
+  */
+
+  if (
+    !url.hostname.endsWith(
+      ".zachodnia.tv"
+    )
+  ) {
+    return new Response(
+      "Niedozwolony host",
+      { status: 403 }
+    );
+  }
+
+  let response;
+
+  try {
+
+    response =
+      await fetch(
+        url.toString(),
+        {
+          headers:
+            browserHeaders(
+              config.embed
+            ),
+
+          redirect:
+            "follow",
+        }
+      );
+
+  } catch (error) {
+
+    return new Response(
+      "Błąd połączenia z Zachodnia.tv: " +
+      String(error),
+      {
+        status: 502,
+        headers:
+          corsHeaders(),
+      }
+    );
+  }
+
+  if (!response.ok) {
+
+    return new Response(
+      "Zachodnia.tv HTTP " +
+      response.status,
+      {
+        status:
+          response.status,
+
+        headers:
+          corsHeaders(),
+      }
+    );
+  }
+
+  const contentType =
+    response.headers.get(
+      "Content-Type"
+    ) || "";
+
+  /*
+    Jeżeli pobraliśmy M3U8,
+    przepisujemy wszystkie następne
+    adresy również przez Workera.
+  */
+
+  if (
+    url.pathname
+      .toLowerCase()
+      .includes(".m3u8")
+    ||
+    contentType
+      .toLowerCase()
+      .includes("mpegurl")
+  ) {
+
+    const text =
+      await response.text();
+
+    const rewritten =
+      rewritePlaylist(
+        text,
+        response.url,
+        workerOrigin,
+        camera
+      );
+
+    return new Response(
+      rewritten,
+      {
+        status: 200,
+
+        headers: {
+          ...corsHeaders(),
+
+          "Content-Type":
+            "application/vnd.apple.mpegurl",
+
+          "Cache-Control":
+            "no-store, no-cache, must-revalidate",
+
+          "Pragma":
+            "no-cache",
+
+          "Expires":
+            "0",
+        },
+      }
+    );
+  }
+
+  /*
+    Segment TS
+  */
+
+  const headers =
+    new Headers(
+      response.headers
+    );
+
+  headers.set(
+    "Access-Control-Allow-Origin",
+    "*"
+  );
+
+  headers.set(
+    "Cache-Control",
+    "no-store"
+  );
+
+  return new Response(
+    response.body,
+    {
+      status:
+        response.status,
+
+      headers,
+    }
+  );
+}
+
+
+export default {
+
+  async fetch(request) {
+
+    const incoming =
+      new URL(request.url);
+
+    if (
+      request.method === "OPTIONS"
+    ) {
+
+      return new Response(
+        null,
+        {
+          status: 204,
+          headers:
+            corsHeaders(),
+        }
+      );
+    }
+
+    const parts =
+      incoming.pathname
+        .split("/")
+        .filter(Boolean);
+
+    if (!parts.length) {
+
+      return new Response(
+        "Podaj kamerę.",
+        {
+          status: 400,
+          headers:
+            corsHeaders(),
+        }
+      );
+    }
+
+    const camera =
+      parts[0];
+
+    const config =
+      CAMERAS[camera];
+
+    if (!config) {
+
+      return new Response(
+        "Nieznana kamera.",
+        {
+          status: 404,
+          headers:
+            corsHeaders(),
+        }
+      );
+    }
+
+
+    /*
+      /chojnik/playlist.m3u8
+
+      Pobieramy świeży token.
+    */
+
+    if (
+      parts.length === 2 &&
+      parts[1] ===
+        "playlist.m3u8"
+    ) {
+
+      let fresh;
+
+      try {
+
+        fresh =
+          await getFreshPlaylist(
+            config
+          );
+
+      } catch (error) {
+
+        return new Response(
+          "Nie udało się uzyskać tokenu: " +
+          String(error),
+          {
+            status: 502,
+            headers:
+              corsHeaders(),
+          }
+        );
+      }
+
+      return fetchUpstream(
+        fresh,
+        config,
+        incoming.origin,
+        camera
+      );
+    }
+
+
+    /*
+      Następne playlisty
+      i segmenty.
+
+      /chojnik/proxy?u=...
+    */
+
+    if (
+      parts.length === 2 &&
+      parts[1] === "proxy"
+    ) {
+
+      const upstream =
+        incoming.searchParams.get(
+          "u"
+        );
+
+      if (!upstream) {
+
+        return new Response(
+          "Brak parametru u",
+          {
+            status: 400,
+            headers:
+              corsHeaders(),
+          }
+        );
+      }
+
+      return fetchUpstream(
+        upstream,
+        config,
+        incoming.origin,
+        camera
+      );
+    }
+
+
+    return new Response(
+      "Nieprawidłowa ścieżka.",
+      {
+        status: 404,
+        headers:
+          corsHeaders(),
+      }
+    );
+  },
+};
