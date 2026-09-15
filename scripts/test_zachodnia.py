@@ -36,7 +36,6 @@ def test_hls(url):
     allow_redirects=True,
     verify=False,
 )
-        )
     except Exception as e:
         print("BŁĄD:", repr(e))
         return False
