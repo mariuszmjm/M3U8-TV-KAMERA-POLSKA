@@ -2,9 +2,15 @@ name: TEST IPCamLive 249 + dodaj do Kamery-pogodowe
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "35 * * * *"
 
 permissions:
   contents: write
+
+concurrency:
+  group: ipcamlive-249-main
+  cancel-in-progress: false
 
 jobs:
   ipcamlive:
@@ -27,6 +33,9 @@ jobs:
 
       - name: Test 249 kamer IPCamLive
         run: python scripts/test_ipcamlive_249.py
+
+      - name: Pobierz najnowszy stan repozytorium
+        run: git pull --rebase origin main
 
       - name: Utwórz folder ipcamlive
         run: mkdir -p ipcamlive
@@ -61,8 +70,21 @@ jobs:
           if git diff --cached --quiet; then
             echo "Brak zmian - nic do zapisania."
           else
-            git commit -m "Dodanie działających kamer IPCamLive"
-            git push
+            git commit -m "Automatyczna aktualizacja 249 kamer IPCamLive"
+
+            for PROBA in 1 2 3; do
+              echo "Próba wysłania zmian: $PROBA/3"
+
+              if git pull --rebase origin main && git push; then
+                echo "Zmiany zapisane w repozytorium."
+                exit 0
+              fi
+
+              sleep 5
+            done
+
+            echo "Nie udało się wysłać zmian po 3 próbach."
+            exit 1
           fi
 
       - name: Zapisz wyniki jako artifact
