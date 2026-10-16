@@ -3,14 +3,20 @@
 https://s58.ipcamlive.com/streams/3akzjpb4u3frw0nal/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - góry / narty",USA - Royal Mountain
 https://s162.ipcamlive.com/streams/a2sy57f9zh6gsg0ll/stream.m3u8
+#EXTINF:-1 group-title="IPCamLive - góry / narty",Valaská Belá Homôlka - wyciąg
+https://s168.ipcamlive.com/streams/a8zyitdnvva1semhm/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Athens I65 and HWY72
 https://s117.ipcamlive.com/streams/75tbyfyxjzhlsom29/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Balneário Municipal de Rosana
 https://s136.ipcamlive.com/streams/88fa2tgoubvwteq14/stream.m3u8
+#EXTINF:-1 group-title="IPCamLive - inne",Broadway Camera 1
+https://s100.ipcamlive.com/streams/64hybio9slv2cezlx/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Broadway Camera 2
-https://s175.ipcamlive.com/streams/afrfw6yc73wvyxpsq/stream.m3u8
+https://s175.ipcamlive.com/streams/afthkc7wbpuzezysn/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Camp Radj politie low
-https://s150.ipcamlive.com/streams/96vhrkfttzl7ayman/stream.m3u8
+https://s150.ipcamlive.com/streams/961hx34zu6tmvfl5d/stream.m3u8
+#EXTINF:-1 group-title="IPCamLive - inne",campradj
+https://s110.ipcamlive.com/streams/6emduswo8oyggw0fz/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Cedar Cove Resort
 https://s140.ipcamlive.com/streams/8cfh4andzt0rqofip/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Central
@@ -19,22 +25,24 @@ https://s93.ipcamlive.com/streams/5d3ftlzwhavfscgkq/stream.m3u8
 https://s150.ipcamlive.com/streams/96tyxnx7arvufcjeg/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Church Camera
 https://s1.ipcamlive.com/streams/018wtipi65kgmwhxs/stream.m3u8
+#EXTINF:-1 group-title="IPCamLive - inne",Crisnjevo
+https://s24.ipcamlive.com/streams/18jcm4bzhutfpgpls/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Decatur
 https://s42.ipcamlive.com/streams/2ayoa2ngrsnby0cds/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Fasoula
 https://s44.ipcamlive.com/streams/2ctkycvjjhsb8qidy/stream.m3u8
+#EXTINF:-1 group-title="IPCamLive - inne",Francja - Saintes-Maries-de-la-Mer
+https://s169.ipcamlive.com/streams/a9ap4hdqb3hwm6rxg/stream.m3u8
+#EXTINF:-1 group-title="IPCamLive - inne",Grecja - Rodos
+https://s31.ipcamlive.com/streams/1fjiapq13xrxhpvc7/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",I360 Tower Camera North
-https://s4.ipcamlive.com/streams/04bjg3b4u9e6lsat8/stream.m3u8
-#EXTINF:-1 group-title="IPCamLive - inne",Kaiaponi Farm - Waikanae Surf Club
-https://s128.ipcamlive.com/streams/80agqsuh4omcksyfr/stream.m3u8
+https://s4.ipcamlive.com/streams/04ozd29hhoguxvmnb/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Kite
 https://s139.ipcamlive.com/streams/8brzbhvjrf9i0ucya/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Kootzcam
 https://s134.ipcamlive.com/streams/861ujztlxsigdcjww/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Laurelwood Golf - green
 https://s63.ipcamlive.com/streams/3fv23qakyc6dkyil7/stream.m3u8
-#EXTINF:-1 group-title="IPCamLive - inne",Morningstar North
-https://s173.ipcamlive.com/streams/adbj2otgcu13hvgj4/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Public IPCamLive camera
 https://s63.ipcamlive.com/streams/3f6z0qhekxudfjm59/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Public IPCamLive camera
@@ -46,9 +54,17 @@ https://s150.ipcamlive.com/streams/96ehdujmjagrmcftp/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Public IPCamLive page
 https://s66.ipcamlive.com/streams/42i8hruclayiedsjm/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Public IPCamLive page
+https://s91.ipcamlive.com/streams/5b5smoupbqiathkwy/stream.m3u8
+#EXTINF:-1 group-title="IPCamLive - inne",Public IPCamLive page
 https://s115.ipcamlive.com/streams/73jqnzg2ait7m3mcl/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Public IPCamLive page
+https://s29.ipcamlive.com/streams/1dmow4xnt5lqvk02s/stream.m3u8
+#EXTINF:-1 group-title="IPCamLive - inne",Public IPCamLive page
 https://s81.ipcamlive.com/streams/51ykwxlrnvmuq1jgg/stream.m3u8
+#EXTINF:-1 group-title="IPCamLive - inne",Public IPCamLive page
+https://s21.ipcamlive.com/streams/15w4ulqoq2ar8hndz/stream.m3u8
+#EXTINF:-1 group-title="IPCamLive - inne",Public IPCamLive page
+https://s154.ipcamlive.com/streams/9axim9xrypsvjqcdu/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",SC Gym Camera
 https://s53.ipcamlive.com/streams/35vhm9xnxityop3rz/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Solvalla - kamera toru
@@ -57,24 +73,30 @@ https://s76.ipcamlive.com/streams/4c0yevjrgjy9dnilz/stream.m3u8
 https://s55.ipcamlive.com/streams/37hvcoblpin2qoukg/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Tulla Church
 https://s176.ipcamlive.com/streams/b0edcfkbioyuiphxa/stream.m3u8
-#EXTINF:-1 group-title="IPCamLive - inne",USA - Pine Grove Resort
-https://s96.ipcamlive.com/streams/60fxs0awnga7zd1hj/stream.m3u8
+#EXTINF:-1 group-title="IPCamLive - inne",Tórshavn
+https://s46.ipcamlive.com/streams/2e6tibswqa0vx7sue/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Wells - Jetty Cam
 https://s161.ipcamlive.com/streams/a1thr8smvfclxrqog/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",West Topeka
 https://s36.ipcamlive.com/streams/24pel9hxfzgvoilxq/stream.m3u8
+#EXTINF:-1 group-title="IPCamLive - inne",Włochy - Bagno Flavio
+https://s58.ipcamlive.com/streams/3aqb7end0ia1ufxfi/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Włochy - Cervo - Camping Ondina
-https://s166.ipcamlive.com/streams/a6q8st3mkwojatvfm/stream.m3u8
+https://s166.ipcamlive.com/streams/a6c3jyifldnaxtdbp/stream.m3u8
+#EXTINF:-1 group-title="IPCamLive - inne",Włochy - Ischia - Maronti
+https://s167.ipcamlive.com/streams/a75cvkzijywyl794u/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - inne",Włochy - Rimini
 https://s167.ipcamlive.com/streams_storage/a7obtafdcvrlg4qm8/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - jezioro / rzeka",Botswana - Chobe River
 https://s46.ipcamlive.com/streams/2evqakbaml7er9ung/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - jezioro / rzeka",Rileys River Cam
-https://s30.ipcamlive.com/streams/1enqjlc2idb8k1qgg/stream.m3u8
+https://s30.ipcamlive.com/streams/1e7tvmq0scdg1dcob/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - jezioro / rzeka",USA - Lost Lake Woods
 https://s164.ipcamlive.com/streams/a4g6hncpabluev1ig/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - lotnisko / aeroklub",Aero Club - Fuel Bowser North
 https://s46.ipcamlive.com/streams/2ekel1vhsjnfd2gmt/stream.m3u8
+#EXTINF:-1 group-title="IPCamLive - lotnisko / aeroklub",LOLK Runway 12
+https://s68.ipcamlive.com/streams/44ksvya0tll3orotx/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - miasto / panorama",Astoria
 https://s110.ipcamlive.com/streams/6eckmhdseqakbrvp5/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - miasto / panorama",City Hall Demo Cam 2
@@ -85,10 +107,14 @@ https://s94.ipcamlive.com/streams/5eobdh5nrfweysu36/stream.m3u8
 https://s24.ipcamlive.com/streams/18tyb6frpsxrqm3zq/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - miasto / panorama",Laurelwood Golf - panorama
 https://s73.ipcamlive.com/streams/49zyhvsowd1ed5gti/stream.m3u8
+#EXTINF:-1 group-title="IPCamLive - miasto / panorama",Piazza 3 Monacilioni
+https://s74.ipcamlive.com/streams/4aipz1qb65ozkav8u/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - miasto / panorama",Piazza Bonefro
-https://s169.ipcamlive.com/streams/a9m9tlehf3vyxvk8d/stream.m3u8
+https://s169.ipcamlive.com/streams/a9az9alwvtgqw7i5v/stream.m3u8
+#EXTINF:-1 group-title="IPCamLive - miasto / panorama",Piazza Umberto I - Petrella Tifernina
+https://s154.ipcamlive.com/streams/9afhyp7wpeaimacuf/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - miasto / panorama",Plaza Sierra Pambley
-https://s166.ipcamlive.com/streams/a6xb6w9t5zkjluieq/stream.m3u8
+https://s166.ipcamlive.com/streams/a6e4dfgwwflr1atkb/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - miasto / panorama",Polska - Bolesławiec - panorama
 https://s124.ipcamlive.com/streams_storage/7cnqxqmbwehsmkkdl/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - miasto / panorama",PR Downtown Hwy 59 North
@@ -96,7 +122,7 @@ https://s152.ipcamlive.com/streams/98ct2zfdy9b58ilwq/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - miasto / panorama",PR Downtown Hwy 59 South
 https://s33.ipcamlive.com/streams/21btvyfog1jkpdubc/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - miasto / panorama",Smokovac
-https://s168.ipcamlive.com/streams/a8h6ynd29qnvsulud/stream.m3u8
+https://s168.ipcamlive.com/streams/a8q7n6plrebrhvujb/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - miasto / panorama",Street Cam
 https://s162.ipcamlive.com/streams/a2a2kpos37rt1qwiw/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - miasto / panorama",Tisno - most
@@ -104,11 +130,9 @@ https://s160.ipcamlive.com/streams/a0kqu7ljkyr2tnhiv/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - morze / port / plaża",Anglia - Cotswold Airport
 https://s29.ipcamlive.com/streams/1ddlziotyxamjuk5f/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - morze / port / plaża",Australia - Darwin Harbour
-https://s62.ipcamlive.com/streams/3ezbf8noazpmrqk7k/stream.m3u8
+https://s62.ipcamlive.com/streams/3edglmxgeitahrfnz/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - morze / port / plaża",Beach Cam
 https://s63.ipcamlive.com/streams/3f0jk9lqpshzgubxq/stream.m3u8
-#EXTINF:-1 group-title="IPCamLive - morze / port / plaża",Brighton and Seacliff Yacht Club
-https://s127.ipcamlive.com/streams/7fp7j9urptyrffdoc/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - morze / port / plaża",CNB Beach
 https://s133.ipcamlive.com/streams/85321doiuhe0aoxwq/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - morze / port / plaża",Dock Cam
@@ -116,13 +140,17 @@ https://s104.ipcamlive.com/streams/68zulmz15rsdjutgf/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - morze / port / plaża",Emerald Grande Crab Island Destin Florida Cam
 https://s125.ipcamlive.com/streams/7dx6zcaelgr3isc0n/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - morze / port / plaża",Hiszpania - Llafranc - plaża
-https://s61.ipcamlive.com/streams/3dpo4v8bihealkj90/stream.m3u8
+https://s61.ipcamlive.com/streams/3drczzvivq3hpfj9f/stream.m3u8
+#EXTINF:-1 group-title="IPCamLive - morze / port / plaża",Hiszpania - Llafranc - port
+https://s169.ipcamlive.com/streams/a94eh7zrlmuuraswf/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - morze / port / plaża",Hiszpania - Port Torredembarra
 https://s64.ipcamlive.com/streams/40eixcrv9zyvrdkda/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - morze / port / plaża",Lake Geneva Yacht Club
 https://s117.ipcamlive.com/streams/75rw1unweumyxext0/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - morze / port / plaża",Nahariya - molo/plaża 1
 https://s75.ipcamlive.com/streams/4bl2j1hkoardqdpgm/stream.m3u8
+#EXTINF:-1 group-title="IPCamLive - morze / port / plaża",Nahariya - molo/plaża 2
+https://s173.ipcamlive.com/streams/adw1vghypyldgpcxq/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - morze / port / plaża",North Beach Kiten Atliman
 https://s177.ipcamlive.com/streams/b1fxbzsleivazsdyn/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - morze / port / plaża",Ottens Harbor
@@ -166,15 +194,21 @@ https://s36.ipcamlive.com/streams/24e5uuoyamp06iqho/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - nieznana",Publiczna strona IPCamLive - nazwa nieznana
 https://s43.ipcamlive.com/streams/2bjecdxfzfuyhrg3o/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - nieznana",Publiczna strona IPCamLive - nazwa nieznana
+https://s149.ipcamlive.com/streams/95b95rjexuzuf3ctl/stream.m3u8
+#EXTINF:-1 group-title="IPCamLive - nieznana",Publiczna strona IPCamLive - nazwa nieznana
 https://s169.ipcamlive.com/streams/a92wpsl395gnitqrb/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - nieznana",Publiczna strona IPCamLive - nazwa nieznana
 https://s53.ipcamlive.com/streams/35rp0d6wb7ueiqd4h/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - nieznana",Publiczna strona IPCamLive - nazwa nieznana
+https://s171.ipcamlive.com/streams/ab5t6db2yjtoze8iv/stream.m3u8
+#EXTINF:-1 group-title="IPCamLive - nieznana",Publiczna strona IPCamLive - nazwa nieznana
 https://s44.ipcamlive.com/streams/2cv2v0zbpuxfoynj5/stream.m3u8
+#EXTINF:-1 group-title="IPCamLive - nieznana",Publiczna strona IPCamLive - nazwa nieznana
+https://s43.ipcamlive.com/streams/2bwjbxlmlfbnqz7y5/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - nieznana",Publiczna strona IPCamLive - nazwa nieznana
 https://s106.ipcamlive.com/streams/6awp0brmr4ewxcqk8/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - nieznana",Publiczna strona IPCamLive - nazwa nieznana
-https://s168.ipcamlive.com/streams/a8nnqzfpob36vchdw/stream.m3u8
+https://s168.ipcamlive.com/streams/a8c2lvinaisj3aytr/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - nieznana",Publiczny player IPCamLive - nazwa nieznana
 https://s122.ipcamlive.com/streams/7aofqkcf26nu1iorz/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - obserwacyjna / obiekt",Court 1
@@ -202,13 +236,13 @@ https://s87.ipcamlive.com/streams_storage/53dyffc48n9lrpkh3/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - obserwacyjna / obiekt",GJ Pickleball Court Camera
 https://s4.ipcamlive.com/streams/04z1k6fvn9ldjm0lb/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - obserwacyjna / obiekt",SEVEN CAFE
-https://s43.ipcamlive.com/streams/2bhopjrn75c4dcux8/stream.m3u8
+https://s43.ipcamlive.com/streams/2bskqbrnaijzh9oau/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - obserwacyjna / obiekt",St. Helena Solar Construction
 https://s117.ipcamlive.com/streams/75wounf1lrzey3g9d/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - obserwacyjna / obiekt",Tennisbaan 2, 3 & 4
 https://s4.ipcamlive.com/streams/04cp2yiaixb08bnw9/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - obserwacyjna / obiekt",Trilogy Pickleball Courts
-https://s142.ipcamlive.com/streams/8ej40xrefdumw3u2z/stream.m3u8
+https://s142.ipcamlive.com/streams/8ebwuqlgmonj9fyat/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - obserwacyjna / obiekt",Woodstock Tennis Club
 https://s164.ipcamlive.com/streams/a4akcy4hgtgvezwvp/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive - pogoda",Sunset Cam
