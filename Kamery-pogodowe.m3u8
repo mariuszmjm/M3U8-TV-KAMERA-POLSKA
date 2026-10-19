@@ -705,6 +705,19 @@ https://ls.tkchopin.pl/live/rumia_wzgorze_markowca_obrotowa.stream/playlist.m3u8
 https://stream4.stimotion.pl/live/basen1.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Czarnorzeki / niedaleko Krościenka
 https://stream4.stimotion.pl/live/czarnorzeki3.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Ochotnica Dolna - Suchy Groń
+https://ochotnica.epicserv.pl/streams/cam5/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Ochotnica Dolna - Magurki
+https://ochotnica.epicserv.pl/streams/cam1/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Ochotnica Dolna - Lubań
+https://ochotnica.epicserv.pl/streams/cam3/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Ochotnica Dolna - Gorc
+https://ochotnica.epicserv.pl/streams/cam4/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Ochotnica Dolna - Krzyż
+https://ochotnica.epicserv.pl/streams/cam-cross/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Ochotnica Dolna - Kalwaria Tylmanowa
+https://ochotnica.epicserv.pl/streams/cam-tylman/playlist.m3u8
+
 
 #EXTINF:-1  group-title="Kościoły",Parafia p.w. Miłosierdzia Bożego Zakopane - Chramcówki
 https://hoktastream2.webcamera.pl/chramcowki_cam_616201/chramcowki_cam_616201.stream/playlist.m3u8
