@@ -108,8 +108,6 @@ https://s1.worldcam.live:8082/grajewo/index.m3u8?token=e7f5dcb6c5435bdadf75e6d16
 https://69e8b5f40802b.streamlock.net:1936/live/plac.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/pisz-pl.svg" group-title="Miasta",Pisz: Rondo im. Lecha Kaczyńskiego
 https://cdn-13-go.toya.net.pl/kamery/pisz_rondokaczynskiego.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/rajgrod-pl.svg" group-title="Miasta",Rajgród
-https://srs.umrajgrod.pl/live/RTSP_CAM10.flv
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/e/elk-pl.svg" group-title="Miasta",Ełk
 https://live.miasto.elk.pl/LiveApp/streams/LCK9KM60W5m0vJNF936518552952.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/knyszyn-pl.svg" group-title="Miasta",Kamera Knyszyn Rynek
@@ -200,14 +198,14 @@ https://streaming.airmax.pl/cambox_20251128/index.m3u8
 https://hoktastream4.webcamera.pl/gorzow_cam_0e7519/gorzow_cam_0e7519.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gorzow-wielkopolski-pl.svg" group-title="Miasta",GORZÓW WIELKOPOLSKI - widok na Katedrę
 https://hoktastream2.webcamera.pl/gorzow_cam_0039e8/gorzow_cam_0039e8.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/Dobiegniew-pl.svg" group-title="Miasta",Dobiegniew
-https://flu.lisek.pl/Dobiegniew_Kam1/index.fmp4.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/Skwierzyna-pl.svg" group-title="Miasta",Skwierzyna
+https://flu.lisek.pl/Skwierzyna001/index.fmp4.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wrzesnia-pl.svg" group-title="Miasta",Września
 https://streaming.airmax.pl/03umigwrzesnia/tracks-v1/mono.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zielona-gora-pl.svg" group-title="Miasta",ZIELONA GÓRA - widok na panoramę miasta
 https://hoktastream4.webcamera.pl/zielonagora_cam_ed9042/zielonagora_cam_ed9042.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/luban-pl.svg" group-title="Miasta",Lubań
-https://p.mstream.pl/intera/luban-park.stream/playlist.m3u8
+https://p.mstream.pl/intera/memfs/66432a84-2dc9-43ac-a3ad-6c8e9deb62c0.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/boleslawiec-pl.svg" group-title="Miasta",Bolesławiec
 https://streaming.istotne.pl/mtx-hls/stream24/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zlotoryja-pl.svg" group-title="Miasta",Złotoryja
@@ -377,11 +375,11 @@ https://hoktastream2.webcamera.pl/krakow_cam_4c3e37/krakow_cam_4c3e37.stream/pla
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - widok na Wisłę i Most im. Marszałka Józefa Piłsudskiego
 https://hoktastream3.webcamera.pl/krakowkladka_cam_a51738/krakowkladka_cam_a51738.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",KRAKÓW - widok na Rynek Główny 1
-https://cdn-13-go.toya.net.pl/kamery/krak_krakow1.m3u8
+https://hoktastream2.webcamera.pl/krakow_cam_702b61/krakow_cam_702b61.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",KRAKÓW - widok na Rynek Główny 2
-https://cdn-14-go.toya.net.pl/kamery/krak_wentzl.m3u8
+https://hoktastream1.webcamera.pl/krakow_cam_9a3b91/krakow_cam_9a3b91.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",Kraków - widok na Rynek Główny 3
-https://cdn-13-go.toya.net.pl/kamery/krak_rynek1.m3u8
+https://hoktastream1.webcamera.pl/wentzl_cam_be5c6c/wentzl_cam_be5c6c.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",KRAKÓW - widok na Zamek Królewski na Wawelu
 https://hoktastream2.webcamera.pl/krakow_cam_c78671/krakow_cam_c78671.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krakow-pl.svg" group-title="Miasta",KRAKÓW - Rondo Grunwaldzkie
@@ -523,7 +521,7 @@ https://cd31010201.spaceweb.pl:5443/LiveApp/streams/944252251938117755615424.m3u
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/pabianice-pl.svg" group-title="Miasta",Pabianice
 https://cdn-14-go.toya.net.pl/kamery/pabi_zamkowatraugutta.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zgierz-pl.svg" group-title="Miasta",Zgierz
-https://cdn-12-go.toya.net.pl/kamery/zgrz_zsmparzeczewskagalczynskiego.m3u8
+https://s1.worldcam.live:8082/zgierzlive2/tracks-v1/mono.ts.m3u8?token=47c356acf562574574baceffbef76cffd0f8d8a4a1bd5d1bc4974d52be79d7cb
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lodz-pl.svg" group-title="Miasta",ŁÓDŹ - widok na Ulic Piotrkowską
 https://hoktastream3.webcamera.pl/lodz_cam_42fb00/lodz_cam_42fb00.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lodz-pl.svg" group-title="Miasta",Łódź - Plac wolności
