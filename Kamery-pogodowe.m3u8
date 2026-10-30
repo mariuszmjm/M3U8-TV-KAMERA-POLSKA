@@ -109,7 +109,7 @@ https://69e8b5f40802b.streamlock.net:1936/live/plac.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/pisz-pl.svg" group-title="Miasta",Pisz: Rondo im. Lecha Kaczyńskiego
 https://cdn-13-go.toya.net.pl/kamery/pisz_rondokaczynskiego.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/e/elk-pl.svg" group-title="Miasta",Ełk
-https://live.miasto.elk.pl/LiveApp/streams/LCK9KM60W5m0vJNF936518552952.m3u8
+https://live.miasto.elk.pl/LiveApp/streams/x7pH9v9KawsNLC9B44531848476883.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/knyszyn-pl.svg" group-title="Miasta",Kamera Knyszyn Rynek
 https://knyszynkamery.firmaos.eu/kamera2/ramdisk/video.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/bialystok-pl.svg" group-title="Miasta",Kamera na BIAŁYSTOK - widok na Archikatedrę
@@ -117,9 +117,9 @@ https://hoktastream3.webcamera.pl/bialystok_cam_dbe5b1/bialystok_cam_dbe5b1.stre
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/bialystok-pl.svg" group-title="Miasta",Kamera na BIAŁYSTOK - widok na Rynek Kościuszki
 https://hoktastream3.webcamera.pl/bialystok_cam_4fc01a/bialystok_cam_4fc01a.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/suprasl-pl.svg" group-title="Miasta",Supraśl
-https://panolive.pl:8083/cam/suprasl2_sd/playlist.m3u8
+https://panolive.pl:8083/cam/suprasl2_hd/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/suprasl-pl.svg" group-title="Miasta",Supraśl - Widok na Pałac Buchholtzów
-https://panolive.pl:8083/cam/suprasl1_sd/playlist.m3u8
+https://panolive.pl:8083/cam/suprasl1_hd/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wyszkow-pl.svg" group-title="Miasta",Wyszków
 https://www.fuz.pl/hls/komin_high/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/m/makow-mazowiecki-pl.svg" group-title="Miasta",Maków Mazowiecki
@@ -159,7 +159,7 @@ https://7005.szczecin.pl/camss/streams/plock3.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/plock-pl.svg" group-title="Miasta",Płock - Zalew Sobótka
 https://7005.szczecin.pl/camss/streams/plock2.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chocen-pl.svg" group-title="Miasta",Gmina Choceń
-https://test2.host330798.xce.pl/cam1/video1_stream.m3u8
+https://test2.host330798.xce.pl/cam7/video1_stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gabin-pl.svg" group-title="Miasta", Widok z Kościoła w Gąbinie
 https://kamery.gabin.pl/api/streaming/hls/f5950b4f-a45b-4db0-a7d8-d9239d36b5cf/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wloclawek-pl.svg" group-title="Miasta",Włocławek
@@ -326,10 +326,12 @@ https://hoktastream2.webcamera.pl/bielsko_cam_1d140d/bielsko_cam_1d140d.stream/p
 https://hoktastream4.webcamera.pl/bielsko_cam_e25422/bielsko_cam_e25422.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/u/ustron-pl.svg" group-title="Miasta",USTROŃ - widok na rynek
 https://hoktastream1.webcamera.pl/nocowanie_cam_a470d8/nocowanie_cam_a470d8.stream/playlist.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/u/ustron-pl.svg" group-title="Miasta",USTROŃ - widok na rynek 2
+https://polineo.pl:5443/LiveApp/streams/081774578980195294920958.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/u/ustron-pl.svg" group-title="Miasta",USTROŃ - widok z Uzdrowiska Ustroń
 https://hoktastream4.webcamera.pl/rownicaustron_cam_2ecf8b/rownicaustron_cam_2ecf8b.stream/playlist.m3u8
 #EXTINF:-0 tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wisla-pl.svg" group-title="Miasta",WISŁA - widok na centrum
-https://hoktastream1.webcamera.pl/wisla_cam_e154be/wisla_cam_e154be.stream/playlist.m3u8
+https://polineo.pl:5443/LiveApp/streams/574095533561142541138538.m3u8
 #EXTINF:-0 tvg-logo="https://www.meteobox.pl/api-svg/polska/m/milowka-pl.svg" group-title="Miasta",Milówka
 https://stream.arkomnet.eu/mrondo/tracks-v1/mono.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kalwaria-zebrzydowska-pl.svg" group-title="Miasta",Kalwaria Zebrzydowska
@@ -4753,9 +4755,9 @@ https://s29.ipcamlive.com/streams/1ddnlu17szwtbowr3/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Anglia - Pagham Beach
 https://s55.ipcamlive.com/streams/37poiadx8exj0bknz/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Australia - Darwin Harbour
-https://s62.ipcamlive.com/streams/3ecwbpzxskjkygi7a/stream.m3u8
+https://s62.ipcamlive.com/streams/3efuah5mbthkgierx/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Botswana - Chobe River
-https://s173.ipcamlive.com/streams/ad3ewpsnylgb7f4kr/stream.m3u8
+https://s173.ipcamlive.com/streams/adnikltrjyc0pzz8u/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Cedar Cove Resort
 https://s28.ipcamlive.com/streams/1cb4fwqv5qwno2dns/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Chorwacja - Kovacine
@@ -4785,7 +4787,7 @@ https://s173.ipcamlive.com/streams/adqdqim8be6o450vl/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Słowenia - Planina nad Vrhniko
 https://s110.ipcamlive.com/streams/6eiragh3jsed9qxln/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Turcja - Belcekiz Beach
-https://s153.ipcamlive.com/streams/99oenvfb76vdymsrd/stream.m3u8
+https://s153.ipcamlive.com/streams/99ocfq20qvdh81knv/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",USA - 5th Avenue Beach
 https://s165.ipcamlive.com/streams/a5wemoylm2nnkyswx/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",USA - Bay Head Yacht Club
@@ -4809,7 +4811,7 @@ https://s87.ipcamlive.com/streams/577s3hqudas0jbei4/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",USA - Stuarts Draft Weather
 https://s152.ipcamlive.com/streams/98n8elhj9raxik7pk/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",USA - Ventura Harbor Entrance
-https://s155.ipcamlive.com/streams_storage/9btvz97hnjp84kxf3/stream.m3u8
+https://s142.ipcamlive.com/streams_storage/8e3mtbg4kfnbadcyz/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Weather Cam
 https://s94.ipcamlive.com/streams/5efxhhwo2ss7gxt6z/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Włochy - Albissola Marina
