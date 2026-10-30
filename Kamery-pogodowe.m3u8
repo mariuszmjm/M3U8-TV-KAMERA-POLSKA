@@ -1,4 +1,3 @@
-#EXTM3U
 #FORECASTWEATHER-REFRESH:2026090909
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swinoujscie-pl.svg" group-title="Miasta",Świnoujście - Kamera obrotowa
 https://ls.tkchopin.pl:9043/live/swinoujscie_centrum_obrotowa.stream/playlist.m3u8
