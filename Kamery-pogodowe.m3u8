@@ -90,7 +90,7 @@ http://kamerki.malbork.pl/video/live-1.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jantar-pl.svg" group-title="Miasta",Jantar - Bar Karmazyn
 https://stream.malborskieswiatlowody.pl:18850/Jantar_Karmazyn/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krynica-morska-pl.svg" group-title="Miasta", Krynica Morska - Hotel Kahlberg
-https://s58.ipcamlive.com/streams/3atgbyrzasysz0fwq/stream.m3u8
+https://s58.ipcamlive.com/streams/3azglbpyjqi7r8s5x/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zalewo-pl.svg" group-title="Miasta",Zalewo
 https://s1.worldcam.live:8082/zalewo-fontanna/index.m3u8?token=ef54480fd056d9b49ac850df99f72dbdbfec8d4e0dc3d7531a73690271d41191
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/e/elblag-pl.svg" group-title="Miasta",Elbląg - widok na panoramę miasta
@@ -4754,7 +4754,7 @@ https://s29.ipcamlive.com/streams/1ddnlu17szwtbowr3/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Anglia - Pagham Beach
 https://s55.ipcamlive.com/streams/37ghqrxhfilanovjw/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Australia - Darwin Harbour
-https://s62.ipcamlive.com/streams/3efuah5mbthkgierx/stream.m3u8
+https://s62.ipcamlive.com/streams/3entfg0rzvsudj2ep/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Botswana - Chobe River
 https://s173.ipcamlive.com/streams/ad3ewpsnylgb7f4kr/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Cedar Cove Resort
@@ -4786,7 +4786,7 @@ https://s173.ipcamlive.com/streams/adqdqim8be6o450vl/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Słowenia - Planina nad Vrhniko
 https://s110.ipcamlive.com/streams/6eiragh3jsed9qxln/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Turcja - Belcekiz Beach
-https://s153.ipcamlive.com/streams/992okzvaj9mrsahcd/stream.m3u8
+https://s153.ipcamlive.com/streams/99zzrrbc9ed4piqol/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",USA - 5th Avenue Beach
 https://s165.ipcamlive.com/streams/a5wemoylm2nnkyswx/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",USA - Bay Head Yacht Club
@@ -4802,7 +4802,7 @@ https://s42.ipcamlive.com/streams/2axbis8gjwfeklcqd/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",USA - Sandpiper Cove Beach
 https://s103.ipcamlive.com/streams_storage/67nuesbcxk2xhzq7j/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",USA - Seneca Lake Pier
-https://s158.ipcamlive.com/streams/9emjpwor1p0hczgav/stream.m3u8
+https://s157.ipcamlive.com/streams/9dx67vl90rvtdiqy4/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",USA - Stone Harbor Beach South
 https://s162.ipcamlive.com/streams/a25ccwyu7xieftq23/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",USA - Stone Harbor Yacht Club
@@ -4810,7 +4810,7 @@ https://s87.ipcamlive.com/streams/577s3hqudas0jbei4/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",USA - Stuarts Draft Weather
 https://s152.ipcamlive.com/streams/98n8elhj9raxik7pk/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",USA - Ventura Harbor Entrance
-https://s142.ipcamlive.com/streams_storage/8e3mtbg4kfnbadcyz/stream.m3u8
+https://s133.ipcamlive.com/streams_storage/85bhf1qqyywr5xien/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Weather Cam
 https://s94.ipcamlive.com/streams/5efxhhwo2ss7gxt6z/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Włochy - Albissola Marina
