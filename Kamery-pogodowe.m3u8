@@ -89,6 +89,8 @@ https://stream.malborskieswiatlowody.pl:18850/Zamek_Parkowa_WEB1/index.m3u8
 http://kamerki.malbork.pl/video/live-1.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jantar-pl.svg" group-title="Miasta",Jantar - Bar Karmazyn
 https://stream.malborskieswiatlowody.pl:18850/Jantar_Karmazyn/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krynica-morska-pl.svg" group-title="Miasta", Krynica Morska - Hotel Kahlberg
+https://s58.ipcamlive.com/streams/3atgbyrzasysz0fwq/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zalewo-pl.svg" group-title="Miasta",Zalewo
 https://s1.worldcam.live:8082/zalewo-fontanna/index.m3u8?token=ef54480fd056d9b49ac850df99f72dbdbfec8d4e0dc3d7531a73690271d41191
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/e/elblag-pl.svg" group-title="Miasta",Elbląg - widok na panoramę miasta
@@ -4707,8 +4709,6 @@ https://cam.idokep.hu/live/bshe_maconka1/live-75db75b55d.m3u8
 https://cam.idokep.hu/live/volgyvaros4/live-ad05928fac.m3u8
 #EXTINF:-1 group-title="TEST", Macedonia Północna - centrum starego miasta w Ochrydzie 
 https://cdn-007.whatsupcams.com/hls/mk_ohrid01.m3u8
-#EXTINF:-1 group-title="TEST", Krynica Morska - Hotel Kahlberg
-https://s58.ipcamlive.com/streams/3atgbyrzasysz0fwq/stream.m3u8
 #EXTINF:-1 group-title="TEST", Włochy - Marina di Venezia 
 https://stream1.panocloud.com/marinadivenezia/marinadivenezia.stream/playlist.m3u8
 #EXTINF:-1 group-title="TEST", Słowacja - AQUAPARK BEŠEŇOVÁ II
