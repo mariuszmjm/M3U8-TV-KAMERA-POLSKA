@@ -403,7 +403,7 @@ https://cdn01.aztv.pl/sesja_laskowa/sesja_laskowa2.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/nowy-sacz-pl.svg" group-title="Miasta",Nowy Sącz
 https://cd31010201.spaceweb.pl:5443/LiveApp/streams/390561851206038326690986.m3u8?token=null
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/S/STARY-sacz-pl.svg" group-title="Miasta",Stary Sącz
-https://rs-system.eu:5443/WebRTCApp/streams/838860928509386678711228.m3u8
+https://stream.rs-system.eu/WebRTCApp/streams/6shrHDd1sWJPH7sl42603232013.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/szczawnica-pl.svg" group-title="Miasta",Szczawnica
 https://kamery-szczawnica.poxi.pl/stream/promenada/index-kam08.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/K/Krynica-zdroj-pl.svg" group-title="Miasta",KRYNICA ZDRÓJ - Góra Parkowa
