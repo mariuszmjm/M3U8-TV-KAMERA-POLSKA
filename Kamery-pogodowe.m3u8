@@ -5,6 +5,8 @@ https://ls.tkchopin.pl:9043/live/swinoujscie_centrum_obrotowa.stream/playlist.m3
 https://ls-proxy-local.lantech.com.pl/hls/swinoujscie1/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swinoujscie-pl.svg" group-title="Miasta",Świnoujście - Kamera Wolin
 https://kamera.smslowianin.pl:8181/memfs/b43efa20-6a37-4477-b40b-922baa97edb1.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/m/miedzyzdroje-pl.svg" group-title="Miasta",Kamera Międzyzdroje – Online
+https://streaming.airmax.pl/apiconnect2_alejagwiazd/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/szczecin-1-pl.svg" group-title="Miasta",Szczecin - Dźwigozaury
 https://ls-proxy-local.lantech.com.pl/hls/dzwigozaury/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/szczecin-1-pl.svg" group-title="Miasta",Szczecin Osiedle Reda
@@ -692,8 +694,6 @@ https://kl7.tech5.pl:8002/hls/live.stream.m3u8
 https://cdn2.bieszczady.live/hls-live/arlamow6/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Kamera krajobrazowa przy współpracy ze wspólnotą Molo Międzyzdroje
 https://streaming.airmax.pl/apiconnect4_molo1/index.m3u8
-#EXTINF:-1  group-title="Jeziora i inne miejsca", Kamera Międzyzdroje – Online
-https://streaming.airmax.pl/apiconnect2_alejagwiazd/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Szczyrk - Hala Skrzyczeńska II - 1000 m n.p.m. 
 https://hoktastream4.webcamera.pl/tmr_cam_9b0145/tmr_cam_9b0145.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Kamera Wołkowyja - Bieszczady pow. leski
