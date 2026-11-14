@@ -92,7 +92,7 @@ https://stream.malborskieswiatlowody.pl:18850/Jantar_Karmazyn/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krynica-morska-pl.svg" group-title="Miasta", Krynica Morska - Hotel Kahlberg
 https://s58.ipcamlive.com/streams/3azglbpyjqi7r8s5x/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zalewo-pl.svg" group-title="Miasta",Zalewo
-https://s1.worldcam.live:8082/zalewo-fontanna/index.m3u8?token=7a6af297b48f35b74baa0e05bd8179d5c5b63c9051fa65d1e731cbda05faeb57
+https://s1.worldcam.live:8082/zalewo-fontanna/index.m3u8?token=0b27892f1ada0f2e639152d92cbc42b475f666b43e0508ee3e2bccefe20a6296
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/e/elblag-pl.svg" group-title="Miasta",Elbląg - widok na panoramę miasta
 https://hoktastream3.webcamera.pl/elblag_cam_e6c58e/elblag_cam_e6c58e.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/e/elblag-pl.svg" group-title="Miasta",Elbląg - widok na rzekę i Bulwar Zygmunta Augusta
@@ -106,7 +106,7 @@ https://hoktastream2.webcamera.pl/olsztyn_cam_43a997/olsztyn_cam_43a997.stream/p
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gizycko-pl.svg" group-title="Miasta",Giżycko - widok na most obrotowy na Kanale Łuczańskim
 https://hoktastream4.webcamera.pl/gizycko_cam_82df5c/gizycko_cam_82df5c.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/grajewo-pl.svg" group-title="Miasta",Grajewo
-https://s1.worldcam.live:8082/grajewo/index.m3u8?token=b44284b39d6a8c2e125ea073cd0bca3d0f2ce56a40dd6a51e8f7fa9888a7a038
+https://s1.worldcam.live:8082/grajewo/index.m3u8?token=1278f82b6c7183a3260c10d949691a3328f2b07ed08a4c97cb1d87d74dea590c
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/suwalki-pl.svg" group-title="Miasta",Suwałki
 https://69e8b5f40802b.streamlock.net:1936/live/plac.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/pisz-pl.svg" group-title="Miasta",Pisz: Rondo im. Lecha Kaczyńskiego
@@ -170,11 +170,11 @@ https://ott8.satfilm.pl/stream/164R/stream.mpd?tm=089d1f7e840e4807a7170cceedf3a9
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/bydgoszcz-pl.svg" group-title="Miasta",Bydgoszcz - widok na Stary Rynek
 https://hoktastream3.webcamera.pl/bydgoszcz_cam_406fa8/bydgoszcz_cam_406fa8.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/bydgoszcz-pl.svg" group-title="Miasta",Bydgoszcz - Panorama
-https://s1.worldcam.live:8082/bydgoszcz-panorama/index.m3u8?token=7582fb00ab2c3fdd2cd6cf519c7521a29f858d3190daf6f68a3338b3bdaefe89
+https://s1.worldcam.live:8082/bydgoszcz-panorama/index.m3u8?token=8e799df85480f2eb97caff223b7bc23d66ab478e5f0cc1c1f3c0417593d1ff1e
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/pila-pl.svg" group-title="Miasta",Piła
 https://5cce8c6f0e84c.streamlock.net/live/smil:PlayStream2.smil/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/cekcyn-pl.svg" group-title="Miasta", Cekcyn - Bory Tucholskie
-https://s1.worldcam.live:8082/cekcyn/index.m3u8?token=17c191269c37baa11eddfcd2603751a090bcb0ff022014ee203b87d15bfb540d
+https://s1.worldcam.live:8082/cekcyn/index.m3u8?token=0da11ee5e8096b9ef4812effa67c87825b28143f5d06780260149188e6c8fcaa
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/c/chojnice-pl.svg" group-title="Miasta",Chojnice
 https://www.chojnice.com/hls/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/debrzno-pl.svg" group-title="Miasta",Debrzno
@@ -192,9 +192,9 @@ https://live.mtp.pl/cam1.ts/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/poznan-pl.svg" group-title="Miasta",POZNAŃ - widok na Stary Rynek
 https://hoktastream2.webcamera.pl/poznan_cam_a2ec1b/poznan_cam_a2ec1b.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gniezno-pl.svg" group-title="Miasta",Gniezno - Rynek
-https://s1.worldcam.live:8082/gniezno3/index.m3u8?token=d808abaa55931de97609b63a77fe0c82bad8c00c22e9363ed8942a83589f6818
+https://s1.worldcam.live:8082/gniezno3/index.m3u8?token=9cebe7c30b4acb7d563d9832091de75c0f655a7375f89bd8375e09d72d90ec35
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/glogow-pl.svg" group-title="Miasta",Głogów
-https://s1.worldcam.live:8082/glogow2/index.m3u8?token=8e0c654289fb2c6147203788a24578d7294eb640430327b98ecebc68134123a0
+https://s1.worldcam.live:8082/glogow2/index.m3u8?token=5b89c83798fe249e5be76255d9998e5791c0a013b414666bf1e5fa305bd1e0fc
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/leszno-pl.svg" group-title="Miasta",Kalisz Rynek
 https://streaming.airmax.pl/cambox_20251128/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/g/gorzow-wielkopolski-pl.svg" group-title="Miasta",GORZÓW WIELKOPOLSKI - panorama na miasto
@@ -428,7 +428,7 @@ https://stream4.stimotion.pl/live/iwonicz2.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/I/Iwonicz-zdroj-pl.svg" group-title="Miasta",Iwonicz Zdrój - Plac Dietla
 https://stream4.stimotion.pl/live/iwonicz1.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/r/Rymanow-pl.svg" group-title="Miasta",Rymanów - Rynek
-https://s1.worldcam.live:8082/rymanow/index.m3u8?token=d758ba636169b1b2bd57447203b15b2d33f353ed92a33eb0fbb577175a70f1c8
+https://s1.worldcam.live:8082/rymanow/index.m3u8?token=7e7edbdaae5d144f2253ab8be53ea691d92c4c007dcfed6efd109cb322117bbd
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/sanok-pl.svg" group-title="Miasta",Sanok
 https://str.metrosan.pl/grodka/hls/live.stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/sanok-pl.svg" group-title="Miasta",Sanok 2
@@ -474,7 +474,7 @@ https://1650048485.rsc.cdn77.org/live/CZf117.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lubaczow-pl.svg" group-title="Miasta",Lubaczów - Rynek
 https://stream5.mat-sat.pl/str/1lubaczow.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/narol-pl.svg" group-title="Miasta", Narol
-https://s1.worldcam.live:8082/narol/index.m3u8?token=ec813cfe1cfca6d511d8e324d543c53b045e25066c6425b74ee3c05d626eb44e
+https://s1.worldcam.live:8082/narol/index.m3u8?token=dd082c9274ce385bd142e181fc6688aa8a65918e18609a433c135e5d49f3fc23
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/t/tomaszow-lubelski-pl.svg" group-title="Miasta",Tomaszów Lubelski
 https://newcam.tom-net.pl/memfs/0bf2fec2-11d0-467b-b493-1e0821bb165c.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zamosc-pl.svg" group-title="Miasta",Kamera z widokiem na RYNEK WIELKI w ZAMOŚCIU
@@ -484,9 +484,9 @@ https://newcam.tom-net.pl/memfs/4c157671-50da-47b0-ae5e-86c37423710a.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/S/STALOWA-WOLA-pl.svg" group-title="Miasta",Stalowa Wola
 https://stream.tvkstella.pl/stella/kamera4.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Miasta",Świdnik - Galeria Venus
-https://s1.worldcam.live:8082/swidnik3/index.m3u8?token=76fbff2a7eec520f08fb8b4ede6478eda8e62bafe68c08569ab6b37fee9156b0
+https://s1.worldcam.live:8082/swidnik3/index.m3u8?token=40c71e9ea1ed66d4cc22943b0e8c96c28b5dda484d30b3fc59017507878e0ff3
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/s/swidnik-pl.svg" group-title="Miasta",Świdnik - Plac Konstytucji 3 Maja
-https://s1.worldcam.live:8082/swidnik/index.m3u8?token=bb7f8b40b90e72ecf05d1d90415122e9bd1148e1cab63145b15001776d69180b
+https://s1.worldcam.live:8082/swidnik/index.m3u8?token=470820dd5305637794c00861296185fc0c6e0b21881a52611903ffa331a9dc59
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lublin-pl.svg" group-title="Miasta",LUBLIN - widok na Bramę Krakowską
 https://1172509122.rsc.cdn77.org/live/Qms618.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lublin-pl.svg" group-title="Miasta",Lublin - widok na Park Ludowy
@@ -502,7 +502,7 @@ https://nazywo.emkielce.pl/live/test/13/13-radio/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/k/kielce-pl.svg" group-title="Miasta",KIELCE - widok na Kielecką Starówką
 https://hoktastream4.webcamera.pl/kielcerynek_cam_6913aa/kielcerynek_cam_6913aa.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/o/ostrowiec-swietokrzyski-pl.svg" group-title="Miasta",Ostrowiec Świętokrzyski
-https://s1.worldcam.live:8082/ostrowiec-swietokrzyski/index.m3u8?token=257b8f00c53a809de5bd9c43bc9907d6d72cc41f11f3b9596f40d9f9273b2efa
+https://s1.worldcam.live:8082/ostrowiec-swietokrzyski/index.m3u8?token=b69bb26215826e86226a1c1b63dc9a2b01e56c8041f36ffae6e1885f35e493fb
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/busko-zdroj-pl.svg"  group-title="Miasta",Busko Zdrój - Fontanna przy Tęźni
 https://vm2.umig.busko.pl/webcam/cam13.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/busko-zdroj-pl.svg"  group-title="Miasta",Busko Zdrój - Muszla koncertowa
@@ -653,7 +653,7 @@ https://online2.kamery24.org/cam/janpawel.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Świątynia Wang
 https://stream.infoo.net/memfs/07f53a7f-ae65-4db2-a51b-b0612c29d76c.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Dębowiec - Tężnia solankowa
-https://s1.worldcam.live:8082/debowieccn/index.m3u8?token=453b678bfb8b71ea080c61ea4676517c7766693145b435a831e4268aded0b21d
+https://s1.worldcam.live:8082/debowieccn/index.m3u8?token=508491e25ea4fc4da241f2f9ac165d65d6e9a86768f42f99153f882da5adc338
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Srebrna Góra
 https://streaming.airmax.pl/srebrnatwierdza3/tracks-v1/mono.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Nidzkie - plaża Jakowo
@@ -3509,27 +3509,27 @@ https://1340016098.rsc.cdn77.org/live/BtE1182.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Widok na jezioro Wigry z wieży widokowej w Kruszniku
 https://1352096138.rsc.cdn77.org/live/qKP1370.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Stowarzyszenie "Szansa dla Bociana" w Kozubszczyźnie obok Lublina
-https://s1.worldcam.live:8082/kozubszczyzna1/index.m3u8?token=4255047051dbabd97d5b9792f9b1d30ac233db8ba70b192a0a5218c7aa1efbe7
+https://s1.worldcam.live:8082/kozubszczyzna1/index.m3u8?token=845ea8ffaaac3d22cead392ec86fa9a74137eb090bf051275a8abd8ae7fe3801
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Stowarzyszenie "Szansa dla Bociana" w Kozubszczyźnie obok Lublina 2
-https://s1.worldcam.live:8082/kozubszczyzna2/index.m3u8?token=ebefedf2c4671c6c65564295dd7dff57d94490425bc492d4c1fdc339b63fa6d7
+https://s1.worldcam.live:8082/kozubszczyzna2/index.m3u8?token=a40941994294cdecfede6843b9888a183cf7a137e3d5fcdf4c869b34819b80b6
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Pasieka przy ZTPO w Krakowie 
-https://s1.worldcam.live:8082/pasieka/index.m3u8?token=12f848e1868de617a45c809f87d684e09186c3376af924740dd2b40113e57ac4
+https://s1.worldcam.live:8082/pasieka/index.m3u8?token=c651109cf7df9df15f17f41fa4583ba4e29a14f6e683f0c4acf6640302784f55
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Woliery na żywo - MWG Mazury w Popowie
-https://s1.worldcam.live:8082/mwgmazury/index.m3u8?token=2b850e93f4ced92487ad24cf48c5606a326eb11d73699edb384cbbc1af2a787d
+https://s1.worldcam.live:8082/mwgmazury/index.m3u8?token=a4c2a7ac385811917c0cf2ff215e704b2b8267d05f443d4f6747ffdb5f33eff5
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Widok ogólny - MWG Mazury w Popowie
-https://s1.worldcam.live:8082/mwgmazury2/index.m3u8?token=867924ff1befc62c369b05da5a6a0aefbb19eb85e1ba6be79b9cc5b889d2eb24
+https://s1.worldcam.live:8082/mwgmazury2/index.m3u8?token=84aadcddf1860abd8ed4b4066d8f5b94b5c24bc1f46b0f1336f6b519735ed4c6
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Mikuszowice Krakowskie - Bielsko Biała
-https://s1.worldcam.live:8082/neptun/index.m3u8?token=5db62e8a8ae1287d52887860b5a8f567a909b551fab6a8a8aeb28d388e4e6e89
+https://s1.worldcam.live:8082/neptun/index.m3u8?token=c401d6d49d65227fd319b2f43de13c4cff2951bc6533bf9310d179059ed99981
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Widok na miejscowość Czaszyn / Bieszczady
 https://kl6.tech5.pl:8055/hls/live.stream.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Widok na Lubawkę z Domu Weselnego Na Wzgórzu.
-https://s1.worldcam.live:8082/lubawka2/index.m3u8?token=96f5e4dc16ca9ddb16cdff0d8552cf78dbaf3dc019a7f2e24f056f8d6d96bdf1
+https://s1.worldcam.live:8082/lubawka2/index.m3u8?token=121ec9fc3650c5b5537a0f38bf5ed8f6d197be526fec296d651e081ba821b621
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Widok na żywo na molo nad zalewem w Opocznie
 https://s1.worldcam.live:8082/opocznozalew/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Karpacz - Karkonoskie Tajemnice na żywo
-https://s1.worldcam.live:8082/karpacz/index.m3u8?token=94903a59f36db93e654a256287e54421cdb2cc0d4291eaa38622f789eb61c0aa
+https://s1.worldcam.live:8082/karpacz/index.m3u8?token=17e6c3fc02253a65597977edbae98daee8b2382da37b5c4dbcee831636842343
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Jezioro Lipie, Długie, Strzelce Krajeńskie, Lubuskie,
-https://s1.worldcam.live:8082/strzelce-krajenskie-jezioro-lipie/index.m3u8?token=3e5745be470c01eff1429a615a5e6804bd325a346594fb8446fa0175d125904f
+https://s1.worldcam.live:8082/strzelce-krajenskie-jezioro-lipie/index.m3u8?token=0b5111bfa522e8e9cfd725e315961f3f2ef2a2b62ed7117a89309d0f25c251fc
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Melsztyn – widok z Zamku /tarnowski
 https://videocdn.km-net.pl/Melsztyn_Zamek/video.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Gródek nad Dunajcem – Jezioro
@@ -3567,7 +3567,7 @@ https://play.gawex.pl/szczecinek/mysiawyspa.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Zabytkowa Kopalnia Ignacy w Rybniku
 https://streaming.leon.pl/hls/rybnik4/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Jezioro Wielkie Cekcyńskie - Bory Tucholskie
-https://s1.worldcam.live:8082/cekcyn-bory-tucholskie/index.m3u8?token=0b01e023128c9e2790ce4ff205eda7ff0d551e6a2ed521f5b2db65eb7db9914e
+https://s1.worldcam.live:8082/cekcyn-bory-tucholskie/index.m3u8?token=a58af27fc9898fd6c22944391dfaa3c8d8b499bc59e9f9d2bdf917cf022dda98
 #EXTINF:-1  group-title="Jeziora i inne miejsca", Koszalin - Park Książąt Pomorskich
 https://kl7.tech5.pl:7998/hls/live.stream.m3u8
 
