@@ -86,11 +86,15 @@ https://ls.tkchopin.pl:9043/live/gniew_widok_rynek_wieza_kosciola_static.stream/
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/m/malbork-pl.svg" group-title="Miasta",Malbork - widok na Zamek Krzyżacki
 https://stream.malborskieswiatlowody.pl:18850/Zamek_Parkowa_WEB1/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/m/malbork-pl.svg" group-title="Miasta",Malbork
-http://kamerki.malbork.pl/video/live-1.m3u8
+https://stream.malborskieswiatlowody.pl:18850/MC-Fontamma/index.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/m/malbork-pl.svg" group-title="Miasta",Malbork 2
+https://stream.malborskieswiatlowody.pl:18850/Wybickiego_strazpozarna/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jantar-pl.svg" group-title="Miasta",Jantar - Bar Karmazyn
 https://stream.malborskieswiatlowody.pl:18850/Jantar_Karmazyn/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krynica-morska-pl.svg" group-title="Miasta", Krynica Morska - Hotel Kahlberg
 https://s58.ipcamlive.com/streams/3aur0fqid4othxhyc/stream.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/b/braniewo-pl.svg" group-title="Miasta",Braniewo
+https://kamery.org.pl/cam3/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zalewo-pl.svg" group-title="Miasta",Zalewo
 https://s1.worldcam.live:8082/zalewo-fontanna/index.m3u8?token=6d4eef71322a1f8153980a66ae0a43489d18a90fffeba0fb61f929d685ff2766
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/e/elblag-pl.svg" group-title="Miasta",Elbląg - widok na panoramę miasta
@@ -572,6 +576,8 @@ https://stream.multimediagdansk.pl/Kamery-on-line/streams/kamerazoo.m3u8
 https://hoktastream1.webcamera.pl/wdzydze_cam_8d77ee/wdzydze_cam_8d77ee.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Wejherowo - Bieliki
 https://hoktastream1.webcamera.pl/um_wejherowo_cam_d5888b/um_wejherowo_cam_d5888b.stream/playlist.m3u8
+#EXTINF:-1  group-title="Jeziora i inne miejsca", Port w Tolkmicku
+https://kamery.org.pl/cam6/index.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Gniew - zakole Wisły
 https://ls.tkchopin.pl/live/gniew_widok_zakole_wisly_obrotowa.stream/playlist.m3u8
 #EXTINF:-1  group-title="Jeziora i inne miejsca",Gniewino - Kaszubskie oko
