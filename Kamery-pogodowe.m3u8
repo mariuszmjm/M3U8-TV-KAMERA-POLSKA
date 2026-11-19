@@ -90,7 +90,7 @@ http://kamerki.malbork.pl/video/live-1.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/j/jantar-pl.svg" group-title="Miasta",Jantar - Bar Karmazyn
 https://stream.malborskieswiatlowody.pl:18850/Jantar_Karmazyn/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.meteobox.pl/api-svg/polska/k/krynica-morska-pl.svg" group-title="Miasta", Krynica Morska - Hotel Kahlberg
-https://s58.ipcamlive.com/streams/3azglbpyjqi7r8s5x/stream.m3u8
+https://s58.ipcamlive.com/streams/3aur0fqid4othxhyc/stream.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zalewo-pl.svg" group-title="Miasta",Zalewo
 https://s1.worldcam.live:8082/zalewo-fontanna/index.m3u8?token=0ef456c726775d50b6c9c702c2710d8c706203c3159b74bc2dffd1b4370e10a8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/e/elblag-pl.svg" group-title="Miasta",Elbląg - widok na panoramę miasta
@@ -4754,7 +4754,7 @@ https://s29.ipcamlive.com/streams/1dnyjru67ek2a39b0/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Anglia - Pagham Beach
 https://s55.ipcamlive.com/streams/37gmjhw6xducznxi7/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Australia - Darwin Harbour
-https://s62.ipcamlive.com/streams/3egtlr1rzmdwe7kqy/stream.m3u8
+https://s62.ipcamlive.com/streams/3ewcufkg3bysir0da/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Botswana - Chobe River
 https://s75.ipcamlive.com/streams/4bnqhkv0qxl2gldau/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Cedar Cove Resort
@@ -4786,7 +4786,7 @@ https://s173.ipcamlive.com/streams/adehxuw7arkl4mq6j/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Słowenia - Planina nad Vrhniko
 https://s43.ipcamlive.com/streams/2bjkadwyxulivxwyz/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Turcja - Belcekiz Beach
-https://s110.ipcamlive.com/streams/6ec9qwdspucieeq8x/stream.m3u8
+https://s110.ipcamlive.com/streams/6ei9dy2fwmeqlesih/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",USA - 5th Avenue Beach
 https://s93.ipcamlive.com/streams/5dyr9llmj4it81dfc/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",USA - Bay Head Yacht Club
@@ -4798,7 +4798,7 @@ https://s92.ipcamlive.com/streams_storage/3bu1fpyciotbym536/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",USA - Pine Grove Resort
 https://s96.ipcamlive.com/streams/60hkrzdkyo8lnx59c/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",USA - Royal Mountain
-https://s158.ipcamlive.com/streams/9e7digvcxxibsgyzf/stream.m3u8
+https://s164.ipcamlive.com/streams/a4iboxg4vy9f2rauc/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",USA - Sandpiper Cove Beach
 https://s141.ipcamlive.com/streams_storage/8d6jswloksbrnlc2u/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",USA - Seneca Lake Pier
