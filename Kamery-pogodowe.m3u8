@@ -209,6 +209,8 @@ https://hoktastream2.webcamera.pl/gorzow_cam_0039e8/gorzow_cam_0039e8.stream/pla
 https://flu.lisek.pl/Skwierzyna001/index.fmp4.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/w/wrzesnia-pl.svg" group-title="Miasta",Września
 https://streaming.airmax.pl/03umigwrzesnia/tracks-v1/mono.m3u8
+#EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/Z/zgorzelec-pl.svg" group-title="Miasta", Zgorzelec
+https://wegliniec.feniksmedia.com:1443/powst_5_fhd/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/z/zielona-gora-pl.svg" group-title="Miasta",ZIELONA GÓRA - widok na panoramę miasta
 https://hoktastream4.webcamera.pl/zielonagora_cam_ed9042/zielonagora_cam_ed9042.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/luban-pl.svg" group-title="Miasta",Lubań
