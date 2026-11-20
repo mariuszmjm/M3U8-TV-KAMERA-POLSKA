@@ -4836,6 +4836,8 @@ https://s167.ipcamlive.com/streams/a7knzsik6ohdephlu/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Włochy - Rimini
 https://s167.ipcamlive.com/streams_storage/a7obtafdcvrlg4qm8/stream.m3u8
 
+#EXTINF:-1 group-title="Kamery Streamway", Wieża Eifla
+https://www.streamway.io/player/ing_7c107386-691a-4201-9a4a-3b73059c83fa
 # ======================================================================
 # IPCAMLIVE - DZIAŁAJĄCE KAMERY Z AUTOMATYCZNEGO TESTU
 # ======================================================================
