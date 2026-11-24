@@ -4870,6 +4870,9 @@ https://syntagma-proxy.adiutor-mariusz.workers.dev/voloskeraiaote/playlist.m3u8
 https://syntagma-proxy.adiutor-mariusz.workers.dev/agalmaposeidonacam/playlist.m3u8
 #EXTINF:-1 group-title="TEST", Grecja - Limnos
 https://syntagma-proxy.adiutor-mariusz.workers.dev/lgdabiaapartments/playlist.m3u8
+#EXTINF:-1 group-title="TEST", ALFA tv
+https://film.alfatv.pl/~tv/backup_vimeo/1222052113.mp4
+
 #EXTINF:-1 group-title="IPCamLive",Anglia - Cotswold Airport
 https://s29.ipcamlive.com/streams/1d3birml75hoacjsv/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Anglia - Pagham Beach
