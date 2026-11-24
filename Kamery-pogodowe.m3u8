@@ -3707,12 +3707,6 @@ https://stream.twoja.tv/ttv_hls/live_720p/index.m3u8
 https://5d84fe297ee2b.streamlock.net/sercanie/scj_florek.stream_aac/playlist.m3u8
 #EXTINF:-1 group-title="Telewizja Polska",TV Relax
 https://srv1.streamingo.pl/memfs/b2293d83-1bc5-42d0-a3fb-e386c96841e7.m3u8
-#EXTINF:-1 group-title="Telewizja Polska",BTB
-https://emisja.btb.j00r.us/iptv/session/1/live.m3u8
-#EXTINF:-1 group-title="Telewizja Polska",BTB 2
-https://emisja.btb.j00r.us/iptv/session/2/live.m3u8
-#EXTINF:-1 group-title="Telewizja Polska",BTB Info
-https://emisja2.btb.j00r.us/iptv/session/4/live.m3u8
 #EXTINF:-1 group-title="Telewizja Polska",4 Fun TV
 https://stream.4fun.tv:8888/sd/4fun_sd_high.m3u8
 #EXTINF:-1 group-title="Telewizja Polska",4 Fun Kids
