@@ -3677,8 +3677,6 @@ https://cdn01.aztv.pl/live_tvjaslo/live_tvjaslo.stream/playlist.m3u8
 https://s-pl-01.mediatool.tv/playout/tbpl-abr/index.m3u8
 #EXTINF:-1 group-title="Telewizja Polska",Remonty TV
 https://prx-y5cf8.4vod.tv/playout/repl-abr67/index.m3u8
-#EXTINF:-1 group-title="Telewizja Polska",Super Express TV
-https://prx-y5cf8.mediatool.tv/playout/sepl-abr67/index.m3u8
 #EXTINF:-1 group-title="Telewizja Polska",Echo24 - Wroclaw
 https://echo24new.pl/LiveAppStreamECHO24/streams/GL0VksiIgQUS1672825288490.m3u8
 #EXTINF:-1 group-title="Telewizja Polska",Euronews Polska
@@ -3703,14 +3701,12 @@ https://tvk.smnt.pl/memfs/cf3a66ef-133a-4579-86da-5995ab23ae2a.m3u8
 https://5cce8c6f0e84c.streamlock.net/LiveCast/smil:PlayStream9.smil/playlist.m3u8
 #EXTINF:-1 group-title="Telewizja Polska",TVT - Slask
 https://live.streamtvt.pl/LiveAppStreamTVT/streams/853271271313930867905724.m3u8
-#EXTINF:-1 group-title="Telewizja Polska",Twoja.TV
-https://stream.twoja.tv/ttv_hls/live.m3u8
 #EXTINF:-1 group-title="Telewizja Polska",Twoja.TV - 720p
 https://stream.twoja.tv/ttv_hls/live_720p/index.m3u8
 #EXTINF:-1 group-title="Telewizja Polska",Telewizja iTTV
 https://5d84fe297ee2b.streamlock.net/sercanie/scj_florek.stream_aac/playlist.m3u8
 #EXTINF:-1 group-title="Telewizja Polska",TV Relax
-https://srv1.streamingo.pl/memfs/be50f17e-6579-4bdf-86b1-31207aec85b8.m3u8
+https://srv1.streamingo.pl/memfs/b2293d83-1bc5-42d0-a3fb-e386c96841e7.m3u8
 #EXTINF:-1 group-title="Telewizja Polska",BTB
 https://emisja.btb.j00r.us/iptv/session/1/live.m3u8
 #EXTINF:-1 group-title="Telewizja Polska",BTB 2
