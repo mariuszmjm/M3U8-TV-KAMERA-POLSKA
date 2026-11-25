@@ -14,7 +14,7 @@ PLAYLIST_FILE = pathlib.Path("Kamery-pogodowe.m3u8")
 
 WORLDCAM_RE = re.compile(
     r"https?://[^/\s]*worldcam\.live(?::\d+)?/"
-    r"([^/?#\s]+)/index\.m3u8(?:\?[^\s]*)?",
+    r"([^/?#\s]+)/(?:index\.m3u8|tracks-v\d+/[^?\s]+\.m3u8)(?:\?[^\s]*)?",
     re.IGNORECASE,
 )
 
@@ -130,7 +130,7 @@ async def get_fresh_worldcam_url(
         url = request.url
 
         if (
-            f"/{camera_id}/index.m3u8" in url
+            (f"/{camera_id}/index.m3u8" in url or f"/{camera_id}/tracks-" in url) and ".m3u8" in url
             and "token=" in url
         ):
 
@@ -277,18 +277,14 @@ async def main():
                 "Sprawdzam obecny strumień..."
             )
 
-            if test_hls(
-                current_url,
-                camera_id
-            ):
+            current_ok = test_hls(current_url, camera_id)
+            if current_ok:
 
                 print(
                     "OK - obecny adres nadal działa."
                 )
 
-                ok_count += 1
-
-                continue
+                print("Profilaktyczne odświeżenie adresu w tej godzinie.")
 
             # =================================================
             # KROK 2
@@ -339,12 +335,18 @@ async def main():
                         "znaleziony, ale nie działa."
                     )
 
-                    error_count += 1
+                    if current_ok:
+                        ok_count += 1
+                    else:
+                        error_count += 1
 
                     continue
 
                 # Wszystko OK - podmieniamy.
 
+                if new_url == current_url:
+                    ok_count += 1
+                    continue
                 lines[line_index] = new_url
 
                 changed = True
@@ -359,7 +361,10 @@ async def main():
 
             except Exception as e:
 
-                error_count += 1
+                if current_ok:
+                    ok_count += 1
+                else:
+                    error_count += 1
 
                 print()
                 print(
