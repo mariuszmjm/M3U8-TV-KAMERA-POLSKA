@@ -1,3 +1,6 @@
+import csv
+import concurrent.futures
+import datetime
 import json
 import pathlib
 import re
@@ -566,68 +569,58 @@ def update_camera(
 
 
 def main():
-
-    text = PLAYLIST_FILE.read_text(
-        encoding="utf-8"
-    )
-
-    lines = text.splitlines()
-
-    changed = False
-
-    print()
-    print("#" * 70)
-    print("AUTOMATYCZNA AKTUALIZACJA IPCAMLIVE")
-    print("#" * 70)
-
-    for camera_name, aliases in CAMERAS.items():
-
-        try:
-
-            if update_camera(
-                lines,
-                camera_name,
-                aliases
-            ):
-
-                changed = True
-
-        except Exception as e:
-
-            print()
-            print(
-                "BŁĄD KAMERY:",
-                camera_name
-            )
-
-            print(e)
-
-            # Awaria jednej kamery
-            # nie zatrzymuje pozostałych.
-
-            continue
-
-    if changed:
-
-        PLAYLIST_FILE.write_text(
-            "\n".join(lines) + "\n",
-            encoding="utf-8"
-        )
-
-        print()
-        print("#" * 70)
-        print(
-            "ZAPISANO ZMIANY "
-            "W Kamery-pogodowe.m3u8"
-        )
-        print("#" * 70)
-
-    else:
-
-        print()
-        print("#" * 70)
-        print("NIE BYŁO NIC DO ZMIANY")
-        print("#" * 70)
+    from test_ipcamlive_249 import check_one, test_hls
+    import requests
+    lines = PLAYLIST_FILE.read_text(encoding="utf-8").splitlines()
+    by_name, by_stream = {}, {}
+    for name, aliases in CAMERAS.items():
+        by_name.setdefault(name, set()).update(aliases)
+    for file in ["ipcamlive/ipcamlive_wyniki_wszystkie.csv", "scripts/ipcamlive_kandydaci_249.csv"]:
+        with open(file, encoding="utf-8-sig", newline="") as f:
+            for row in csv.DictReader(f):
+                alias = row.get("alias", "").strip()
+                if not alias: continue
+                by_name.setdefault(row.get("nazwa", "").strip(), set()).add(alias)
+                if row.get("streamid"):
+                    by_stream.setdefault(row["streamid"], set()).add(alias)
+    entries = []
+    name = ""
+    for i, line in enumerate(lines):
+        if line.startswith("#EXTINF"):
+            name = line.split(",", 1)[-1].strip()
+        elif re.match(r"https?://[^/]*\.ipcamlive\.com/", line.strip(), re.I):
+            url = line.strip()
+            aliases = by_stream.get(extract_streamid(url)) or by_name.get(name, set())
+            entries.append((i, name, url, sorted(aliases)))
+    def check(entry):
+        i, name, url, aliases = entry
+        if len(aliases) == 1:
+            alias = aliases[0]
+            result = check_one(dict(alias=alias, nazwa=name, typ="", poprzedni_status="", adres_strony=""))
+            if result["status"] == "ONLINE":
+                return i, name, alias, result["hls"], "ONLINE", result["uwagi"]
+            return i, name, alias, url, result["status"], result["uwagi"]
+        with requests.Session() as session:
+            ok, why = test_hls(session, url, "")
+        return i, name, ";".join(aliases), url, "ONLINE_BEZ_ALIASU" if ok else "BRAK_ALIASU_LUB_NIEJEDNOZNACZNY", why
+    report = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+        for entry, future in zip(entries, [pool.submit(check, e) for e in entries]):
+            try:
+                i, name, alias, url, status, note = future.result()
+            except Exception as exc:
+                i, name, url, aliases = entry
+                alias, status, note = ";".join(aliases), "ERROR", str(exc)
+            changed = status == "ONLINE" and lines[i].strip() != url
+            if changed: lines[i] = url
+            report.append([datetime.datetime.now(datetime.timezone.utc).isoformat(), name, alias, status, changed, note])
+            print(name, status, "ZMIANA" if changed else "")
+    PLAYLIST_FILE.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    with open("ipcamlive/kontrola_playlisty.csv", "w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["czas_utc", "kamera", "alias", "status", "zmieniono", "uwagi"])
+        writer.writerows(report)
+    print("Sprawdzono wpisów:", len(report))
 
 
 if __name__ == "__main__":
