@@ -2,7 +2,10 @@ name: Aktualizacja WorldCam
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "17 * * * *"
+  push:
+    paths:
+      - '.github/workflows/test-worldcam.yml'
   workflow_dispatch:
 
 permissions:
@@ -42,5 +45,5 @@ jobs:
             echo "Brak zmian do zapisania."
           else
             git commit -m "Automatyczna aktualizacja WorldCam"
-            git push
+            git pull --rebase origin main && git push
           fi
