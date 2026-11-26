@@ -22,6 +22,7 @@ PLAYLIST_FILE = pathlib.Path("Kamery-pogodowe.m3u8")
 # ============================================================
 
 CAMERAS = {
+    "WARSZAWA - Odolany": ["69ce1c714c8df"],
 
     # =========================================================
     # DOTYCHCZASOWE KAMERY
