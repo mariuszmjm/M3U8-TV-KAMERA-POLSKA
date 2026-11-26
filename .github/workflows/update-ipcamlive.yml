@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '.github/workflows/update-ipcamlive.yml'
+      - 'scripts/update_ipcamlive.py'
   workflow_dispatch:
 
   schedule:
