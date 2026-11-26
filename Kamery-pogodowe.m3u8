@@ -4152,7 +4152,7 @@ https://s5.ipcamlive.com/streams/05pkbqdsguzfl5ouy/stream.m3u8
 https://s5.ipcamlive.com/streams/05gstpfkizts62eld/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Kaiaponi Farm - Waikanae Surf Club
 https://s128.ipcamlive.com/streams/806nsemm5kxnpbd9t/stream.m3u8
-#EXTINF:-1 group-title="IPCamLiv",Włochy - Bagno Flavio
+#EXTINF:-1 group-title="IPCamLive",Włochy - Bagno Flavio
 https://s58.ipcamlive.com/streams/3aurny7mh219lweos/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",USA - Wolf River Resorts
 https://s30.ipcamlive.com/streams/1eyoh9tzdyhsfqv5z/stream.m3u8
@@ -4200,7 +4200,7 @@ https://s109.ipcamlive.com/streams/6dodh3fllxqugqmvm/stream.m3u8
 https://s58.ipcamlive.com/streams/3as3y8zo1vnsodghc/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Centerville Elementary School Osprey Camera
 https://s59.ipcamlive.com/streams/3btlnj9erfknzqjoq/stream.m3u8
-#EXTINF:-1 group-title="IPCamLivee",St Marys Church
+#EXTINF:-1 group-title="IPCamLive",St Marys Church
 https://s74.ipcamlive.com/streams/4a4ymngsw3to9tvrb/stream.m3u8
 #EXTINF:-1 group-title="IPCamLive",Portoryko - Puerto Del Rey
 https://s90.ipcamlive.com/streams/5ajk3f4cbocnu20tr/stream.m3u8
@@ -4208,5 +4208,5 @@ https://s90.ipcamlive.com/streams/5ajk3f4cbocnu20tr/stream.m3u8
 # ======================================================================
 # IPCAMLIVE - DZIAŁAJĄCE KAMERY Z AUTOMATYCZNEGO TESTU
 # ======================================================================
-#EXTINF:-1 group-title="IPCamLive - inne",Lodowisko Park Słupna
+#EXTINF:-1 group-title="IPCamLive",Lodowisko Park Słupna
 https://s29.ipcamlive.com/streams/1doeggrsahuj47m5y/stream.m3u8
