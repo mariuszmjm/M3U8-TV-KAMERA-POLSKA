@@ -82,23 +82,27 @@ def find_worldcam_entries(lines):
 
     entries = []
 
+    name = ""
+    explicit = ""
     for i, line in enumerate(lines):
-
+        if line.strip().startswith("#EXTINF:"):
+            name = camera_name_from_extinf(line)
+            explicit = ""
+            continue
+        if line.strip().startswith("#WORLDCAM-ID:"):
+            value = line.strip().split(":", 1)[1].strip()
+            if re.fullmatch(r"[A-Za-z0-9_-]+", value): explicit = value
+            continue
+        if not line.strip().startswith(("http://", "https://")):
+            continue
         match = WORLDCAM_RE.search(
             line.strip()
         )
 
-        if not match:
+        camera_id = explicit or (match.group(1) if match else "")
+        explicit = ""
+        if not camera_id:
             continue
-
-        camera_id = match.group(1)
-
-        if i > 0:
-            name = camera_name_from_extinf(
-                lines[i - 1]
-            )
-        else:
-            name = camera_id
 
         entries.append(
             {
