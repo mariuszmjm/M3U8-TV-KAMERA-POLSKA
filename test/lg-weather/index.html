@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kamery LG – pogoda PILOT</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#101820;color:#fff;font:18px Arial,sans-serif}header{padding:10px 14px}.bar{display:flex;align-items:center;flex-wrap:wrap;margin:4px 0}button,select,input{font:inherit;padding:9px;background:#24394b;color:white;border:1px solid #8294a5;border-radius:5px;margin:3px;min-height:42px}button:focus,select:focus,input:focus{outline:3px solid #ffcf45}#cam{flex:1;min-width:180px;max-width:95vw}#search{width:210px;max-width:95vw}#group{max-width:95vw}#stage{position:relative;background:#000;width:100%;height:65vh;overflow:hidden}video{width:100%;height:100%;object-fit:contain}#weather{position:absolute;right:2%;top:3%;width:12%;max-height:75%;object-fit:contain;pointer-events:none;background:transparent;border-radius:5px}#stage.full{position:fixed;top:0;left:0;right:0;bottom:0;width:100%;height:100%;z-index:10;outline:none}#name,#clock,#hint{position:absolute;background:rgba(0,0,0,.7);padding:7px 10px;border-radius:4px;pointer-events:none}#name{bottom:3%;left:2%}#clock{bottom:3%;right:2%}#hint{top:3%;left:2%;font-size:16px;display:none;max-width:90%}#status,#info{padding:6px 14px;font-size:15px;color:#cad8e4}#settings[hidden]{display:none}#stage:not(.full) #hint{display:none}.small{font-size:15px;color:#cad8e4}a{color:#b6daff}button[disabled]{opacity:.4}
+</style></head><body>
+<header><strong>Kamery LG – pogoda PILOT</strong> <span class="small">• <a href="../lg-v2/">powrót do LG 2.0</a></span>
+<div class="bar"><select id="group" aria-label="Grupa kamer"></select><input id="search" type="search" placeholder="Szukaj miejscowości" aria-label="Szukaj kamery"><select id="cam" aria-label="Kamera"></select></div>
+<div class="bar"><button id="play">Odtwórz</button><button id="prev">◀ Poprzednia</button><button id="next">Następna ▶</button><button id="fav">☆ Ulubiona</button><button id="full">Pełny ekran</button><button id="settingsButton">Ustawienia</button><button id="reload">Odśwież listę</button></div>
+<div id="settings" hidden><div class="bar"><button id="size">Pogoda: 12%</button><button id="opacity">Krycie: 100%</button><button id="position">Prawy górny</button><button id="toggle">Pogoda: wł.</button><button id="nameToggle">Nazwa: wł.</button><button id="clockToggle">Zegar: wył.</button></div>
+<div class="bar"><label for="rotation">Zmiana kamer:</label><select id="rotation"><option value="0">Wyłączona</option><option value="1">1 minuta</option><option value="5">5 minut</option><option value="10">10 minut</option><option value="15">15 minut</option><option value="30">30 minut</option></select><span class="small">Odtwarzanie: automatyczne</span></div></div>
+</header>
+<div id="stage" tabindex="-1"><video id="video" playsinline muted autoplay></video><img id="weather" alt="Pogoda" style="display:none"><span id="name"></span><span id="clock" style="display:none"></span><span id="hint"></span></div>
+<div id="status" role="status">Pobieranie playlisty…</div><div id="info"></div>
+<div class="small" style="padding:0 14px 10px">Pełny ekran: P+/P− lub ↑/↓ kamery, ←/→ rozmiar pogody, OK lub Powrót – menu. Czerwony: poprzednia, zielony: następna, żółty: pogoda, niebieski: ulubione. Kamera pozostaje bez zmian przy odświeżaniu listy.</div>
+<script src="weather.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1.6.13/dist/hls.min.js"></script>
+<script>
+(function(){
+'use strict';
+var $=function(id){return document.getElementById(id)},v=$('video'),weather=$('weather'),stage=$('stage'),cam=$('cam'),group=$('group'),search=$('search');
+var sizes=[5,8,10,12,15,18,25,35,45],opacities=[20,40,60,80,100],positions=['Prawy górny','Lewy górny','Prawy dolny','Lewy dolny'];
+var items=[],visible=[],byKey=Object.create(null),selected=null,hls=null,attempt=0,refreshTask=null,retryTimer=null,rotationTimer=null,hintTimer=null,retryCount=0,lastProgress=Date.now(),lastTime=-1,active=false,engineMode='native',progressSince=0,retryEpoch=0;
+var defaults={size:18,opacity:100,position:0,weather:true,name:true,clock:false,rotation:0,last:'',favorites:[]};
+function load(){
+ var data={};try{data=JSON.parse(localStorage.getItem('lgCamerasWeatherPilot')||'{}')||{}}catch(e){}
+ var p={};Object.keys(defaults).forEach(function(k){p[k]=typeof data[k]===typeof defaults[k]?data[k]:defaults[k]});
+ if(sizes.indexOf(p.size)<0)p.size=12;if(opacities.indexOf(p.opacity)<0)p.opacity=100;if([0,1,2,3].indexOf(p.position)<0)p.position=0;if([0,1,5,10,15,30].indexOf(p.rotation)<0)p.rotation=0;
+ if(!Array.isArray(p.favorites))p.favorites=[];return p
+}
+var p=load();function save(){try{localStorage.setItem('lgCamerasWeatherPilot',JSON.stringify(p))}catch(e){}}
+function status(s){$('status').textContent=s;if(stage.classList.contains('full')&&/Błąd|Ponawiam|niedostępny|nie udało/i.test(s))hint(s)}
+function hint(s){$('hint').textContent=s;$('hint').style.display='block';clearTimeout(hintTimer);hintTimer=setTimeout(function(){$('hint').style.display='none'},3500)}
+function option(el,value,label){var o=document.createElement('option');o.value=value;o.textContent=label;el.appendChild(o)}
+function normalize(s){s=s.toLowerCase();if(s.normalize)s=s.normalize('NFD').replace(/[\u0300-\u036f]/g,'');return s.replace(/ł/g,'l')}
+function parse(s){
+ var out=[],current=null,seen=Object.create(null);
+ s.split(/\r?\n/).forEach(function(raw){
+  var l=raw.trim();if(l.indexOf('#EXTINF:')===0){
+   var m=l.match(/tvg-logo="([^"]*)"/i),g=l.match(/group-title="([^"]*)"/i),i=0,quoted=false;
+   for(;i<l.length;i++){if(l[i]==='"')quoted=!quoted;else if(l[i]===','&&!quoted)break}
+   current={name:l.substring(i+1).trim()||'Kamera',logo:m?m[1]:'',group:g&&g[1]?g[1]:'Bez kategorii'};
+  }else if(current&&/^https?:\/\//i.test(l)){
+   current.url=l;var key=current.group+'\u001f'+current.name;seen[key]=(seen[key]||0)+1;current.key=key+'\u001f'+seen[key];out.push(current);current=null;
+  }
+ });return out
+}
+function isFav(k){return p.favorites.indexOf(k)>=0}
+function updateFav(){ $('fav').textContent=selected&&isFav(selected.key)?'★ Usuń z ulubionych':'☆ Ulubiona';$('fav').disabled=!selected}
+function renderGroups(){
+ var old=group.value,groups=[];items.forEach(function(x){if(groups.indexOf(x.group)<0)groups.push(x.group)});
+ group.textContent='';option(group,'*','Wszystkie kamery');option(group,'@','★ Ulubione');groups.sort(function(a,b){return a.localeCompare(b,'pl')}).forEach(function(g){option(group,'g:'+g,g)});group.value=old;if(group.selectedIndex<0)group.value='*';
+}
+function render(){
+ var old=cam.value,q=normalize(search.value.trim()),g=group.value;
+ visible=items.filter(function(x){return(g==='*'||(g==='@'&&isFav(x.key))||g==='g:'+x.group)&&(!q||normalize(x.name+' '+x.group).indexOf(q)>=0)});
+ cam.textContent='';visible.forEach(function(x){option(cam,x.key,(isFav(x.key)?'★ ':'')+x.name)});
+ if(!visible.length)option(cam,'','Brak kamer');else{cam.value=selected&&visible.some(function(x){return x.key===selected.key})?selected.key:old;if(cam.selectedIndex<0)cam.selectedIndex=0}
+ $('play').disabled=!visible.length;$('prev').disabled=!visible.length;$('next').disabled=!visible.length;
+ $('info').textContent='Widoczne: '+visible.length+' / '+items.length+' kamer • Aktualizacja listy co 5 min • własna pogoda: 5 kamer';
+ updateFav()
+}
+function applySettings(){
+ weather.style.width=p.size+'%';weather.style.opacity=p.opacity/100;
+ weather.style.top=p.position<2?'3%':'auto';weather.style.bottom=p.position>=2?'3%':'auto';weather.style.right=p.position%2===0?'2%':'auto';weather.style.left=p.position%2===1?'2%':'auto';
+ $('name').style.display=p.name?'block':'none';$('clock').style.display=p.clock?'block':'none';
+ $('size').textContent='Pogoda: '+p.size+'%';$('opacity').textContent='Krycie: '+p.opacity+'%';$('position').textContent=positions[p.position];$('toggle').textContent='Pogoda: '+(p.weather?'wł.':'wył.');$('nameToggle').textContent='Nazwa: '+(p.name?'wł.':'wył.');$('clockToggle').textContent='Zegar: '+(p.clock?'wł.':'wył.');$('rotation').value=String(p.rotation);
+ if(!p.weather)weather.style.display='none';else if(selected&&(selected.logo||WeatherPilot.find(selected.name))&&weather.complete&&weather.naturalWidth)weather.style.display='block';
+}
+var weatherRequest=0,weatherKey='',weatherBucket=-1,weatherCache={};
+function image(){
+ var token=++weatherRequest, item=selected;
+ if(!item||!p.weather){weather.style.display='none';return}
+ var l=WeatherPilot.find(item.name),bucket=Math.floor(Date.now()/1800000);
+ function current(){return token===weatherRequest&&selected&&selected.key===item.key&&p.weather}
+ function display(src){if(!current())return;if(weather.getAttribute('src')!==src){weather.style.display='none';weather.src=src}else if(weather.complete&&weather.naturalWidth)weather.style.display='block'}
+ if(!l){weatherKey='';if(!item.logo){weather.removeAttribute('src');weather.style.display='none';return}display(item.logo+(item.logo.indexOf('?')<0?'?':'&')+'refresh='+Math.floor(Date.now()/600000));return}
+ if(weatherKey!==l.id){weather.style.display='none';weather.removeAttribute('src')}
+ weatherKey=l.id;
+ var cache=weatherCache[l.id];
+ if(cache&&cache.bucket===bucket){display(cache.src);return}
+ var staticUrl='cards/'+l.id+'.svg?refresh='+bucket;
+ // Read the generated card first; fall back to direct model data if not present or stale.
+ fetch(staticUrl,{cache:'no-store'}).then(function(r){if(!r.ok)throw Error(r.status);return r.text()}).then(function(svg){
+  if(!/<svg[\s>]/.test(svg)||svg.indexOf('Brak aktualnych danych')>=0)throw Error('brak karty');
+  var m=svg.match(/Dane lokalne: (\d{4}-\d{2}-\d{2} \d{2}:\d{2})/);
+  if(!m||Math.abs(Date.now()-new Date(m[1].replace(' ','T')).getTime())>10800000)throw Error('stara karta');
+  var src=staticUrl;weatherCache[l.id]={bucket:bucket,src:src};display(src);
+ }).catch(function(){
+  return WeatherPilot.get(l).then(function(c){
+   var src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(WeatherPilot.render(l,c));weatherCache[l.id]={bucket:bucket,src:src};display(src)
+  }).catch(function(){display(staticUrl)})
+ })
+}
+weather.onload=function(){weather.style.display=p.weather&&selected?'block':'none'};weather.onerror=function(){weather.style.display='none'};
+function changeSize(delta){var i=sizes.indexOf(p.size);p.size=sizes[(i+delta+sizes.length)%sizes.length];save();applySettings();if(stage.classList.contains('full'))hint('Pogoda: '+p.size+'%')}
+function clock(){var d=new Date();$('clock').textContent=('0'+d.getHours()).slice(-2)+':'+('0'+d.getMinutes()).slice(-2)}
+function refresh(){
+ if(refreshTask)return refreshTask;
+ refreshTask=fetch('../../Kamery-pogodowe.m3u8?ts='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw Error(r.status);return r.text()}).then(function(s){
+  var list=parse(s);if(!list.length)throw Error('Pusta lista');items=list;byKey=Object.create(null);items.forEach(function(x){byKey[x.key]=x});
+  if(selected&&byKey[selected.key]){selected=byKey[selected.key];image()}
+  renderGroups();render();return true
+ }).catch(function(e){if(!items.length)status('Nie można pobrać playlisty: '+e.message);else $('info').textContent='Nie udało się odświeżyć listy. Zachowano poprzednie adresy.';return false}).then(function(ok){refreshTask=null;return ok});
+ return refreshTask
+}
+function armRotation(){
+ clearTimeout(rotationTimer);if(p.rotation&&visible.length>1)rotationTimer=setTimeout(function(){step(1);armRotation()},p.rotation*60000)
+}
+function supportsJs(item){return !!(item&&/\.m3u8(?:[?#]|$)/i.test(item.url)&&window.Hls&&Hls.isSupported())}
+function retry(reason){
+ if(!active||!selected||retryTimer)return;
+ if(retryCount>=3){active=false;status('Błąd: '+reason+' – wybierz Odtwórz lub inną kamerę.');return}
+ var t=attempt, epoch=++retryEpoch, oldMode=engineMode;retryCount++;progressSince=0;
+ status('Ponawiam połączenie '+retryCount+'/3: '+reason);
+ retryTimer=setTimeout(function(){
+  refresh().then(function(){
+   if(t!==attempt||epoch!==retryEpoch||!selected)return;
+   var item=byKey[selected.key]||selected;
+   var next=oldMode==='native'&&supportsJs(item)?'js':'native';
+   retryTimer=null;start(item,true,next)
+  })
+ },[1000,5000,15000][retryCount-1])
+}
+function start(item,again,preferred){
+ if(!item)return;active=false;clearTimeout(retryTimer);retryTimer=null;if(!again)retryCount=0;
+ selected=item;p.last=item.key;save();attempt++;var token=attempt;
+ if(hls){hls.destroy();hls=null}v.pause();v.removeAttribute('src');v.load();
+ engineMode=preferred==='js'&&supportsJs(item)?'js':'native';
+ lastProgress=Date.now();lastTime=-1;progressSince=0;active=true;
+ $('name').textContent=item.name;image();updateFav();cam.value=item.key;if(cam.selectedIndex<0&&visible.length)cam.selectedIndex=0;
+ status('Łączenie: '+item.name+' – '+(engineMode==='native'?'HLS natywny':'HLS.js')+' (auto)');
+ function play(){var result=v.play();if(result&&result.catch)result.catch(function(e){if(token===attempt&&e.name!=='AbortError'){if(e.name==='NotAllowedError'){status('Naciśnij Odtwórz, aby rozpocząć.');active=false}else retry(e.name||'brak obrazu')}})}
+ if(engineMode==='js'){
+  var engine=new Hls();hls=engine;engine.on(Hls.Events.MEDIA_ATTACHED,function(){if(token===attempt)engine.loadSource(item.url)});engine.on(Hls.Events.MANIFEST_PARSED,function(){if(token===attempt)play()});engine.on(Hls.Events.ERROR,function(e,d){if(token===attempt&&d.fatal)retry(d.details||d.type)});engine.attachMedia(v)
+ }else{v.src=item.url;play()}
+ if(!again)armRotation()
+}
+v.onplaying=function(){if(!active||!selected)return;status('Odtwarzanie: '+selected.name+' – '+(engineMode==='native'?'natywne':'HLS.js')+' (auto)')};
+v.ontimeupdate=function(){if(active&&!v.paused&&v.readyState>=2&&v.currentTime!==lastTime){
+ var now=Date.now();if(!progressSince||now-lastProgress>5000)progressSince=now;
+ lastTime=v.currentTime;lastProgress=now;
+ if(retryTimer&&now-progressSince>=2000){clearTimeout(retryTimer);retryTimer=null;retryEpoch++;status('Odtwarzanie: '+selected.name+' – połączenie odzyskane')}
+ if(now-progressSince>=15000&&!retryTimer)retryCount=0
+}};
+v.onerror=function(){if(active&&v.error)retry('błąd odtwarzania '+v.error.code)};
+v.onended=function(){if(active)retry('koniec transmisji')};
+setInterval(function(){if(active&&selected&&Date.now()-lastProgress>(progressSince?45000:25000))retry('brak postępu obrazu')},5000);
+function step(delta){if(!visible.length)return;var i=visible.findIndex(function(x){return selected&&x.key===selected.key});i=i<0?(delta>0?0:visible.length-1):(i+delta+visible.length)%visible.length;start(visible[i],false)}
+function choose(){var x=byKey[cam.value];if(x)start(x,false)}
+cam.onchange=choose;$('play').onclick=choose;$('prev').onclick=function(){step(-1)};$('next').onclick=function(){step(1)};
+group.onchange=function(){render();armRotation()};search.oninput=function(){render();armRotation()};
+$('fav').onclick=function(){if(!selected)return;var k=selected.key;if(isFav(k))p.favorites=p.favorites.filter(function(x){return x!==k});else p.favorites.push(k);save();render();armRotation()};
+$('reload').onclick=function(){refresh().then(function(ok){if(ok){if(!selected&&visible.length)start(visible[0],false);else status('Lista odświeżona – obraz pozostaje bez zmian.')}})};
+$('settingsButton').onclick=function(){$('settings').hidden=!$('settings').hidden};
+$('size').onclick=function(){changeSize(1)};$('opacity').onclick=function(){p.opacity=opacities[(opacities.indexOf(p.opacity)+1)%opacities.length];save();applySettings()};
+$('position').onclick=function(){p.position=(p.position+1)%positions.length;save();applySettings()};
+$('toggle').onclick=function(){p.weather=!p.weather;save();applySettings();image()};$('nameToggle').onclick=function(){p.name=!p.name;save();applySettings()};$('clockToggle').onclick=function(){p.clock=!p.clock;save();applySettings()};
+$('rotation').onchange=function(){p.rotation=Number(this.value);save();armRotation()};
+function full(on){if(on){stage.classList.add('full');stage.focus();hint('P+/P− lub ↑/↓ kamery • ←/→ rozmiar • żółty: pogoda • niebieski: ulubione • OK: menu')}else{stage.classList.remove('full');$('hint').style.display='none';$('full').focus()}}
+$('full').onclick=function(){full(true)};
+document.addEventListener('keydown',function(e){
+ var k=e.keyCode||e.which, key=e.key, code=e.code;
+ if(stage.classList.contains('full')){
+  var plus=k===427||k===33||key==='ChannelUp'||key==='PageUp'||code==='ChannelUp'||code==='PageUp';
+  var minus=k===428||k===34||key==='ChannelDown'||key==='PageDown'||code==='ChannelDown'||code==='PageDown';
+  var color=k>=403&&k<=406?k:({ColorF0Red:403,ColorF1Green:404,ColorF2Yellow:405,ColorF3Blue:406,Red:403,Green:404,Yellow:405,Blue:406}[key]||0);
+  if(color){e.preventDefault();e.stopPropagation();if(!e.repeat){
+   if(color===403)step(-1);else if(color===404)step(1);else if(color===405){$('toggle').click();hint(p.weather?'Pogoda włączona':'Pogoda wyłączona')}else if(color===406&&selected){$('fav').click();hint(isFav(selected.key)?'Dodano do ulubionych':'Usunięto z ulubionych')}
+  }return}
+  if(plus||minus){e.preventDefault();e.stopPropagation();if(!e.repeat)step(plus?1:-1);return}
+  if(k===38||k===40||k===37||k===39||k===13||k===27||k===461||k===10009){e.preventDefault();if(k===38||k===40)step(k===40?1:-1);else if(k===37||k===39)changeSize(k===39?1:-1);else full(false)}
+ }else if((k===37||k===39||k===38||k===40)&&document.activeElement&&document.activeElement.tagName==='BUTTON'){
+  var buttons=Array.prototype.filter.call(document.querySelectorAll('button, select, input'),function(x){return !x.disabled&&x.offsetWidth>0&&x.offsetHeight>0});var i=buttons.indexOf(document.activeElement);if(i>=0){e.preventDefault();buttons[(i+(k===37||k===38?-1:1)+buttons.length)%buttons.length].focus()}
+ }
+},true);
+applySettings();clock();setInterval(clock,15000);setInterval(image,600000);setInterval(refresh,300000);
+refresh().then(function(ok){if(!ok)return;var x=byKey[p.last]||items.find(function(x){return normalize(x.name)==='chojnice'})||items[0];if(x)start(x,false)});
+})();
+</script></body></html>
