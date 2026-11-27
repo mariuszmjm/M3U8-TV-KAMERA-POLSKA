@@ -3,8 +3,6 @@ name: Aktualizacja RTSP.ME
 on:
   workflow_dispatch:
 
-  schedule:
-    - cron: "43 * * * *"
 
 permissions:
   contents: write
