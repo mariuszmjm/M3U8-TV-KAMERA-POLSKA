@@ -11,7 +11,7 @@
 </header>
 <div id="stage" tabindex="-1"><video id="video" playsinline muted autoplay></video><img id="weather" alt="Pogoda" style="display:none"><span id="name"></span><span id="clock" style="display:none"></span><span id="hint"></span></div>
 <div id="status" role="status">Pobieranie playlisty…</div><div id="info"></div>
-<div class="small" style="padding:0 14px 10px">Pełny ekran: ↑/↓ kamery, ←/→ rozmiar pogody, OK lub Powrót – menu. Kamera pozostaje bez zmian przy odświeżaniu listy.</div>
+<div class="small" style="padding:0 14px 10px">Pełny ekran: P+/P− lub ↑/↓ kamery, ←/→ rozmiar pogody, OK lub Powrót – menu. Kamera pozostaje bez zmian przy odświeżaniu listy.</div>
 <script src="https://cdn.jsdelivr.net/npm/hls.js@1.6.13/dist/hls.min.js"></script>
 <script>
 (function(){
@@ -123,10 +123,14 @@ $('position').onclick=function(){p.position=(p.position+1)%positions.length;save
 $('toggle').onclick=function(){p.weather=!p.weather;save();applySettings();image()};$('nameToggle').onclick=function(){p.name=!p.name;save();applySettings()};$('clockToggle').onclick=function(){p.clock=!p.clock;save();applySettings()};
 $('mode').onclick=function(){p.native=!p.native;save();applySettings();if(selected)start(byKey[selected.key]||selected,false)};
 $('rotation').onchange=function(){p.rotation=Number(this.value);save();armRotation()};
-function full(on){if(on){stage.classList.add('full');stage.focus();hint('↑/↓ kamery • ←/→ pogoda • OK/Powrót: menu')}else{stage.classList.remove('full');$('hint').style.display='none';$('full').focus()}}
+function full(on){if(on){stage.classList.add('full');stage.focus();hint('P+/P− lub ↑/↓ kamery • ←/→ pogoda • OK/Powrót: menu')}else{stage.classList.remove('full');$('hint').style.display='none';$('full').focus()}}
 $('full').onclick=function(){full(true)};
 document.addEventListener('keydown',function(e){
- var k=e.keyCode;if(stage.classList.contains('full')){
+ var k=e.keyCode||e.which, key=e.key, code=e.code;
+ if(stage.classList.contains('full')){
+  var plus=k===427||k===33||key==='ChannelUp'||key==='PageUp'||code==='ChannelUp'||code==='PageUp';
+  var minus=k===428||k===34||key==='ChannelDown'||key==='PageDown'||code==='ChannelDown'||code==='PageDown';
+  if(plus||minus){e.preventDefault();e.stopPropagation();if(!e.repeat)step(plus?1:-1);return}
   if(k===38||k===40||k===37||k===39||k===13||k===27||k===461||k===10009){e.preventDefault();if(k===38||k===40)step(k===40?1:-1);else if(k===37||k===39)changeSize(k===39?1:-1);else full(false)}
  }else if((k===37||k===39||k===38||k===40)&&document.activeElement&&document.activeElement.tagName==='BUTTON'){
   var buttons=Array.prototype.filter.call(document.querySelectorAll('button, select, input'),function(x){return !x.disabled&&x.offsetWidth>0&&x.offsetHeight>0});var i=buttons.indexOf(document.activeElement);if(i>=0){e.preventDefault();buttons[(i+(k===37||k===38?-1:1)+buttons.length)%buttons.length].focus()}
