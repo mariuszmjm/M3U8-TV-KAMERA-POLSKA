@@ -1,150 +1,150 @@
 ﻿czas_utc,kamera,alias,status,zmieniono,uwagi
-2026-11-27T05:01:09.254726+00:00,Krynica Morska - Hotel Kahlberg,5958e21475225,ONLINE,False,segment OK
-2026-11-27T05:01:09.254765+00:00,WARSZAWA - Odolany,69ce1c714c8df,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:09.254770+00:00,Segovia Aqueduct,,BRAK_ALIASU_LUB_NIEJEDNOZNACZNY,False,HTTP 404
-2026-11-27T05:01:09.254774+00:00,Kamera internetowa w porcie Svolvær,,ONLINE_BEZ_ALIASU,False,segment OK
-2026-11-27T05:01:09.753880+00:00,Willa Favorita - San Sebastian - Hiszpania,5f4fbbc0c74cd,ONLINE,False,segment OK
-2026-11-27T05:01:09.753906+00:00,Hiszpania - The Aqueduct of Segovia,,BRAK_ALIASU_LUB_NIEJEDNOZNACZNY,False,HTTP 404
-2026-11-27T05:01:09.753910+00:00,Słowenia - Zamek Ptuj,ptujcastlecam,ONLINE,False,segment OK
-2026-11-27T05:01:09.753914+00:00,Anglia - Cotswold Airport,cotswold,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:09.753918+00:00,Anglia - Pagham Beach,6654f97b9fdf3,ONLINE,True,segment OK
-2026-11-27T05:01:09.753921+00:00,Australia - Darwin Harbour,69421e5731fe2,ONLINE,False,segment OK
-2026-11-27T05:01:09.753925+00:00,Botswana - Chobe River,57053402af5ea,ONLINE,True,segment OK
-2026-11-27T05:01:09.753928+00:00,Cedar Cove Resort,cedarcoveresort,ONLINE,False,segment OK
-2026-11-27T05:01:09.903454+00:00,Chorwacja - Kovacine,kovacine,ONLINE,False,segment OK
-2026-11-27T05:01:09.903482+00:00,Francja - Saintes-Maries-de-la-Mer,otport,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:10.401744+00:00,Grecja - Rodos,dagilberto,ONLINE,True,segment OK
-2026-11-27T05:01:10.484983+00:00,Hiszpania - Llafranc - plaża,6149f4deaa509,ONLINE,True,segment OK
-2026-11-27T05:01:10.485010+00:00,Hiszpania - Llafranc - port,6149f4976134f,ONLINE,True,segment OK
-2026-11-27T05:01:10.610347+00:00,Hiszpania - Port Torredembarra,porttorre,ONLINE,False,segment OK
-2026-11-27T05:01:10.610374+00:00,Laurelwood Golf - green,laurelwoodgreen,ONLINE,False,segment OK
-2026-11-27T05:01:10.610377+00:00,Laurelwood Golf - panorama,laurelwoodview,ONLINE,False,segment OK
-2026-11-27T05:01:10.610381+00:00,Ozo Golf Club,ozogolfclub,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:10.804329+00:00,Polska - Bolesławiec - panorama,wiezowieczachod,ONLINE,False,segment OK
-2026-11-27T05:01:10.956047+00:00,Rileys River Cam,rorc,ONLINE,False,segment OK
-2026-11-27T05:01:11.392778+00:00,RPA - Ladysmith Airport,6690f8f74882c,ONLINE,False,segment OK
-2026-11-27T05:01:11.392801+00:00,Słowenia - Planina nad Vrhniko,znpvkamera2,ONLINE,False,segment OK
-2026-11-27T05:01:11.392807+00:00,Turcja - Belcekiz Beach,belcekizbeachclub,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:11.392810+00:00,USA - 5th Avenue Beach,5thavebeach,ONLINE,False,segment OK
-2026-11-27T05:01:11.392813+00:00,USA - Bay Head Yacht Club,572100e287461,ONLINE,False,segment OK
-2026-11-27T05:01:11.392816+00:00,USA - Lost Lake Woods,snowcam1,ONLINE,False,segment OK
-2026-11-27T05:01:11.489642+00:00,USA - Old Saybrook - rybołów,oldsaybrook,ONLINE,False,segment OK
-2026-11-27T05:01:11.489670+00:00,USA - Pine Grove Resort,64543e68da21a,ONLINE,False,segment OK
-2026-11-27T05:01:11.512754+00:00,USA - Royal Mountain,63cb127a0a4f9,ONLINE,False,segment OK
-2026-11-27T05:01:11.616656+00:00,USA - Sandpiper Cove Beach,sandpipercovebeach,ONLINE,False,segment OK
-2026-11-27T05:01:11.616685+00:00,USA - Seneca Lake Pier,acb92fbd0c3c,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:11.835660+00:00,USA - Stone Harbor Beach South,62fe39146c821,ONLINE,False,segment OK
-2026-11-27T05:01:11.903876+00:00,USA - Stone Harbor Yacht Club,647220b9d946a,ONLINE,True,segment OK
-2026-11-27T05:01:11.940245+00:00,USA - Stuarts Draft Weather,sdwxcam,ONLINE,False,segment OK
-2026-11-27T05:01:12.022272+00:00,USA - Ventura Harbor Entrance,jky47s3rdft73mek111a,ONLINE,False,segment OK
-2026-11-27T05:01:12.027441+00:00,Weather Cam,5bfd8be9978fc,ONLINE,False,segment OK
-2026-11-27T05:01:12.242037+00:00,Włochy - Albissola Marina,lidosparesort,ONLINE,False,segment OK
-2026-11-27T05:01:12.317728+00:00,Włochy - Cervo - Camping Ondina,campingondina,ONLINE,False,segment OK
-2026-11-27T05:01:12.621929+00:00,Włochy - Diano Marina,hotelgabriella,ONLINE,False,segment OK
-2026-11-27T05:01:12.621955+00:00,Włochy - Ischia - Maronti,62da90f20979d,ONLINE,True,segment OK
-2026-11-27T05:01:12.884083+00:00,Włochy - Rimini,riminieyecom,ONLINE,False,segment OK
-2026-11-27T05:01:12.884111+00:00,Refugi Mallafre,mallafre,ONLINE,False,segment OK
-2026-11-27T05:01:13.121530+00:00,Valaská Belá Homôlka - wyciąg,homolka,ONLINE,False,segment OK
-2026-11-27T05:01:13.121557+00:00,Athens I65 and HWY72,athens,ONLINE,False,segment OK
-2026-11-27T05:01:13.121561+00:00,Balneário Municipal de Rosana,balneariorosana,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:13.221929+00:00,Broadway Camera 2,broadway2a,ONLINE,False,segment OK
-2026-11-27T05:01:13.221955+00:00,Bułgaria - Nesebyr,hotelelegance,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:13.221961+00:00,Camp Radj politie low,campradjpolitielow,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:13.221966+00:00,camp48a,camp48a,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:13.221970+00:00,Central,63609c3400e64,ONLINE,False,segment OK
-2026-11-27T05:01:13.487249+00:00,Church Camera,lissycaseychurch,ONLINE,False,segment OK
-2026-11-27T05:01:13.487275+00:00,Crisnjevo,crisnjevo,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:13.487279+00:00,Decatur,decatur,ONLINE,False,segment OK
-2026-11-27T05:01:13.605444+00:00,Fasoula,fasoula,ONLINE,False,segment OK
-2026-11-27T05:01:13.605470+00:00,Hotel Charn,hotelcharn,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:13.685705+00:00,I360 Tower Camera North,60d5c730c91b5,ONLINE,True,segment OK
-2026-11-27T05:01:13.685732+00:00,Kite,kite,ONLINE,False,segment OK
-2026-11-27T05:01:13.721560+00:00,Kootzcam,64934d0a183a8,ONLINE,False,segment OK
-2026-11-27T05:01:13.941878+00:00,Morningstar North,5ce3a15e49e58,ONLINE,True,segment OK
-2026-11-27T05:01:13.989439+00:00,Public IPCamLive camera,64ea30cf0d7be,ONLINE,False,segment OK
-2026-11-27T05:01:14.116915+00:00,Public IPCamLive page,67d43b806ac05,ONLINE,False,segment OK
-2026-11-27T05:01:14.116941+00:00,Sanddollar Sity,sanddollar,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:14.421117+00:00,SC Gym Camera,scgymcamera,ONLINE,False,segment OK
-2026-11-27T05:01:14.421146+00:00,Solvalla - kamera toru,solvallabankamera,ONLINE,False,segment OK
-2026-11-27T05:01:14.462915+00:00,St Michael's Church,kildysartchurch,ONLINE,False,segment OK
-2026-11-27T05:01:14.547707+00:00,West Topeka,5ad64dfb68455,ONLINE,False,segment OK
-2026-11-27T05:01:14.547732+00:00,Astoria,573c49f1b13ff,ONLINE,False,segment OK
-2026-11-27T05:01:14.547736+00:00,Downtown Bismarck,bismarck,ONLINE,False,segment OK
-2026-11-27T05:01:14.748487+00:00,Hvar Panorama,6634b86c732a3,ONLINE,False,segment OK
-2026-11-27T05:01:14.748517+00:00,Panoramakamera Fliegercamp,panocamfliegercamp,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:15.032156+00:00,Piazza Bonefro,bonefro1,ONLINE,True,segment OK
-2026-11-27T05:01:15.032176+00:00,Piazza Umberto I - Petrella Tifernina,piazzacapp,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:15.131928+00:00,Plaza Sierra Pambley,plazasierrapambleyvillablino,ONLINE,False,segment OK
-2026-11-27T05:01:15.131956+00:00,PR Downtown Hwy 59 North,6616fd68cdd18,ONLINE,False,segment OK
-2026-11-27T05:01:15.131962+00:00,PR Downtown Hwy 59 South,6616fdb7af12f,ONLINE,False,segment OK
-2026-11-27T05:01:15.292107+00:00,Smokovac,smokovac,ONLINE,False,segment OK
-2026-11-27T05:01:15.292135+00:00,Street Cam,ffm0,ONLINE,False,segment OK
-2026-11-27T05:01:15.348035+00:00,Tisno - most,5a86db6a77a43,ONLINE,False,segment OK
-2026-11-27T05:01:15.392109+00:00,Beach Cam,676357af8bc1f,ONLINE,False,segment OK
-2026-11-27T05:01:16.406542+00:00,Brighton and Seacliff Yacht Club,bsyc1080,ONLINE,False,segment OK
-2026-11-27T05:01:16.406567+00:00,CNB Beach,cnbbeach,ONLINE,False,segment OK
-2026-11-27T05:01:16.406572+00:00,Dock Cam,600f12bf4a326,ONLINE,False,segment OK
-2026-11-27T05:01:16.406575+00:00,Emerald Grande Crab Island Destin Florida Cam,crabislanddestinflorida,ONLINE,False,segment OK
-2026-11-27T05:01:16.406579+00:00,Lake Geneva Yacht Club,5b1a9a31a1f64,ONLINE,False,segment OK
-2026-11-27T05:01:16.406582+00:00,Nahariya - molo/plaża 1,65f00165e60f4,ONLINE,True,segment OK
-2026-11-27T05:01:16.406587+00:00,North Beach Kiten Atliman,594049acc6784,ONLINE,False,segment OK
-2026-11-27T05:01:16.406591+00:00,Ottens Harbor,ottensharbor,ONLINE,False,segment OK
-2026-11-27T05:01:16.406597+00:00,Piercestown Murrintown Church,piercestownchurch,ONLINE,False,segment OK
-2026-11-27T05:01:16.406601+00:00,Sea Club Hadera,seacamera,ONLINE,False,segment OK
-2026-11-27T05:01:16.406604+00:00,The Landing at the Boathouse - Myrtle Beach,thelandingattheboathouse,ONLINE,False,segment OK
-2026-11-27T05:01:16.496524+00:00,Publiczna strona IPCamLive - nazwa nieznana,69aa86051667e,ONLINE,False,segment OK
-2026-11-27T05:01:16.750559+00:00,Publiczny player IPCamLive - nazwa nieznana,62ff8ac0c1390,ONLINE,False,segment OK
-2026-11-27T05:01:16.750584+00:00,Court 1,court1mn,ONLINE,False,segment OK
-2026-11-27T05:01:16.750588+00:00,Court 2,5a6a833aa419e;6601b5072d651,BRAK_ALIASU_LUB_NIEJEDNOZNACZNY,False,HTTP 404
-2026-11-27T05:01:16.838507+00:00,Court 3,court3mn,ONLINE,False,segment OK
-2026-11-27T05:01:16.939391+00:00,Court 4,court4mn,ONLINE,False,segment OK
-2026-11-27T05:01:16.965621+00:00,Court 5,court5mn,ONLINE,False,segment OK
-2026-11-27T05:01:16.965644+00:00,Court 6,court6mn,ONLINE,False,segment OK
-2026-11-27T05:01:17.071530+00:00,Court 7,court7mn,ONLINE,False,segment OK
-2026-11-27T05:01:17.107283+00:00,Court 8,court8mn,ONLINE,False,segment OK
-2026-11-27T05:01:17.158368+00:00,Courthouse Plaza,courthouseplaza1,ONLINE,False,segment OK
-2026-11-27T05:01:17.601110+00:00,Florida Tech Olin Quad,ftolinquad,ONLINE,False,segment OK
-2026-11-27T05:01:17.601134+00:00,FPN Field 6,fpnfield6,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:17.631455+00:00,GJ Pickleball Court Camera,653ca23ef3c05,ONLINE,False,segment OK
-2026-11-27T05:01:17.631478+00:00,SEVEN CAFE,seven,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:17.631481+00:00,St. Helena Solar Construction,sthelenasolar,ONLINE,False,segment OK
-2026-11-27T05:01:17.733309+00:00,"Tennisbaan 2, 3 & 4",tennisbaan234,ONLINE,False,segment OK
-2026-11-27T05:01:17.733333+00:00,Trilogy Pickleball Courts,5d3f788b1d403,ONLINE,False,segment OK
-2026-11-27T05:01:17.733337+00:00,Woodstock Tennis Club,628285401b84e,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:17.733339+00:00,Sunset Cam,620aa4f7afb84,ONLINE,False,segment OK
-2026-11-27T05:01:17.736117+00:00,Gaylord Elk View Park,690502b51ba36,ONLINE,False,segment OK
-2026-11-27T05:01:17.736134+00:00,Broadway Camera 1,broadway1a,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:18.499699+00:00,Tórshavn,5fa166211b9a5,ONLINE,False,segment OK
-2026-11-27T05:01:18.499725+00:00,Aero Club - Fuel Bowser North,667166e35c208,ONLINE,False,segment OK
-2026-11-27T05:01:18.499729+00:00,Comune di Gioiosa Marea - panorama,panorama,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:18.499733+00:00,Piazza 3 Monacilioni,monacilioni4,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:18.499735+00:00,Nahariya - molo/plaża 2,65f00024400d7,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:18.499739+00:00,Far Grass Parking,6671ba0eeb76c,ONLINE,False,segment OK
-2026-11-27T05:01:19.132006+00:00,Kaiaponi Farm - Waikanae Surf Club,667af502836d4,ONLINE,False,segment OK
-2026-11-27T05:01:19.132030+00:00,Włochy - Bagno Flavio,bagnoflavio,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:19.132034+00:00,USA - Wolf River Resorts,633f81d3bf9da,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:19.132037+00:00,LOLK Runway 12,lolkrw12,ONLINE,False,segment OK
-2026-11-27T05:01:19.132040+00:00,USA - Lake View,lakeviewlakecam,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:19.132042+00:00,Totana - Plaza Constitución,plazaconstituciontotana,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:19.132045+00:00,Francja - Plage du Canadel,rayol,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:19.132047+00:00,Szkocja - Tayport Harbour 360,662e60647a0a5,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:19.132050+00:00,City of Hagerstown Skate Park,631b9b9cea02f,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:19.132053+00:00,RPOA Pool Cam,5bc65dffa9fa8,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:19.132056+00:00,Tulla Church,tullaparish,ONLINE,False,segment OK
-2026-11-27T05:01:19.132059+00:00,Camp Radj Sensor Low,campradjsenslow,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:19.132061+00:00,"Stork Webcam Eitminiskes, Lithuania",551011cd5abd5,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:19.132064+00:00,City Hall Demo Cam 2,democam2nd,ONLINE,False,segment OK
-2026-11-27T05:01:19.132066+00:00,campradj,campradj,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:19.132069+00:00,USA - Stone Harbor - 96th Street,609ee11fb2084,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:19.132071+00:00,Wells - Jetty Cam,wellsjettycam,ONLINE,False,segment OK
-2026-11-27T05:01:19.132073+00:00,Anglia - Littlehampton Harbour North,68e63bc7e1b23,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:19.132075+00:00,Kamera wydr,otters,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:19.132077+00:00,Fun Country Soaring,fcscam,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:19.132080+00:00,Seymour Loadout West,seymourloadoutwest,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:19.132082+00:00,RPA - Nahoon Beach,nahoonbeach0sw0low,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:19.132085+00:00,Harmony Grove Village Weather,64a202e285e55,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:19.132087+00:00,Kamera sokołów,falken,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:19.132090+00:00,Centerville Elementary School Osprey Camera,cenospreycam,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:19.132092+00:00,St Marys Church,crannychurch,OFFLINE,False,IPCamLive zgłasza offline
-2026-11-27T05:01:19.543345+00:00,Portoryko - Puerto Del Rey,pdrbridgeweather,ONLINE,False,segment OK
-2026-11-27T05:01:19.543373+00:00,Lodowisko Park Słupna,lodowiskoslupna,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:12.045878+00:00,Krynica Morska - Hotel Kahlberg,5958e21475225,ONLINE,False,segment OK
+2026-11-27T06:01:12.045909+00:00,WARSZAWA - Odolany,69ce1c714c8df,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:12.045914+00:00,Segovia Aqueduct,,BRAK_ALIASU_LUB_NIEJEDNOZNACZNY,False,HTTP 404
+2026-11-27T06:01:12.045918+00:00,Kamera internetowa w porcie Svolvær,,ONLINE_BEZ_ALIASU,False,segment OK
+2026-11-27T06:01:12.304278+00:00,Willa Favorita - San Sebastian - Hiszpania,5f4fbbc0c74cd,ONLINE,False,segment OK
+2026-11-27T06:01:12.304294+00:00,Hiszpania - The Aqueduct of Segovia,,BRAK_ALIASU_LUB_NIEJEDNOZNACZNY,False,HTTP 404
+2026-11-27T06:01:12.304299+00:00,Słowenia - Zamek Ptuj,ptujcastlecam,ONLINE,False,segment OK
+2026-11-27T06:01:12.304304+00:00,Anglia - Cotswold Airport,cotswold,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:12.304307+00:00,Anglia - Pagham Beach,6654f97b9fdf3,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:12.423957+00:00,Australia - Darwin Harbour,69421e5731fe2,ONLINE,False,segment OK
+2026-11-27T06:01:12.461893+00:00,Botswana - Chobe River,57053402af5ea,ONLINE,False,segment OK
+2026-11-27T06:01:12.461913+00:00,Cedar Cove Resort,cedarcoveresort,ONLINE,False,segment OK
+2026-11-27T06:01:12.568280+00:00,Chorwacja - Kovacine,kovacine,ONLINE,False,segment OK
+2026-11-27T06:01:13.026437+00:00,Francja - Saintes-Maries-de-la-Mer,otport,ONLINE,True,segment OK
+2026-11-27T06:01:13.026454+00:00,Grecja - Rodos,dagilberto,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:13.029116+00:00,Hiszpania - Llafranc - plaża,6149f4deaa509,ONLINE,True,segment OK
+2026-11-27T06:01:13.029130+00:00,Hiszpania - Llafranc - port,6149f4976134f,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:13.433170+00:00,Hiszpania - Port Torredembarra,porttorre,ONLINE,False,segment OK
+2026-11-27T06:01:13.433191+00:00,Laurelwood Golf - green,laurelwoodgreen,ONLINE,False,segment OK
+2026-11-27T06:01:13.433197+00:00,Laurelwood Golf - panorama,laurelwoodview,ONLINE,False,segment OK
+2026-11-27T06:01:13.433201+00:00,Ozo Golf Club,ozogolfclub,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:13.782775+00:00,Polska - Bolesławiec - panorama,wiezowieczachod,ONLINE,False,segment OK
+2026-11-27T06:01:13.782800+00:00,Rileys River Cam,rorc,ONLINE,False,segment OK
+2026-11-27T06:01:13.790199+00:00,RPA - Ladysmith Airport,6690f8f74882c,ONLINE,False,segment OK
+2026-11-27T06:01:14.261297+00:00,Słowenia - Planina nad Vrhniko,znpvkamera2,ONLINE,False,segment OK
+2026-11-27T06:01:14.261315+00:00,Turcja - Belcekiz Beach,belcekizbeachclub,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:14.261321+00:00,USA - 5th Avenue Beach,5thavebeach,ONLINE,False,segment OK
+2026-11-27T06:01:14.261324+00:00,USA - Bay Head Yacht Club,572100e287461,ONLINE,False,segment OK
+2026-11-27T06:01:14.261327+00:00,USA - Lost Lake Woods,snowcam1,ONLINE,False,segment OK
+2026-11-27T06:01:14.261330+00:00,USA - Old Saybrook - rybołów,oldsaybrook,ONLINE,False,segment OK
+2026-11-27T06:01:14.261334+00:00,USA - Pine Grove Resort,64543e68da21a,ONLINE,False,segment OK
+2026-11-27T06:01:14.286096+00:00,USA - Royal Mountain,63cb127a0a4f9,ONLINE,False,segment OK
+2026-11-27T06:01:14.312561+00:00,USA - Sandpiper Cove Beach,sandpipercovebeach,ONLINE,False,segment OK
+2026-11-27T06:01:14.312575+00:00,USA - Seneca Lake Pier,acb92fbd0c3c,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:14.394147+00:00,USA - Stone Harbor Beach South,62fe39146c821,ONLINE,False,segment OK
+2026-11-27T06:01:14.394169+00:00,USA - Stone Harbor Yacht Club,647220b9d946a,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:14.510049+00:00,USA - Stuarts Draft Weather,sdwxcam,ONLINE,False,segment OK
+2026-11-27T06:01:14.744539+00:00,USA - Ventura Harbor Entrance,jky47s3rdft73mek111a,ONLINE,False,segment OK
+2026-11-27T06:01:14.744557+00:00,Weather Cam,5bfd8be9978fc,ONLINE,False,segment OK
+2026-11-27T06:01:15.083351+00:00,Włochy - Albissola Marina,lidosparesort,ONLINE,False,segment OK
+2026-11-27T06:01:15.083396+00:00,Włochy - Cervo - Camping Ondina,campingondina,ONLINE,False,segment OK
+2026-11-27T06:01:15.167303+00:00,Włochy - Diano Marina,hotelgabriella,ONLINE,False,segment OK
+2026-11-27T06:01:15.167326+00:00,Włochy - Ischia - Maronti,62da90f20979d,ONLINE,True,segment OK
+2026-11-27T06:01:15.810244+00:00,Włochy - Rimini,riminieyecom,ONLINE,False,segment OK
+2026-11-27T06:01:15.810263+00:00,Refugi Mallafre,mallafre,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:15.810267+00:00,Valaská Belá Homôlka - wyciąg,homolka,ONLINE,False,segment OK
+2026-11-27T06:01:15.810277+00:00,Athens I65 and HWY72,athens,ONLINE,False,segment OK
+2026-11-27T06:01:15.810280+00:00,Balneário Municipal de Rosana,balneariorosana,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:15.810284+00:00,Broadway Camera 2,broadway2a,ONLINE,False,segment OK
+2026-11-27T06:01:15.810287+00:00,Bułgaria - Nesebyr,hotelelegance,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:15.810290+00:00,Camp Radj politie low,campradjpolitielow,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:16.045317+00:00,camp48a,camp48a,ONLINE,True,segment OK
+2026-11-27T06:01:16.045336+00:00,Central,63609c3400e64,ONLINE,False,segment OK
+2026-11-27T06:01:16.124284+00:00,Church Camera,lissycaseychurch,ONLINE,False,segment OK
+2026-11-27T06:01:16.124305+00:00,Crisnjevo,crisnjevo,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:16.124310+00:00,Decatur,decatur,ONLINE,False,segment OK
+2026-11-27T06:01:16.311003+00:00,Fasoula,fasoula,ONLINE,False,segment OK
+2026-11-27T06:01:16.444020+00:00,Hotel Charn,hotelcharn,ONLINE,True,segment OK
+2026-11-27T06:01:16.444041+00:00,I360 Tower Camera North,60d5c730c91b5,ONLINE,False,segment OK
+2026-11-27T06:01:16.444047+00:00,Kite,kite,ONLINE,False,segment OK
+2026-11-27T06:01:16.493939+00:00,Kootzcam,64934d0a183a8,ONLINE,False,segment OK
+2026-11-27T06:01:16.493955+00:00,Morningstar North,5ce3a15e49e58,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:16.927429+00:00,Public IPCamLive camera,64ea30cf0d7be,ONLINE,False,segment OK
+2026-11-27T06:01:17.274049+00:00,Public IPCamLive page,67d43b806ac05,ONLINE,False,segment OK
+2026-11-27T06:01:17.274068+00:00,Sanddollar Sity,sanddollar,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:17.274074+00:00,SC Gym Camera,scgymcamera,ONLINE,False,segment OK
+2026-11-27T06:01:17.274078+00:00,Solvalla - kamera toru,solvallabankamera,ONLINE,False,segment OK
+2026-11-27T06:01:17.329478+00:00,St Michael's Church,kildysartchurch,ONLINE,False,segment OK
+2026-11-27T06:01:17.329494+00:00,West Topeka,5ad64dfb68455,ONLINE,False,segment OK
+2026-11-27T06:01:17.329498+00:00,Astoria,573c49f1b13ff,ONLINE,False,segment OK
+2026-11-27T06:01:17.329520+00:00,Downtown Bismarck,bismarck,ONLINE,False,segment OK
+2026-11-27T06:01:17.820374+00:00,Hvar Panorama,6634b86c732a3,ONLINE,False,segment OK
+2026-11-27T06:01:17.820393+00:00,Panoramakamera Fliegercamp,panocamfliegercamp,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:17.875965+00:00,Piazza Bonefro,bonefro1,ONLINE,True,segment OK
+2026-11-27T06:01:17.875985+00:00,Piazza Umberto I - Petrella Tifernina,piazzacapp,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:17.987961+00:00,Plaza Sierra Pambley,plazasierrapambleyvillablino,ONLINE,False,segment OK
+2026-11-27T06:01:17.987981+00:00,PR Downtown Hwy 59 North,6616fd68cdd18,ONLINE,False,segment OK
+2026-11-27T06:01:17.987986+00:00,PR Downtown Hwy 59 South,6616fdb7af12f,ONLINE,False,segment OK
+2026-11-27T06:01:18.170106+00:00,Smokovac,smokovac,ONLINE,False,segment OK
+2026-11-27T06:01:18.170128+00:00,Street Cam,ffm0,ONLINE,False,segment OK
+2026-11-27T06:01:18.488767+00:00,Tisno - most,5a86db6a77a43,ONLINE,False,segment OK
+2026-11-27T06:01:18.488784+00:00,Beach Cam,676357af8bc1f,ONLINE,False,segment OK
+2026-11-27T06:01:19.236875+00:00,Brighton and Seacliff Yacht Club,bsyc1080,ONLINE,False,segment OK
+2026-11-27T06:01:19.236896+00:00,CNB Beach,cnbbeach,ONLINE,False,segment OK
+2026-11-27T06:01:19.236901+00:00,Dock Cam,600f12bf4a326,ONLINE,False,segment OK
+2026-11-27T06:01:19.236905+00:00,Emerald Grande Crab Island Destin Florida Cam,crabislanddestinflorida,ONLINE,False,segment OK
+2026-11-27T06:01:19.236908+00:00,Lake Geneva Yacht Club,5b1a9a31a1f64,ONLINE,False,segment OK
+2026-11-27T06:01:19.236911+00:00,Nahariya - molo/plaża 1,65f00165e60f4,ONLINE,True,segment OK
+2026-11-27T06:01:19.293471+00:00,North Beach Kiten Atliman,594049acc6784,ONLINE,False,segment OK
+2026-11-27T06:01:19.293486+00:00,Ottens Harbor,ottensharbor,ONLINE,False,segment OK
+2026-11-27T06:01:19.318100+00:00,Piercestown Murrintown Church,piercestownchurch,ONLINE,False,segment OK
+2026-11-27T06:01:19.449256+00:00,Sea Club Hadera,seacamera,ONLINE,False,segment OK
+2026-11-27T06:01:19.545181+00:00,The Landing at the Boathouse - Myrtle Beach,thelandingattheboathouse,ONLINE,False,segment OK
+2026-11-27T06:01:19.824879+00:00,Publiczna strona IPCamLive - nazwa nieznana,69aa86051667e,ONLINE,False,segment OK
+2026-11-27T06:01:19.990463+00:00,Publiczny player IPCamLive - nazwa nieznana,62ff8ac0c1390,ONLINE,False,segment OK
+2026-11-27T06:01:19.990482+00:00,Court 1,court1mn,ONLINE,False,segment OK
+2026-11-27T06:01:19.990486+00:00,Court 2,5a6a833aa419e;6601b5072d651,BRAK_ALIASU_LUB_NIEJEDNOZNACZNY,False,HTTP 404
+2026-11-27T06:01:19.990489+00:00,Court 3,court3mn,ONLINE,False,segment OK
+2026-11-27T06:01:19.990491+00:00,Court 4,court4mn,ONLINE,False,segment OK
+2026-11-27T06:01:20.057956+00:00,Court 5,court5mn,ONLINE,False,segment OK
+2026-11-27T06:01:20.197189+00:00,Court 6,court6mn,ONLINE,False,segment OK
+2026-11-27T06:01:20.291339+00:00,Court 7,court7mn,ONLINE,False,segment OK
+2026-11-27T06:01:20.386182+00:00,Court 8,court8mn,ONLINE,False,segment OK
+2026-11-27T06:01:20.490401+00:00,Courthouse Plaza,courthouseplaza1,ONLINE,False,segment OK
+2026-11-27T06:01:20.576082+00:00,Florida Tech Olin Quad,ftolinquad,ONLINE,False,segment OK
+2026-11-27T06:01:20.576104+00:00,FPN Field 6,fpnfield6,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:20.726767+00:00,GJ Pickleball Court Camera,653ca23ef3c05,ONLINE,False,segment OK
+2026-11-27T06:01:20.726788+00:00,SEVEN CAFE,seven,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:20.786873+00:00,St. Helena Solar Construction,sthelenasolar,ONLINE,False,segment OK
+2026-11-27T06:01:20.968527+00:00,"Tennisbaan 2, 3 & 4",tennisbaan234,ONLINE,False,segment OK
+2026-11-27T06:01:20.968546+00:00,Trilogy Pickleball Courts,5d3f788b1d403,ONLINE,False,segment OK
+2026-11-27T06:01:20.968551+00:00,Woodstock Tennis Club,628285401b84e,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:20.972915+00:00,Sunset Cam,620aa4f7afb84,ONLINE,False,segment OK
+2026-11-27T06:01:22.792375+00:00,Gaylord Elk View Park,690502b51ba36,ONLINE,True,segment OK
+2026-11-27T06:01:22.792397+00:00,Broadway Camera 1,broadway1a,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792402+00:00,Tórshavn,5fa166211b9a5,ONLINE,False,segment OK
+2026-11-27T06:01:22.792407+00:00,Aero Club - Fuel Bowser North,667166e35c208,ONLINE,False,segment OK
+2026-11-27T06:01:22.792411+00:00,Comune di Gioiosa Marea - panorama,panorama,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792414+00:00,Piazza 3 Monacilioni,monacilioni4,ONLINE,True,segment OK
+2026-11-27T06:01:22.792418+00:00,Nahariya - molo/plaża 2,65f00024400d7,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792422+00:00,Far Grass Parking,6671ba0eeb76c,ONLINE,False,segment OK
+2026-11-27T06:01:22.792425+00:00,Kaiaponi Farm - Waikanae Surf Club,667af502836d4,ONLINE,False,segment OK
+2026-11-27T06:01:22.792428+00:00,Włochy - Bagno Flavio,bagnoflavio,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792432+00:00,USA - Wolf River Resorts,633f81d3bf9da,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792434+00:00,LOLK Runway 12,lolkrw12,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792437+00:00,USA - Lake View,lakeviewlakecam,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792440+00:00,Totana - Plaza Constitución,plazaconstituciontotana,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792443+00:00,Francja - Plage du Canadel,rayol,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792446+00:00,Szkocja - Tayport Harbour 360,662e60647a0a5,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792449+00:00,City of Hagerstown Skate Park,631b9b9cea02f,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792452+00:00,RPOA Pool Cam,5bc65dffa9fa8,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792455+00:00,Tulla Church,tullaparish,ONLINE,False,segment OK
+2026-11-27T06:01:22.792459+00:00,Camp Radj Sensor Low,campradjsenslow,ONLINE,True,segment OK
+2026-11-27T06:01:22.792462+00:00,"Stork Webcam Eitminiskes, Lithuania",551011cd5abd5,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792466+00:00,City Hall Demo Cam 2,democam2nd,ONLINE,False,segment OK
+2026-11-27T06:01:22.792469+00:00,campradj,campradj,ONLINE,True,segment OK
+2026-11-27T06:01:22.792472+00:00,USA - Stone Harbor - 96th Street,609ee11fb2084,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792475+00:00,Wells - Jetty Cam,wellsjettycam,ONLINE,False,segment OK
+2026-11-27T06:01:22.792478+00:00,Anglia - Littlehampton Harbour North,68e63bc7e1b23,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792480+00:00,Kamera wydr,otters,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792483+00:00,Fun Country Soaring,fcscam,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792486+00:00,Seymour Loadout West,seymourloadoutwest,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792488+00:00,RPA - Nahoon Beach,nahoonbeach0sw0low,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792492+00:00,Harmony Grove Village Weather,64a202e285e55,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792495+00:00,Kamera sokołów,falken,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792498+00:00,Centerville Elementary School Osprey Camera,cenospreycam,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:22.792517+00:00,St Marys Church,crannychurch,OFFLINE,False,IPCamLive zgłasza offline
+2026-11-27T06:01:23.162239+00:00,Portoryko - Puerto Del Rey,pdrbridgeweather,ONLINE,False,segment OK
+2026-11-27T06:01:23.162260+00:00,Lodowisko Park Słupna,lodowiskoslupna,OFFLINE,False,IPCamLive zgłasza offline
