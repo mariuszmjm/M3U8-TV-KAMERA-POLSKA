@@ -232,7 +232,7 @@ https://hoktastream1.webcamera.pl/karpacz_cam_96f84d/karpacz_cam_96f84d.stream/p
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/lubin-pl.svg" group-title="Miasta",Lubin - Skwer Kajko i Kokosza
 https://kam1.mailfull.pl/17_2_skwerkik/memfs/a506ca85-4612-4fb2-bf20-eeeace94d007.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/l/legnica-pl.svg" group-title="Miasta",Legnica
-https://streaming.airmax.pl/legnica_ewang2/index.m3u8
+https://streaming.airmax.pl/legnica_panorama/tracks-v1/mono.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/p/polanica-zdroj-pl.svg" group-title="Miasta",Polanica Zdrój
 https://streaming.airmax.pl/02polanica/index.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/n/nowa-ruda-pl.svg" group-title="Miasta",Nowa Ruda
@@ -426,7 +426,7 @@ https://hoktastream1.webcamera.pl/krynicazdroj_cam_6127fe/krynicazdroj_cam_6127f
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/d/debowiec-pl.svg" group-title="Miasta",Dębowiec - Rynek
 https://stream4.stimotion.pl/live/debowiec1.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/J/Jaslo-pl.svg" group-title="Miasta",Jasło
-https://cdn02.aztv.pl/sesja_jaslo/sesja_jaslo.stream/playlist.m3u8?conn_id=15093050361842266895
+https://cdn01.aztv.pl/sesja_jaslo/sesja_jaslo.stream/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/K/krosno-pl.svg" group-title="Miasta",Krosno
 https://stream4.stimotion.pl/live/krosno8.m3u8
 #EXTINF:-1  tvg-logo="https://www.meteobox.pl/api-svg/polska/I/Iwonicz-zdroj-pl.svg" group-title="Miasta",Iwonicz Zdrój
