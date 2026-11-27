@@ -7,19 +7,19 @@
 <div class="bar"><select id="group" aria-label="Grupa kamer"></select><input id="search" type="search" placeholder="Szukaj miejscowości" aria-label="Szukaj kamery"><select id="cam" aria-label="Kamera"></select></div>
 <div class="bar"><button id="play">Odtwórz</button><button id="prev">◀ Poprzednia</button><button id="next">Następna ▶</button><button id="fav">☆ Ulubiona</button><button id="full">Pełny ekran</button><button id="settingsButton">Ustawienia</button><button id="reload">Odśwież listę</button></div>
 <div id="settings" hidden><div class="bar"><button id="size">Pogoda: 12%</button><button id="opacity">Krycie: 100%</button><button id="position">Prawy górny</button><button id="toggle">Pogoda: wł.</button><button id="nameToggle">Nazwa: wł.</button><button id="clockToggle">Zegar: wył.</button></div>
-<div class="bar"><label for="rotation">Zmiana kamer:</label><select id="rotation"><option value="0">Wyłączona</option><option value="1">1 minuta</option><option value="5">5 minut</option><option value="10">10 minut</option><option value="15">15 minut</option><option value="30">30 minut</option></select><button id="mode">Tryb: natywny</button></div></div>
+<div class="bar"><label for="rotation">Zmiana kamer:</label><select id="rotation"><option value="0">Wyłączona</option><option value="1">1 minuta</option><option value="5">5 minut</option><option value="10">10 minut</option><option value="15">15 minut</option><option value="30">30 minut</option></select><span class="small">Odtwarzanie: automatyczne</span></div></div>
 </header>
 <div id="stage" tabindex="-1"><video id="video" playsinline muted autoplay></video><img id="weather" alt="Pogoda" style="display:none"><span id="name"></span><span id="clock" style="display:none"></span><span id="hint"></span></div>
 <div id="status" role="status">Pobieranie playlisty…</div><div id="info"></div>
-<div class="small" style="padding:0 14px 10px">Pełny ekran: P+/P− lub ↑/↓ kamery, ←/→ rozmiar pogody, OK lub Powrót – menu. Kamera pozostaje bez zmian przy odświeżaniu listy.</div>
+<div class="small" style="padding:0 14px 10px">Pełny ekran: P+/P− lub ↑/↓ kamery, ←/→ rozmiar pogody, OK lub Powrót – menu. Czerwony: poprzednia, zielony: następna, żółty: pogoda, niebieski: ulubione. Kamera pozostaje bez zmian przy odświeżaniu listy.</div>
 <script src="https://cdn.jsdelivr.net/npm/hls.js@1.6.13/dist/hls.min.js"></script>
 <script>
 (function(){
 'use strict';
 var $=function(id){return document.getElementById(id)},v=$('video'),weather=$('weather'),stage=$('stage'),cam=$('cam'),group=$('group'),search=$('search');
 var sizes=[5,8,10,12,15,18,25,35,45],opacities=[20,40,60,80,100],positions=['Prawy górny','Lewy górny','Prawy dolny','Lewy dolny'];
-var items=[],visible=[],byKey=Object.create(null),selected=null,hls=null,attempt=0,refreshTask=null,retryTimer=null,rotationTimer=null,hintTimer=null,retryCount=0,lastProgress=Date.now(),lastTime=-1,active=false;
-var defaults={size:12,opacity:100,position:0,weather:true,name:true,clock:false,rotation:0,last:'',favorites:[],native:true};
+var items=[],visible=[],byKey=Object.create(null),selected=null,hls=null,attempt=0,refreshTask=null,retryTimer=null,rotationTimer=null,hintTimer=null,retryCount=0,lastProgress=Date.now(),lastTime=-1,active=false,engineMode='native',progressSince=0,retryEpoch=0;
+var defaults={size:12,opacity:100,position:0,weather:true,name:true,clock:false,rotation:0,last:'',favorites:[]};
 function load(){
  var data={};try{data=JSON.parse(localStorage.getItem('lgCamerasV2')||'{}')||{}}catch(e){}
  var p={};Object.keys(defaults).forEach(function(k){p[k]=typeof data[k]===typeof defaults[k]?data[k]:defaults[k]});
@@ -62,7 +62,7 @@ function applySettings(){
  weather.style.width=p.size+'%';weather.style.opacity=p.opacity/100;
  weather.style.top=p.position<2?'3%':'auto';weather.style.bottom=p.position>=2?'3%':'auto';weather.style.right=p.position%2===0?'2%':'auto';weather.style.left=p.position%2===1?'2%':'auto';
  $('name').style.display=p.name?'block':'none';$('clock').style.display=p.clock?'block':'none';
- $('size').textContent='Pogoda: '+p.size+'%';$('opacity').textContent='Krycie: '+p.opacity+'%';$('position').textContent=positions[p.position];$('toggle').textContent='Pogoda: '+(p.weather?'wł.':'wył.');$('nameToggle').textContent='Nazwa: '+(p.name?'wł.':'wył.');$('clockToggle').textContent='Zegar: '+(p.clock?'wł.':'wył.');$('mode').textContent='Tryb: '+(p.native?'natywny':'HLS.js');$('rotation').value=String(p.rotation);
+ $('size').textContent='Pogoda: '+p.size+'%';$('opacity').textContent='Krycie: '+p.opacity+'%';$('position').textContent=positions[p.position];$('toggle').textContent='Pogoda: '+(p.weather?'wł.':'wył.');$('nameToggle').textContent='Nazwa: '+(p.name?'wł.':'wył.');$('clockToggle').textContent='Zegar: '+(p.clock?'wł.':'wył.');$('rotation').value=String(p.rotation);
  if(!p.weather)weather.style.display='none';else if(selected&&selected.logo&&weather.complete&&weather.naturalWidth)weather.style.display='block';
 }
 function image(){
@@ -86,31 +86,45 @@ function refresh(){
 function armRotation(){
  clearTimeout(rotationTimer);if(p.rotation&&visible.length>1)rotationTimer=setTimeout(function(){step(1);armRotation()},p.rotation*60000)
 }
+function supportsJs(item){return !!(item&&/\.m3u8(?:[?#]|$)/i.test(item.url)&&window.Hls&&Hls.isSupported())}
 function retry(reason){
  if(!active||!selected||retryTimer)return;
- if(retryCount>=3){status('Błąd: '+reason+' – wybierz Odtwórz lub inną kamerę.');return}
- var t=attempt;retryCount++;status('Ponawiam połączenie '+retryCount+'/3: '+reason);
- retryTimer=setTimeout(function(){retryTimer=null;refresh().then(function(){if(t===attempt&&selected)start(byKey[selected.key]||selected,true)})},[5000,15000,30000][retryCount-1])
+ if(retryCount>=3){active=false;status('Błąd: '+reason+' – wybierz Odtwórz lub inną kamerę.');return}
+ var t=attempt, epoch=++retryEpoch, oldMode=engineMode;retryCount++;progressSince=0;
+ status('Ponawiam połączenie '+retryCount+'/3: '+reason);
+ retryTimer=setTimeout(function(){
+  refresh().then(function(){
+   if(t!==attempt||epoch!==retryEpoch||!selected)return;
+   var item=byKey[selected.key]||selected;
+   var next=oldMode==='native'&&supportsJs(item)?'js':'native';
+   retryTimer=null;start(item,true,next)
+  })
+ },[1000,5000,15000][retryCount-1])
 }
-function start(item,again){
+function start(item,again,preferred){
  if(!item)return;active=false;clearTimeout(retryTimer);retryTimer=null;if(!again)retryCount=0;
  selected=item;p.last=item.key;save();attempt++;var token=attempt;
  if(hls){hls.destroy();hls=null}v.pause();v.removeAttribute('src');v.load();
- lastProgress=Date.now();lastTime=-1;active=true;
+ engineMode=preferred==='js'&&supportsJs(item)?'js':'native';
+ lastProgress=Date.now();lastTime=-1;progressSince=0;active=true;
  $('name').textContent=item.name;image();updateFav();cam.value=item.key;if(cam.selectedIndex<0&&visible.length)cam.selectedIndex=0;
- status('Łączenie: '+item.name+' – '+(p.native?'HLS natywny':'HLS.js'));
+ status('Łączenie: '+item.name+' – '+(engineMode==='native'?'HLS natywny':'HLS.js')+' (auto)');
  function play(){var result=v.play();if(result&&result.catch)result.catch(function(e){if(token===attempt&&e.name!=='AbortError'){if(e.name==='NotAllowedError'){status('Naciśnij Odtwórz, aby rozpocząć.');active=false}else retry(e.name||'brak obrazu')}})}
- if(!p.native&&/\.m3u8/i.test(item.url)){
-  if(!window.Hls||!Hls.isSupported()){status('HLS.js niedostępny – przełącz na tryb natywny.');active=false;return}
+ if(engineMode==='js'){
   var engine=new Hls();hls=engine;engine.on(Hls.Events.MEDIA_ATTACHED,function(){if(token===attempt)engine.loadSource(item.url)});engine.on(Hls.Events.MANIFEST_PARSED,function(){if(token===attempt)play()});engine.on(Hls.Events.ERROR,function(e,d){if(token===attempt&&d.fatal)retry(d.details||d.type)});engine.attachMedia(v)
  }else{v.src=item.url;play()}
  if(!again)armRotation()
 }
-v.onplaying=function(){if(!active||!selected)return;lastProgress=Date.now();status('Odtwarzanie: '+selected.name)};
-v.ontimeupdate=function(){if(active&&v.currentTime!==lastTime){lastTime=v.currentTime;lastProgress=Date.now()}};
+v.onplaying=function(){if(!active||!selected)return;status('Odtwarzanie: '+selected.name+' – '+(engineMode==='native'?'natywne':'HLS.js')+' (auto)')};
+v.ontimeupdate=function(){if(active&&!v.paused&&v.readyState>=2&&v.currentTime!==lastTime){
+ var now=Date.now();if(!progressSince||now-lastProgress>5000)progressSince=now;
+ lastTime=v.currentTime;lastProgress=now;
+ if(retryTimer&&now-progressSince>=2000){clearTimeout(retryTimer);retryTimer=null;retryEpoch++;status('Odtwarzanie: '+selected.name+' – połączenie odzyskane')}
+ if(now-progressSince>=15000&&!retryTimer)retryCount=0
+}};
 v.onerror=function(){if(active&&v.error)retry('błąd odtwarzania '+v.error.code)};
 v.onended=function(){if(active)retry('koniec transmisji')};
-setInterval(function(){if(active&&selected&&Date.now()-lastProgress>60000)retry('brak postępu obrazu');else if(active&&retryCount&&Date.now()-lastProgress<5000&&!retryTimer)retryCount=0},10000);
+setInterval(function(){if(active&&selected&&Date.now()-lastProgress>(progressSince?45000:25000))retry('brak postępu obrazu')},5000);
 function step(delta){if(!visible.length)return;var i=visible.findIndex(function(x){return selected&&x.key===selected.key});i=i<0?(delta>0?0:visible.length-1):(i+delta+visible.length)%visible.length;start(visible[i],false)}
 function choose(){var x=byKey[cam.value];if(x)start(x,false)}
 cam.onchange=choose;$('play').onclick=choose;$('prev').onclick=function(){step(-1)};$('next').onclick=function(){step(1)};
@@ -121,21 +135,24 @@ $('settingsButton').onclick=function(){$('settings').hidden=!$('settings').hidde
 $('size').onclick=function(){changeSize(1)};$('opacity').onclick=function(){p.opacity=opacities[(opacities.indexOf(p.opacity)+1)%opacities.length];save();applySettings()};
 $('position').onclick=function(){p.position=(p.position+1)%positions.length;save();applySettings()};
 $('toggle').onclick=function(){p.weather=!p.weather;save();applySettings();image()};$('nameToggle').onclick=function(){p.name=!p.name;save();applySettings()};$('clockToggle').onclick=function(){p.clock=!p.clock;save();applySettings()};
-$('mode').onclick=function(){p.native=!p.native;save();applySettings();if(selected)start(byKey[selected.key]||selected,false)};
 $('rotation').onchange=function(){p.rotation=Number(this.value);save();armRotation()};
-function full(on){if(on){stage.classList.add('full');stage.focus();hint('P+/P− lub ↑/↓ kamery • ←/→ pogoda • OK/Powrót: menu')}else{stage.classList.remove('full');$('hint').style.display='none';$('full').focus()}}
+function full(on){if(on){stage.classList.add('full');stage.focus();hint('P+/P− lub ↑/↓ kamery • ←/→ rozmiar • żółty: pogoda • niebieski: ulubione • OK: menu')}else{stage.classList.remove('full');$('hint').style.display='none';$('full').focus()}}
 $('full').onclick=function(){full(true)};
 document.addEventListener('keydown',function(e){
  var k=e.keyCode||e.which, key=e.key, code=e.code;
  if(stage.classList.contains('full')){
   var plus=k===427||k===33||key==='ChannelUp'||key==='PageUp'||code==='ChannelUp'||code==='PageUp';
   var minus=k===428||k===34||key==='ChannelDown'||key==='PageDown'||code==='ChannelDown'||code==='PageDown';
+  var color=k>=403&&k<=406?k:({ColorF0Red:403,ColorF1Green:404,ColorF2Yellow:405,ColorF3Blue:406,Red:403,Green:404,Yellow:405,Blue:406}[key]||0);
+  if(color){e.preventDefault();e.stopPropagation();if(!e.repeat){
+   if(color===403)step(-1);else if(color===404)step(1);else if(color===405){$('toggle').click();hint(p.weather?'Pogoda włączona':'Pogoda wyłączona')}else if(color===406&&selected){$('fav').click();hint(isFav(selected.key)?'Dodano do ulubionych':'Usunięto z ulubionych')}
+  }return}
   if(plus||minus){e.preventDefault();e.stopPropagation();if(!e.repeat)step(plus?1:-1);return}
   if(k===38||k===40||k===37||k===39||k===13||k===27||k===461||k===10009){e.preventDefault();if(k===38||k===40)step(k===40?1:-1);else if(k===37||k===39)changeSize(k===39?1:-1);else full(false)}
  }else if((k===37||k===39||k===38||k===40)&&document.activeElement&&document.activeElement.tagName==='BUTTON'){
   var buttons=Array.prototype.filter.call(document.querySelectorAll('button, select, input'),function(x){return !x.disabled&&x.offsetWidth>0&&x.offsetHeight>0});var i=buttons.indexOf(document.activeElement);if(i>=0){e.preventDefault();buttons[(i+(k===37||k===38?-1:1)+buttons.length)%buttons.length].focus()}
  }
-});
+},true);
 applySettings();clock();setInterval(clock,15000);setInterval(image,600000);setInterval(refresh,300000);
 refresh().then(function(ok){if(!ok)return;var x=byKey[p.last]||items.find(function(x){return normalize(x.name)==='chojnice'})||items[0];if(x)start(x,false)});
 })();
