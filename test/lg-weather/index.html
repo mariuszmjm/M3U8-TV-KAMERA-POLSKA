@@ -12,7 +12,7 @@
 <div id="stage" tabindex="-1"><video id="video" playsinline muted autoplay></video><img id="weather" alt="Pogoda" style="display:none"><span id="name"></span><span id="clock" style="display:none"></span><span id="hint"></span></div>
 <div id="status" role="status">Pobieranie playlisty…</div><div id="info"></div>
 <div class="small" style="padding:0 14px 10px">Pełny ekran: P+/P− lub ↑/↓ kamery, ←/→ rozmiar pogody, OK lub Powrót – menu. Czerwony: poprzednia, zielony: następna, żółty: pogoda, niebieski: ulubione. Kamera pozostaje bez zmian przy odświeżaniu listy.</div>
-<script src="weather.js"></script>
+<script src="weather.js?v=20261127-forecast"></script>
 <script src="https://cdn.jsdelivr.net/npm/hls.js@1.6.13/dist/hls.min.js"></script>
 <script>
 (function(){
@@ -78,17 +78,26 @@ function image(){
  weatherKey=l.id;
  var cache=weatherCache[l.id];
  if(cache&&cache.bucket===bucket){display(cache.src);return}
- var staticUrl='cards/'+l.id+'.svg?refresh='+bucket;
- // Read the generated card first; fall back to direct model data if not present or stale.
- fetch(staticUrl,{cache:'no-store'}).then(function(r){if(!r.ok)throw Error(r.status);return r.text()}).then(function(svg){
+ var staticUrl='cards/'+l.id+'.svg?refresh='+bucket+'&v=2', oldSvg=null;
+ function asImage(svg){return 'data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg)}
+ function timed(task,ms){return new Promise(function(resolve,reject){var t=setTimeout(function(){reject(Error('timeout'))},ms);task.then(function(v){clearTimeout(t);resolve(v)},function(e){clearTimeout(t);reject(e)})})}
+ // Prefer a recent generated card. Compare UTC timestamps independently of TV timezone.
+ timed(fetch(staticUrl,{cache:'no-store'}).then(function(r){if(!r.ok)throw Error(r.status);return r.text()}),8000).then(function(svg){
   if(!/<svg[\s>]/.test(svg)||svg.indexOf('Brak aktualnych danych')>=0)throw Error('brak karty');
-  var m=svg.match(/Dane lokalne: (\d{4}-\d{2}-\d{2} \d{2}:\d{2})/);
-  if(!m||Math.abs(Date.now()-new Date(m[1].replace(' ','T')).getTime())>10800000)throw Error('stara karta');
-  var src=staticUrl;weatherCache[l.id]={bucket:bucket,src:src};display(src);
+  oldSvg=svg;
+  var m=svg.match(/data-weather-ts="(\d+)"/);
+  if(!m||Math.abs(Date.now()-Number(m[1]))>10800000)throw Error('stara karta');
+  weatherCache[l.id]={bucket:bucket,src:staticUrl};display(staticUrl);
  }).catch(function(){
-  return WeatherPilot.get(l).then(function(c){
-   var src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(WeatherPilot.render(l,c));weatherCache[l.id]={bucket:bucket,src:src};display(src)
-  }).catch(function(){display(staticUrl)})
+  if(!current())return;
+  if(oldSvg)display(staticUrl);
+  return timed(WeatherPilot.get(l),10000).then(function(c){
+   var src=asImage(WeatherPilot.render(l,c));weatherCache[l.id]={bucket:bucket,src:src};display(src)
+  }).catch(function(){
+   if(oldSvg){display(staticUrl);return}
+   if(item.logo){display(item.logo);return}
+   display(asImage(WeatherPilot.render(l,null)))
+  })
  })
 }
 weather.onload=function(){weather.style.display=p.weather&&selected?'block':'none'};weather.onerror=function(){weather.style.display='none'};
