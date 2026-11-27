@@ -14,7 +14,7 @@ PLAYLIST_FILE = pathlib.Path("Kamery-pogodowe.m3u8")
 
 WORLDCAM_RE = re.compile(
     r"https?://[^/\s]*worldcam\.live(?::\d+)?/"
-    r"([^/?#\s]+)/(?:index\.m3u8|tracks-v\d+/[^?\s]+\.m3u8)(?:\?[^\s]*)?",
+    r"([^/?#\s]+)/(?:index\.m3u8|tracks-v\d+(?:a\d+)?/[^?\s]+\.m3u8)(?:\?[^\s]*)?",
     re.IGNORECASE,
 )
 
