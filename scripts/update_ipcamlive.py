@@ -586,13 +586,19 @@ def main():
                     by_stream.setdefault(row["streamid"], set()).add(alias)
     entries = []
     name = ""
+    explicit = ""
     for i, line in enumerate(lines):
         if line.startswith("#EXTINF"):
             name = line.split(",", 1)[-1].strip()
-        elif re.match(r"https?://[^/]*\.ipcamlive\.com/", line.strip(), re.I):
+            explicit = ""
+        elif line.strip().startswith("#IPCAMLIVE-ALIAS:"):
+            value = line.strip().split(":", 1)[1].strip()
+            if re.fullmatch(r"[A-Za-z0-9_-]+", value): explicit = value
+        elif re.match(r"https?://", line.strip(), re.I) and (explicit or re.match(r"https?://[^/]*\.ipcamlive\.com/", line.strip(), re.I)):
             url = line.strip()
-            aliases = by_stream.get(extract_streamid(url)) or by_name.get(name, set())
+            aliases = {explicit} if explicit else by_stream.get(extract_streamid(url)) or by_name.get(name, set())
             entries.append((i, name, url, sorted(aliases)))
+            explicit = ""
     def check(entry):
         i, name, url, aliases = entry
         if len(aliases) == 1:
