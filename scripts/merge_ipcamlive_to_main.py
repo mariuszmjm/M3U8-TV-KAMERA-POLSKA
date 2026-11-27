@@ -20,8 +20,11 @@ def parse_entries(text):
                 if not candidate:
                     j += 1
                     continue
-                if candidate.startswith("#"):
+                if candidate.startswith("#EXTINF"):
                     break
+                if candidate.startswith("#"):
+                    j += 1
+                    continue
                 url = candidate
                 break
             if url:
