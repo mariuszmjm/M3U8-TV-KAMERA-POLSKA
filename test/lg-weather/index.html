@@ -12,7 +12,7 @@
 <div id="stage" tabindex="-1"><video id="video" playsinline muted autoplay></video><img id="weather" alt="Pogoda" style="display:none"><span id="name"></span><span id="clock" style="display:none"></span><span id="hint"></span></div>
 <div id="status" role="status">Pobieranie playlisty…</div><div id="info"></div>
 <div class="small" style="padding:0 14px 10px">Pełny ekran: P+/P− lub ↑/↓ kamery, ←/→ rozmiar pogody, OK lub Powrót – menu. Czerwony: poprzednia, zielony: następna, żółty: pogoda, niebieski: ulubione. Kamera pozostaje bez zmian przy odświeżaniu listy.</div>
-<script src="weather.js?v=20261127-forecast"></script>
+<script src="weather.js?v=20261127-all"></script>
 <script src="https://cdn.jsdelivr.net/npm/hls.js@1.6.13/dist/hls.min.js"></script>
 <script>
 (function(){
@@ -56,7 +56,7 @@ function render(){
  cam.textContent='';visible.forEach(function(x){option(cam,x.key,(isFav(x.key)?'★ ':'')+x.name)});
  if(!visible.length)option(cam,'','Brak kamer');else{cam.value=selected&&visible.some(function(x){return x.key===selected.key})?selected.key:old;if(cam.selectedIndex<0)cam.selectedIndex=0}
  $('play').disabled=!visible.length;$('prev').disabled=!visible.length;$('next').disabled=!visible.length;
- $('info').textContent='Widoczne: '+visible.length+' / '+items.length+' kamer • Aktualizacja listy co 5 min • własna pogoda: 5 kamer';
+ $('info').textContent='Widoczne: '+visible.length+' / '+items.length+' kamer • Aktualizacja listy co 5 min • pogoda dla rozpoznanych lokalizacji';
  updateFav()
 }
 function applySettings(){
@@ -64,13 +64,13 @@ function applySettings(){
  weather.style.top=p.position<2?'3%':'auto';weather.style.bottom=p.position>=2?'3%':'auto';weather.style.right=p.position%2===0?'2%':'auto';weather.style.left=p.position%2===1?'2%':'auto';
  $('name').style.display=p.name?'block':'none';$('clock').style.display=p.clock?'block':'none';
  $('size').textContent='Pogoda: '+p.size+'%';$('opacity').textContent='Krycie: '+p.opacity+'%';$('position').textContent=positions[p.position];$('toggle').textContent='Pogoda: '+(p.weather?'wł.':'wył.');$('nameToggle').textContent='Nazwa: '+(p.name?'wł.':'wył.');$('clockToggle').textContent='Zegar: '+(p.clock?'wł.':'wył.');$('rotation').value=String(p.rotation);
- if(!p.weather)weather.style.display='none';else if(selected&&(selected.logo||WeatherPilot.find(selected.name))&&weather.complete&&weather.naturalWidth)weather.style.display='block';
+ if(!p.weather)weather.style.display='none';else if(selected&&(selected.logo||WeatherPilot.find(selected.name,selected.group))&&weather.complete&&weather.naturalWidth)weather.style.display='block';
 }
 var weatherRequest=0,weatherKey='',weatherBucket=-1,weatherCache={};
 function image(){
  var token=++weatherRequest, item=selected;
  if(!item||!p.weather){weather.style.display='none';return}
- var l=WeatherPilot.find(item.name),bucket=Math.floor(Date.now()/1800000);
+ var l=WeatherPilot.find(item.name,item.group),bucket=Math.floor(Date.now()/1800000);
  function current(){return token===weatherRequest&&selected&&selected.key===item.key&&p.weather}
  function display(src){if(!current())return;if(weather.getAttribute('src')!==src){weather.style.display='none';weather.src=src}else if(weather.complete&&weather.naturalWidth)weather.style.display='block'}
  if(!l){weatherKey='';if(!item.logo){weather.removeAttribute('src');weather.style.display='none';return}display(item.logo+(item.logo.indexOf('?')<0?'?':'&')+'refresh='+Math.floor(Date.now()/600000));return}
@@ -86,7 +86,7 @@ function image(){
   if(!/<svg[\s>]/.test(svg)||svg.indexOf('Brak aktualnych danych')>=0)throw Error('brak karty');
   oldSvg=svg;
   var m=svg.match(/data-weather-ts="(\d+)"/);
-  if(!m||Math.abs(Date.now()-Number(m[1]))>10800000)throw Error('stara karta');
+  if(!m||Math.abs(Date.now()-Number(m[1]))>(/^geo-/.test(l.id)?18000000:10800000))throw Error('stara karta');
   weatherCache[l.id]={bucket:bucket,src:staticUrl};display(staticUrl);
  }).catch(function(){
   if(!current())return;
@@ -182,7 +182,14 @@ document.addEventListener('keydown',function(e){
   var buttons=Array.prototype.filter.call(document.querySelectorAll('button, select, input'),function(x){return !x.disabled&&x.offsetWidth>0&&x.offsetHeight>0});var i=buttons.indexOf(document.activeElement);if(i>=0){e.preventDefault();buttons[(i+(k===37||k===38?-1:1)+buttons.length)%buttons.length].focus()}
  }
 },true);
-applySettings();clock();setInterval(clock,15000);setInterval(image,600000);setInterval(refresh,300000);
+var registryVersion='',registryBusy=false;
+function loadRegistry(){
+ if(registryBusy)return;registryBusy=true;
+ fetch('cards/locations.json?v='+Math.floor(Date.now()/300000),{cache:'no-store'}).then(function(r){if(!r.ok)throw Error(r.status);return r.json()}).then(function(data){
+  if(data&&data.version===1&&data.signature!==registryVersion){WeatherPilot.setRegistry(data);registryVersion=data.signature;if(selected)image()}
+ }).catch(function(){}).then(function(){registryBusy=false})
+}
+applySettings();clock();loadRegistry();setInterval(loadRegistry,300000);setInterval(clock,15000);setInterval(image,600000);setInterval(refresh,300000);
 refresh().then(function(ok){if(!ok)return;var x=byKey[p.last]||items.find(function(x){return normalize(x.name)==='chojnice'})||items[0];if(x)start(x,false)});
 })();
 </script></body></html>

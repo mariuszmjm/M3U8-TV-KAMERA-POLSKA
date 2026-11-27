@@ -4,7 +4,9 @@
 var locations=[{"id":"chojnice","name":"Chojnice","match":"chojnice","lat":53.7,"lon":17.56},{"id":"odolany","name":"Warszawa – Odolany","match":"warszawa - odolany","lat":52.222,"lon":20.935},{"id":"zalewo","name":"Zalewo","match":"zalewo","lat":53.845,"lon":19.605},{"id":"niechorze","name":"Niechorze","match":"niechorze - widok na latarnie","lat":54.094,"lon":15.066},{"id":"praga","name":"Praga","match":"praga","lat":50.075,"lon":14.438}];
 var fields='temperature_2m,apparent_temperature,relative_humidity_2m,weather_code,wind_speed_10m,pressure_msl,is_day';
 function normalize(s){s=String(s||'').toLowerCase().replace(/[–—]/g,'-');if(s.normalize)s=s.normalize('NFD').replace(/[\u0300-\u036f]/g,'');return s.replace(/ł/g,'l').replace(/\s*-\s*/g,' - ').replace(/\s+/g,' ').trim()}
-function find(name){var n=normalize(name);if(!n)return;for(var i=0;i<locations.length;i++){var l=locations[i];if(l.match===n||normalize(l.name)===n||(l.id==='praga'&&/^(praha|prague|praga)(?: - (?:czechy|czech republic|cesko|cz))?$/.test(n)))return l}}
+var registry={locations:{},cameras:{}};
+function setRegistry(r){if(r&&r.version===1&&r.locations&&r.cameras)registry=r;}
+function find(name,group){var n=normalize(name);if(!n)return;for(var i=0;i<locations.length;i++){var l=locations[i];if(l.id==='praga'&&group&&group!=='Miasta ze świata'&&group!=='TEST')continue;if(l.match===n||normalize(l.name)===n||(l.id==='praga'&&/^(praha|prague|praga)(?: - (?:czechy|czech republic|cesko|cz))?$/.test(n)))return l}var id=registry.cameras[String(group||'')+'\u001f'+name];return id&&registry.locations[id]||undefined}
 function esc(s){return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]})}
 function num(n,dec){return typeof n==='number'&&isFinite(n)?n.toFixed(dec).replace('.',','):'—'}
 function condition(n){if(n===0)return 'Bezchmurnie';if(n===1||n===2)return 'Małe zachmurzenie';if(n===3)return 'Pochmurno';if(n===45||n===48)return 'Mgła';if(n>=51&&n<=57)return 'Mżawka';if(n>=61&&n<=67)return 'Deszcz';if(n>=71&&n<=77)return 'Śnieg';if(n>=80&&n<=82)return 'Przelotny deszcz';if(n===85||n===86)return 'Przelotny śnieg';if(n>=95&&n<=99)return 'Burza';return 'Brak danych'}
@@ -34,6 +36,13 @@ function render(l,c){
 }
 function url(l){return 'https://api.open-meteo.com/v1/forecast?latitude='+l.lat+'&longitude='+l.lon+'&current='+fields+'&daily=weather_code,temperature_2m_max,temperature_2m_min&timezone=auto&forecast_days=3'}
 function get(l){return fetch(url(l),{cache:'no-store'}).then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(function(d){if(!d.current||typeof d.current.temperature_2m!=='number'||!isFinite(d.current.temperature_2m)||!d.current.time)throw Error('Brak danych');if(!d.daily||!d.daily.time||d.daily.time.length<3)throw Error('Brak prognozy');var c=d.current;c.daily=d.daily;c.timestamp=Date.parse(c.time+'Z')-Number(d.utc_offset_seconds||0)*1000;return c})}
-var api={locations:locations,find:find,render:render,get:get,url:url};
+function getMany(list){
+ var request=url(list[0]).replace('latitude='+list[0].lat+'&longitude='+list[0].lon,'latitude='+list.map(function(l){return l.lat}).join(',')+'&longitude='+list.map(function(l){return l.lon}).join(','));
+ return fetch(request,{cache:'no-store'}).then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(function(data){
+  var rows=Array.isArray(data)?data:[data];if(rows.length!==list.length)throw Error('Niepełna odpowiedź API');
+  return rows.map(function(d){if(!d.current||typeof d.current.temperature_2m!=='number'||!isFinite(d.current.temperature_2m)||!d.current.time||!d.daily||!d.daily.time||d.daily.time.length<3)return null;var c=d.current;c.daily=d.daily;c.timestamp=Date.parse(c.time+'Z')-Number(d.utc_offset_seconds||0)*1000;return c})
+ })
+}
+var api={locations:locations,find:find,render:render,get:get,url:url,setRegistry:setRegistry,getMany:getMany};
 if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.WeatherPilot=api;
 })(typeof window!=='undefined'?window:this);

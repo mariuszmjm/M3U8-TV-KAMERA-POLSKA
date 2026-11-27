@@ -1,7 +1,4 @@
-# LG – pilot własnej pogody
-
-Otwórz [odtwarzacz](https://mariuszmjm.github.io/M3U8-TV-KAMERA-POLSKA/test/lg-weather/). Oryginalne LG 2.0 i playlisty pozostają bez zmian.
-
-Własne karty: Chojnice, WARSZAWA - Odolany, Zalewo (WorldCam), Niechorze - widok na latarnię (WebCamera), Praga. Pozostałe kamery zachowują dotychczasowe logo. Współrzędne przybliżone. Ustawienia pilota zapisywane osobno. Karty mają temperaturę, odczuwalną, wilgotność, wiatr, ciśnienie i czas danych. Dane modelowe Open-Meteo, nie pomiar z kamery. Darmowy endpoint tylko do użytku niekomercyjnego; atrybucja CC BY 4.0: https://open-meteo.com/.
-
-Generator: Node.js 22, bez dodatkowych bibliotek. `node test/lg-weather/generate.cjs --test` oraz `node test/lg-weather/generate.cjs`. Workflow co 30 minut, z możliwym opóźnieniem GitHub. Gdy API zawiedzie, generator zachowuje ostatnią kartę z widoczną datą. Odtwarzacz próbuje pobrać dane bezpośrednio, gdy karta nie istnieje lub jest stara. Godzina danych w strefie miejscowości (wszystkie lokalizacje pilota mają tę samą strefę czasową). Brak danych nie jest zastępowany fikcyjną temperaturą.
+# LG – własna pogoda dla kamer
+Odtwarzacz: https://mariuszmjm.github.io/M3U8-TV-KAMERA-POLSKA/test/lg-weather/
+Odtwarzacz i automatyczny HLS/Native pozostają bez zmian. Pięć kart pilota aktualizuje się jak wcześniej; dla rozpoznanych miejscowości generowane są wspólne karty z prognozą trzydniową. Indeks locations.json przypisuje kamerę (grupa + nazwa) do miejscowości, nie do adresu streamu. Lokalizacje przybliżone (centrum miejscowości, nie dokładne GPS kamery). GeoNames https://www.geonames.org/ CC BY 4.0, dane modelowe Open-Meteo https://open-meteo.com/ CC BY 4.0, niekomercyjne API. Niejednoznaczne nazwy, kanały TV i numerowane wpisy Explore.org nie są przypisywane do przypadkowych miejsc. Raport unresolved w indeksie służy do późniejszego uzupełniania.
+Generator Node.js 22 + Python 3, bez dodatkowych bibliotek: node test/lg-weather/generate.cjs --test, node test/lg-weather/generate.cjs. Workflow co 30 minut, rozszerzone karty co około 4 godziny (porcjami do 250 lokalizacji na uruchomienie), odświeżanie bezpośrednie w odtwarzaczu jako awaryjne. Przy błędach API zachowywana jest ostatnia karta z datą. Bez zmian playlisty i LG 2.0.
